@@ -32,9 +32,9 @@ Start here. These are the foundational frameworks — the answers to the biggest
 
 ---
 
-## Frameworks
+## Applied Frameworks
 
-Applied models that flow from the grand explanations.
+Models that flow from the grand explanations into practice.
 
 | Date | File | Description |
 |------|------|-------------|
