@@ -64,6 +64,7 @@ Shorter pieces, concept sketches, and X threads worth preserving.
 | [perception-is-funny.md](fragments/perception-is-funny.md) | Our senses are blunt instruments. Look what we've made anyway. What's possible with AI + new sensors? |
 | [complexity-and-simple-rules.md](fragments/complexity-and-simple-rules.md) | Simple rules yield complex systems. The universe is computational. On Melanie Mitchell's *Complexity*. |
 | [top-down-irreducibility.md](fragments/top-down-irreducibility.md) | Understanding the bottom doesn't explain the top. Irreducible complexity in ant colonies, brains, DNA, reality. |
+| [status-pyramid.md](fragments/status-pyramid.md) | Hierarchy is human nature. Don't flatten the pyramid — shorten it. Wider base, shorter peak. |
 
 ---
 
