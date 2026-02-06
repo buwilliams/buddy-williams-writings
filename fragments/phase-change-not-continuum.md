@@ -2,7 +2,7 @@
 
 *Why AI isn't just another point on a gradient*
 
-**Buddy Williams** · February 2026 · [Originally posted on X](https://x.com/BuddyIterate)
+**Buddy Williams** · February 2026
 
 ---
 
