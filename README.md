@@ -52,6 +52,7 @@ Shorter pieces, concept sketches, and X threads worth preserving.
 |------|-------------|
 | [agi-from-existing-components.md](fragments/agi-from-existing-components.md) | AGI can be achieved by integrating existing LLM components — language, streaming data, memory, tools, and search. |
 | [orthogonality-thesis-practically-wrong.md](fragments/orthogonality-thesis-practically-wrong.md) | The orthogonality thesis is correct in pure theory but wrong in practice. Reality is complex; doom is possible but not guaranteed. |
+| [the-sadness-and-hope-of-pioneers.md](fragments/the-sadness-and-hope-of-pioneers.md) | On Turing, Gödel, and the loneliness of questioning norms. Pioneers need shields — humor, wonder, beauty — to survive. |
 
 ---
 
