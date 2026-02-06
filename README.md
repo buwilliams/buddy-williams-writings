@@ -57,6 +57,7 @@ Shorter pieces, concept sketches, and X threads worth preserving.
 | [shedding-layers-of-belief.md](fragments/shedding-layers-of-belief.md) | Leaving religion, then liberalism, then nationalism — and keeping humanity. The loneliness of seeing clearly. |
 | [compelling-ideas-about-limits.md](fragments/compelling-ideas-about-limits.md) | Gödel, Turing, Haidt, Wolfram — the thinkers who revealed our limits. Things bigger than we are. |
 | [the-expectations-mistake.md](fragments/the-expectations-mistake.md) | Holding others to your own standards creates misery. Positive social delusion may be the winning strategy. |
+| [science-beyond-experiment.md](fragments/science-beyond-experiment.md) | Science is more than experimental — imagination and fantasy precede verification. A reply to Carmack. |
 
 ---
 
