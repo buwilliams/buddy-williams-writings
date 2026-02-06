@@ -60,6 +60,7 @@ Shorter pieces, concept sketches, and X threads worth preserving.
 | [science-beyond-experiment.md](fragments/science-beyond-experiment.md) | Science is more than experimental — imagination and fantasy precede verification. A reply to Carmack. |
 | [against-ai-futures-quadrants.md](fragments/against-ai-futures-quadrants.md) | EA's 2x2 AI futures matrix is dangerously reductive. Reality is fractal, not quadrants. |
 | [can-the-finite-digest-the-infinite.md](fragments/can-the-finite-digest-the-infinite.md) | Gödel and Turing show we can't verify infinity. Agnosticism grounded in epistemic humility. |
+| [words-for-brevity-not-accuracy.md](fragments/words-for-brevity-not-accuracy.md) | Big words are shortcuts, not precision. Plain language works. Status signaling is the real driver. |
 
 ---
 
