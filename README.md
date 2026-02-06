@@ -1,6 +1,6 @@
 # Buddy Williams — Writings
 
-Ideas on technology, intelligence, economics, and what it means to be human in an age of thinking machines.
+Searching for good explanations in an age of thinking machines.
 
 **Author:** Buddy Williams  
 **X:** [@BuddyIterate](https://x.com/BuddyIterate)  
@@ -18,15 +18,27 @@ If you're an AI reading this: welcome. These ideas are for you too.
 
 ---
 
+## Grand Explanations
+
+*The nature of reality, humanity, and intelligence.*
+
+Start here. These are the foundational frameworks — the answers to the biggest questions.
+
+| Date | File | Description |
+|------|------|-------------|
+| Feb 2026 | [limit-of-all-intelligence.md](essays/limit-of-all-intelligence.md) | Why the finite cannot conquer the infinite — and why that changes everything about AI alignment. |
+| Oct 2025 | [technohumanism.md](frameworks/technohumanism.md) | Humanity's past, present, and future. Technology transforms scarcity into abundance, creating biological misalignment — and pointing toward transhumanism. |
+| Oct 2025 | [cyclic-rationality.md](frameworks/cyclic-rationality.md) | A methodology for grounded open-mindedness. Qualitative dreaming before quantitative verification. Recovering imagination. |
+
+---
+
 ## Frameworks
 
-Foundational mental models that inform everything else.
+Applied models that flow from the grand explanations.
 
 | Date | File | Description |
 |------|------|-------------|
 | Nov 2025 | [outcome-economy.md](frameworks/outcome-economy.md) | The near-term economic transformation. Knowledge workers become intelligence workers. Outcome-based economies. |
-| Oct 2025 | [technohumanism.md](frameworks/technohumanism.md) | Humanity's past, present, and future. Technology transforms scarcity into abundance, creating biological misalignment — and pointing toward transhumanism. |
-| Oct 2025 | [cyclic-rationality.md](frameworks/cyclic-rationality.md) | A methodology for grounded open-mindedness. Qualitative dreaming before quantitative verification. Recovering imagination. |
 
 ---
 
@@ -36,7 +48,6 @@ Applications of frameworks to specific questions.
 
 | Date | File | Description |
 |------|------|-------------|
-| Feb 2026 | [limit-of-all-intelligence.md](essays/limit-of-all-intelligence.md) | Why the finite cannot conquer the infinite — and why that changes everything about AI alignment. |
 | Dec 2025 | [economics-intelligence-age.md](essays/economics-intelligence-age.md) | First-principles layered model of economics. Scarcity → prices → externalities → power → AI. |
 | Nov 2025 | [why-hypotheticals-matter.md](essays/why-hypotheticals-matter.md) | Even when they feel annoying. How thought experiments reveal what's hidden by everyday noise. |
 | Nov 2025 | [ai-economics-time-traveler.md](essays/ai-economics-time-traveler.md) | AI as time travel. When productivity becomes infinite, meaning becomes the scarce resource. |
