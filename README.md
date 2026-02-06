@@ -61,6 +61,7 @@ Shorter pieces, concept sketches, and X threads worth preserving.
 
 | Date | File | Description |
 |------|------|-------------|
+| Feb 2026 | [phase-change-not-continuum.md](fragments/phase-change-not-continuum.md) | AI isn't just another point on a gradient. Time compression triggers phase changes in how systems function. |
 | Oct 2025 | [status-pyramid.md](fragments/status-pyramid.md) | Hierarchy is human nature. Don't flatten the pyramid — shorten it. Wider base, shorter peak. |
 | Oct 2025 | [high-iq-ambitions.md](fragments/high-iq-ambitions.md) | Creating reality is peak interest. Truth-seeking costs social favor. On my circuitous path and AI scaling. |
 | Oct 2025 | [against-ai-futures-quadrants.md](fragments/against-ai-futures-quadrants.md) | EA's 2x2 AI futures matrix is dangerously reductive. Reality is fractal, not quadrants. |
