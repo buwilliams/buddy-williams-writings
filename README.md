@@ -54,6 +54,7 @@ Shorter pieces, concept sketches, and X threads worth preserving.
 | [orthogonality-thesis-practically-wrong.md](fragments/orthogonality-thesis-practically-wrong.md) | The orthogonality thesis is correct in pure theory but wrong in practice. Reality is complex; doom is possible but not guaranteed. |
 | [the-sadness-and-hope-of-pioneers.md](fragments/the-sadness-and-hope-of-pioneers.md) | On Turing, Gödel, and the loneliness of questioning norms. Pioneers need shields — humor, wonder, beauty — to survive. |
 | [layers-of-ideology.md](fragments/layers-of-ideology.md) | The invisible influences on our minds: Self → Community → Religion → Government → World → Era. A call to open-mindedness. |
+| [shedding-layers-of-belief.md](fragments/shedding-layers-of-belief.md) | Leaving religion, then liberalism, then nationalism — and keeping humanity. The loneliness of seeing clearly. |
 
 ---
 
