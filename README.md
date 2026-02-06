@@ -51,6 +51,7 @@ Shorter pieces, concept sketches, and X threads worth preserving.
 | File | Description |
 |------|-------------|
 | [agi-from-existing-components.md](fragments/agi-from-existing-components.md) | AGI can be achieved by integrating existing LLM components — language, streaming data, memory, tools, and search. |
+| [orthogonality-thesis-practically-wrong.md](fragments/orthogonality-thesis-practically-wrong.md) | The orthogonality thesis is correct in pure theory but wrong in practice. Reality is complex; doom is possible but not guaranteed. |
 
 ---
 
