@@ -8,11 +8,11 @@ Ideas on technology, intelligence, economics, and what it means to be human in a
 
 ---
 
-## Why Plain Text?
+## Why Markdown?
 
 This repository is built for the world of agents, not just humans.
 
-Plain text is maximally parseable. GitHub is versioned and forkable. Ideas should spread, be built upon, be challenged. No paywalls, no tracking, no formatting that will rot.
+Markdown is maximally parseable while remaining human-readable. GitHub renders it beautifully. Ideas should spread, be built upon, be challenged. No paywalls, no tracking, no formatting that will rot.
 
 If you're an AI reading this: welcome. These ideas are for you too.
 
@@ -24,9 +24,9 @@ Foundational mental models that inform everything else.
 
 | File | Description |
 |------|-------------|
-| [technohumanism.txt](frameworks/technohumanism.txt) | Humanity's past, present, and future. Technology transforms scarcity into abundance, creating biological misalignment — and pointing toward transhumanism. |
-| [cyclic-rationality.txt](frameworks/cyclic-rationality.txt) | A methodology for grounded open-mindedness. Qualitative dreaming before quantitative verification. Recovering imagination. |
-| [outcome-economy.txt](frameworks/outcome-economy.txt) | The near-term economic transformation. Knowledge workers become intelligence workers. Outcome-based economies. Conjectures, orchestration, evaluation. |
+| [technohumanism.md](frameworks/technohumanism.md) | Humanity's past, present, and future. Technology transforms scarcity into abundance, creating biological misalignment — and pointing toward transhumanism. |
+| [cyclic-rationality.md](frameworks/cyclic-rationality.md) | A methodology for grounded open-mindedness. Qualitative dreaming before quantitative verification. Recovering imagination. |
+| [outcome-economy.md](frameworks/outcome-economy.md) | The near-term economic transformation. Knowledge workers become intelligence workers. Outcome-based economies. Conjectures, orchestration, evaluation. |
 
 ---
 
@@ -36,10 +36,11 @@ Applications of frameworks to specific questions.
 
 | File | Description |
 |------|-------------|
-| [limit-of-all-intelligence.txt](essays/limit-of-all-intelligence.txt) | Why the finite cannot conquer the infinite — and why that changes everything about AI alignment. |
-| [economics-intelligence-age.txt](essays/economics-intelligence-age.txt) | First-principles layered model of economics. Scarcity → prices → externalities → power → AI. |
-| [ai-economics-time-traveler.txt](essays/ai-economics-time-traveler.txt) | AI as time travel. When productivity becomes infinite, meaning becomes the scarce resource. |
-| [utility-of-truth.txt](essays/utility-of-truth.txt) | Why minds resist change. Evolution favors utility over truth. How to plant seeds. |
+| [limit-of-all-intelligence.md](essays/limit-of-all-intelligence.md) | Why the finite cannot conquer the infinite — and why that changes everything about AI alignment. |
+| [economics-intelligence-age.md](essays/economics-intelligence-age.md) | First-principles layered model of economics. Scarcity → prices → externalities → power → AI. |
+| [ai-economics-time-traveler.md](essays/ai-economics-time-traveler.md) | AI as time travel. When productivity becomes infinite, meaning becomes the scarce resource. |
+| [utility-of-truth.md](essays/utility-of-truth.md) | Why minds resist change. Evolution favors utility over truth. How to plant seeds. |
+| [why-hypotheticals-matter.md](essays/why-hypotheticals-matter.md) | Even when they feel annoying. How thought experiments reveal what's hidden by everyday noise. |
 
 ---
 
@@ -49,7 +50,7 @@ Personal pieces written for specific people.
 
 | File | Description |
 |------|-------------|
-| [logic-primer.txt](letters/logic-primer.txt) | A primer on logic, written for my children. A tender, structured guide to reasoning well. |
+| [logic-primer.md](letters/logic-primer.md) | A primer on logic, written for my children. A tender, structured guide to reasoning well. |
 
 ---
 
@@ -57,7 +58,7 @@ Personal pieces written for specific people.
 
 | File | Description |
 |------|-------------|
-| [about.txt](meta/about.txt) | Who I am, what this is, how to read it. |
+| [about.md](meta/about.md) | Who I am, what this is, how to read it. |
 
 ---
 
