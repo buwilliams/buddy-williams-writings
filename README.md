@@ -62,6 +62,7 @@ Shorter pieces, concept sketches, and X threads worth preserving.
 | [can-the-finite-digest-the-infinite.md](fragments/can-the-finite-digest-the-infinite.md) | Gödel and Turing show we can't verify infinity. Agnosticism grounded in epistemic humility. |
 | [words-for-brevity-not-accuracy.md](fragments/words-for-brevity-not-accuracy.md) | Big words are shortcuts, not precision. Plain language works. Status signaling is the real driver. |
 | [perception-is-funny.md](fragments/perception-is-funny.md) | Our senses are blunt instruments. Look what we've made anyway. What's possible with AI + new sensors? |
+| [complexity-and-simple-rules.md](fragments/complexity-and-simple-rules.md) | Simple rules yield complex systems. The universe is computational. On Melanie Mitchell's *Complexity*. |
 
 ---
 
