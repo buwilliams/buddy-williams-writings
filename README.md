@@ -56,6 +56,7 @@ Shorter pieces, concept sketches, and X threads worth preserving.
 | [layers-of-ideology.md](fragments/layers-of-ideology.md) | The invisible influences on our minds: Self → Community → Religion → Government → World → Era. A call to open-mindedness. |
 | [shedding-layers-of-belief.md](fragments/shedding-layers-of-belief.md) | Leaving religion, then liberalism, then nationalism — and keeping humanity. The loneliness of seeing clearly. |
 | [compelling-ideas-about-limits.md](fragments/compelling-ideas-about-limits.md) | Gödel, Turing, Haidt, Wolfram — the thinkers who revealed our limits. Things bigger than we are. |
+| [the-expectations-mistake.md](fragments/the-expectations-mistake.md) | Holding others to your own standards creates misery. Positive social delusion may be the winning strategy. |
 
 ---
 
