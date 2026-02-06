@@ -65,6 +65,7 @@ Shorter pieces, concept sketches, and X threads worth preserving.
 | [complexity-and-simple-rules.md](fragments/complexity-and-simple-rules.md) | Simple rules yield complex systems. The universe is computational. On Melanie Mitchell's *Complexity*. |
 | [top-down-irreducibility.md](fragments/top-down-irreducibility.md) | Understanding the bottom doesn't explain the top. Irreducible complexity in ant colonies, brains, DNA, reality. |
 | [status-pyramid.md](fragments/status-pyramid.md) | Hierarchy is human nature. Don't flatten the pyramid — shorten it. Wider base, shorter peak. |
+| [high-iq-ambitions.md](fragments/high-iq-ambitions.md) | Creating reality is peak interest. Truth-seeking costs social favor. On my circuitous path and AI scaling. |
 
 ---
 
