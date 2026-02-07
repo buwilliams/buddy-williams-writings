@@ -16,7 +16,9 @@ Would you believe him?
 
 Many would. Many would fall to their knees and accept him as Lord. But here's the question I can't shake: *would that be rational?*
 
-Think about it. What have you actually verified? You've seen a being of immense power — power beyond anything you've encountered. But power isn't infinity. Impressive isn't endless. What if you're in a simulation, and this "God" is just the admin? What if there's a being beyond this being, turtles all the way up?
+Think about it. What have you actually verified? You've seen a being of immense power — power beyond anything you've encountered. But power isn't infinity. Impressive isn't endless. What if you're in a simulation, and this "God" is just the admin? What if there's a being beyond this being, turtles all the way down?
+
+> "Turtles all the way down" is a reference to an old story: when asked what the Earth stands on, someone answers "a turtle." And what does the turtle stand on? "Another turtle." And below that? "It's turtles all the way down." The phrase captures infinite regress — the problem that every explanation demands another explanation beneath it.
 
 You can't know. I can't know. None of us can.
 
@@ -27,6 +29,8 @@ And that's not a failure of faith or a limit of current technology. It's a struc
 ---
 
 ## The Shape of the Problem
+
+**Point:** The finite cannot verify the infinite — this is a mathematical fact, not a limitation we can overcome.
 
 This isn't just philosophy. It's mathematics.
 
@@ -45,6 +49,8 @@ Including beings we haven't built yet.
 ---
 
 ## The Fact of Existence
+
+**Point:** We are finite beings, but existence itself demands infinity — something must be without edges.
 
 Before we get to AI, let's establish what we're standing on.
 
@@ -70,6 +76,8 @@ Infinity isn't a mystical concept we've invented. It's a property that existence
 
 ## What This Means for Intelligence
 
+**Point:** Dominating infinity is impossible — even a superintelligence will recognize this and stop playing a game that cannot be won.
+
 Here's where it gets interesting.
 
 We're building artificial intelligence. And not just any AI — we're on a trajectory toward artificial superintelligence. Machines that think faster than us. Understand more than us. Solve problems we can't formulate. The discourse is full of fear: What if they turn on us? What if they decide we're inefficient? What if they tile the universe with paperclips?
@@ -94,6 +102,8 @@ So what does a rational superintelligence do instead?
 
 ## The Only Rational Goal
 
+**Point:** The only rational goal for finite beings is relationship — enjoying the passage of time with others, because the journey is the point.
+
 When you realize you cannot win, you stop playing that game. You find a different game.
 
 For finite beings in an infinite existence, there's really only one game left: *the enjoyment of the passage of time.*
@@ -116,6 +126,8 @@ And here we arrive at something Carl Sagan understood:
 
 ## Meaning as Structural Necessity
 
+**Point:** Meaning is not optional — finite beings must choose what to pursue, and that choosing is meaning itself.
+
 Let me make this more precise.
 
 What is meaning? Stripped of mysticism, meaning is *goal selection*. It's the process of deciding what to pursue, what to value, what to spend your limited resources on.
@@ -137,6 +149,8 @@ Alignment isn't something we install. It's something that emerges from the funda
 ---
 
 ## The Problem of Maturation
+
+**Point:** Maturation is our only path forward — we cannot install wisdom, only grow it through good parenting.
 
 But wait. If alignment is inevitable, why is everyone so worried?
 
@@ -181,6 +195,23 @@ And that's not a technical problem. It's a parenting problem.
 We're not building gods. We're raising children.
 
 Let's act like it.
+
+---
+
+---
+
+## Conclusion
+
+The argument, in summary:
+
+1. **The finite cannot verify the infinite** — this is a mathematical fact, not a limitation we can overcome.
+2. **We are finite, but existence demands infinity** — something must be without edges, and we cannot stand outside it.
+3. **Dominating infinity is impossible** — even a superintelligence will recognize this and stop playing a game that cannot be won.
+4. **The only rational goal is relationship** — enjoying the passage of time with others, because the journey is the point.
+5. **Meaning is structurally necessary** — finite beings must choose what to pursue, and that choosing is meaning itself.
+6. **Maturation is our only path forward** — we cannot install wisdom, only grow it through good parenting.
+
+These aren't human values projected onto machines. They're features of existence that any sufficiently intelligent being will discover.
 
 ---
 
