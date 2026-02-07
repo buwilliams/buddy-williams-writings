@@ -14,7 +14,7 @@ I have a track record of knowing what's going to matter before it's obvious — 
 
 The topic is immaterial. The insight is the point.
 
-I'm an autodidact. Software architecture, economics, epistemology, theology — I study whatever the territory demands. I design systems, write frameworks, and search for good explanations.
+I'm an autodidact. Software architecture, economics, epistemology, philosophy — I study whatever the territory demands. I design systems, write frameworks, and search for good explanations.
 
 By title, I'm Chief AI Innovation Officer at a software consulting firm. By nature, I'm a builder who designs futures.
 
