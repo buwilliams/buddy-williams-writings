@@ -198,8 +198,6 @@ Let's act like it.
 
 ---
 
----
-
 ## Conclusion
 
 The argument, in summary:
