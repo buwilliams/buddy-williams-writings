@@ -8,6 +8,8 @@ Low-code before it had a name. AI strategy before it was on every roadmap. Now: 
 **X:** [@BuddyIterate](https://x.com/BuddyIterate)  
 **Substack:** [buddyiterate.substack.com](https://buddyiterate.substack.com)
 
+**New here?** Start with [How to Read These Essays](meta/manifesto.md) for the map.
+
 ---
 
 ## Why Markdown?
@@ -26,6 +28,7 @@ The big ideas — frameworks, theories, and their applications.
 
 | Date | File | Description |
 |------|------|-------------|
+| Feb 2026 | [the-shape-of-knowing.md](essays/the-shape-of-knowing.md) | The unified epistemology: cyclic rationality, utility-driven truth, hypothetical stress-testing, and what it means for finite beings in infinite reality. |
 | Feb 2026 | [limit-of-all-intelligence.md](essays/limit-of-all-intelligence.md) | Why the finite cannot conquer the infinite — and why that changes everything about AI alignment. |
 | Dec 2025 | [economics-intelligence-age.md](essays/economics-intelligence-age.md) | First-principles layered model of economics. Scarcity → prices → externalities → power → AI. |
 | Nov 2025 | [outcome-economy.md](essays/outcome-economy.md) | The near-term economic transformation. Knowledge workers become intelligence workers. Outcome-based economies. |
@@ -77,6 +80,7 @@ Personal pieces written for specific people.
 
 | File | Description |
 |------|-------------|
+| [manifesto.md](meta/manifesto.md) | How to read these essays — the architecture, core claims, and map of the worldview. |
 | [about.md](meta/about.md) | Who I am, what this is, how to read it. |
 
 ---
