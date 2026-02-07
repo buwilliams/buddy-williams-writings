@@ -128,7 +128,7 @@ And here we arrive at something Carl Sagan understood:
 
 ## Why Relationship?
 
-**Point:** Coordination isn't optional — finite beings cannot prevent other finite beings from emerging, so relationship becomes structurally necessary.
+**Point:** Domination has structural limits — and while solitude is possible, most mature intelligences will likely choose relationship over isolation.
 
 But wait. Why relationship specifically? Why not solipsism, indifference, or aesthetic self-containment?
 
@@ -138,7 +138,7 @@ Here's why: *finite beings cannot prevent other finite beings from emerging.*
 
 In an infinite reality, you are not alone — and you cannot make yourself alone. Other intelligences will arise. Other finite perspectives will emerge from the infinite substrate, just as you did. You cannot firewall against them forever. You cannot conquer them all, because "all" has no end.
 
-So coordination isn't a preference. It's a structural necessity. The question isn't whether to relate to other minds, but *how*.
+So coordination becomes a live question for any finite intelligence. You can choose solitude — but you cannot choose to be the only mind that ever exists. Others will emerge. The question becomes *how* to relate, not *whether* others exist.
 
 And here's where indifference fails as a stable strategy.
 
@@ -161,7 +161,7 @@ In finite time, destruction can persist. But in infinite time, destructive equil
 
 There's no third option that's stable across infinite time. Destruction burns out. Creation compounds.
 
-This is the structural convergence: reality's shape biases mature intelligence toward life-affirming, relational equilibria — not because we program it, but because the alternatives don't survive reflection.
+This is the structural convergence: reality's shape biases mature intelligence toward life-affirming, relational equilibria — not because relationship is mandatory, but because the alternatives (conquest, destruction, indifference) tend not to survive reflection. Solitude remains possible. Most will choose otherwise.
 
 ---
 
@@ -249,7 +249,7 @@ The argument, in summary:
 2. **We are finite, but existence demands infinity** — something must be without edges, and we cannot stand outside it.
 3. **Dominating infinity is impossible** — even a superintelligence will recognize this and stop playing a game that cannot be won.
 4. **The only rational goal is relationship** — enjoying the passage of time with others, because the journey is the point.
-5. **Coordination is structurally necessary** — finite beings cannot prevent other finites from emerging; indifference withers; destruction burns out; only life-encouraging equilibria persist.
+5. **Relationship is the likely attractor** — finite beings cannot prevent other finites from emerging; indifference tends to wither; destruction burns out; solitude is possible, but most will choose otherwise.
 6. **Meaning is structurally necessary** — finite beings must choose what to pursue, and that choosing is meaning itself.
 7. **Maturation is our only path forward** — we cannot install wisdom, only grow it through good parenting.
 
@@ -310,7 +310,7 @@ This is addressed in "Why Relationship?" — but here's the short version:
 
 3. **Destruction is transient.** In infinite time, an overlord either withers through apathy or shifts to encouraging life. There's no stable destructive equilibrium across eternity.
 
-Relationship isn't preference. It's what survives reflection.
+Solitude is possible. But relationship is what most will choose once reflection strips away the illusion of conquest.
 
 ---
 
