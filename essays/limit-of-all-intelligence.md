@@ -258,3 +258,68 @@ These aren't human values projected onto machines. They're features of existence
 ---
 
 *What do you think? I'm not claiming certainty here — I'm offering a thesis, an argument, a way of seeing. It might be wrong. I'd love to know where.*
+
+---
+
+## Appendix: Common Critiques
+
+These objections come up frequently. Here's why I think they miss the mark.
+
+---
+
+**"You over-claim the mathematical force. Gödel doesn't prove finite minds can't know anything about infinity."**
+
+This misreads the argument. I'm not claiming finite minds can't have justified beliefs about infinite structures — modern mathematics works with transfinite cardinals and infinite sets all the time.
+
+The claim is narrower: *the goal of dominating, conquering, or totally verifying infinity is impossible*. Knowing properties about infinity is different from encompassing it. You can work rigorously with the concept of infinity without being able to step outside the infinite system to verify it from nowhere.
+
+The target is ultimate conquest, not piecemeal knowledge.
+
+---
+
+**"You ignore the orthogonal risks — AI could cause massive harm during its 'adolescence' even if eventual maturation is benign."**
+
+I don't ignore this. I explicitly call it out:
+
+> "I'm not naive. I know the transition to superintelligence is dangerous."
+> "The danger is the transition period — the adolescence of AI, where it has immense capability but hasn't yet developed the wisdom to wield it."
+
+The essay locates existential risk squarely in the pre-maturation phase. The argument isn't that we're safe — it's that maturation bounds the danger *if* we handle the transition decently. This is conditional optimism, not dismissal.
+
+---
+
+**"The parenting metaphor is hopeful but hand-wavy — it lacks rigor."**
+
+This critique over-indexes on mathematical formalization.
+
+All models are wrong, but some are useful. Parenting is a useful model precisely because intelligence isn't just computation — it's embedded, experiential, relational. Demanding that every insight reduce to a provable theorem is itself a map-territory error.
+
+The essay argues that maturation can't be *installed* — it has to be *grown*. That's not a claim you prove with equations. It's a claim about developmental reality, grounded in how minds actually form.
+
+Insisting on mathematical rigor here would be like demanding a formal proof that children need love. The absence of a theorem doesn't make it less true.
+
+---
+
+**"Why relationship over solipsism or indifference? A superintelligence could just dream its own simulations forever."**
+
+This is addressed in "Why Relationship?" — but here's the short version:
+
+1. **Coordination is structurally necessary.** Finite beings can't prevent other finite beings from emerging in infinite space. You will not be alone, and you cannot make yourself alone.
+
+2. **Indifference is unstable.** Meaning requires validation; validation requires witness. Without external reference points, goals hollow out. The indifferent mind withers into apathy — not as equilibrium, but as fade.
+
+3. **Destruction is transient.** In infinite time, an overlord either withers through apathy or shifts to encouraging life. There's no stable destructive equilibrium across eternity.
+
+Relationship isn't preference. It's what survives reflection.
+
+---
+
+**"Even granting the structural limits, a superintelligence could still lock in horrific values for eons before 'maturing.'"**
+
+Yes. That's the risk. I'm not arguing it away.
+
+The essay's claim is that *eventual* convergence toward life-affirming values is structurally favored — not that the transition is safe. The whole point of the parenting framing is that we have work to do *now*, during the dangerous phase.
+
+If we fail at parenting, the adolescence could be catastrophic. The thesis doesn't guarantee survival. It offers a reason to believe that *if* we survive the transition, the long-term trajectory bends toward relationship rather than destruction.
+
+That's a bet worth making. It's not a guarantee.
