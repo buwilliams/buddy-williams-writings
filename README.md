@@ -1,6 +1,8 @@
 # Buddy Williams — Writings
 
-Searching for good explanations in an age of thinking machines.
+I have a track record of knowing what's going to matter before it's obvious — then designing toward it.
+
+Low-code before it had a name. AI strategy before it was on every roadmap. Now: intelligence abundance.
 
 **Author:** Buddy Williams  
 **X:** [@BuddyIterate](https://x.com/BuddyIterate)  

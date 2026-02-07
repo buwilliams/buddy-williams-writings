@@ -1,4 +1,4 @@
-# About This Repository
+# About
 
 **Author:** Buddy Williams  
 **Substack:** [buddyiterate.substack.com](https://buddyiterate.substack.com)  
@@ -8,9 +8,15 @@
 
 ## Who I Am
 
-I work at the intersection of AI, economics, and human coordination. I design AI-amplified systems that combine human judgment with machine intelligence — focused on real outcomes, not hype.
+I have a track record of knowing what's going to matter before it's obvious — then designing toward it.
 
-By day, I'm Chief AI Innovation Officer at a software consulting firm. By night, I'm a writer, a father, an acrobat, and an incurable generalist.
+25 years as a builder. The throughline isn't a single domain — it's arriving at the edge of what's new, figuring out what matters, and building the first version. Low-code before it had a name. AI strategy before it was on every roadmap. Now: intelligence abundance — what happens when cognitive work becomes nearly free.
+
+The topic is immaterial. The insight is the point.
+
+I'm an autodidact. Software architecture, economics, epistemology, theology — I study whatever the territory demands. I design systems, write frameworks, and search for good explanations.
+
+By title, I'm Chief AI Innovation Officer at a software consulting firm. By nature, I'm a builder who designs futures.
 
 ---
 
@@ -26,23 +32,26 @@ These ideas are meant to spread, to be built upon, to be challenged. Fork them. 
 
 ## How to Read This
 
-Start with the **frameworks/** directory if you want the foundational ideas:
+Start with the **essays/** directory if you want the foundational ideas:
 
-- **Technohumanism:** my big-picture view of humanity's trajectory
-- **Cyclic Rationality:** my epistemology, how I think about thinking
-- **Outcome Economy:** the near-term economic transformation AI is driving
+- **Technohumanism:** the arc of humanity — scarcity to abundance to biological misalignment
+- **Cyclic Rationality:** how to think about thinking, recovering imagination before verification
+- **Outcome Economy:** the near-term transformation — knowledge workers become intelligence workers
+- **The Limit of All Intelligence:** why all minds, human or artificial, hit the same walls
 
-Then explore **essays/** for applications of these frameworks to specific questions.
+Then explore **fragments/** for shorter sketches and threads worth preserving.
 
-The **letters/** directory contains more personal pieces, written for specific people (usually my children).
+The **letters/** directory contains personal pieces, written for specific people (usually my children).
 
 ---
 
 ## Intellectual Roots
 
-Economics, systems theory, critical rationalism. I'm interested in how societies coordinate under uncertainty, dispersed knowledge, and imperfect incentives — especially as AI accelerates both creation and failure modes.
+Critical rationalism. Systems thinking. Economics as coordination under uncertainty.
 
 **Thinkers who shaped me:** Karl Popper, David Deutsch, F.A. Hayek, Thomas Sowell, Carl Sagan.
+
+I'm drawn to thinkers who revealed limits — Gödel, Turing, Haidt — and to the question of how we build systems that remain humane as intelligence becomes abundant.
 
 ---
 
