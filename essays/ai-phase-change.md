@@ -2,7 +2,7 @@
 
 ## Core Thesis
 
-1. People conflate three different questions when debating AI's impact: how change is *represented* (discrete vs. continuous), how *fast* it happens (gradual vs. sudden), and whether the system's *rules* change (same regime vs. phase change). These are independent questions.
+1. People conflate three different questions when debating AI's impact: how change is *represented* (discrete vs. continuous), how *fast* it happens (gradual vs. sudden), and whether the impacts of AI cause a *societal phase change* (same regime vs. new regime). These are independent questions.
 2. Phase change is about structure — the system's governing behaviors shift — not about speed or step size. A phase change can be continuous and gradual.
 3. The minimum criteria for AI to be a fundamentally new kind of change agent are three properties: *learning*, *exploring*, and *acting*. Together, these allow AI to operate beyond the bottleneck of human initiation — and that's what makes it different from every tool that came before.
 4. A change agent with those properties, operating inside society's economic and social systems, produces a phase change: the rules governing work, status, and coordination shift to a new regime.
