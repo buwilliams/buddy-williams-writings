@@ -28,6 +28,7 @@ The big ideas — frameworks, theories, and their applications.
 
 | Date | File | Description |
 |------|------|-------------|
+| Feb 2026 | [ai-phase-change.md](essays/ai-phase-change.md) | Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating, and the map-territory trap that lets people hide from what's already happening. |
 | Feb 2026 | [the-shape-of-knowing.md](essays/the-shape-of-knowing.md) | The unified epistemology: cyclic rationality, utility-driven truth, hypothetical stress-testing, and what it means for finite beings in infinite reality. |
 | Feb 2026 | [limit-of-all-intelligence.md](essays/limit-of-all-intelligence.md) | Why the finite cannot conquer the infinite — and why that changes everything about AI alignment. |
 | Dec 2025 | [economics-intelligence-age.md](essays/economics-intelligence-age.md) | First-principles layered model of economics. Scarcity → prices → externalities → power → AI. |
