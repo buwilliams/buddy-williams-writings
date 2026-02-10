@@ -30,7 +30,7 @@ The big ideas — frameworks, theories, and their applications.
 |------|------|-------------|
 | Feb 2026 | [ai-phase-change.md](essays/ai-phase-change.md) | Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating, and the map-territory trap that lets people hide from what's already happening. |
 | Feb 2026 | [the-shape-of-knowing.md](essays/the-shape-of-knowing.md) | The unified epistemology: cyclic rationality, utility-driven truth, hypothetical stress-testing, and what it means for finite beings in infinite reality. |
-| Feb 2026 | [limit-of-all-intelligence.md](essays/limit-of-all-intelligence.md) | Why the finite cannot conquer the infinite — and why that changes everything about AI alignment. |
+| Feb 2026 | [structural-convergence-thesis.md](essays/structural-convergence-thesis.md) | The Structural Convergence Thesis — why mature intelligence structurally converges on relationship, not domination. Decidability, consistency, and observability as universal bounds. |
 | Dec 2025 | [economics-intelligence-age.md](essays/economics-intelligence-age.md) | First-principles layered model of economics. Scarcity → prices → externalities → power → AI. |
 | Nov 2025 | [outcome-economy.md](essays/outcome-economy.md) | The near-term economic transformation. Knowledge workers become intelligence workers. Outcome-based economies. |
 | Nov 2025 | [why-hypotheticals-matter.md](essays/why-hypotheticals-matter.md) | Even when they feel annoying. How thought experiments reveal what's hidden by everyday noise. |

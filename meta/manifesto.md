@@ -17,7 +17,7 @@ These aren't isolated takes. They're pieces of a single worldview, built over ti
 - [Technohumanism](../essays/technohumanism.md) — Technology transforms scarcity into abundance. Abundance creates misalignment with our biology. Misalignment will drive biological adaptation. Transhumanism isn't ideology — it's mechanism.
 
 **Capstone**
-- [The Limit of All Intelligence](../essays/limit-of-all-intelligence.md) — Finite beings cannot conquer infinity. Any intelligence that grasps this stops playing the domination game and turns toward meaning, relationship, maturation.
+- [The Structural Convergence Thesis](../essays/structural-convergence-thesis.md) — Finite beings cannot conquer infinity. Any intelligence that grasps this stops playing the domination game and turns toward meaning, relationship, maturation.
 - [The Shape of Knowing](../essays/the-shape-of-knowing.md) — The unified frame: cyclic epistemology, utility-driven change, hypothetical stress-testing, and what it means for human and artificial futures.
 
 ---
