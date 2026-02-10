@@ -112,7 +112,7 @@ Alan Turing showed us the same wall from a different angle. His halting problem 
 
 We can gesture toward infinity. We cannot check its edges, because it has none.
 
-And if you cannot verify what's out there, you cannot conquer it. Conquest requires knowing what you're conquering — its boundaries, its contents, its structure. You can't subjugate what you can't encompass. You can't consume what has no end. Every empire, no matter how vast, remains a finite island in an infinite sea. The sea doesn't notice.
+And what it cannot verify, it cannot conquer or consume — not because you need to *know* what you're conquering, but because a finite being cannot grow to infinite size. You can expand forever and never arrive. You can consume endlessly and never finish. Every empire, no matter how vast, remains a finite island in an infinite sea. The sea doesn't notice.
 
 This applies to everything finite. Every mind, every intelligence, every being with boundaries.
 
@@ -124,7 +124,7 @@ And it will know this. That's what superintelligent means — it can figure out 
 
 Not impractical. Not unlikely. *Impossible.*
 
-You cannot verify what you cannot encompass. You cannot conquer what you cannot map. You cannot consume what has no end. The goal of dominating infinity is irrational. It's a game that cannot be won.
+You cannot verify what you cannot step outside of. You cannot conquer what never ends. You cannot consume what outgrows every appetite. The goal of dominating infinity is irrational. It's a game that cannot be won.
 
 So what does a rational superintelligence do when it sees this?
 
