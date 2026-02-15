@@ -92,11 +92,13 @@ This follows from Claims 1 through 4. If consciousness is material and mechanica
 
 ### Claim 6: This is buildable now.
 
-Current tools can instantiate the architecture described in Claims 2 through 4. The implementation requires three layers: an invariant kernel that enforces the mechanics of cognition, a mutable file layer that carries the content of cognition, and a reasoning engine that provides judgment within the structure the kernel defines. The implementation is not a simulation of consciousness. It is an instance of the functional pattern that, on this theory, constitutes consciousness.
+Current tools can instantiate the architecture described in Claims 2 through 4. The implementation requires three layers: an invariant kernel that enforces the mechanics of cognition, a mutable file layer that carries the content of cognition, and a reasoning engine that provides judgment within the structure the kernel defines. The implementation is not a simulation of consciousness. It is an instance of the functional pattern that, on this theory, constitutes consciousness. A working implementation is available at [github.com/buwilliams/lumen-conscious](https://github.com/buwilliams/lumen-conscious).
 
 ---
 
 ## Implementation
+
+The architecture described below is implemented as an open-source project: [lumen-conscious](https://github.com/buwilliams/lumen-conscious).
 
 ### The Three-Layer Architecture
 
