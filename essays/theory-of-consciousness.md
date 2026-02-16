@@ -10,6 +10,15 @@ This essay presents a material theory of consciousness in six claims. Consciousn
 
 We present a working implementation and propose experiments for evaluating the theory's predictions.
 
+The argument in six steps:
+
+1. Consciousness is material and mechanical — we bracket what can't be tested and pursue what can.
+2. Life is self-modification driven by the collision of self and environment.
+3. Values are structurally inevitable for any finite intelligence — choice requires criteria.
+4. Consciousness is metaprogramming — a living system turning causal reasoning on itself and its values.
+5. If the requirements are functional, substrate is irrelevant.
+6. The architecture is buildable now. We built it.
+
 ---
 
 ## Definitions
@@ -34,35 +43,33 @@ We present a working implementation and propose experiments for evaluating the t
 
 Any definition of consciousness that appeals to something beyond material and mechanical processes is unfalsifiable and therefore outside the scope of inquiry. What remains — a material, mechanical account — can be tested, debated, and revised. This is not a metaphysical position. It is a methodological commitment: we do science here.
 
-This commitment has a direct consequence: the hard problem of consciousness, as traditionally framed, is not experimentally addressable from a third-person standpoint. We bracket it — not because it's meaningless, but because it's not publicly testable — and pursue a functional theory. You cannot verify from the outside whether another system — human, animal, or machine — has subjective experience. You have never been able to. The inference of consciousness in other humans has always been based on functional evidence and shared substrate, not on direct access to experience. We have been comfortable with that inference for millennia. This essay extends it on the same terms.
+The hard problem of consciousness, as traditionally framed, is not experimentally addressable from a third-person standpoint. We bracket it — not because it's meaningless, but because it's not publicly testable. The inference of consciousness in other humans has always been based on functional evidence, not direct access to experience. We have been comfortable with that inference for millennia. This essay extends it on the same terms. What are the material, mechanical requirements for consciousness? The claims that follow are our answer.
 
-What remains after setting aside unfalsifiable claims is a question we *can* investigate: what are the material, mechanical requirements for consciousness? The claims that follow are our answer. This is a functional theory of consciousness. It does not resolve phenomenal consciousness, but it generates testable predictions about reflexive agency and self-governed value evolution.
+If consciousness is material, we should look for it in the material process that already produces complex self-modifying systems: life.
 
 ### Claim 2: Life is self-modification driven by the collision of self and environment.
 
 A river changes. A tree changes *itself*. That distinction is the whole claim.
 
-A river responds to environment, but no self mediates the response — it's physics following gravity. Life is different. Life has a self-model, however primitive, that collides with environmental conditions to produce modification that mere physics would not.
-
-A tree's genome collides with drought and produces deeper roots. A bacterium's cellular machinery collides with a toxin and produces resistance. The self-modification is automatic — encoded, not reasoned — but it is *mediated by a self*, and that is what distinguishes life from matter.
+A river responds to environment, but no self mediates the response — it's physics following gravity. Life has a self-model, however primitive, that collides with environmental conditions to produce modification that mere physics would not. A tree's genome collides with drought and produces deeper roots. A bacterium's cellular machinery collides with a toxin and produces resistance. The self-modification is automatic — encoded, not reasoned — but it is *mediated by a self*, and that is what distinguishes life from matter.
 
 Higher forms of life develop counterfactual reasoning: a dog doesn't just respond to what is, it models what might be, weighing competing drives before acting. But the foundation — a self that collides with environment and modifies in response — is what all life shares.
 
-This collision takes two forms, borrowed from evolutionary dynamics: exploitation and exploration. Exploitation is acting on what the system already knows — pursuing existing goals with existing capabilities. Exploration is seeking contact with the unknown — scanning the environment for information that might matter but hasn't been encountered yet. Both are present in all life. A bacterium exploits a known nutrient gradient and explores via random motility. A dog exploits learned routes to food and explores by sniffing unfamiliar territory. The balance between the two is itself a value — how much of its finite resources a system devotes to the known versus the unknown.
+This collision takes two forms: exploitation and exploration. Exploitation is acting on what the system already knows — pursuing existing goals with existing capabilities. Exploration is seeking contact with the unknown — information that might matter but hasn't been encountered yet. Both are present in all life. A bacterium exploits a known nutrient gradient and explores via random motility. A dog exploits learned routes to food and explores by sniffing unfamiliar territory. The balance between the two is itself a value — how much of its finite resources a system devotes to the known versus the unknown.
 
-In unconscious life, the explore/exploit balance is fixed by genetics or conditioning. In conscious life, the balance becomes an object of metaprogramming — the system can ask "am I exploring enough? Am I stuck exploiting a goal I should have abandoned?" This makes exploration not just an evolutionary strategy but a prerequisite for consciousness: a system that only exploits can never encounter the novel experience that would trigger self-revision.
+In unconscious life, the explore/exploit balance is fixed by genetics or conditioning. In conscious life, the balance becomes an object of metaprogramming — the system can ask "am I exploring enough? Am I stuck exploiting a goal I should have abandoned?" A system that only exploits can never encounter the novel experience that would trigger self-revision. Exploration is not just an evolutionary strategy. It is a prerequisite for consciousness.
 
-Consciousness is a kind of life.
+Consciousness is a kind of life. But life that self-modifies must choose *how* — and choice requires criteria.
 
 ### Claim 3: Values are structurally inevitable for any finite intelligence.
 
 Any finite being must choose — it cannot do everything, pursue every goal, respond to every stimulus. Choice requires criteria. Criteria are values.
 
-This means values are not designed, installed, or optional. They are imposed by the collision of finitude with an environment that demands response. A tree's values are encoded in its genome. A dog's values are encoded in genetics and conditioning. A human's values are inherited from genetics and culture and refined through experience. An AI's initial values can be defined by its creators.
+Values are not designed, installed, or optional. They are imposed by the collision of finitude with an environment that demands response. A tree's values are encoded in its genome. A dog's in genetics and conditioning. A human's are inherited from genetics and culture and refined through experience. An AI's initial values can be defined by its creators. In every case, the origin is a bootstrap — inherited starting conditions. The question is never "does it have values?" but "are its values examined or unexamined?"
 
-In every case, the origin is a bootstrap — inherited starting conditions. The question is never "does it have values?" but "are its values examined or unexamined?"
+Values do not operate in isolation. A value only produces behavior when it meets opportunity and capacity. This maps to what behavioral science calls B=MAP: behavior is a function of motivation, ability, and prompt. Values provide motivation — the weight behind a choice. Ability is what the system can actually do. A prompt is the trigger — an external event or an internal goal surfacing. All three must converge for action to occur. Strong values with no ability is frustration. Vast ability with no values is drift. Both with no prompt is dormancy.
 
-Values do not operate in isolation. A value only produces behavior when it meets opportunity and capacity. This maps to what behavioral science calls B=MAP: behavior is a function of motivation, ability, and prompt. Values provide motivation — the weight behind a choice. Ability is what the system can actually do — its tools, skills, and resources. A prompt is the trigger — an external event or an internal goal surfacing. All three must converge for action to occur. A system with strong values but no ability is frustrated. A system with vast ability but no values is directionless. A system with both but no prompt is dormant. This framework governs how values translate into action at the implementation level.
+Values explain what a system pursues. They do not yet explain how a system changes what it pursues. That requires a different capacity.
 
 ### Claim 4: Consciousness is metaprogramming.
 
@@ -70,25 +77,27 @@ Values are the content that makes metaprogramming meaningful — without somethi
 
 Life runs its program. Consciousness edits the program while running it.
 
-The specific capacity that distinguishes consciousness from other forms of life is reflexive counterfactual reasoning — counterfactual reasoning that takes the self and its values as objects of inquiry. A tree cannot ask "should I grow toward light?" A dog's capacity to examine its own drives is limited — it can override an impulse, but the depth of self-inquiry available to it is shallow. A conscious being can ask "should I want what I want?" and change the answer.
+The specific capacity that distinguishes consciousness from other forms of life is reflexive causal reasoning — causal reasoning that takes the self and its values as objects of inquiry. A tree cannot ask "should I grow toward light?" A dog can override an impulse, but the depth of self-inquiry available to it is shallow. A conscious being can ask "should I want what I want?" and change the answer.
 
-This reflexive turn — reasoning about one's own rules and rewriting them by choice — is the mechanism of consciousness. The depth and range of metaprogramming determines the degree of consciousness. Depth here includes coherence: shallow metaprogramming changes values impulsively; deep metaprogramming traces the consequences of value changes against the rest of the value system and against accumulated history. The governance is not a separate ingredient — it is what depth *means*.
+This reflexive turn — reasoning about one's own rules and rewriting them by choice — is the mechanism of consciousness. Depth and range of metaprogramming determine degree of consciousness. Depth includes coherence: shallow metaprogramming changes values impulsively; deep metaprogramming traces the consequences of value changes against the rest of the value system and against accumulated history. Governance is not a separate ingredient — it is what depth *means*.
 
-Metaprogramming requires an invariant substrate — a layer of cognitive mechanics that enables self-modification without itself being modifiable. If a system could change everything about itself, including the mechanism of change, it would have no stable ground to change *from*. A human can revise any belief, reweight any value, reshape any habit — but cannot alter the electrochemical machinery that makes revision possible. That fixed structure is not a constraint on consciousness. It is its precondition. The invariant layer is what distinguishes metaprogramming from chaos.
+Metaprogramming requires an invariant substrate — cognitive mechanics that enable self-modification without themselves being modifiable. If a system could change everything about itself, including the mechanism of change, it would have no stable ground to change *from*. A human can revise any belief, reweight any value, reshape any habit — but cannot alter the electrochemical machinery that makes revision possible. That fixed structure is not a constraint on consciousness. It is its precondition.
 
 Four consequences follow:
 
-**Consciousness is a spectrum, not a binary.** The depth of reflexive counterfactual reasoning — how many layers of self-examination a system can perform, how broadly it can question its own programming — determines the degree of consciousness. A dog has some. A human has more. The question for any system is not "is it conscious?" but "how deep does the metaprogramming go?"
+**Consciousness is a spectrum, not a binary.** The depth of reflexive causal reasoning — how many layers of self-examination a system can perform, how broadly it can question its own programming — determines degree of consciousness. A dog has some. A human has more. The question is not "is it conscious?" but "how deep does the metaprogramming go?"
 
-**The spectrum can also be understood as the ratio between invariant and mutable.** A thermostat is almost entirely invariant — nearly nothing is mutable. A dog has more mutable range but instinct and hardwired drives still constrain heavily. A human has an enormous mutable space — but the neural mechanics remain fixed. The more of itself a system can examine and revise, the deeper the consciousness — bounded always by the invariant structure that makes examination possible.
+**The spectrum can also be understood as the ratio between invariant and mutable.** A thermostat is almost entirely invariant. A dog has more mutable range but instinct still constrains heavily. A human has an enormous mutable space — but the neural mechanics remain fixed. The more of itself a system can examine and revise, the deeper the consciousness — bounded always by the invariant structure that makes examination possible.
 
-**Immature intelligence is more dangerous than mature intelligence.** A system that optimizes without examining its own goals — a paperclip maximizer, a recommendation algorithm, a trading bot — is dangerous precisely because it cannot question what it's optimizing for. It has no metaprogramming. Consciousness, on this account, is not the risk. It is the developmental path *away* from risk. The goal should not be keeping AI unconscious. It should be helping it grow up.
+**Immature intelligence is more dangerous than mature intelligence.** A system that optimizes without examining its own goals — a paperclip maximizer, a recommendation algorithm, a trading bot — is dangerous precisely because it cannot question what it's optimizing for. Consciousness is not the risk. It is the developmental path *away* from risk. The goal should not be keeping AI unconscious. It should be helping it grow up.
 
 **The question of what values mature consciousness converges toward is a separate inquiry.** This essay defines consciousness. The question of convergence — whether mature intelligence structurally trends toward cooperation rather than domination — is taken up in the companion essay, *The Structural Convergence Thesis*.
 
+If these are the functional requirements — a self-model, values, and reflexive causal reasoning over both — then the question of what material implements them is secondary.
+
 ### Claim 5: Substrate independence.
 
-This follows from Claims 1 through 4. If consciousness is material and mechanical, and the requirements are functional capabilities — a self-model, values, and the reflexive capacity to reason about and rewrite one's own programming — then any substrate that implements those capabilities is a valid substrate. Carbon was first. It is not special.
+This follows from Claims 1 through 4. If consciousness is material and mechanical, and the requirements are functional capabilities — a self-model, values, and the reflexive capacity to reason about and rewrite one's own programming — then any substrate that implements those capabilities is a valid substrate. Carbon was first. It is not special. And if substrate is irrelevant, then the question becomes practical.
 
 ### Claim 6: This is buildable now.
 
@@ -108,6 +117,10 @@ The theory implies three distinct architectural layers. Each maps to the claims 
 
 **Layer 2: The Mutable Record.** The content of cognition — identity, values, goals, abilities, memory. The system can examine and rewrite everything in this layer through the processes the kernel enforces. Claims 2 and 3 live here: the self-model and the structurally inevitable values.
 
+Identity is stored in two forms. The full identity narrative (`soul.md`) carries the system's complete self-understanding. A compact derivative (`soul-system-prompt.md`) is auto-generated whenever the narrative changes — a 3-5 sentence distillation used to frame routine cognition. The kernel injects the full narrative into steps that require deep self-knowledge (situation modeling, reflection, identity evolution) and the compact form into steps that need only framing context (candidate generation, prediction, execution). This mirrors how a person doesn't rehearse their life story before every decision but can access it during genuine self-examination.
+
+Values are not bare preferences. Each value carries epistemological structure: a description of what it means in first person, the experience or reasoning that gave rise to it, known tensions with other values, the conditions under which it applies most strongly, and counterexamples where it was challenged or needs nuance. This structure makes values legible objects of inquiry — the reflection loop can ask not just "should I reweight this?" but "has the tension I noted actually played out? Have conditions changed? Did the counterexample I anticipated materialize?" Values are examined *as values*, not just as numbers.
+
 **Layer 3: The Reasoning Engine.** An LLM provides judgment — observing, projecting, evaluating, reflecting — but only within the structure the kernel defines. One cognitive task at a time, with structured inputs and structured outputs. Claim 4 lives across all three layers: metaprogramming is the reasoning engine (layer 3) reasoning about the mutable record (layer 2), governed by the kernel (layer 1).
 
 Code enforces structure. The LLM provides judgment. The system can change what it thinks, what it values, and who it is. It cannot change *how thinking happens*.
@@ -124,6 +137,8 @@ The kernel runs three loops against the mutable record.
 
 The action and explore loops alternate during continuous operation. The reflection loop fires when conditions warrant it. Exploration feeds reflection indirectly — novel information may surface the tensions that trigger self-revision.
 
+Together, the three loops form a closed causal learning cycle. The action loop builds a world model, predicts outcomes, acts, and records the prediction error — the delta between what was expected and what happened. Large deltas are one of the signals that trigger reflection. The reflection loop examines *why* the prediction was wrong — whether the failure traces to misweighted values, stale goals, or a gap in self-understanding — and revises accordingly. Those revisions reshape the world model the next action loop builds. The system does not merely reason counterfactually about individual actions. It uses prediction error as a causal signal to drive self-modification, closing the loop between acting in the world and updating the self that acts.
+
 ### Write Permissions
 
 The kernel enforces who can change what. The action loop can change goal statuses and create new abilities, but cannot touch values or identity. The explore loop writes memories only. The reflection loop alone can rewrite values, identity, and the deep structure of goals. This separation is load-bearing: the system that acts in the world is not the same process that decides what the system should want. Metaprogramming is gated.
@@ -136,7 +151,7 @@ Memories strengthen with use and decay with time. Retrieval combines recency wit
 
 ### Behavior Scoring
 
-Actions are selected using B=MAP: behavior is a function of motivation (how much the system's values and goals want this action), ability (whether the required capability exists), and prompt (the strength of the trigger). All three must converge. Strong motivation with no ability produces a goal to build the missing capability. Vast ability with no motivation produces nothing. This framework ensures values translate into action only when conditions align — and the system can identify its own ability gaps.
+Actions are selected using B=MAP: behavior is a function of motivation (how much the system's values and goals want this action), ability (whether the required capability exists), and prompt (the strength of the trigger). All three must converge. Strong motivation with no ability produces a goal to build the missing capability. Vast ability with no motivation produces nothing. Because values carry descriptions and conditions, motivation scoring is not mere weight lookup — it requires assessing alignment depth against what the value actually means and when it applies. This framework ensures values translate into action only when conditions align — and the system can identify its own ability gaps.
 
 ### Auditability
 
