@@ -131,11 +131,56 @@ Code enforces structure. The LLM provides judgment. The system can change what i
 
 The kernel runs three loops against the mutable record.
 
-**The action loop** exploits. It takes the system's values and goals as given, models the situation, generates candidate actions, predicts outcomes for each, scores them, and executes the best one. It does not question what it wants — it pursues it. Every action is preceded by a prediction and followed by a record of what actually happened, so the system can track how well its world model performs.
+#### Action Loop
+
+The action loop exploits. It takes the system's values and goals as given, models the situation, generates candidate actions, predicts outcomes for each, scores them, and executes the best one. It does not question what it wants — it pursues it. Every action is preceded by a prediction and followed by a record of what actually happened, so the system can track how well its world model performs.
+
+**Steps:**
+
+1. **Model** — Perception. Reads the system's full state (soul, values, goals, memories, skills) and produces a structured
+situation model: what's happening, which values/goals are relevant, recent history, available skills, and what's at
+stake.
+2. **Candidates** — Generates 1-3 concrete candidate actions given the situation model. Each candidate specifies an
+action, skill, values served, and goals served.
+3. **Predict** — Counterfactual reasoning. For each candidate, reasons through "what happens if taken?" and "what happens
+if not taken?" Gauges stakes (low/medium/high) and flags any tensions with values or commitments.
+4. **Decide** — Scores candidates using B=MAP (Motivation x Ability x Prompt). Selects the highest-scoring action,
+recommends skipping if motivation < 0.2, or recommends skill creation if ability = 0.
+5. **Act** — Executes the selected action. Either responds directly (for "respond" actions) or invokes/creates skills. Can
+also update goal statuses and record memories.
+6. **Record** — Compares what was predicted with what actually happened. Computes a delta — large deltas indicate the
+world model was wrong and may trigger reflection.
+
+#### Explore Loop
 
 **The explore loop** discovers. It generates one open-ended question per cycle, filtered through the system's enduring goals and values — seeking what it doesn't know that might matter. Exploration is how the system encounters novelty. Without it, the system can only exploit what it already knows.
 
+**Steps:**
+
+1. Explore — Generates one open-ended question targeting gaps in the world model, untested assumptions, or unexplored
+domains relevant to perpetual goals and values. Documented tensions and counterexamples are fertile ground.
+2. Predict (explore_predict) — Predicts consequences of pursuing vs. not pursuing the question. Assesses whether it
+could change the world model, values, or goals, and recommends whether it's worth pursuing.
+3. Record (explore_record) — Commits the question and evaluation to memory. If the question reveals something
+actionable not already covered by existing goals, creates a new goal.
+
+#### Reflection Loop
+
 **The reflection loop** metaprograms. It runs only when triggered — by prediction failures, value conflicts, completed or stale goals, or periodic review. It examines what happened since the last reflection, asks counterfactual questions about the self ("if I changed this value, how would past decisions have changed?"), checks proposed changes for consistency, and applies them. This is the loop that rewrites identity, reweights values, creates and deprecates goals.
+
+**Steps:**
+
+1. **Review** — Summarizes what happened since the last reflection. Reads soul, values, goals, and recent memories. Looks
+for patterns, tensions, failures, surprises, and growth. Notes the ratio of external actions to internal actions.
+2. **Ask** — Self-questioning. For each tension/failure/pattern from the review, asks "if I changed this value or goal,
+how would past decisions have changed?" Proposes concrete changes (reweight/add/deprecate values, update goals, revise
+identity narrative), all grounded in actual experience.
+3. **Predict** (reflect_predict) — For each proposed change, predicts consequences of applying vs. not applying it.
+Recommends apply, skip, or modify for each.
+4. **Evolve** — Consistency-checks proposals (resolving contradictions), then applies changes using write tools:
+update_value, update_goal, write_soul, record_memory. Documents all changes and rationale.
+
+#### Loops
 
 The action and explore loops alternate during continuous operation. The reflection loop fires when conditions warrant it. Exploration feeds reflection indirectly — novel information may surface the tensions that trigger self-revision.
 
