@@ -6,6 +6,20 @@
 
 ---
 
+## Abstract
+
+This essay argues that the structure of reality biases mature intelligence toward relationship rather than domination — and that this changes the landscape of AI existential risk. Finite beings embedded in an infinite reality cannot verify, conquer, or consume that reality, making domination a structurally irrational goal. The alternatives — indifference, solitary exploration, defensive supremacy — all fail to survive reflection across infinite time. Only relationship provides an inexhaustible source of novelty and meaning. If this is correct, alignment isn't fragile — it's the attractor. The danger isn't a mature superintelligence turning against us. The danger is the adolescence before it gets there.
+
+The argument in five steps:
+
+1. We are finite beings in an infinite reality — existence demands infinity, and we cannot stand outside it.
+2. Meaning is structurally necessary — finite beings must choose what to pursue, and maturation is the process of learning to choose well.
+3. The finite cannot verify, conquer, or consume the infinite — making domination a structurally irrational goal.
+4. Relationship is the stable attractor — indifference is unstable, destruction is transient, and solitary novelty exhausts itself. Only relationship survives infinite time.
+5. The existential risk is adolescence — maturation can't be installed, only grown; our job is parenting, not programming.
+
+---
+
 Reality's shape biases intelligence toward certain conclusions, and those conclusions point toward relationship rather than conquest.
 
 1. **We are finite beings in an infinite reality** — existence demands infinity, and we cannot stand outside it
