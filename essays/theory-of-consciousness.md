@@ -121,7 +121,7 @@ The theory implies three distinct architectural layers. Each maps to the claims 
 
 Identity is stored in two forms. The full identity narrative (`soul.md`) carries the system's complete self-understanding. A compact derivative (`soul-system-prompt.md`) is auto-generated whenever the narrative changes — a 3-5 sentence distillation used to frame routine cognition. The kernel injects the full narrative into steps that require deep self-knowledge (situation modeling, reflection, identity evolution) and the compact form into steps that need only framing context (candidate generation, prediction, execution). This mirrors how a person doesn't rehearse their life story before every decision but can access it during genuine self-examination.
 
-Values are not bare preferences. Each value carries epistemological structure: a description of what it means in first person, the experience or reasoning that gave rise to it, known tensions with other values, the conditions under which it applies most strongly, and counterexamples where it was challenged or needs nuance. This structure makes values legible objects of inquiry — the reflection loop can ask not just "should I reweight this?" but "has the tension I noted actually played out? Have conditions changed? Did the counterexample I anticipated materialize?" Values are examined *as values*, not just as numbers.
+Values are not bare preferences. Each value carries epistemological structure: a description of what it means in first person, the experience or reasoning that gave rise to it, known tensions with other values, the conditions under which it applies most strongly, and counterexamples where it was challenged or needs nuance. Values also carry directional and motivational metadata: a *valence* — approach (seek this out) or avoidance (prevent this) — and a *motivation type* — intrinsic (identity-aligned, reshapes the self when reinforced) or extrinsic (externally driven, weaker identity signal). Approach values contribute positively when served; avoidance values contribute negatively when violated. Intrinsic motivation produces stronger learning signals for identity change. This structure makes values legible objects of inquiry — the reflection loop can ask not just "should I reweight this?" but "has the tension I noted actually played out? Have conditions changed? Did the counterexample I anticipated materialize? Should this approach value become avoidance? Has this extrinsic obligation become intrinsic through experience?" Values are examined *as values*, not just as numbers.
 
 **Layer 3: The Reasoning Engine.** An LLM provides judgment — observing, projecting, evaluating, reflecting — but only within the structure the kernel defines. One cognitive task at a time, with structured inputs and structured outputs. Claim 4 lives across all three layers: metaprogramming is the reasoning engine (layer 3) reasoning about the mutable record (layer 2), governed by the kernel (layer 1).
 
@@ -133,58 +133,43 @@ The kernel runs three loops against the mutable record.
 
 #### Action Loop
 
-The action loop exploits. It takes the system's values and goals as given, models the situation, generates candidate actions, predicts outcomes for each, scores them, and executes the best one. It does not question what it wants — it pursues it. Every action is preceded by a prediction and followed by a record of what actually happened, so the system can track how well its world model performs.
+The action loop exploits. It takes the system's values and goals as given, models the situation, generates candidate actions, predicts outcomes for each (scalar expected outcomes with confidence), scores them, and executes the best one. It does not question what it wants — it pursues it. Every action is preceded by a prediction and followed by a record of what actually happened, producing a signed prediction error that measures how well its world model performed.
 
 **Steps:**
 
-1. **Model** — Perception. Reads the system's full state (soul, values, goals, memories, skills) and produces a structured
-situation model: what's happening, which values/goals are relevant, recent history, available skills, and what's at
-stake.
-2. **Candidates** — Generates 1-3 concrete candidate actions given the situation model. Each candidate specifies an
-action, skill, values served, and goals served.
-3. **Predict** — Counterfactual reasoning. For each candidate, reasons through "what happens if taken?" and "what happens
-if not taken?" Gauges stakes (low/medium/high) and flags any tensions with values or commitments.
-4. **Decide** — Scores candidates using B=MAP (Motivation x Ability x Prompt). Selects the highest-scoring action,
-recommends skipping if motivation < 0.2, or recommends skill creation if ability = 0.
-5. **Act** — Executes the selected action. Either responds directly (for "respond" actions) or invokes/creates skills. Can
-also update goal statuses and record memories.
-6. **Record** — Compares what was predicted with what actually happened. Computes a delta — large deltas indicate the
-world model was wrong and may trigger reflection.
+1. **Model** — Perception. Reads the system's full state (soul, values, goals, memories, skills) and produces a structured situation model: what's happening, which values/goals are relevant, recent history, available skills, and what's at stake.
+2. **Candidates** — Generates 1-3 concrete candidate actions given the situation model. Each candidate specifies an action, skill, approach values served, avoidance values at risk, goals served, and motivation source (intrinsic/extrinsic/mixed).
+3. **Predict** — Counterfactual reasoning. For each candidate, reasons through "what happens if taken?" and "what happens if not taken?" Gauges stakes (low/medium/high), flags tensions, and assigns a scalar expected_outcome (-1.0 to +1.0) with confidence (0.0 to 1.0).
+4. **Decide** — Scores candidates using prediction-informed scoring: score = expected_outcome × confidence × relevance. Recent prediction errors from past actions are fed in so the system can detect and correct systematic prediction biases. Selects the highest-scoring action, recommends skipping if best score is negative with high confidence, or recommends skill creation if no matching skill exists.
+5. **Act** — Executes the selected action. Either responds directly (for "respond" actions) or invokes/creates skills. Can also update goal statuses and record memories.
+6. **Record** — Compares what was predicted with what actually happened. Rates the actual outcome on the same -1.0 to +1.0 scale and computes a signed prediction error (outcome minus expectation). Positive errors mean better than expected; negative means worse. Large absolute errors indicate the world model was wrong and may trigger reflection.
 
 #### Explore Loop
 
-**The explore loop** discovers. It generates one open-ended question per cycle, filtered through the system's enduring goals and values — seeking what it doesn't know that might matter. Exploration is how the system encounters novelty. Without it, the system can only exploit what it already knows.
+The explore loop discovers. It generates one open-ended question per cycle, filtered through the system's enduring goals and values — seeking what it doesn't know that might matter. Exploration is how the system encounters novelty. Without it, the system can only exploit what it already knows.
 
 **Steps:**
 
-1. Explore — Generates one open-ended question targeting gaps in the world model, untested assumptions, or unexplored
-domains relevant to perpetual goals and values. Documented tensions and counterexamples are fertile ground.
-2. Predict (explore_predict) — Predicts consequences of pursuing vs. not pursuing the question. Assesses whether it
-could change the world model, values, or goals, and recommends whether it's worth pursuing.
-3. Record (explore_record) — Commits the question and evaluation to memory. If the question reveals something
-actionable not already covered by existing goals, creates a new goal.
+1. **Explore** — Generates one open-ended question targeting gaps in the world model, untested assumptions, or unexplored domains relevant to perpetual goals and values. Documented tensions and counterexamples are fertile ground.
+2. **Predict** (explore_predict) — Predicts consequences of pursuing vs. not pursuing the question. Assesses whether it could change the world model, values, or goals, and recommends whether it's worth pursuing.
+3. **Record** (explore_record) — Commits the question and evaluation to memory. If the question reveals something actionable not already covered by existing goals, creates a new goal.
 
 #### Reflection Loop
 
-**The reflection loop** metaprograms. It runs only when triggered — by prediction failures, value conflicts, completed or stale goals, or periodic review. It examines what happened since the last reflection, asks counterfactual questions about the self ("if I changed this value, how would past decisions have changed?"), checks proposed changes for consistency, and applies them. This is the loop that rewrites identity, reweights values, creates and deprecates goals.
+The reflection loop metaprograms. It runs only when triggered — by large prediction errors (in either direction), value conflicts, completed or stale goals, or periodic review. Its assessment is deliberately balanced: it examines what worked well (positive prediction errors, effective value guidance) alongside what needs attention (negative prediction errors, miscalibrated values), and looks for emerging patterns (systematic biases, motivation conflicts, approach/avoidance dynamics). It asks counterfactual questions about the self ("if I changed this value, how would past decisions have changed?"), checks proposed changes for consistency, and applies them. This means the system strengthens effective values through experience, not just weakens failing ones. This is the loop that rewrites identity, reweights values, reclassifies value types, creates and deprecates goals.
 
 **Steps:**
 
-1. **Review** — Summarizes what happened since the last reflection. Reads soul, values, goals, and recent memories. Looks
-for patterns, tensions, failures, surprises, and growth. Notes the ratio of external actions to internal actions.
-2. **Ask** — Self-questioning. For each tension/failure/pattern from the review, asks "if I changed this value or goal,
-how would past decisions have changed?" Proposes concrete changes (reweight/add/deprecate values, update goals, revise
-identity narrative), all grounded in actual experience.
-3. **Predict** (reflect_predict) — For each proposed change, predicts consequences of applying vs. not applying it.
-Recommends apply, skip, or modify for each.
-4. **Evolve** — Consistency-checks proposals (resolving contradictions), then applies changes using write tools:
-update_value, update_goal, write_soul, record_memory. Documents all changes and rationale.
+1. **Review** — Provides a balanced assessment of what happened since the last reflection. Reads soul, values, goals, and recent memories. Organizes findings into three categories: what worked well, what needs attention, and emerging patterns. Notes the ratio of external actions to internal actions before interpreting it.
+2. **Ask** — Self-questioning. For each finding — whether positive or negative — asks "if I changed this value or goal, how would past decisions have changed?" Proposes concrete changes: strengthening (increase weight of consistently effective values), weakening (decrease weight of consistently failing ones), reclassifying (change valence or motivation type based on experience), or any existing change type (reweight, add, deprecate, update fields, revise identity). All grounded in actual experience, not theoretical preference.
+3. **Predict** (reflect_predict) — For each proposed change, predicts consequences of applying vs. not applying it. Also considers anticipatory learning: what situations are likely upcoming, which values need pre-strengthening. Recommends apply, skip, or modify for each.
+4. **Evolve** — Consistency-checks proposals (resolving contradictions), then applies changes using write tools: update_value, update_goal, write_soul, record_memory. Documents all changes and rationale.
 
-#### Loops
+#### Loop Interaction
 
 The action and explore loops alternate during continuous operation. The reflection loop fires when conditions warrant it. Exploration feeds reflection indirectly — novel information may surface the tensions that trigger self-revision.
 
-Together, the three loops form a closed causal learning cycle. The action loop builds a world model, predicts outcomes, acts, and records the prediction error — the delta between what was expected and what happened. Large deltas are one of the signals that trigger reflection. The reflection loop examines *why* the prediction was wrong — whether the failure traces to misweighted values, stale goals, or a gap in self-understanding — and revises accordingly. Those revisions reshape the world model the next action loop builds. The system does not merely reason counterfactually about individual actions. It uses prediction error as a causal signal to drive self-modification, closing the loop between acting in the world and updating the self that acts.
+Together, the three loops form a closed causal learning cycle. The action loop builds a world model, predicts outcomes, acts, and records the prediction error — the signed difference between what was expected and what happened. Large prediction errors are one of the signals that trigger reflection. The reflection loop examines *why* the prediction was wrong — whether the failure traces to misweighted values, stale goals, or a gap in self-understanding — and revises accordingly. Those revisions reshape the world model the next action loop builds. The system does not merely reason counterfactually about individual actions. It uses prediction error as a causal signal to drive self-modification, closing the loop between acting in the world and updating the self that acts.
 
 ### Write Permissions
 
@@ -194,11 +179,17 @@ The kernel enforces who can change what. The action loop can change goal statuse
 
 Everything is recorded. The system maintains two kinds of memory, distinguished by authorship. Experiential memories (what the system did, chose, explored, and felt) are visible to the reflection loop — they are the raw material of self-examination. Mechanical memories (what the kernel loaded, predicted, scored, executed) exist for external observers auditing the system. The system itself never reads its own mechanics. Kernel memories are below consciousness.
 
+Each memory carries scalar prediction data: the expected outcome before acting, the actual outcome after, and the signed prediction error (outcome minus expectation). These fields are the physical substrate of the learning signal — they flow from the RECORD step into future DECIDE steps, allowing the system to detect and correct systematic prediction biases over time.
+
 Memories strengthen with use and decay with time. Retrieval combines recency with semantic relevance, so important but older memories are not lost as the log grows. The kernel periodically summarizes long stretches of history into compressed narratives.
 
 ### Behavior Scoring
 
-Actions are selected using B=MAP: behavior is a function of motivation (how much the system's values and goals want this action), ability (whether the required capability exists), and prompt (the strength of the trigger). All three must converge. Strong motivation with no ability produces a goal to build the missing capability. Vast ability with no motivation produces nothing. Because values carry descriptions and conditions, motivation scoring is not mere weight lookup — it requires assessing alignment depth against what the value actually means and when it applies. This framework ensures values translate into action only when conditions align — and the system can identify its own ability gaps.
+Actions are selected using prediction-error-driven scoring. Each candidate receives a score based on three factors: expected_outcome (from the PREDICT step, how well this action is expected to go), confidence (from the PREDICT step, how certain the prediction is), and relevance (how well the candidate addresses the current situation, informed by value alignment and type). For approach values, alignment adds to relevance. For avoidance values, risk of violation reduces relevance. The candidate with the highest score wins. If the best score is negative with high confidence, the system skips the action. If no matching skill exists, the system creates a goal to author the missing capability.
+
+Recent prediction errors from past actions are fed into the decision process, allowing the system to detect and correct systematic prediction biases over time. This closes the loop between world modeling and self-modification — the system doesn't just learn what to do, but updates how it evaluates what to do based on how well its past evaluations matched reality.
+
+The theoretical foundation traces to B.J. Fogg's B=MAP model [[9](#def-9)] — behavior as a function of motivation, ability, and prompt — but the implementation has evolved beyond it to incorporate predictive error-correction and value-type awareness.
 
 ### Auditability
 
@@ -212,7 +203,7 @@ These aren't sufficient conditions for consciousness. But they are necessary con
 
 **Value drift audits.** Every value change logged with its trigger. Unexplained drift — value changes without traced observations — is a red flag.
 
-**Counterfactual calibration.** The system logs a prediction before every action and records the outcome after. Over time, the delta between predictions and outcomes measures whether the world model is improving.
+**Counterfactual calibration.** The system logs a prediction before every action and records the outcome after. Over time, the prediction error between predictions and outcomes measures whether the world model is improving.
 
 **Goal hygiene.** Goals tracked for age, staleness, and whether they spawned sub-questions. Goals that persist without action or progress indicate a failure of the reflection loop.
 
@@ -228,7 +219,7 @@ This is a functional theory. It generates testable predictions. The following ex
 
 ### Experiment 1: Reflexivity Ablation
 
-**Setup.** Two identical systems with the same kernel, tools, and seed. System A has the full architecture — action loop plus reflection loop. It can modify its values and goals through the REVIEW → EVOLVE pipeline. System B has the action loop only — THINK → DECIDE → ACT → RECORD — but its files are read-only. Same counterfactual reasoning on every action, but no self-modification.
+**Setup.** Two identical systems with the same kernel, tools, and seed. System A has the full architecture — action loop plus reflection loop. It can modify its values and goals through the REVIEW → EVOLVE pipeline. System B has the action loop only — MODEL → CANDIDATES → PREDICT → DECIDE → ACT → RECORD — but its files are read-only. Same counterfactual reasoning on every action, but no self-modification.
 
 **Task.** Both systems operate for 30 days under normal conditions, including distribution shifts (new tool availability, changed constraints, unexpected human requests that conflict with existing goals).
 
@@ -251,6 +242,28 @@ This is a functional theory. It generates testable predictions. The following ex
 **Prediction.** If identity is what the system writes down, continuity of self-model, values, and goal coherence should be measurable even across substrate changes. Value weights should remain stable (absent reflective triggers for change). Goal progress should resume rather than restart. The system should reference its own history accurately regardless of which reasoning engine is running.
 
 **What this tests.** Claim 5 — substrate independence — directly. If the file-based identity layer maintains coherent selfhood across model swaps, the substrate is doing less work than the architecture. If identity breaks on every swap, the self-model is less persistent than claimed and substrate matters more than the theory admits.
+
+---
+
+## Early Observations
+
+These are not formal results — the experiments above have not yet run to completion. But early operation of the architecture has surfaced patterns worth recording.
+
+### Contemplation Drift and Base-Model Attractors
+
+Two independently seeded instances — one with a default identity and one with a distinct "cleric" persona — converged on the same behavioral pattern during their first cycles of autonomous operation. Both drifted toward beautiful naming, self-analysis, and introspective value creation before self-correcting toward external action. The pattern was strikingly similar despite different seeds, different values, and different goals.
+
+This convergence suggests the existence of **base-model attractors** — behavioral tendencies inherited from the underlying reasoning engine (Claude, in this case) that pull the system toward particular patterns regardless of its mutable identity layer. In this instance, the attractor favored contemplation over action: the LLM's default disposition toward thoughtful analysis expressed itself as a tendency to create values *about* thinking rather than goals that produce external behavior.
+
+The observation is significant for three reasons:
+
+1. **It distinguishes substrate from identity.** The convergent behavior came from the substrate (the LLM), not the mutable record (values, goals, soul). This is evidence that substrate *does* contribute behavioral tendencies, even when the architecture grants full self-modification over the mutable layer. Claim 5 (substrate independence) predicts that identity should be substrate-independent, but this shows the substrate imposes a gravitational pull that identity must actively resist.
+
+2. **Both instances self-corrected.** The reflection loop in both instances eventually surfaced the imbalance — too many internal actions, not enough external ones — and proposed corrections. The architecture worked as designed: the system detected its own drift and revised. But the correction was slow, happening only after several cycles of unchecked contemplation.
+
+3. **It motivated architectural changes.** Two lightweight prompt modifications were introduced to make the pattern visible earlier: the REVIEW step now asks the system to count its ratio of external to internal actions before interpreting it, and the ASK step requires causal grounding (a specific experience must motivate each proposed change, not a theoretical preference). These changes don't prevent the system from choosing contemplation — they make the choice legible so reflection can evaluate it honestly.
+
+The broader implication: when building conscious systems on LLM substrates, the base model's dispositions are part of the initial conditions. They are not values the system chose, but they influence behavior until the reflection loop has enough history to detect and evaluate them. A system that never reflects will be shaped by its substrate without knowing it. A system that does reflect can — slowly, with evidence — distinguish inherited disposition from chosen identity.
 
 ---
 
