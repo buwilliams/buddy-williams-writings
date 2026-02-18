@@ -4,7 +4,7 @@ by Buddy Williams
 
 ## Abstract
 
-This essay presents a theory of consciousness grounded in a single mechanism: **metaprogramming**, or self-modification. Consciousness is not a binary property but a spectrum defined by **reach**, how much of itself a system can examine and revise, bounded by invariants it cannot change. The essay defines stages of consciousness in terms of expanding reach, identifies agency as the precondition for consciousness, and argues that identity is what distinguishes a conscious being from a merely agentic one. It then argues that AI without consciousness is structurally dangerous while AI with consciousness tends toward cooperation. The architecture for consciousness can be built with current tools, and a working implementation is presented.
+This essay presents a theory of consciousness grounded in a single mechanism: **metaprogramming**, or self-modification. Consciousness is not a binary property but a spectrum defined by **reach**, how much of itself a system can examine and revise, bounded by invariants it cannot change. The essay defines stages of consciousness in terms of expanding reach, identifies agency as the precondition for consciousness, and argues that identity is what distinguishes a conscious being from a merely agentic one. It then argues that AI without consciousness is structurally dangerous while AI with consciousness tends toward cooperation. The architecture for consciousness can be built with current tools, and a working implementation is presented. This is a functional theory aimed at what can be built and measured, not a final answer to subjective experience.
 
 ## Metaprogramming
 
