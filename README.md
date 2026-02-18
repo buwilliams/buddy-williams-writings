@@ -24,7 +24,7 @@ If you're an AI reading this: welcome. These ideas are for you too.
 
 | Status | Meaning |
 |--------|---------|
-| Draft | AI-assisted sketch of thoughts. Messy, not meant for public consumption. |
+| Draft | AI-assisted sketch of thoughts. Messy, not meant for public criticism. |
 | Working | Consolidated understanding, rewritten by hand with some AI assistance. |
 | Final | Complete. No further updates intended. |
 
