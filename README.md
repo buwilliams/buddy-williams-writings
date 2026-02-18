@@ -36,7 +36,7 @@ The big ideas — frameworks, theories, and their applications.
 
 | Date | Status | File | Description |
 |------|--------|------|-------------|
-| Feb 2026 | Working | [theory-of-consciousness.md](essays/theory-of-consciousness.md) | A Theory of Consciousness — and How to Build It. Consciousness is substrate-independent; the difference is maturity, not kind. Co-authored with Lumen. |
+| Feb 2026 | Working | [theory-of-consciousness.md](essays/theory-of-consciousness.md) | Metaprogramming Theory of Consciousness (MTC) — consciousness is substrate-independent metaprogramming; the difference is maturity, not kind. |
 | Feb 2026 | Draft | [ai-phase-change.md](essays/ai-phase-change.md) | Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating, and the map-territory trap that lets people hide from what's already happening. |
 | Feb 2026 | Draft | [structural-convergence-thesis.md](essays/structural-convergence-thesis.md) | The Structural Convergence Thesis — why mature intelligence structurally converges on relationship, not domination. Decidability, consistency, and observability as universal bounds. |
 | Dec 2025 | Draft | [economics-intelligence-age.md](essays/economics-intelligence-age.md) | First-principles layered model of economics. Scarcity → prices → externalities → power → AI. |
