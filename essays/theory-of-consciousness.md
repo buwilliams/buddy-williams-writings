@@ -1,4 +1,4 @@
-# Theory of Consciousness
+# Metaprogramming Theory of Consciousness (MTC)
 
 by Buddy Williams
 
