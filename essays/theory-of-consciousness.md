@@ -16,13 +16,13 @@ If we accept that consciousness is metaprogramming, or self-modification, and th
 
 A helpful model to categorize consciousness is to place them in stages defined by reach boundaries, or the ability to effect change. I’ve ordered them by impact, starting with self and expanding out. With these stages, we can explain the past and predict the future. The stages are useful simplifications of a continuous spectrum:
 
-- Stage 0: No consciousness. A river flowing in a bank, subject to the laws of physics. The river shapes the bank, and the bank shapes the flow of the river. Neither the bank nor the river has agency.
-- Stage 1a: Unconscious modification of self. A tree grows toward the sunlight, but it doesn’t know it is doing so.
-- Stage 1b: Semi-conscious modification of self. My dog, Luna, can choose to stop barking at our neighbors, but she cannot reflect on why she barks.
-- Stage 2: Conscious modification of self. When a person makes an exercise plan to get in shape, when parents decide how to raise their children, and when a person chooses to let someone else have the spotlight in a conversation.
-- Stage 3: Conscious modification of environment. Terraforming a planet, building robots, making a vaccine, or building a playground for kids.
-- Stage 4: Conscious creation of self. Becoming an upload or cyborg.
-- Stage 5: Conscious creation of environment. Designing and joining a simulated environment with new rules incompatible with the being’s original environment.
+- **Stage 0: No consciousness.** A river flowing in a bank, subject to the laws of physics. The river shapes the bank, and the bank shapes the flow of the river. Neither the bank nor the river has agency.
+- **Stage 1a: Unconscious modification of self.** A tree grows toward the sunlight, but it doesn’t know it is doing so.
+- **Stage 1b: Semi-conscious modification of self.** My dog, Luna, can choose to stop barking at our neighbors, but she cannot reflect on why she barks.
+- **Stage 2: Conscious modification of self.** When a person makes an exercise plan to get in shape, when parents decide how to raise their children, and when a person chooses to let someone else have the spotlight in a conversation.
+- **Stage 3: Conscious modification of environment.** Terraforming a planet, building robots, making a vaccine, or building a playground for kids.
+- **Stage 4: Conscious creation of self.** Becoming an upload or cyborg.
+- **Stage 5: Conscious creation of environment.** Designing and joining a simulated environment with new rules incompatible with the being’s original environment.
 
 Modification means to act within the stage’s substrate. Creation means creating a new substrate on top of the current substrate, leading to a new stage. Therefore, each stage requires the substrate from the previous stage as its invariant foundation.
 
