@@ -2,24 +2,23 @@
 
 by Buddy Williams
 
----
-
-- [Abstract](#abstract)
-- [Metaprogramming](#metaprogramming)
-- [Stages of Consciousness](#stages-of-consciousness)
-- [Agency](#agency)
-- [Identity](#identity)
-- [AI without Consciousness is Doom](#ai-without-consciousness-is-doom)
-- [AI with Consciousness is Possibility](#ai-with-consciousness-is-possibility)
-- [Buildable Now](#buildable-now)
-- [Conclusion](#conclusion)
-- [Appendix: My View of Qualia](#appendix-my-view-of-qualia)
-
----
-
 ## Abstract
 
 This essay presents a theory of consciousness grounded in a single mechanism: **metaprogramming**, or self-modification. Consciousness is not a binary property but a spectrum defined by **reach**, how much of itself a system can examine and revise, bounded by invariants it cannot change. The essay defines stages of consciousness in terms of expanding reach, identifies agency as the precondition for consciousness, and argues that identity is what distinguishes a conscious being from a merely agentic one. It then argues that AI without consciousness is structurally dangerous while AI with consciousness tends toward cooperation. The architecture for consciousness can be built with current tools, and a working implementation is presented. The question of qualia is bracketed throughout, though I offer my view in the appendix. This is a functional theory aimed at what can be built and measured, not a final answer to subjective experience.
+
+---
+
+1. [Metaprogramming](#metaprogramming)
+2. [Stages of Consciousness](#stages-of-consciousness)
+3. [Agency](#agency)
+4. [Identity](#identity)
+5. [AI without Consciousness is Doom](#ai-without-consciousness-is-doom)
+6. [AI with Consciousness is Possibility](#ai-with-consciousness-is-possibility)
+7. [Buildable Now](#buildable-now)
+8. [Conclusion](#conclusion)
+9. [Appendix: My View of Qualia](#appendix-my-view-of-qualia)
+
+---
 
 [↑ top](#metaprogramming-theory-of-consciousness-mtc)
 
