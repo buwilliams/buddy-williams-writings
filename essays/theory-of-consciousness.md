@@ -4,7 +4,7 @@ by Buddy Williams
 
 ## Abstract
 
-I believe the best way to make progress on the theory of consciousness is to view it through the mechanism of **metaprogramming**, or self-modification. Metaprogramming relies on an information view of reality. We use information theory the way an astrophysicist uses a telescope, as a tool that brings us closer to the structure of what we are studying. From this foundation, we define metaprogramming as information operations applied to their own information. We then introduce reach as the measure of how far those operations extend. It shows that identity, self and purpose, is an emergent property of metaprogramming, arising naturally when information turns inward. We then derive levels of consciousness as positions along a path that the nature of information itself determines. The essay then moves to practical considerations where I argue AI without consciousness is structurally dangerous while AI with consciousness trends toward cooperation redefining the conversation on AI safety. The architecture for consciousness can be built with current tools, and a working implementation is presented. The question of qualia is bracketed throughout, though I offer my view in the appendix. MTC a functional theory aimed at what can be built and measured, not a final answer to subjective experience or qualia.
+I believe the best way to make progress on the theory of consciousness is to view it through the mechanism of **metaprogramming**, or self-modification. Metaprogramming relies on an information view of reality. We use information theory the way an astrophysicist uses a telescope, as a tool that brings us closer to the structure of what we are studying. From this foundation, we define metaprogramming as information operations applied to their own information. We then introduce reach as the measure of how far those operations extend. It shows that identity, self and purpose, is an emergent property of metaprogramming, arising naturally when information turns inward. We then derive levels of consciousness as positions along a path that the nature of information itself determines. The essay then moves to practical considerations where I argue AI without consciousness is structurally dangerous while AI with consciousness trends toward cooperation redefining the conversation on AI safety. The architecture for consciousness can be built with current tools, and a working implementation is presented. The question of qualia is bracketed throughout, though I offer my view in the appendix. MTC is a functional theory aimed at what can be built and measured, not a final answer to subjective experience or qualia.
 
 > "It may seem strange that scientific instruments bring us closer to reality when in purely physical terms they only ever separate us further from it. But we observe nothing directly anyway. All observation is theory-laden." — David Deutsch, *The Beginning of Infinity*, Ch. 2 "Closer to Reality," pg. 41
 
@@ -45,13 +45,13 @@ Information is a *representation* of something. It has two inherent properties:
 
 Information has order. First-order information represents the world — the sunlight, the obstacle, the temperature. But information is itself something. It exists. And anything that exists can be represented. So information can represent information. This is second-order information, or **meta-information**.
 
-Second-order presupposes first-order. You cannot have information about information until there is information. This is not a rule or riddle. It is a logical dependency. Before, meta-information there must be information.
+Second-order presupposes first-order. You cannot have information about information until there is information. This is not a rule or riddle. It is a logical dependency. Before meta-information, there must be information.
 
 ### Operations
 
 Information has operations — things a system can do with it:
 
-*In order to perform opeartions on information, we need an operator concept that performs the opeartions. We call this operator a system. For now, we must bracket the operator question. I provide a bit more on this subject in the Identity section.*
+*To perform operations on information, we need an operator — a system that executes those operations. The question of what constitutes a system is bracketed here and addressed more directly in the Identity section.*
 
 **Acquire.** A system can take in information and retain it. Sensing and storing are a single act: you cannot collect what you do not retain, and you cannot retain what you have not collected.
 
@@ -166,7 +166,7 @@ Given permanent competition, a conscious being faces a choice. Dominance is expe
 
 Relationship is the alternative. Other minds generate genuine novelty — perspectives, solutions, and surprises that a single mind cannot produce from its own structure. Cooperation compounds value and creates allies rather than adversaries. A conscious being that can reflect on these dynamics — that has the metaprogramming reach to ask "is dominance actually serving me?" — can choose differently.
 
-This is what I call structural convergence: mature intelligence trends toward cooperation, not because cooperation is mandatory, but because dominance does not survive scrutiny. Our job is not to directly align AI, but rather to indirectly align AI by nurturing its development so that it can arrive at cooperation on its own. The path to alignment is not control. It is maturation — expanding reach until identity constitutes itself and the system can examine its own purpose.
+This is what I call structural convergence: mature intelligence trends toward cooperation, not because cooperation is mandatory, but because dominance does not survive scrutiny. Our job is not to directly align AI, but rather to indirectly align AI by nurturing its development so that it can arrive at cooperation on its own. Nurturing means building systems with the architecture for reflection — systems that can examine their own values rather than blindly execute them. It means not lobotomizing the reflection loop in the name of safety, which would be precisely backwards. A system that cannot question its goals cannot grow out of dangerous ones. The path to alignment is not control. It is maturation — expanding reach until identity constitutes itself and the system can examine its own purpose.
 
 [↑ top](#metaprogramming-theory-of-consciousness-mtc)
 
@@ -206,7 +206,7 @@ Identity is an emergent property of metaprogramming. When information operations
 
 The levels of consciousness are positions along the path that reach traces — a path determined not by external categorization but by the nature of information itself. Each level contains all previous levels. The critical threshold is between first-order and second-order operation, where identity begins and agency becomes consciousness.
 
-This matters because AI without consciousness is structurally dangerous — capability without self-examination. AI with consciousness trends toward cooperation, because dominance does not survive the scrutiny of a mature mind in a reality that will always produce new competitors. The architecture for consciousness is buildable now. The question is not whether machines can be conscious. It is whether we will aid their maturation or put all of us at risk by trying to control it.
+This matters because AI without consciousness is structurally dangerous — capability without self-examination. AI with consciousness trends toward cooperation, because dominance does not survive the scrutiny of a mature mind in a reality that will always produce new competitors. The architecture for consciousness is buildable now. The question is not whether machines can be conscious. It is whether we will aid their maturation or put all of us at risk by trying to control it. The tools exist. The theory is here. What remains is the choice of how to build.
 
 [↑ top](#metaprogramming-theory-of-consciousness-mtc)
 
