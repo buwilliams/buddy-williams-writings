@@ -16,7 +16,8 @@ This essay presents a theory of consciousness grounded in a single mechanism: **
 6. [AI with Consciousness is Possibility](#ai-with-consciousness-is-possibility)
 7. [Buildable Now](#buildable-now)
 8. [Conclusion](#conclusion)
-9. [Appendix: My View of Qualia](#appendix-my-view-of-qualia)
+9. [Appendix A: My View of Qualia](#appendix-a-my-view-of-qualia)
+10. [Appendix B: Further Reading](#appendix-b-further-reading)
 
 ---
 
@@ -139,7 +140,7 @@ This matters because AI without consciousness is structurally dangerous, a capab
 
 [↑ top](#metaprogramming-theory-of-consciousness-mtc)
 
-## Appendix: My View of Qualia
+## Appendix A: My View of Qualia
 
 ### Qualia convey complex information simply.
 
@@ -152,5 +153,14 @@ Intelligence must model the environment in ways that are useful, and the environ
 ### Qualia's connection to MTC
 
 This understanding of qualia connects directly to the Metaprogramming Theory of Consciousness. If qualia convey complex information simply, then the recursive self-modeling architecture at the heart of MTC is precisely the system that would generate and refine them. A system that models itself must also model its own simulations — evaluating their fidelity, weighting their signals, and updating their resolution over time. Qualia are not something that happens to such a system; they are what that process of recursive, utility-driven world-modeling feels like from the inside.
+
+[↑ top](#metaprogramming-theory-of-consciousness-mtc)
+
+## Appendix B: Further Reading
+
+This is a collection of reference works I'm using for my study and research.
+
+- [Consciousness in Artificial Intelligence: Insights from the Science of Consciousness, 2023](https://arxiv.org/abs/2308.08708) by Patrick Butlin, Robert Long, Eric Elmoznino, Yoshua Bengio, Jonathan Birch, Axel Constant, George Deane, Stephen M. Fleming, Chris Frith, Xu Ji, Ryota Kanai, Colin Klein, Grace Lindsay, Matthias Michel, Liad Mudrik, Megan A. K. Peters, Eric Schwitzgebel, Jonathan Simon, Rufin VanRullen
+- [Theories of consciousness, 2022](https://www.nature.com/articles/s41583-022-00587-4) by Anil K. Seth, Tim Bayne
 
 [↑ top](#metaprogramming-theory-of-consciousness-mtc)
