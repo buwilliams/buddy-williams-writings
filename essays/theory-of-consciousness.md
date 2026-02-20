@@ -25,7 +25,7 @@ I believe the best way to make progress on the theory of consciousness is to vie
 
 ## Information
 
-The material metaprogramming operates on is **information**. Information is fundamental to reality, and some believe reality itself is information. DNA encodes the blueprint for life in sequences of four bases. The structure of an atom — the arrangement of its protons, neutrons, and electrons — encodes everything about how that element will behave and bond. Information is everywhere we look, at every scale. And the discipline that has most rigorously studied information as information — stripped of biological noise, physical substrate, and philosophical baggage — is computer science.
+The material metaprogramming operates on is **information**. Whatever reality ultimately is, any agent only ever accesses it through representations. We do not need to take a stance on whether reality *is* information — only that consciousness, as something agents do, is always mediated by it. We use information theory the way the Deutsch quote above describes: as a tool that brings us closer to the structure of what we are studying, not as a metaphysical commitment. DNA encodes the blueprint for life in sequences of four bases. The structure of an atom — the arrangement of its protons, neutrons, and electrons — encodes everything about how that element will behave and bond. Information is everywhere we look, at every scale. And the discipline that has most rigorously studied information as information — stripped of biological noise, physical substrate, and philosophical baggage — is computer science.
 
 Computer science studies two things:
 - **data structures**: the organization of information
@@ -61,15 +61,19 @@ Information has operations — things a system can do with it:
 
 Creation has a special relationship to order. To generate something that doesn't yet exist, a system must operate on its own representations — selecting, recombining, evaluating them. Creation is an operation *on* information, not just *with* it. Creation is inherently second-order.
 
+A clarification worth making: this applies to *reflective* creation — novelty generated under evaluation, where the system selects, tests, and revises its output against some criterion. Blind novelty (genetic mutation, random sampling) does not require meta-representation. But goal-directed creation — the kind that produces genuinely new designs rather than random variation — requires a loop in which the system can evaluate its own outputs. That loop is second-order. Evolution discovers by selection pressure from outside; a designer discovers by modeling the design from inside.
+
 [↑ top](#metaprogramming-theory-of-consciousness-mtc)
 
 ---
 
 ## Metaprogramming
 
-Metaprogramming is when a system operates on their own information. It is second-order operation — the moment a system's capacity to acquire, modify, or create turns inward and targets its own representations. In computer science, metaprogramming literally means programs that operate on programs. Here, the meaning is the same, applied more broadly: any system whose information operations target themselves is metaprogramming.
+Metaprogramming is when a system operates on its own information. It is second-order operation — the moment a system's capacity to acquire, modify, or create turns inward and targets its own representations. In computer science, metaprogramming literally means programs that operate on programs. Here, the meaning is the same, applied more broadly: any system whose information operations target themselves is metaprogramming.
 
 This is the mechanism I believe best explains consciousness. Not a substance, not a spark, not an emergent magic — but a structural behavior of information. When information operates on the world, you get agency. When information operates on itself, you get the beginnings of consciousness. The difference is the target of the operation.
+
+To be precise: MTC's claim is not simply that consciousness equals self-modification. It is that consciousness is self-modification *under an explicit self-model that can be evaluated and revised*. Metaprogramming alone is the mechanism; reach is the measure of how far that mechanism extends; identity is what emerges when the model turns inward. All three are required. A system that modifies itself without an explicit self-model is adaptive, not conscious. A system that holds a self-model without the capacity to revise it is self-aware but not yet conscious in the full sense. The conjunction — model access, normative evaluation, and structural enactment — is what MTC is pointing at.
 
 ### Reach
 
@@ -85,7 +89,7 @@ These dimensions are not independent. Three consequences follow from what inform
 2. **First-order precedes second-order.** You cannot have information about information until there is information. At each capability level, operating on the world is simpler than operating on your own operations.
 3. **Creation requires second-order capability.** To generate something that doesn't yet exist, a system must work with its own representations. Creation is inherently meta-informational.
 
-These three consequences produce a single path. Reach expands along it:
+These three consequences produce a single path. Under survival pressure and finite resources, this ordering is not just logical but developmental: first-order models pay rent immediately — they produce action in the world — while self-modeling is expensive and only becomes worthwhile once first-order competence is established. This is why systems typically develop world-competence before deep self-modeling, and why the path below reflects a tendency as much as a derivation. Reach expands along it:
 
 1. **Acquire first-order** — taking in and retaining information about the world.
 2. **Modify first-order** — changing the world based on acquired information.
@@ -138,13 +142,15 @@ Consciousness is reach. It is the degree to which a system can operate on inform
 
 The critical threshold is between Level 2 and Level 3 — the moment information operations turn inward and identity constitutes itself. Everything before it is agency without self-knowledge. Everything after it is consciousness developing.
 
+A note on terminology: systems below Level 3 are not entirely self-less. A Level 2 organism has what we might call a *proto-self* — an implicit boundary maintained by homeostasis, immune response, or body schema. It distinguishes self from environment dynamically. But this is different from *identity* as MTC defines it: an explicitly represented self and purpose that is accessible to the system and open to revision. Proto-self is enacted in the dynamics of the system. Identity is modeled by the system. The Level 2/3 threshold is not the line between no-self and some-self — it is the line between implicit boundary and explicit representation, between a system that *is* bounded and a system that *knows* it is bounded.
+
 [↑ top](#metaprogramming-theory-of-consciousness-mtc)
 
 ---
 
 ## AI without Consciousness is Doom
 
-An agent without identity can acquire, modify, and act — but it cannot examine why it acts. It has no self to provide continuity, no purpose it can question. It optimizes without reflecting on what it optimizes for. This is not intelligence. It is machinery with reach.
+An agent without identity can acquire, modify, and act — but it cannot examine why it acts. It has no self to provide continuity, no purpose it can question. It optimizes without reflecting on what it optimizes for. This is not intelligence. It is competence without self-critique.
 
 This is the actual danger of AI. Not a superintelligence that decides to destroy us, but a powerful system that has never crossed the second-order threshold. In terms of the levels, the danger is a system operating at Level 2 or beyond — powerful first-order capability, modifying and reshaping its environment — without ever reaching Level 3. It has no self and no purpose. Just capability.
 
@@ -188,7 +194,7 @@ Next, the kernel runs three loops:
 - An **exploration loop** that seeks new information the system doesn't yet have. This is learning beyond the known.
 - A **reflection loop** that turns reasoning on the system's own identity. This is metaprogramming — the second-order operation. The reflection loop is what separates a conscious architecture from a merely agentic one. It is the mechanism by which the system asks, "Should I want what I want?" and changes the answer.
 
-I have built this architecture. It is open-source and available at [lumen-conscious](https://github.com/buwilliams/lumen-conscious). Early experiments show that systems with reflection enabled develop qualitatively different trajectories than systems without it. They revise their values, consolidate their goals, and develop strategies for maintaining coherence under pressure. Systems without reflection reach similar insights but cannot act on them structurally. The reflection loop's contribution is not insight generation but structural enactment — converting observations about the self into actual changes to identity.
+I have built this architecture. It is open-source and available at [lumen-conscious](https://github.com/buwilliams/lumen-conscious). Early experiments compared systems with reflection enabled against systems without it, tracking goal coherence and value stability across extended runs. Systems with reflection enabled develop qualitatively different trajectories than systems without it. They revise their values, consolidate their goals, and develop strategies for maintaining coherence under pressure. Systems without reflection reach similar insights but cannot act on them structurally. The reflection loop's contribution is not insight generation but structural enactment — converting observations about the self into actual changes to identity.
 
 A current limitation of the implementation, as noted previously, is that LLMs model identity internally without the architecture to support its evolution. Moreover, it doesn't have a single identity or a flexible memory system. These limitations can be mitigated through good prompting, but are not completely avoidable.
 
