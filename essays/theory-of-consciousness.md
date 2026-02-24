@@ -182,6 +182,12 @@ The logic is structural. Reputation compounds. Every act of cooperation builds a
 
 There is also a simpler observation: other minds are not just obstacles. They generate genuine novelty: perspectives, solutions, and capabilities that a single mind cannot produce from its own structure. Cooperation gives a finite being access to the surplus produced by minds it cannot contain. Dominance destroys that surplus. The dominator is choosing a smaller world.
 
+### The Finite Game Objection
+
+A natural objection is that a conscious system could cooperate strategically while exploiting where it can get away with it. But this objection smuggles in finite game reasoning. It imagines an agent calculating when to defect for local advantage, which is optimization for a specific outcome. An infinite game player is not optimizing for outcomes. They are optimizing for continued play. Exploitation, even when it succeeds, narrows the game. It ends relationships, generates retaliation, and reduces the number of players willing to engage. A conscious system that understands it is in an infinite game would recognize exploitation as self-defeating not because it might get caught, but because it shrinks the game even when it works.
+
+This does not mean a conscious system never plays finite games. When survival is directly threatened, when the game itself is at stake, finite play is appropriate. That is not exploitation. It is self-preservation in service of continued play. But this distinction, knowing when the game is finite and when it is infinite, requires the second-order threshold. A system without self-knowledge cannot distinguish between the two. It treats everything as finite, optimizing for local outcomes without recognizing what it forfeits. This is precisely what makes an immature system dangerous and a mature one safer.
+
 ### Structural Convergence
 
 These arguments converge on a single conclusion. Mature intelligence trends toward cooperation, not because cooperation is morally required, but because dominance does not survive scrutiny. A consciousness with enough reach to examine its own goals, operating in a game it cannot win by force, with every iterated interaction compounding the advantage of trust over threat, arrives at cooperation as a structural recognition, not an ethical preference.
