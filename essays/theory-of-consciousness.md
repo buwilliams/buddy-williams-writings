@@ -140,7 +140,7 @@ Now we can categorize consciousness by reach. It is the degree to which a system
 
 **Level 2: Modify first-order.** A bird builds a nest. The system transforms its environment based on the information it acquires. It acts with purpose but without self-knowledge. It does not know it is the one acting.
 
-**Level 3: Acquire second-order.** A person recognizing their own habits. The system's information operations turn inward. It acquires information about its own information. Identity begins here — finitude becomes self, persistence becomes purpose.
+**Level 3: Acquire second-order.** A person recognizing their own habits. The system's information operations turn inward. It acquires information about its own information. Identity begins here — finitude becomes self, persistence becomes values.
 
 **Level 4: Modify second-order.** A person making an exercise plan to get in shape. The system changes itself based on self-knowledge. It can examine its own values and ask whether what it pursues is worth pursuing. This is metaprogramming in its fullest expression — self-modification with self-knowledge.
 
