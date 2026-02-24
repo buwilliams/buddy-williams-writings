@@ -75,6 +75,8 @@ Information can be changed by a system. The type of changes that can be performe
 2. **Modify.** A system can transform information it already has. Modification presupposes acquisition. You cannot change what you have not taken in. For example, we could take "aaa" and modify it: "a" or "aa".
 3. **Create.** A system can generate representations that did not exist in acquisition. Creation presupposes modification. You cannot generate the genuinely new without the ability to transform the existing. For example, think of all the ways to combine or extend "aaa" with "bbb", you could get: "aaabbb", "ababab", "bbbaaa", "abaabb", "aaaaaaaaabaaaaaaaa", etc.
 
+The distinction matters: modification changes existing information, while creation generates new information that was not present in the inputs. A bird rearranging materials is modifying its environment. A mind combining known ideas into an idea that never existed is creating.
+
 Creation has a special relationship to order. To generate something that doesn't yet exist, a system must operate on its own representations — selecting, recombining, evaluating them. Creation is an operation on information, not just with it. Creation is inherently second-order.
 
 Now we can map information properties and operations to the real world.
