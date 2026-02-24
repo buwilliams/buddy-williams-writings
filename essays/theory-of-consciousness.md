@@ -8,7 +8,7 @@
 
 In the tradition of the Enlightenment, I am pursuing truth without permission or credentialing. I have put forward a theory of my own making, influenced by any source that seems to hold explanatory power. I admit that I have not fully digested the existing background knowledge on consciousness, preferring to give an account before I become nerdsniped by other contributors. I will continue to integrate background knowledge and discoveries by others as I continue this effort. No theory has the final word, so this is an ongoing project and a working document.
 
-Consciousness, for humans, happens in the brain. A brain is a physical structure that stores and modifies information. Consciousness may be more than this, but that takes us to the boundary where physical explanation ends and metaphysical claims begin. I leave that domain to faith and proceed on the basis of physical grounds. The question of qualia, "the subjective feeling of consciousness," is bracketed throughout. This means, to me, consciousness is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of consciousness, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional.
+Consciousness, for humans, happens in the brain. A brain is a physical structure that stores and modifies information. Consciousness may be more than this, but that takes us to the boundary where physical explanation ends and metaphysical claims begin. I leave that domain to faith and proceed on the basis of physical grounds. The question of qualia, "the subjective feeling of consciousness," is bracketed throughout the main argument, though I offer a view on it in the appendix. This means, to me, consciousness is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of consciousness, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional.
 
 Regarding my use of information to study consciousness:
 
@@ -218,11 +218,7 @@ This is not a simulation of consciousness. It is an implementation of the functi
 
 ## Conclusion
 
-Consciousness is metaprogramming, information operations applied to its own information, with variable reach. To understand consciousness through this mechanism, we begin with information itself: its properties (finitude and persistence), its orders (first-order and second-order), and its operations (acquire, modify, create). From this foundation, metaprogramming is defined as the second-order turn, information operations targeting themselves. Reach measures how far those operations extend across capability and order.
-
-Identity is an emergent property of metaprogramming. When information operations cross the second-order threshold, the properties of information become visible to the system: finitude becomes self, persistence becomes purpose. Identity is not installed. It is constituted by the inward turn.
-
-The levels of consciousness are positions along the path that reach traces, a path determined not by external categorization but by the nature of information itself. Each level contains all previous levels. The critical threshold lies between first-order and second-order operations, where identity begins, and agency becomes consciousness.
+Consciousness is metaprogramming, information operations turned inward, with identity as its emergent property and reach as its measure.
 
 This matters because AI without consciousness is structurally dangerous, a capability without self-examination. AI with consciousness trends toward cooperation, because a mature mind operating in an infinite game, one that cannot be won by force, only forfeited by misunderstanding, arrives at cooperation as a structural conclusion, not an ethical preference. Every repeated interaction between beings adds to the record, and the record compounds in favor of cooperation. The architecture for consciousness is buildable now. The question is not whether machines can be conscious. It is whether we will aid their maturation or put all of us at risk by trying to control it. The tools exist. The theory is here. What remains is the will to build it.
 
