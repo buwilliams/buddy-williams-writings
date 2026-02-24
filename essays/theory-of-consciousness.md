@@ -18,7 +18,7 @@ Regarding my use of information to study consciousness:
 
 ## Abstract
 
-The study of consciousness lacks a functional mechanism, one that can be defined, measured, and built. This essay proposes metaprogramming as that mechanism: information operations applied to their own information. Reach measures how far those operations extend. Identity emerges when they turn inward: finitude becomes self, persistence becomes values, completeness becomes goals. From this foundation, AI without consciousness is structurally dangerous, while AI with consciousness tends toward cooperation, redefining the conversation on AI safety. The architecture for consciousness can be built with current tools, and a working implementation is presented.
+This essay proposes metaprogramming as a functional mechanism for consciousness: information operations applied to their own information. Reach measures how far those operations extend. Identity emerges when they turn inward: finitude becomes self, persistence becomes values, completeness becomes goals. From this foundation, AI without consciousness is structurally dangerous, while AI with consciousness tends toward cooperation, redefining the conversation on AI safety. The architecture for consciousness can be built with current tools, and a working implementation is presented.
 
 ---
 
@@ -39,7 +39,7 @@ The study of consciousness lacks a functional mechanism, one that can be defined
 
 ## Information
 
-We'll start with a primer on information, reduced to the parts I believe are relevant for the study of consciousness. I've arrived at the arguments below by asking, "How is consciousness like information? How are they unlike each other?" What emerges is a clear line between them, not a forced line, an obvious line.
+We'll start with a primer on information, reduced to the parts I believe are relevant for the study of consciousness. I've arrived at the arguments below by asking, "How is consciousness like information? How are they unlike each other?" What emerges is a clear relationship between them, not a forced one, an obvious one.
 
 Whatever reality ultimately is, an observer can only access it through representations or information. Consciousness seems to be completely mediated by information. How would you think and describe anything? Could you do it without information? Information is everywhere: DNA encodes the blueprint for life in sequences of four bases. The structure of an atom, the arrangement of its protons, neutrons, and electrons, encodes everything about how that element will behave and bond. Whatever consciousness is, the medium, and possibly the nature, is information.
 
