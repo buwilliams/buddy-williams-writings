@@ -40,7 +40,7 @@ Metaprogramming is the most effective mechanism for advancing the study of consc
 
 We'll start with a primer on information, reduced to the parts I believe are relevant for the study of consciousness. I've arrived at the arguments below by asking, "How is consciousness like information? How are they unlike each other?" What emerges is a clear line between them, not a forced line, an obvious line.
 
-Whatever reality ultimately is, an observer can only access it through representations or information. Consciousness seems to be completely mediated by information. How would you think and describe anything? Could you do it without Information? Information is everywhere: DNA encodes the blueprint for life in sequences of four bases. The structure of an atom, the arrangement of its protons, neutrons, and electrons, encodes everything about how that element will behave and bond. Whatever consciousness is, the medium and possibly nature is Information.
+Whatever reality ultimately is, an observer can only access it through representations or information. Consciousness seems to be completely mediated by information. How would you think and describe anything? Could you do it without information? Information is everywhere: DNA encodes the blueprint for life in sequences of four bases. The structure of an atom, the arrangement of its protons, neutrons, and electrons, encodes everything about how that element will behave and bond. Whatever consciousness is, the medium and possibly nature is information.
 
 The discipline that has most rigorously studied information as information, stripped of biological noise, physical substrate, and philosophical baggage, is Computer Science.
 
