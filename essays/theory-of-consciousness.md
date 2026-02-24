@@ -8,9 +8,9 @@
 
 In the tradition of the Enlightenment, I am pursuing truth without permission or credentialing. I have put forward a theory of my own making, influenced by any source that seems to hold explanatory power. I admit that I have not fully digested the existing background knowledge on consciousness, preferring to give an account before I become nerdsniped by other contributors. I will continue to integrate background knowledge and discoveries by others as I continue this effort. No theory has the final word, so this is an ongoing project and a working document.
 
-Consciousness, for humans, happens in the brain. A brain is a physical structure that stores and modifies information. Consciousness may be more than this, but that takes us to the boundary where physical explanation ends and metaphysical claims begin. I leave that domain to faith and proceed on the basis of physical grounds. The question of qualia, "the subjective feeling of consciousness," is bracketed throughout. This means, to me, consciousness is at least physical and informational. So, I use Information Theory as a tool to examine the informational aspects of consciousness, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional.
+Consciousness, for humans, happens in the brain. A brain is a physical structure that stores and modifies information. Consciousness may be more than this, but that takes us to the boundary where physical explanation ends and metaphysical claims begin. I leave that domain to faith and proceed on the basis of physical grounds. The question of qualia, "the subjective feeling of consciousness," is bracketed throughout. This means, to me, consciousness is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of consciousness, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional.
 
-Regarding my use of Information Theory to study consciousness:
+Regarding my use of information to study consciousness:
 
 > "It may seem strange that scientific instruments bring us closer to reality when in purely physical terms they only ever separate us further from it. But we observe nothing directly anyway. All observation is theory-laden." — David Deutsch, *The Beginning of Infinity*, Ch. 2 "Closer to Reality," pg. 41
 
@@ -24,7 +24,7 @@ Metaprogramming is the most effective mechanism for advancing the study of consc
 
 ## Contents
 
-1. [Information Theory](#information-theory)
+1. [Information](#information)
 2. [Metaprogramming](#metaprogramming)
 3. [Identity](#identity)
 4. [Levels of Consciousness](#levels-of-consciousness)
@@ -36,9 +36,9 @@ Metaprogramming is the most effective mechanism for advancing the study of consc
 
 ---
 
-## Information Theory
+## Information
 
-We'll start with a primer on Information Theory, reduced to the parts I believe are relevant for the study of consciousness. I've arrived at the arguments below by asking, "How is consciousness like information? How are they unlike each other?" What emerges is a clear line between them, not a forced line, an obvious line.
+We'll start with a primer on information, reduced to the parts I believe are relevant for the study of consciousness. I've arrived at the arguments below by asking, "How is consciousness like information? How are they unlike each other?" What emerges is a clear line between them, not a forced line, an obvious line.
 
 Whatever reality ultimately is, an observer can only access it through representations or information. Consciousness seems to be completely mediated by information. How would you think and describe anything? Could you do it without Information? Information is everywhere: DNA encodes the blueprint for life in sequences of four bases. The structure of an atom, the arrangement of its protons, neutrons, and electrons, encodes everything about how that element will behave and bond. Whatever consciousness is, the medium and possibly nature is Information.
 
@@ -108,7 +108,7 @@ These three patterns produce a single path. Reach expands along it:
 5. Create first-order information. Designing a new environment with new rules.
 6. Create second-order information. A system designs a new system that it may inhabit.
 
-No constraints are imposed from outside. The path follows from information theory. Reach simply describes where a system sits on this path, how far its operations extend across capability and order.
+No constraints are imposed from outside. The path follows from the nature of information. Reach simply describes where a system sits on this path, how far its operations extend across capability and order.
 
 When modifying second-order information, an exciting property emerges: identity.
 
@@ -126,7 +126,7 @@ Identity is an emergent property of metaprogramming. It does not exist at the fi
 
 Self, values, and goals: that is identity. Identity is constituted from the properties of information turned inward. This is the foundation of the architecture presented later in this essay.
 
-Through the lens of information theory, I see metaprogramming and identity as the necessary properties for modeling and advancing the study of consciousness.
+Through the lens of information ontology, I see metaprogramming and identity as the necessary properties for modeling and advancing the study of consciousness.
 
 ---
 
