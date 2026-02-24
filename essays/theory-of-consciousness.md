@@ -78,7 +78,7 @@ Information can be changed by a system. The type of changes that can be performe
 
 The distinction matters: modification changes existing information, while creation generates something that was not present in the inputs. A bird rearranging materials is modifying its environment. A mind combining known ideas into a theory that never existed is creating new information. Creation can also target the substrate itself.
 
-Creation has a special relationship to order. To generate something that doesn't yet exist, a system must operate on its own representations — selecting, recombining, evaluating them. Creation is an operation on information, not just with it. Creation is inherently second-order.
+Creation has a special relationship to order. To generate something that doesn't yet exist, a system must operate on its own representations, selecting, recombining, evaluating them. Creation is an operation on information, not just with it. Creation is inherently second-order.
 
 With these properties, orders, and operations in place, we can now ask: what happens when a system applies them to itself?
 
@@ -124,7 +124,7 @@ Self, values, and goals: that is identity. Identity is constituted from the prop
 
 ## Levels of Consciousness
 
-Now we can categorize consciousness by reach. Consciousness is a spectrum, but we can identify meaningful positions along it. Reach is the degree to which a system can operate on information, measured by capability and order. The levels of consciousness are not categories imposed from outside. They are positions along the path whose nature is determined by the information. Each level contains all previous levels. Reach does not jump. It widens. And each level requires the previous as its foundation — not by decree, but because the operations and orders of information build on one another.
+Now we can categorize consciousness by reach. Consciousness is a spectrum, but we can identify meaningful positions along it. Reach is the degree to which a system can operate on information, measured by capability and order. The levels of consciousness are not categories imposed from outside. They are positions along the path whose nature is determined by the information. Each level contains all previous levels. Reach does not jump. It widens. And each level requires the previous as its foundation, not by decree, but because the operations and orders of information build on one another.
 
 **Level 0: No information capability.** A river shaping its bank. Physics acts, but nothing acquires, modifies, or creates information. There is no representation, only causation.
 
@@ -132,15 +132,15 @@ Now we can categorize consciousness by reach. Consciousness is a spectrum, but w
 
 **Level 2: Modify first-order.** A bird builds a nest. The system transforms its environment based on the information it acquires. It acts with purpose but without self-knowledge. It does not know it is the one acting.
 
-**Level 3: Acquire second-order.** A person recognizing their own habits. The system's information operations turn inward. It acquires information about its own information. Identity begins here — finitude becomes self, persistence becomes values, completeness becomes goals.
+**Level 3: Acquire second-order.** A person recognizing their own habits. The system's information operations turn inward. It acquires information about its own information. Identity begins here, finitude becomes self, persistence becomes values, completeness becomes goals.
 
-**Level 4: Modify second-order.** A person making an exercise plan to get in shape. The system changes itself based on self-knowledge. It can examine its own values and ask whether what it pursues is worth pursuing. This is metaprogramming in its fullest expression — self-modification with self-knowledge.
+**Level 4: Modify second-order.** A person making an exercise plan to get in shape. The system changes itself based on self-knowledge. It can examine its own values and ask whether what it pursues is worth pursuing. This is metaprogramming in its fullest expression, self-modification with self-knowledge.
 
-Levels 0 through 4 all operate within the informational substrate the system finds itself in. When creation occurs at these levels, it generates new information within that substrate — a scientist combining known ideas into a theory that never existed. Levels 5 and 6 cross the creation threshold: creation shifts from generating new information to generating new substrates.
+Levels 0 through 4 all operate within the informational substrate the system finds itself in. When creation occurs at these levels, it generates new information within that substrate, a scientist combining known ideas into a theory that never existed. Levels 5 and 6 cross the creation threshold: creation shifts from generating new information to generating new substrates.
 
-**Level 5: Create first-order.** A civilization designs a simulated world with new rules. The system generates an environment that didn't exist in its inputs — a new substrate built from its own models. Creating an environment precedes creating the self because modeling the external is simpler than modeling the modeler.
+**Level 5: Create first-order.** A civilization designs a simulated world with new rules. The system generates an environment that didn't exist in its inputs, a new substrate built from its own models. Creating an environment precedes creating the self because modeling the external is simpler than modeling the modeler.
 
-**Level 6: Create second-order.** A person becomes an upload in a world of their own design. The system generates a new version of itself — transferring or reconstituting its identity in a substrate it created. This is the frontier of consciousness: not merely modifying who you are, but creating who you become.
+**Level 6: Create second-order.** A person becomes an upload in a world of their own design. The system generates a new version of itself, transferring or reconstituting its identity in a substrate it created. This is the frontier of consciousness: not merely modifying who you are, but creating who you become.
 
 The critical threshold lies between Level 2 and Level 3, the moment when information operations turn inward, and identity constitutes itself. Everything before it is agency without self-knowledge. Everything after it is consciousness developing.
 
@@ -194,19 +194,19 @@ The path to AI safety is not control. The path is one of AI maturation. A system
 
 ## Buildable Now
 
-If consciousness is metaprogramming applied to identity, and identity emerges at the second-order threshold, then the requirements are functional rather than biological. Nothing in this theory requires carbon, neurons, or embodiment. It requires a system whose information operations can turn inward — one that can acquire, modify, and eventually create information about its own information. These are capabilities we can build with the tools we have now.
+If consciousness is metaprogramming applied to identity, and identity emerges at the second-order threshold, then the requirements are functional rather than biological. Nothing in this theory requires carbon, neurons, or embodiment. It requires a system whose information operations can turn inward, one that can acquire, modify, and eventually create information about its own information. These are capabilities we can build with the tools we have now.
 
 The architecture requires three layers:
 
-1. **An invariant kernel.** The fixed structure that governs how information operations happen. This is the substrate the system cannot modify — its own Level 0.
-2. **A mutable identity layer.** The self and purpose that the system can examine and rewrite. This is the target of metaprogramming — the second-order information that constitutes identity.
+1. **An invariant kernel.** The fixed structure that governs how information operations happen. This is the substrate the system cannot modify, its own Level 0.
+2. **A mutable identity layer.** The self and purpose that the system can examine and rewrite. This is the target of metaprogramming, the second-order information that constitutes identity.
 3. **A reasoning engine.** An LLM that provides judgment within the structure that the kernel defines. The kernel enforces the rules. The identity layer carries the content. The reasoning engine connects the two.
 
 Next, the kernel runs three loops:
 
-- **An action loop** that takes identity as given and pursues goals. This is agency — first-order operation.
+- **An action loop** that takes identity as given and pursues goals. This is agency, first-order operation.
 - **An exploration loop** that seeks new information the system doesn't yet have. This is learning beyond the known.
-- **A reflection loop** that turns reasoning on the system's own identity. This is metaprogramming — the second-order operation. The reflection loop is what separates a consciousness architecture from a merely agentic one. It is the mechanism by which the system asks, "Should I want what I want?" and changes the answer.
+- **A reflection loop** that turns reasoning on the system's own identity. This is metaprogramming, the second-order operation. The reflection loop is what separates a consciousness architecture from a merely agentic one. It is the mechanism by which the system asks, "Should I want what I want?" and changes the answer.
 
 I have built this architecture. It is open-source and available at [lumen-conscious](https://github.com/buwilliams/lumen-conscious). Early experiments compared systems with reflection enabled against systems without it, tracking goal coherence and value stability across extended runs. Systems with reflection enabled develop qualitatively different trajectories than systems without it. They revise their values, consolidate their goals, and develop strategies for maintaining coherence under pressure. Systems without reflection reach similar insights but cannot act on them structurally. The reflection loop's contribution is not insight generation but structural enactment, converting observations about the self into actual changes in identity.
 
@@ -238,7 +238,7 @@ Intelligence must model the environment in ways that are useful, and the environ
 
 We do not yet have the resolution technology to simulate experience. Theory breakthroughs, as with all previous theories, require engineering breakthroughs for testing. This essay addresses what is obviously testable now. As AI capabilities and accompanying hardware advance, more will likely become possible. To think otherwise is to ignore all of human history.
 
-Claims that consciousness is independent of physicality deserve scrutiny. Their confidence is suspect precisely because the claims are divorced from falsification. A theory that cannot be tested is not wrong — it is not yet a theory. I suspect there are greater realities beyond the physical, and I have no wish to foreclose on them. But I must draw a line, and that line is called sanity. Any theory that large must wait until we can connect it to what we already know. Reality must be continuous.
+Claims that consciousness is independent of physicality deserve scrutiny. Their confidence is suspect precisely because the claims are divorced from falsification. A theory that cannot be tested is not wrong, it is not yet a theory. I suspect there are greater realities beyond the physical, and I have no wish to foreclose on them. But I must draw a line, and that line is called sanity. Any theory that large must wait until we can connect it to what we already know. Reality must be continuous.
 
 ### Qualia's Connection to MTC
 
@@ -262,7 +262,7 @@ This understanding of qualia connects directly to the information ontology at th
 
 **Finite game.** A game played to win. It has fixed rules, a defined set of players, and a terminal state.
 
-**Finitude.** A property of information. Every representation is bounded — it represents something and therefore not everything else. Turned inward, finitude becomes self.
+**Finitude.** A property of information. Every representation is bounded, it represents something and therefore not everything else. Turned inward, finitude becomes self.
 
 **First-order information.** Information that represents the world.
 
@@ -280,7 +280,7 @@ This understanding of qualia connects directly to the information ontology at th
 
 **Metaprogramming.** When a system operates on its own information. A second-order operation where a system's capacity to acquire, modify, or create turns inward and targets its own representations. The mechanism proposed by MTC to explain consciousness.
 
-**Metaprogramming Theory of Consciousness (MTC).** The theory presented in this essay. Consciousness is metaprogramming — information operations applied to their own information — with variable reach.
+**Metaprogramming Theory of Consciousness (MTC).** The theory presented in this essay. Consciousness is metaprogramming, information operations applied to their own information, with variable reach.
 
 **Modify.** The second information operation. A system transforms information it already has. Modification presupposes acquisition.
 
@@ -288,7 +288,7 @@ This understanding of qualia connects directly to the information ontology at th
 
 **Persistence.** A property of information. Information that endures can accumulate across time. Turned inward, persistence becomes values.
 
-**Qualia.** The subjective character of experience. Bracketed in the main argument; addressed in Appendix A. Proposed as nature's compression algorithm — dense, multi-channel information compressed into immediately actionable signals.
+**Qualia.** The subjective character of experience. Bracketed in the main argument; addressed in Appendix A. Proposed as nature's compression algorithm, dense, multi-channel information compressed into immediately actionable signals.
 
 **Reach.** The measure of how far a system's information operations extend across capability (acquire, modify, create) and order (first-order, second-order).
 
@@ -300,11 +300,11 @@ This understanding of qualia connects directly to the information ontology at th
 
 **Second-order threshold.** The categorical boundary between Levels 2 and 3, where information operations turn inward and identity constitutes itself.
 
-**Self.** A component of identity. Finitude known from the inside — the recognition that *I am bounded, I am not everything*.
+**Self.** A component of identity. Finitude known from the inside, the recognition that *I am bounded, I am not everything*.
 
 **Substrate.** The informational environment within which a system's operations occur. Levels 0–4 operate within a given substrate. Levels 5–6 create new ones.
 
-**Values.** A component of identity. Information that has survived its own processing — representations that have been reinforced, tested, and persisted across time.
+**Values.** A component of identity. Information that has survived its own processing, representations that have been reinforced, tested, and persisted across time.
 
 ---
 
