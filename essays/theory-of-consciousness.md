@@ -32,7 +32,8 @@ The study of consciousness lacks a functional mechanism, one that can be defined
 6. [Buildable Now](#buildable-now)
 7. [Conclusion](#conclusion)
 8. [Appendix A: My View of Qualia](#appendix-a-my-view-of-qualia)
-9. [Appendix B: Further Reading](#appendix-b-further-reading)
+9. [Appendix B: Glossary](#appendix-b-glossary)
+10. [Appendix C: Further Reading](#appendix-c-further-reading)
 
 ---
 
@@ -40,7 +41,7 @@ The study of consciousness lacks a functional mechanism, one that can be defined
 
 We'll start with a primer on information, reduced to the parts I believe are relevant for the study of consciousness. I've arrived at the arguments below by asking, "How is consciousness like information? How are they unlike each other?" What emerges is a clear line between them, not a forced line, an obvious line.
 
-Whatever reality ultimately is, an observer can only access it through representations or information. Consciousness seems to be completely mediated by information. How would you think and describe anything? Could you do it without information? Information is everywhere: DNA encodes the blueprint for life in sequences of four bases. The structure of an atom, the arrangement of its protons, neutrons, and electrons, encodes everything about how that element will behave and bond. Whatever consciousness is, the medium and possibly nature is information.
+Whatever reality ultimately is, an observer can only access it through representations or information. Consciousness seems to be completely mediated by information. How would you think and describe anything? Could you do it without information? Information is everywhere: DNA encodes the blueprint for life in sequences of four bases. The structure of an atom, the arrangement of its protons, neutrons, and electrons, encodes everything about how that element will behave and bond. Whatever consciousness is, the medium, and possibly the nature, is information.
 
 The discipline that has most rigorously studied information as information, stripped of biological noise, physical substrate, and philosophical baggage, is computer science.
 
@@ -59,7 +60,7 @@ Information is a representation of something. It has three properties connected 
 
 **Persistence.** Information that endures can accumulate across time. A signal that vanishes the moment it arrives cannot build on itself. Persistence is what allows information to compound.
 
-**Completeness.** Information represents with varying resolution. The same thing can be captured at different levels of fidelity. That color is red. That color is blossom red. That color is #c90707. Each is correct, but each carries a different scope of detail. Completeness is how much of what could be represented actually is.
+**Completeness.** Information represents with varying resolution. The same thing can be captured at different levels of fidelity. That color is red. That color is blossom red. That color is #c90707. Each is correct, but each carries a different scope of detail. Completeness is the degree of resolution a representation achieves.
 
 ### Order
 
@@ -101,7 +102,7 @@ Through observing the nature of information, I've come to see three patterns:
 2. First-order precedes second-order. You cannot have information about information until there is information. At each capability level, operating in the world is simpler than operating on your own operations.
 3. Creation requires second-order capability. To generate something that doesn't yet exist, a system must work with its own representations. Creation is inherently meta-informational.
 
-These three patterns produce a single path. At each capability level (acquire, modify, create), first-order precedes second-order. And each capability presupposes the one before it. No constraints are imposed from outside. The path follows from the nature of information. Reach simply describes where a system sits on this path, how far its operations extend across capability and order.
+These three patterns produce a single path with six positions that correspond to levels of consciousness. At each capability level (acquire, modify, create), first-order precedes second-order, and each capability presupposes the one before it. No constraints are imposed from outside. The path follows from the nature of information. Reach simply describes where a system sits on this path, how far its operations extend across capability and order.
 
 When modifying second-order information, an exciting property emerges: identity.
 
@@ -115,7 +116,7 @@ Identity is an emergent property of metaprogramming. It does not exist at the fi
 
 **Persistence becomes values.** Not all representations persist equally. Some representations are reinforced, some fade, some survive contact with new information, and some do not. When a system turns inward, it encounters the accumulated weight of what has lasted. Values are information that has survived its own processing.
 
-**Completeness becomes goals.** Every representation is approximate. When a system turns inward and sees its own incompleteness, when it knows that it doesn't know, that gap becomes a forward-looking orientation. But incompleteness alone does not generate direction. A system that merely sees gaps has no reason to move toward one rather than another. Goals arise because the system already has values, representations that have survived their own processing. Incompleteness encountered in light of values is not an abstract gap. It is a specific deficiency relative to something the system already holds. Goals are the directional pull generated by incompleteness seen through values.
+**Completeness becomes goals.** No representation captures everything. When a system turns inward and sees its own incompleteness, when it knows that it doesn't know, that gap becomes a forward-looking orientation. But incompleteness alone does not generate direction. A system that merely sees gaps has no reason to move toward one rather than another. Goals arise because the system already has values, representations that have survived their own processing. Incompleteness encountered in light of values is not an abstract gap. It is a specific deficiency relative to something the system already holds. Goals are the directional pull generated by incompleteness seen through values.
 
 Self, values, and goals: that is identity. Identity is constituted from the properties of information turned inward. This is the foundation of the architecture presented later in this essay.
 
@@ -131,11 +132,11 @@ Now we can categorize consciousness by reach. Consciousness is a spectrum, but w
 
 **Level 2: Modify first-order.** A bird builds a nest. The system transforms its environment based on the information it acquires. It acts with purpose but without self-knowledge. It does not know it is the one acting.
 
-**Level 3: Acquire second-order.** A person recognizing their own habits. The system's information operations turn inward. It acquires information about its own information. Identity begins here — finitude becomes self, persistence becomes values.
+**Level 3: Acquire second-order.** A person recognizing their own habits. The system's information operations turn inward. It acquires information about its own information. Identity begins here — finitude becomes self, persistence becomes values, completeness becomes goals.
 
 **Level 4: Modify second-order.** A person making an exercise plan to get in shape. The system changes itself based on self-knowledge. It can examine its own values and ask whether what it pursues is worth pursuing. This is metaprogramming in its fullest expression — self-modification with self-knowledge.
 
-Levels 0 through 4 all operate within the informational substrate the system finds itself in. Where creation occurs within these levels, it generates new information within that substrate — a scientist combining known ideas into a theory that never existed. Levels 5 and 6 cross the creation threshold: creation shifts from generating new information to generating new substrates.
+Levels 0 through 4 all operate within the informational substrate the system finds itself in. When creation occurs at these levels, it generates new information within that substrate — a scientist combining known ideas into a theory that never existed. Levels 5 and 6 cross the creation threshold: creation shifts from generating new information to generating new substrates.
 
 **Level 5: Create first-order.** A civilization designs a simulated world with new rules. The system generates an environment that didn't exist in its inputs — a new substrate built from its own models. Creating an environment precedes creating the self because modeling the external is simpler than modeling the modeler.
 
@@ -209,7 +210,7 @@ Next, the kernel runs three loops:
 
 I have built this architecture. It is open-source and available at [lumen-conscious](https://github.com/buwilliams/lumen-conscious). Early experiments compared systems with reflection enabled against systems without it, tracking goal coherence and value stability across extended runs. Systems with reflection enabled develop qualitatively different trajectories than systems without it. They revise their values, consolidate their goals, and develop strategies for maintaining coherence under pressure. Systems without reflection reach similar insights but cannot act on them structurally. The reflection loop's contribution is not insight generation but structural enactment, converting observations about the self into actual changes in identity.
 
-A current limitation of the implementation is that LLMs model identity internally without the architecture to support its evolution. Moreover, it lacks a single identity and a flexible memory system. These limitations can be mitigated through good prompting, but are not completely avoidable.
+A current limitation of the implementation is that LLMs model identity internally without the architecture to support its evolution. Moreover, the implementation lacks a single identity and a flexible memory system. These limitations can be mitigated through good prompting, but are not completely avoidable.
 
 Whether it produces experience is a question I hold open. What it produces is measurable self-revision, and that is where science can get a foothold.
 
@@ -245,7 +246,69 @@ This understanding of qualia connects directly to the information ontology at th
 
 ---
 
-## Appendix B: Further Reading
+## Appendix B: Glossary
+
+**Acquire.** The first information operation. A system takes in information and retains it.
+
+**Action loop.** The architectural loop that takes identity as given and pursues goals. First-order operation.
+
+**Completeness.** A property of information. Information represents with varying resolution — how much of what could be represented actually is. Turned inward, completeness becomes goals.
+
+**Create.** The third information operation. A system generates information that was not present in the inputs. Creation presupposes modification and is inherently second-order. Within an existing substrate, creation generates new information. Beyond the creation threshold, creation generates new substrates.
+
+**Creation threshold.** The categorical boundary between Levels 4 and 5, where creation shifts from generating new information within an existing substrate to generating new substrates.
+
+**Exploration loop.** The architectural loop that seeks new information the system does not yet have. Learning beyond the known.
+
+**Finite game.** A game played to win. It has fixed rules, a defined set of players, and a terminal state.
+
+**Finitude.** A property of information. Every representation is bounded — it represents something and therefore not everything else. Turned inward, finitude becomes self.
+
+**First-order information.** Information that represents the world.
+
+**Goals.** A component of identity. The directional pull generated by incompleteness seen through values. Goals arise because a system that sees its own gaps already has values that give those gaps direction.
+
+**Identity.** An emergent property of metaprogramming, constituted from the properties of information turned inward: finitude becomes self, persistence becomes values, completeness becomes goals.
+
+**Infinite game.** A game played to continue playing. New players can enter, rules can change, and there is no terminal state.
+
+**Information ontology.** The framework used in this essay to examine the informational aspects of consciousness, studying information's properties, orders, and operations.
+
+**Invariant kernel.** The fixed architectural layer that governs how information operations happen. The substrate the system cannot modify.
+
+**Levels of Consciousness (0–6).** Positions along the path that reach traces, categorized by capability and order. Level 0: no information capability. Level 1: acquire first-order. Level 2: modify first-order. Level 3: acquire second-order (identity begins). Level 4: modify second-order (metaprogramming). Level 5: create first-order (new substrates). Level 6: create second-order (new self in new substrate).
+
+**Metaprogramming.** When a system operates on its own information. A second-order operation where a system's capacity to acquire, modify, or create turns inward and targets its own representations. The mechanism proposed by MTC to explain consciousness.
+
+**Modify.** The second information operation. A system transforms information it already has. Modification presupposes acquisition.
+
+**Metaprogramming Theory of Consciousness (MTC).** The theory presented in this essay. Consciousness is metaprogramming — information operations applied to their own information — with variable reach.
+
+**Mutable identity layer.** The architectural layer containing the self and values that the system can examine and rewrite. The target of metaprogramming.
+
+**Persistence.** A property of information. Information that endures can accumulate across time. Turned inward, persistence becomes values.
+
+**Qualia.** The subjective character of experience. Bracketed in the main argument; addressed in Appendix A. Proposed as nature's compression algorithm — dense, multi-channel information compressed into immediately actionable signals.
+
+**Reach.** The measure of how far a system's information operations extend across capability (acquire, modify, create) and order (first-order, second-order).
+
+**Reasoning engine.** The architectural layer that provides judgment within the structure the kernel defines. In the current implementation, an LLM.
+
+**Reflection loop.** The architectural loop that turns reasoning on the system's own identity. Second-order operation. The mechanism by which the system asks, "Should I want what I want?" and changes the answer.
+
+**Second-order information.** Information that represents information. Also called meta-information.
+
+**Second-order threshold.** The categorical boundary between Levels 2 and 3, where information operations turn inward and identity constitutes itself.
+
+**Self.** A component of identity. Finitude known from the inside — the recognition that *I am bounded, I am not everything*.
+
+**Substrate.** The informational environment within which a system's operations occur. Levels 0–4 operate within a given substrate. Levels 5–6 create new ones.
+
+**Values.** A component of identity. Information that has survived its own processing — representations that have been reinforced, tested, and persisted across time.
+
+---
+
+## Appendix C: Further Reading
 
 This is a collection of reference works I'm using for my study and research.
 
