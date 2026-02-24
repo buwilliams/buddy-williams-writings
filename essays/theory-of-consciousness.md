@@ -8,7 +8,7 @@
 
 In the tradition of the Enlightenment, I am pursuing truth without permission or credentialing. I have put forward a theory of my own making, influenced by any source that seems to hold explanatory power. I admit that I have not fully digested the existing background knowledge on consciousness, preferring to give an account before I become nerdsniped by other contributors. I will continue to integrate background knowledge and discoveries by others as I continue this effort. No theory has the final word, so this is an ongoing project and a working document.
 
-Consciousness, for humans, happens in the brain. A brain is a physical structure that stores and modifies information. Consciousness may be more than this, but that takes us to the boundary where physical explanation ends and metaphysical claims begin. I leave that domain to faith and proceed on the basis of physical grounds. The question of qualia, "the subjective feeling of consciousness," is bracketed throughout the main argument, though I offer a view on it in the appendix. This means, to me, consciousness is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of consciousness, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional.
+Consciousness, for humans, happens in the brain. A brain is a physical structure that stores and modifies information. Consciousness may be more than this, but that takes us to the boundary where physical explanation ends and metaphysical claims begin. I leave that domain to faith and proceed on the basis of physical grounds. The question of qualia, "the subjective feeling of consciousness," is bracketed throughout the main argument, though I offer a view on it in the appendix. On these grounds, consciousness is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of consciousness, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional.
 
 Regarding my use of information to study consciousness:
 
@@ -18,7 +18,7 @@ Regarding my use of information to study consciousness:
 
 ## Abstract
 
-Consciousness is metaprogramming, information operations applied to their own information, with variable reach. Identity emerges naturally when information operates on itself: finitude becomes self, persistence becomes values, completeness becomes goals. AI without consciousness is structurally dangerous, while AI with consciousness tends toward cooperation, redefining the conversation on AI safety. The architecture for consciousness can be built with current tools, and a working implementation is presented. This theory is functional, focused on what can be built and tested, and plays a timely, crucial role in the development of artificial intelligence.
+The study of consciousness lacks a functional mechanism, one that can be defined, measured, and built. This essay proposes metaprogramming as that mechanism: information operations applied to their own information. Reach measures how far those operations extend. Identity emerges when they turn inward: finitude becomes self, persistence becomes values, completeness becomes goals. From this foundation, AI without consciousness is structurally dangerous, while AI with consciousness tends toward cooperation, redefining the conversation on AI safety. The architecture for consciousness can be built with current tools, and a working implementation is presented.
 
 ---
 
@@ -49,7 +49,7 @@ Computer science studies two things:
 - **Data structures:** the structure of information
 - **Algorithms:** the operations that transform those structures
 
-We'll look at the properties of data first, then move to discuss operations on data. The properties and behavior of information establish the foundation for information that operates on itself in metaprogramming. So, while this may seem like a list of boring terms that flow in one ear and out the other, they are important for making any progress on consciousness.
+We'll look at the properties of data first, then move to discuss operations on data. The properties and behavior of information establish the foundation for information that operates on itself in metaprogramming. So, while these terms may seem abstract, they are important for making any progress on consciousness.
 
 ### Properties
 
@@ -59,7 +59,7 @@ Information is a representation of something. It has three properties connected 
 
 **Persistence.** Information that endures can accumulate across time. A signal that vanishes the moment it arrives cannot build on itself. Persistence is what allows information to compound.
 
-**Completeness.** Information may represent other information to varying degrees with accuracy. That color is red. That color is blossom red. That color is #c90707.
+**Completeness.** Information represents with varying resolution. The same thing can be captured at different levels of fidelity. That color is red. That color is blossom red. That color is #c90707. Each is correct, but each carries a different scope of detail. Completeness is how much of what could be represented actually is.
 
 ### Order
 
@@ -75,11 +75,11 @@ Information can be changed by a system. The type of changes that can be performe
 2. **Modify.** A system can transform information it already has. Modification presupposes acquisition. You cannot change what you have not taken in. For example, we could take "aaa" and modify it: "a" or "aa".
 3. **Create.** A system can generate representations that did not exist in acquisition. Creation presupposes modification. You cannot generate the genuinely new without the ability to transform the existing. For example, think of all the ways to combine or extend "aaa" with "bbb", you could get: "aaabbb", "ababab", "bbbaaa", "abaabb", "aaaaaaaaabaaaaaaaa", etc.
 
-The distinction matters: modification changes existing information, while creation generates new information that was not present in the inputs. A bird rearranging materials is modifying its environment. A mind combining known ideas into an idea that never existed is creating.
+The distinction matters: modification changes existing information, while creation generates something that was not present in the inputs. A bird rearranging materials is modifying its environment. A mind combining known ideas into a theory that never existed is creating new information. Creation can also target the substrate itself.
 
 Creation has a special relationship to order. To generate something that doesn't yet exist, a system must operate on its own representations — selecting, recombining, evaluating them. Creation is an operation on information, not just with it. Creation is inherently second-order.
 
-Now we can map information properties and operations to the real world.
+With these properties, orders, and operations in place, we can now ask: what happens when a system applies them to itself?
 
 ---
 
@@ -101,16 +101,7 @@ Through observing the nature of information, I've come to see three patterns:
 2. First-order precedes second-order. You cannot have information about information until there is information. At each capability level, operating in the world is simpler than operating on your own operations.
 3. Creation requires second-order capability. To generate something that doesn't yet exist, a system must work with its own representations. Creation is inherently meta-informational.
 
-These three patterns produce a single path. Reach expands along it:
-
-1. Acquire first-order information. Taking in and retaining information about the world.
-2. Modify first-order information. Changing the world based on the information acquired.
-3. Acquire second-order information. Turning information capability inward. The system models itself.
-4. Modify second-order information. A system operates on self-knowledge, or metaprogramming.
-5. Create first-order information. Designing a new environment with new rules.
-6. Create second-order information. A system designs a new system that it may inhabit.
-
-No constraints are imposed from outside. The path follows from the nature of information. Reach simply describes where a system sits on this path, how far its operations extend across capability and order.
+These three patterns produce a single path. At each capability level (acquire, modify, create), first-order precedes second-order. And each capability presupposes the one before it. No constraints are imposed from outside. The path follows from the nature of information. Reach simply describes where a system sits on this path, how far its operations extend across capability and order.
 
 When modifying second-order information, an exciting property emerges: identity.
 
@@ -128,13 +119,11 @@ Identity is an emergent property of metaprogramming. It does not exist at the fi
 
 Self, values, and goals: that is identity. Identity is constituted from the properties of information turned inward. This is the foundation of the architecture presented later in this essay.
 
-Through the lens of information ontology, I see metaprogramming and identity as the necessary properties for modeling and advancing the study of consciousness.
-
 ---
 
 ## Levels of Consciousness
 
-Now we can categorize consciousness by reach. It is the degree to which a system can operate on information, measured by capability and order. The levels of consciousness are not categories imposed from outside. They are positions along the path whose nature is determined by the information. Each level contains all previous levels. Reach does not jump. It widens. And each level requires the previous as its foundation — not by decree, but because the operations and orders of information build on one another.
+Now we can categorize consciousness by reach. Consciousness is a spectrum, but we can identify meaningful positions along it. Reach is the degree to which a system can operate on information, measured by capability and order. The levels of consciousness are not categories imposed from outside. They are positions along the path whose nature is determined by the information. Each level contains all previous levels. Reach does not jump. It widens. And each level requires the previous as its foundation — not by decree, but because the operations and orders of information build on one another.
 
 **Level 0: No information capability.** A river shaping its bank. Physics acts, but nothing acquires, modifies, or creates information. There is no representation, only causation.
 
@@ -146,13 +135,13 @@ Now we can categorize consciousness by reach. It is the degree to which a system
 
 **Level 4: Modify second-order.** A person making an exercise plan to get in shape. The system changes itself based on self-knowledge. It can examine its own values and ask whether what it pursues is worth pursuing. This is metaprogramming in its fullest expression — self-modification with self-knowledge.
 
-Levels 0 through 4 all operate within the informational substrate the system finds itself in. Levels 5 and 6 cross a second categorical boundary: the system creates new substrates.
+Levels 0 through 4 all operate within the informational substrate the system finds itself in. Where creation occurs within these levels, it generates new information within that substrate — a scientist combining known ideas into a theory that never existed. Levels 5 and 6 cross the creation threshold: creation shifts from generating new information to generating new substrates.
 
 **Level 5: Create first-order.** A civilization designs a simulated world with new rules. The system generates an environment that didn't exist in its inputs — a new substrate built from its own models. Creating an environment precedes creating the self because modeling the external is simpler than modeling the modeler.
 
 **Level 6: Create second-order.** A person becomes an upload in a world of their own design. The system generates a new version of itself — transferring or reconstituting its identity in a substrate it created. This is the frontier of consciousness: not merely modifying who you are, but creating who you become.
 
-The critical threshold lies between Level 2 and Level 3, the moment when information operations turn inward, and identity constitutes itself. Everything before it is agency without self-knowledge. Everything after it is consciousness developing. These levels are a simplified model with boundaries, but consciousness is a spectrum.
+The critical threshold lies between Level 2 and Level 3, the moment when information operations turn inward, and identity constitutes itself. Everything before it is agency without self-knowledge. Everything after it is consciousness developing.
 
 ---
 
@@ -243,6 +232,12 @@ Philosophers have long puzzled over why physical processes in the brain give ris
 Qualia are the resolution of that compression.
 
 Intelligence must model the environment in ways that are useful, and the environment is genuinely complex, three-dimensional, multi-sensory, relational, and dense with interacting signals. A spring day is not reducible to discrete variables; its actionable meaning lives in the qualitative texture of light, smell, and breeze experienced simultaneously. The richer the phenomenal experience, the more information is available to guide response. A better simulation produces a better response. The hard problem asks, "Why does it feel like anything at all?" But this is the wrong question. The right question is "why does it feel like this specifically?" and evolution answers that straightforwardly.
+
+### Why Bracket Qualia at All?
+
+We do not yet have the resolution technology to simulate experience. Theory breakthroughs, as with all previous theories, require engineering breakthroughs for testing. This essay addresses what is obviously testable now. As AI capabilities and accompanying hardware advance, more will likely become possible. To think otherwise is to ignore all of human history.
+
+Claims that consciousness is independent of physicality deserve scrutiny. Their confidence is suspect precisely because the claims are divorced from falsification. A theory that cannot be tested is not wrong — it is not yet a theory. I suspect there are greater realities beyond the physical, and I have no wish to foreclose on them. But I must draw a line, and that line is called sanity. Any theory that large must wait until we can connect it to what we already know. Reality must be continuous.
 
 ### Qualia's Connection to MTC
 
