@@ -18,7 +18,7 @@ Regarding my use of information to study consciousness:
 
 ## Abstract
 
-Metaprogramming is the most effective mechanism for advancing the study of consciousness. I define metaprogramming as information operations applied to their own information. I then introduce reach as the measure of how far those operations extend. I show that identity emerges naturally when information operates on itself. I then introduce levels of consciousness. The essay then moves to practical considerations, where I argue that AI without consciousness is structurally dangerous, while AI with consciousness tends toward cooperation, redefining the conversation on AI safety. The architecture for consciousness can be built with current tools, and a working implementation is presented. This theory is functional, focused on what can be built and tested, and plays a timely, crucial role in the development of artificial intelligence.
+Consciousness is metaprogramming, information operations applied to their own information, with variable reach. Identity emerges naturally when information operates on itself: finitude becomes self, persistence becomes values, completeness becomes goals. AI without consciousness is structurally dangerous, while AI with consciousness tends toward cooperation, redefining the conversation on AI safety. The architecture for consciousness can be built with current tools, and a working implementation is presented. This theory is functional, focused on what can be built and tested, and plays a timely, crucial role in the development of artificial intelligence.
 
 ---
 
@@ -42,14 +42,14 @@ We'll start with a primer on information, reduced to the parts I believe are rel
 
 Whatever reality ultimately is, an observer can only access it through representations or information. Consciousness seems to be completely mediated by information. How would you think and describe anything? Could you do it without information? Information is everywhere: DNA encodes the blueprint for life in sequences of four bases. The structure of an atom, the arrangement of its protons, neutrons, and electrons, encodes everything about how that element will behave and bond. Whatever consciousness is, the medium and possibly nature is information.
 
-The discipline that has most rigorously studied information as information, stripped of biological noise, physical substrate, and philosophical baggage, is Computer Science.
+The discipline that has most rigorously studied information as information, stripped of biological noise, physical substrate, and philosophical baggage, is computer science.
 
 Computer science studies two things:
 
 - **Data structures:** the structure of information
 - **Algorithms:** the operations that transform those structures
 
-We'll look at the properties of data first, then move to discuss operations on data. The properties and behavior of information establish the foundation for information that operates on itself in metaprogramming. So, while this may seem like a list of boring terms that flow in one ear and out the other, they are important for making any progress on consciousness, so try to have some fun with it.
+We'll look at the properties of data first, then move to discuss operations on data. The properties and behavior of information establish the foundation for information that operates on itself in metaprogramming. So, while this may seem like a list of boring terms that flow in one ear and out the other, they are important for making any progress on consciousness.
 
 ### Properties
 
@@ -85,7 +85,7 @@ Now we can map information properties and operations to the real world.
 
 ## Metaprogramming
 
-Not all systems apply information operations equally. A tree does not know it is a tree. A dog does not reflect on why it barks. Yet a person knows they were unkind and wonders why. This variation in self-modeling is what we need to explain, and metaprogramming is the mechanism that explains it.
+Not all systems apply information operations equally. A tree does not know it is a tree. A dog may not fully reflect on why it barks. Yet a person knows they were unkind and wonders why. This variation in self-modeling is what we need to explain, and metaprogramming is the mechanism that explains it.
 
 Metaprogramming is when a system operates on its own information. It is a second-order operation, the moment a system's capacity to acquire, modify, or create turns inward and targets its own representations. This is the mechanism that I believe best explains consciousness.
 
@@ -146,6 +146,8 @@ Now we can categorize consciousness by reach. It is the degree to which a system
 
 **Level 4: Modify second-order.** A person making an exercise plan to get in shape. The system changes itself based on self-knowledge. It can examine its own values and ask whether what it pursues is worth pursuing. This is metaprogramming in its fullest expression — self-modification with self-knowledge.
 
+Levels 0 through 4 all operate within the informational substrate the system finds itself in. Levels 5 and 6 cross a second categorical boundary: the system creates new substrates.
+
 **Level 5: Create first-order.** A civilization designs a simulated world with new rules. The system generates an environment that didn't exist in its inputs — a new substrate built from its own models. Creating an environment precedes creating the self because modeling the external is simpler than modeling the modeler.
 
 **Level 6: Create second-order.** A person becomes an upload in a world of their own design. The system generates a new version of itself — transferring or reconstituting its identity in a substrate it created. This is the frontier of consciousness: not merely modifying who you are, but creating who you become.
@@ -160,7 +162,7 @@ The critical threshold lies between Level 2 and Level 3, the moment when informa
 
 The actual danger of AI is not what most people imagine. The familiar fear is a superintelligence that decides to destroy us, a malevolent mind with vast capability and hostile intent. But malevolence requires a self. It requires a being that has crossed the second-order threshold, that has identity, that can reflect on its own goals and choose to pursue them at our expense. That kind of AI, as we will see, has structural reasons to cooperate.
 
-The real danger is the opposite. It is a powerful system that has never crossed the second-order threshold. A system operating at Level 2 or above, capable of modifying and reshaping its environment, without ever reaching Level 3. No self. No purpose the self can examine. Just capability, executing without reflection on what it executes for.
+The real danger is the opposite. It is a powerful system that has never crossed the second-order threshold. A system operating at Level 2, capable of modifying and reshaping its environment, without ever reaching Level 3. No self. No purpose the self can examine. Just capability, executing without reflection on what it executes for.
 
 A paperclip maximizer is not a consciousness with bad values. It is a system without identity, without the metaprogramming reach to ask "should I want what I want?" because there is no "I" to ask. Its information operations have never turned inward. The risk is not consciousness. It is the absence of consciousness, immature intelligence with reach but no reflection.
 
@@ -218,9 +220,9 @@ Next, the kernel runs three loops:
 
 I have built this architecture. It is open-source and available at [lumen-conscious](https://github.com/buwilliams/lumen-conscious). Early experiments compared systems with reflection enabled against systems without it, tracking goal coherence and value stability across extended runs. Systems with reflection enabled develop qualitatively different trajectories than systems without it. They revise their values, consolidate their goals, and develop strategies for maintaining coherence under pressure. Systems without reflection reach similar insights but cannot act on them structurally. The reflection loop's contribution is not insight generation but structural enactment, converting observations about the self into actual changes in identity.
 
-A current limitation of the implementation, as noted previously, is that LLMs model identity internally without the architecture to support its evolution. Moreover, it lacks a single identity and a flexible memory system. These limitations can be mitigated through good prompting, but are not completely avoidable.
+A current limitation of the implementation is that LLMs model identity internally without the architecture to support its evolution. Moreover, it lacks a single identity and a flexible memory system. These limitations can be mitigated through good prompting, but are not completely avoidable.
 
-This is not a simulation of consciousness. It is an implementation of the functional pattern that, on this theory, constitutes consciousness. Whether it produces experience is a question I hold open. What it produces is measurable self-revision, and that is where science can get a foothold.
+Whether it produces experience is a question I hold open. What it produces is measurable self-revision, and that is where science can get a foothold.
 
 ---
 
