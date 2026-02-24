@@ -6,7 +6,7 @@
 
 ## Preface
 
-In the tradition of the Enlightenment, I am pursuing truth without permission or credentialing. I have put forward a theory of my own making, influenced by any source that seems to hold explanatory power. I admit that I have not fully digested the existing background knowledge on consciousness, preferring to give an account before I become nerdsniped by other contributors. I will continue to integrate background knowledge and discoveries by others as I continue this effort. No theory has the final word, so this is an ongoing project and a working document.
+In the tradition of the Enlightenment, I am pursuing truth through first principles. This theory is my own, built from the ground up, influenced by any source that holds explanatory power. I will continue to integrate the work of others as this effort develops. No theory has the final word, so this is an ongoing project and a working document.
 
 Consciousness, for humans, happens in the brain. A brain is a physical structure that stores and modifies information. Consciousness may be more than this, but that takes us to the boundary where physical explanation ends and metaphysical claims begin. I leave that domain to faith and proceed on the basis of physical grounds. The question of qualia, "the subjective feeling of consciousness," is bracketed throughout the main argument, though I offer a view on it in the appendix. On these grounds, consciousness is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of consciousness, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional.
 
@@ -252,7 +252,7 @@ This understanding of qualia connects directly to the information ontology at th
 
 **Action loop.** The architectural loop that takes identity as given and pursues goals. First-order operation.
 
-**Completeness.** A property of information. Information represents with varying resolution — how much of what could be represented actually is. Turned inward, completeness becomes goals.
+**Completeness.** A property of information. The degree of resolution a representation achieves. Turned inward, completeness becomes goals.
 
 **Create.** The third information operation. A system generates information that was not present in the inputs. Creation presupposes modification and is inherently second-order. Within an existing substrate, creation generates new information. Beyond the creation threshold, creation generates new substrates.
 
@@ -280,9 +280,9 @@ This understanding of qualia connects directly to the information ontology at th
 
 **Metaprogramming.** When a system operates on its own information. A second-order operation where a system's capacity to acquire, modify, or create turns inward and targets its own representations. The mechanism proposed by MTC to explain consciousness.
 
-**Modify.** The second information operation. A system transforms information it already has. Modification presupposes acquisition.
-
 **Metaprogramming Theory of Consciousness (MTC).** The theory presented in this essay. Consciousness is metaprogramming — information operations applied to their own information — with variable reach.
+
+**Modify.** The second information operation. A system transforms information it already has. Modification presupposes acquisition.
 
 **Mutable identity layer.** The architectural layer containing the self and values that the system can examine and rewrite. The target of metaprogramming.
 
