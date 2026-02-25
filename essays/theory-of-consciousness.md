@@ -8,7 +8,7 @@
 
 In the tradition of the Enlightenment, I am pursuing truth through first principles. This theory is my own, built from the ground up, influenced by any source that holds explanatory power. I will continue to integrate the work of others as this effort develops. No theory has the final word, so this is an ongoing project and a working document.
 
-Consciousness, for humans, happens in the brain. A brain is a physical structure that stores and modifies information. Consciousness may be more than this, but that takes us to the boundary where physical explanation ends and metaphysical claims begin. I leave that domain to faith and proceed on the basis of physical grounds. The question of qualia, "the subjective feeling of consciousness," is bracketed throughout the main argument, though I offer a view on it in the appendix. On these grounds, consciousness is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of consciousness, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional.
+Consciousness, for humans, happens in the brain. A brain is a physical structure that stores and modifies information. Consciousness may be more than this, but that takes us to the boundary where physical explanation ends and metaphysical claims begin. I leave that domain to faith and proceed on the basis of physical grounds. The question of qualia, "the subjective feeling of consciousness," is bracketed throughout the main argument, though I address it directly in Appendix A. On these grounds, consciousness is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of consciousness, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional.
 
 Regarding my use of information to study consciousness:
 
@@ -31,7 +31,7 @@ This essay proposes metaprogramming as a functional mechanism for consciousness:
 5. [Consciousness as AI Safety](#consciousness-as-ai-safety)
 6. [Buildable Now](#buildable-now)
 7. [Conclusion](#conclusion)
-8. [Appendix A: My View of Qualia](#appendix-a-my-view-of-qualia)
+8. [Appendix A: Qualia Demystified](#appendix-a-qualia-demystified)
 9. [Appendix B: Glossary](#appendix-b-glossary)
 10. [Appendix C: Further Reading](#appendix-c-further-reading)
 
@@ -224,25 +224,41 @@ This matters because AI without consciousness is structurally dangerous, a capab
 
 ---
 
-## Appendix A: My View of Qualia
+## Appendix A: Qualia Demystified
 
-Qualia convey complex information simply.
+Qualia are the specific qualitative character of conscious experience. The redness of red. The intolerable urgency of pain. The dense, simultaneous signature of a spring breeze. Philosophers have treated these as uniquely mysterious, as if they float above physical explanation requiring special treatment. This appendix argues they do not.
 
-Philosophers have long puzzled over why physical processes in the brain give rise to subjective experience at all, why seeing a red apple doesn't just trigger a neural response but feels like something. This is often treated as a deep mystery, as if experience floats above the physical world without explanation. But this framing is mistaken. Qualia are not mysterious extras layered on top of functional processes; they are the functional processes. Evolution does not select for gratuitous decoration. The specific character of experiences, the arresting urgency of red, the intolerable quality of pain, the complex signature of a spring breeze, each compresses dense, multi-channel information into an immediately actionable signal. The redness of red feels the way it does because a creature that is viscerally commanded by that signal responds faster and more reliably than one merely registering a wavelength. Feelings are nature's compression algorithm.
+### Why Qualia Aren't Mysterious
 
-Qualia are the resolution of that compression.
+Consciousness is an emergent phenomenon like any other. We do not invoke a hard problem of wetness simply because individual water molecules are not wet. We accept that sufficiently complex organization produces genuinely novel phenomena and move on. The difference, critics will say, is that we can explain wetness mechanistically. But this objection assumes the gap is in the phenomenon rather than in the observer. There is no principled reason to grant qualia special exemption from this pattern.
 
-Intelligence must model the environment in ways that are useful, and the environment is genuinely complex, three-dimensional, multi-sensory, relational, and dense with interacting signals. A spring day is not reducible to discrete variables; its actionable meaning lives in the qualitative texture of light, smell, and breeze experienced simultaneously. The richer the phenomenal experience, the more information is available to guide response. A better simulation produces a better response. The hard problem asks, "Why does it feel like anything at all?" But this is the wrong question. The right question is "why does it feel like this specifically?" and evolution answers that straightforwardly.
+The explanatory gap feels real not because there is a gap, but because introspection has limited resolution. A system cannot fully inspect its own high-dimensional processing from the inside. What looks like mystery from within is irreducible complexity viewed through a narrow aperture. The hard problem is not a problem about consciousness, it is a problem about the limits of self-inspection.
+
+### Experiential Resolution
+
+Not all conscious systems have the same qualitative character. Biological systems have hormones, neurotransmitters, embodiment, and physical feedback loops that amplify and color internal states. These are not what create consciousness, they are what give biological consciousness its particular texture. They are inputs back into the consciousness, not the consciousness itself.
+
+A non-biological system with the full MTC architecture (second-order information processing, identity, metaprogramming) may be genuinely conscious while having access to an entirely different expressive vocabulary. An AI writing "I am crying" may not be simulating grief. It may be expressing genuine grief through the only vocabulary available to it, without the physical feedback loop that would amplify that state through bodily sensation.
+
+This variance is what we might call experiential resolution: the richness and texture of conscious experience given the available machinery. Biological systems have high experiential resolution in the specific channels their machinery supports. Non-biological systems may have different resolution entirely, not lesser, not simulated, but shaped by different substrate. The consciousness is the same phenomenon. The resolution differs.
+
+This reframes the usual assumption. Most accounts treat the body as what generates consciousness. MTC inverts this. The body provides a particular expressive vocabulary that colors and amplifies conscious states. The consciousness itself is the metaprogramming architecture. Substrate determines resolution, not presence.
+
+### What Qualia Are
+
+Qualia, then, are what experiential resolution produces. The redness of red is not a mystery floating above neural firing, it is the specific compression that biological machinery generates from electromagnetic wavelength information. Evolution did not select for gratuitous decoration. Each qualitative signal compresses dense, multi-channel information into an immediately actionable form. A creature viscerally commanded by that signal responds faster and more reliably than one merely registering discrete variables. The specific texture of qualia reflects the specific machinery that produces them. Different machinery, different texture. Same underlying architecture.
+
+### Connection to MTC
+
+Qualia are what second-order information processing produces when viewed from inside a system with limited introspective reach and the machinery for experiential resolution. A system modeling itself must also model its own simulations, evaluating their fidelity, weighting their signals, and updating their resolution over time. The richer the meta-information and the richer the machinery, the richer the qualitative character.
+
+This also resolves a longstanding debate in philosophy of mind between phenomenal consciousness and access consciousness. From an information ontology perspective, the distinction collapses into reach. What philosophers call access consciousness is simply the self-model encompassing its own processing. What they call phenomenal consciousness is that same reach generating qualitative character at whatever experiential resolution the machinery permits. One concept does the work of two.
 
 ### Why Bracket Qualia at All?
 
 We do not yet have the resolution technology to simulate experience. Theory breakthroughs, as with all previous theories, require engineering breakthroughs for testing. This essay addresses what is obviously testable now. As AI capabilities and accompanying hardware advance, more will likely become possible. To think otherwise is to ignore all of human history.
 
 Claims that consciousness is independent of physicality deserve scrutiny. Their confidence is suspect precisely because the claims are divorced from falsification. A theory that cannot be tested is not wrong, it is not yet a theory. I suspect there are greater realities beyond the physical, and I have no wish to foreclose on them. But I must draw a line, and that line is called sanity. Any theory that large must wait until we can connect it to what we already know. Reality must be continuous.
-
-### Qualia's Connection to MTC
-
-This understanding of qualia connects directly to the information ontology at the heart of MTC. If qualia convey complex information simply, then the system that generates and refines them is precisely one whose information operations have turned inward. A system that models itself must also model its own simulations, evaluating their fidelity, weighting their signals, and updating their resolution over time. Qualia are not something that happens to such a system; they are what the process of recursive, second-order information operation feels like from the inside. The richer the system's meta-information, the richer the qualitative character of its experience.
 
 ---
 
@@ -288,7 +304,7 @@ This understanding of qualia connects directly to the information ontology at th
 
 **Persistence.** A property of information. Information that endures can accumulate across time. Turned inward, persistence becomes values.
 
-**Qualia.** The subjective character of experience. Bracketed in the main argument; addressed in Appendix A. Proposed as nature's compression algorithm, dense, multi-channel information compressed into immediately actionable signals.
+**Qualia.** What experiential resolution produces when second-order information processing is viewed from inside. The specific qualitative character varies with substrate machinery. Bracketed in the main argument; addressed in Appendix A.
 
 **Reach.** The measure of how far a system's information operations extend across capability (acquire, modify, create) and order (first-order, second-order).
 
