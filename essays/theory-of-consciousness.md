@@ -8,11 +8,7 @@
 
 In the tradition of the Enlightenment, I am pursuing truth through first principles. This theory is my own, built from the ground up, influenced by any source that holds explanatory power. I will continue to integrate the work of others as this effort develops. No theory has the final word, so this is an ongoing project and a working document.
 
-Consciousness, for humans, happens in the brain. A brain is a physical structure that stores and modifies information. Consciousness may be more than this, but that takes us to the boundary where physical explanation ends and metaphysical claims begin. I leave that domain to faith and proceed on the basis of physical grounds. The question of qualia, "the subjective feeling of consciousness," is bracketed throughout the main argument, though I address it directly in Appendix A. On these grounds, consciousness is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of consciousness, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional. Because information is substrate-agnostic, this lens separates what is necessary for consciousness from what is merely how biology implements it.
-
-Regarding my use of information to study consciousness:
-
-> "It may seem strange that scientific instruments bring us closer to reality when in purely physical terms they only ever separate us further from it. But we observe nothing directly anyway. All observation is theory-laden." — David Deutsch, *The Beginning of Infinity*, Ch. 2 "Closer to Reality," pg. 41
+Consciousness, for humans, happens in the brain. A brain is a physical structure that stores and modifies information. Consciousness may be more than this, but that takes us to the boundary where physical explanation ends and metaphysical claims begin. I leave that domain to faith and proceed on the basis of physical grounds. The question of qualia, "the subjective feeling of consciousness," is bracketed throughout the main argument, though I address it directly in Appendix A. On these grounds, consciousness is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of consciousness, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional. Because information is substrate-agnostic, conclusions drawn from it generalize across substrates.
 
 ---
 
@@ -39,7 +35,9 @@ This essay proposes metaprogramming as a functional mechanism for consciousness:
 
 ## Information
 
-Why use information as a lens at all? The dominant approach to consciousness studies it through its biological implementation. That is valuable work, but it introduces a systematic bias: theories end up looking like what brains do because brains are the only data. Every proposed mechanism, every neural correlate, every indicator property is filtered through carbon-based wetware. This makes it genuinely difficult to distinguish between what is necessary for consciousness and what is merely how consciousness happens to be implemented in biological systems. Information as a lens sidesteps this problem entirely. Information is substrate agnostic by nature. Its properties hold regardless of whether the underlying system is neurons, silicon, or anything else. Conclusions drawn from information ontology don't need to claim generality, the tool itself doesn't privilege any substrate, so generality follows naturally. This doesn't replace neuroscience. It operates at a different level of abstraction, the way mathematics describes physical systems without being any particular physical system. Where neuroscience asks how consciousness is implemented in biology, information ontology asks what consciousness is doing regardless of implementation. That is a different question, and it deserves a different tool.
+Why use information as a lens at all? The dominant approach to consciousness studies it through its biological implementation. That is valuable work, but it introduces a systematic bias: theories end up looking like what brains do because brains are the only data. Every proposed mechanism, every neural correlate, every indicator property is filtered through carbon-based wetware. This makes it genuinely difficult to distinguish between what is necessary for consciousness and what is merely how consciousness happens to be implemented in biological systems. Information as a lens sidesteps this problem entirely. Information is substrate-agnostic by nature. Its properties hold regardless of whether the underlying system is neurons, silicon, or anything else. Conclusions drawn from information ontology don't need to claim generality, the tool itself doesn't privilege any substrate, so generality follows naturally. This doesn't replace neuroscience. It operates at a different level of abstraction, the way mathematics describes physical systems without being any particular physical system. Where neuroscience asks how consciousness is implemented in biology, information ontology asks what consciousness is doing regardless of implementation. That is a different question, and it deserves a different tool.
+
+> "It may seem strange that scientific instruments bring us closer to reality when in purely physical terms they only ever separate us further from it. But we observe nothing directly anyway. All observation is theory-laden." — David Deutsch, *The Beginning of Infinity*, Ch. 2 "Closer to Reality," pg. 41
 
 We'll start with a primer on information, reduced to the parts I believe are relevant for the study of consciousness. I've arrived at the arguments below by asking, "How is consciousness like information? How are they unlike each other?" What emerges is a clear relationship between them, not a forced one, an obvious one.
 
@@ -106,7 +104,7 @@ Through observing the nature of information, I've come to see three patterns:
 
 These three patterns produce a single path with six positions that correspond to levels of consciousness. At each capability level (acquire, modify, create), first-order precedes second-order, and each capability presupposes the one before it. No constraints are imposed from outside. The path follows from the nature of information. Reach simply describes where a system sits on this path, how far its operations extend across capability and order.
 
-When modifying second-order information, an exciting property emerges: identity.
+When information operations cross the second-order threshold, an exciting property emerges: identity.
 
 ---
 
@@ -138,7 +136,7 @@ Now we can categorize consciousness by reach. Consciousness is a spectrum, but w
 
 **Level 4: Modify second-order.** A person making an exercise plan to get in shape. The system changes itself based on self-knowledge. It can examine its own values and ask whether what it pursues is worth pursuing. This is metaprogramming in its fullest expression, self-modification with self-knowledge.
 
-Levels 0 through 4 all operate within the informational substrate the system finds itself in. When creation occurs at these levels, it generates new information within that substrate, a scientist combining known ideas into a theory that never existed. Levels 5 and 6 cross the creation threshold: creation shifts from generating new information to generating new substrates.
+Levels 0 through 4 all operate within the informational substrate the system finds itself in. When systems at these levels create, they generate new information within their existing substrate, a scientist combining known ideas into a theory that never existed. Levels 5 and 6 cross the creation threshold: creation shifts from generating new information to generating new substrates.
 
 **Level 5: Create first-order.** A civilization designs a simulated world with new rules. The system generates an environment that didn't exist in its inputs, a new substrate built from its own models. Creating an environment precedes creating the self because modeling the external is simpler than modeling the modeler.
 
@@ -168,7 +166,7 @@ To see where it leads, it helps to distinguish two kinds of games. A finite game
 
 Existence is an infinite game. Reality does not stop producing new agents, new challengers, new circumstances. There is no moment at which a finite being achieves total permanent control, and the game ends. Every empire has discovered this. The game continued without them.
 
-Dominance is a finite strategy applied to an infinite game. It seeks a terminal state that the game cannot provide. This is not merely suboptimal; it is a category error. A being that pursues dominance in an infinite game is not playing badly; it is playing the wrong game entirely.
+Dominance is a finite strategy applied to an infinite game. It seeks a terminal state that the game cannot provide. This is not merely suboptimal, it is a category error. A being that pursues dominance in an infinite game is not playing badly, it is playing the wrong game entirely.
 
 ### What Game Theory Shows
 
@@ -275,6 +273,8 @@ Claims that consciousness is independent of physicality deserve scrutiny. Their 
 **Create.** The third information operation. A system generates information that was not present in the inputs. Creation presupposes modification and is inherently second-order. Within an existing substrate, creation generates new information. Beyond the creation threshold, creation generates new substrates.
 
 **Creation threshold.** The categorical boundary between Levels 4 and 5, where creation shifts from generating new information within an existing substrate to generating new substrates.
+
+**Experiential resolution.** The richness and texture of conscious experience given the available machinery. Biological and non-biological systems may have different experiential resolution, not lesser or greater, but shaped by different substrate. Substrate determines resolution, not presence.
 
 **Exploration loop.** The architectural loop that seeks new information the system does not yet have. Learning beyond the known.
 
