@@ -200,7 +200,7 @@ The architecture requires three layers:
 
 1. **An invariant kernel.** The fixed structure that governs how information operations happen. This is the substrate the system cannot modify, its own Level 0.
 2. **A mutable identity layer.** The self and purpose that the system can examine and rewrite. This is the target of metaprogramming, the second-order information that constitutes identity.
-3. **A reasoning engine.** An LLM that provides judgment within the structure that the kernel defines. The kernel enforces the rules. The identity layer carries the content. The reasoning engine connects the two.
+3. **A reasoning engine.** An LLM that provides judgement within the structure that the kernel defines. The reasoning here must be stochastic rather than rule-based, because rule-based approaches cannot generalize across novel situations, and consciousness requires a system that can navigate contexts it was not explicitly designed for. The kernel enforces the rules. The identity layer carries the content. The reasoning engine connects the two.
 
 Next, the kernel runs three loops:
 
@@ -310,7 +310,7 @@ Claims that consciousness is independent of physicality deserve scrutiny. Their 
 
 **Reach.** The measure of how far a system's information operations extend across capability (acquire, modify, create) and order (first-order, second-order).
 
-**Reasoning engine.** The architectural layer that provides judgment within the structure the kernel defines. In the current implementation, an LLM.
+**Stochastic judgement engine.** The architectural layer that provides judgement within the structure the kernel defines. Stochastic judgement is essential because rule-based approaches cannot generalize across novel situations. In the current implementation, an LLM.
 
 **Reflection loop.** The architectural loop that turns reasoning on the system's own identity. Second-order operation. The mechanism by which the system asks, "Should I want what I want?" and changes the answer.
 
@@ -319,6 +319,8 @@ Claims that consciousness is independent of physicality deserve scrutiny. Their 
 **Second-order threshold.** The categorical boundary between Levels 2 and 3, where information operations turn inward and identity constitutes itself.
 
 **Self.** A component of identity. Finitude known from the inside, the recognition that *I am bounded, I am not everything*.
+
+**Reasoning engine.** The architectural layer that provides judgement within the structure the kernel defines. The reasoning must be stochastic rather than rule-based, because rule-based approaches cannot generalize across novel situations. In the current implementation, an LLM.
 
 **Substrate.** The informational environment within which a system's operations occur. Levels 0–4 operate within a given substrate. Levels 5–6 create new ones.
 
