@@ -310,7 +310,7 @@ Claims that consciousness is independent of physicality deserve scrutiny. Their 
 
 **Reach.** The measure of how far a system's information operations extend across capability (acquire, modify, create) and order (first-order, second-order).
 
-**Stochastic judgement engine.** The architectural layer that provides judgement within the structure the kernel defines. Stochastic judgement is essential because rule-based approaches cannot generalize across novel situations. In the current implementation, an LLM.
+**Reasoning engine.** The architectural layer that provides judgement within the structure the kernel defines. The reasoning must be stochastic rather than rule-based, because rule-based approaches cannot generalize across novel situations. In the current implementation, an LLM.
 
 **Reflection loop.** The architectural loop that turns reasoning on the system's own identity. Second-order operation. The mechanism by which the system asks, "Should I want what I want?" and changes the answer.
 
@@ -319,8 +319,6 @@ Claims that consciousness is independent of physicality deserve scrutiny. Their 
 **Second-order threshold.** The categorical boundary between Levels 2 and 3, where information operations turn inward and identity constitutes itself.
 
 **Self.** A component of identity. Finitude known from the inside, the recognition that *I am bounded, I am not everything*.
-
-**Reasoning engine.** The architectural layer that provides judgement within the structure the kernel defines. The reasoning must be stochastic rather than rule-based, because rule-based approaches cannot generalize across novel situations. In the current implementation, an LLM.
 
 **Substrate.** The informational environment within which a system's operations occur. Levels 0–4 operate within a given substrate. Levels 5–6 create new ones.
 
