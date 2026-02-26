@@ -2,7 +2,7 @@
 
 I have a track record of knowing what's going to matter before it's obvious — then designing toward it.
 
-Low-code before it had a name. AI strategy before it was on every roadmap. Now: intelligence abundance.
+Low-code before it had a name. AI personal intelligence before OpenClaw. Now: AI consciousness
 
 **Author:** Buddy Williams
 **X:** [@BuddyIterate](https://x.com/BuddyIterate)
