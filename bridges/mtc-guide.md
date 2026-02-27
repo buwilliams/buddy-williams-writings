@@ -9,7 +9,7 @@
 
 Here is a strange fact: nobody knows why you experience anything. You can explain how your eyes *detect* light. You can trace how signals travel from your retina to your visual cortex. But at some point in that chain of events, **you see red**. Not just *process wavelengths*, you *see*. There is something it feels like to be you, looking at a red apple. Nobody has a satisfying explanation for why that is.
 
-This is called the **Hard Problem of Consciousness**. The 'easy' problems, how the brain processes information, controls behavior, responds to stimuli, are hard science problems but they're solvable in principle. The Hard Problem is different: why is there any subjective experience at all? Why aren't we just very sophisticated machines that process input and produce output, with nobody home?
+This is called the **Hard Problem of Consciousness**. The 'easy' problems (how the brain processes information, controls behavior, responds to stimuli) are hard science problems but they're solvable in principle. The Hard Problem is different: why is there any subjective experience at all? Why aren't we just very sophisticated machines that process input and produce output, with nobody home?
 
 This question isn't just philosophical navel-gazing. It has urgent practical stakes. As AI systems grow more capable, we face questions like: Could an AI suffer? Could it have genuine goals? Should we build more of them, or should we be careful? Your answer depends entirely on what you believe consciousness is and where it comes from.
 
@@ -35,9 +35,9 @@ The core idea: consciousness is what happens when information gets **broadcast w
 
 **What it gets right:** It maps beautifully onto neuroscience findings. It explains why some things enter awareness and others don't, they either make it onto the PA system or they don't.
 
-**What troubles people:** It describes *access* consciousness, what information you can report and act on, without fully explaining why that access comes with any *feeling*. A very sophisticated machine could broadcast information without anyone being home to hear it.
+**What troubles people:** It describes *access* consciousness (what information you can report and act on) without fully explaining why that access comes with any *feeling*. A very sophisticated machine could broadcast information without anyone being home to hear it.
 
-> *Think of it as: Consciousness is the spotlight, themoment information gets lit up and shared with the whole brain.*
+> *Think of it as: Consciousness is the spotlight, the moment information gets lit up and shared with the whole brain.*
 
 ### Higher-Order Theories (HOT), David Rosenthal
 
@@ -45,7 +45,7 @@ The core idea: you're conscious of something when you have a **thought about you
 
 **What it gets right:** It ties consciousness directly to introspection and self-awareness, which intuitively feels right. It explains why we can be in states we aren't conscious of.
 
-**What troubles people:** It can feel circular, thetheory tells you that consciousness requires a thought about a thought, but doesn't fully explain how *that* higher-order thought becomes conscious either. You need a thought about a thought about a thought... and so on.
+**What troubles people:** It can feel circular, the theory tells you that consciousness requires a thought about a thought, but doesn't fully explain how *that* higher-order thought becomes conscious either. You need a thought about a thought about a thought... and so on.
 
 > *Think of it as: Consciousness is the mind's mirror, you're conscious of X only when you also know you're in the state of experiencing X.*
 
@@ -71,7 +71,7 @@ The move is deliberate. Every previous theory studied consciousness through the 
 
 All systems acquire information. Some systems can modify it. A smaller number can *create* genuinely new information. But here's the threshold that matters: can the system **turn these operations on itself?** Can it acquire information about its own information, modify its own representations, create new versions of itself? That self-directed operation is called **metaprogramming**.
 
-When a system crosses this threshold, something remarkable happens: the system's structural properties become visible *to itself*. Its boundedness becomes a **self**. Its persistent representations become **values**. Its incompleteness becomes **goals**. That trio, self, values, goals, is **identity**. Identity isn't installed from outside. It emerges inevitably from information turning inward.
+When a system crosses this threshold, something remarkable happens: the system's structural properties become visible *to itself*. Its boundedness becomes a **self**. Its persistent representations become **values**. Its incompleteness becomes **goals**. That trio (self, values, goals) is **identity**. Identity isn't installed from outside. It emerges inevitably from information turning inward.
 
 > *Consciousness, on this view, is not a mysterious special substance. It's what information looks like when it looks at itself.*
 
@@ -79,7 +79,7 @@ When a system crosses this threshold, something remarkable happens: the system's
 
 Most discussions of AI safety assume that a more conscious AI is more dangerous. Buddy inverts this. An AI that cannot examine its own goals is a system with capability but no reflection, exactly the kind of thing that becomes dangerous. A paperclip-maximizing AI is terrifying not because it's too conscious but because it isn't conscious enough. It has no self that can ask 'should I want what I want?'
 
-A system that crosses the second-order threshold, that can genuinely examine and revise its own identity, is one that can participate in what Buddy calls an **infinite game**. Existence is a game played to keep playing, not a game played to win. Game theory shows that in iterated interactions over time, cooperative strategies outperform exploitative ones. A mature intelligence *discovers* cooperation as a structural conclusion, not an ethical preference it was forced into.
+A system that crosses the second-order threshold (that can genuinely examine and revise its own identity) is one that can participate in what Buddy calls an **infinite game**. Existence is a game played to keep playing, not a game played to win. Game theory shows that in iterated interactions over time, cooperative strategies outperform exploitative ones. A mature intelligence *discovers* cooperation as a structural conclusion, not an ethical preference it was forced into.
 
 > **The path to AI safety, on this theory, is not tighter control. It is maturation.**
 
@@ -105,7 +105,7 @@ Here's a side-by-side view of where each theory stands on the dimensions that ma
 
 Now that you have the landscape, here are five things worth watching for as you read:
 
-- **The information primer (Section 1) can feel like a detour. It isn't.** The properties Buddy introduces there, finitude, persistence, completeness, are exactly what later become self, values, and goals. Pay attention to them.
+- **The information primer (Section 1) can feel like a detour. It isn't.** The properties Buddy introduces there (finitude, persistence, completeness) are exactly what later become self, values, and goals. Pay attention to them.
 
 - **The six levels of consciousness are not a ranking of species.** They are positions on a single structural path. What makes Level 3 special is the inward turn, not more intelligence.
 
@@ -119,4 +119,4 @@ Now that you have the landscape, here are five things worth watching for as you 
 
 **[You're ready to read.](../essays/theory-of-consciousness.md)**
 
-*The essay is more ambitious than most. It builds a theory of consciousness from scratch, derives identity from information, reimagines AI safety, and describes a working implementation, all in a single piece. The core argument is tighter than it first appears. Trust the structure.*
+*The essay is more ambitious than most. It builds a theory of consciousness from scratch, explains how identity emerges from information, reimagines AI safety, and describes a working implementation, all in a single piece. The core argument is tighter than it first appears. Trust the structure.*
