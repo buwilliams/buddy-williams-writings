@@ -117,6 +117,6 @@ Now that you have the landscape, here are five things worth watching for as you 
 
 ---
 
-**You're ready to read.**
+**[You're ready to read.](../essays/theory-of-consciousness.md)**
 
 *The essay is more ambitious than most. It builds a theory of consciousness from scratch, derives identity from information, reimagines AI safety, and describes a working implementation — all in a single piece. The core argument is tighter than it first appears. Trust the structure.*
