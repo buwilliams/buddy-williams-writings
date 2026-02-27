@@ -6,7 +6,7 @@
 
 ## Preface
 
-In the tradition of the Enlightenment, I am pursuing truth through first principles. This theory is my own, built from the ground up, influenced by any source that holds explanatory power. I will continue to integrate the work of others as this effort develops. No theory has the final word, so this is an ongoing project and a working document.
+I wanted to understand consciousness on my own terms before inheriting anyone else's assumptions. This theory reasons from first principles, drawing on sources with explanatory reach. It is a working document, no theory has the final word, and I will continue integrating the work of others as this effort develops. If you'd like orientation before diving in, start with the [reader's guide](../bridges/mtc-guide.md).
 
 Consciousness, for humans, happens in the brain. A brain is a physical structure that stores and modifies information. Consciousness may be more than this, but that takes us to the boundary where physical explanation ends and metaphysical claims begin. I leave that domain to faith and proceed on the basis of physical grounds. The question of qualia, "the subjective feeling of consciousness," is bracketed throughout the main argument, though I address it directly in Appendix A. On these grounds, consciousness is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of consciousness, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional. Because information is substrate-agnostic, conclusions drawn from it generalize across substrates.
 
