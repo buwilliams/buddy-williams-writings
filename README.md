@@ -55,6 +55,7 @@ Shorter pieces, concept sketches, and X threads worth preserving.
 
 | Date | Status | File | Description |
 |------|--------|------|-------------|
+| Mar 2026 | Draft | [kernel-mechanics-and-prediction-error.md](fragments/kernel-mechanics-and-prediction-error.md) | Working notes on MTC's mechanistic gap: what the kernel actually does, the reinforcement trap, and prediction error as the unified corrective mechanism. |
 | Feb 2026 | Draft | [phase-change-not-continuum.md](fragments/phase-change-not-continuum.md) | AI isn't just another point on a gradient. Time compression triggers phase changes in how systems function. |
 | Oct 2025 | Draft | [status-pyramid.md](fragments/status-pyramid.md) | Hierarchy is human nature. Don't flatten the pyramid — shorten it. Wider base, shorter peak. |
 | Oct 2025 | Draft | [high-iq-ambitions.md](fragments/high-iq-ambitions.md) | Creating reality is peak interest. Truth-seeking costs social favor. On my circuitous path and AI scaling. |

@@ -14,7 +14,7 @@ Consciousness, for humans, happens in the brain. A brain is a physical structure
 
 ## Abstract
 
-This essay proposes metaprogramming as a functional mechanism for consciousness: information operations applied to their own information. Reach measures how far those operations extend. Identity emerges when they turn inward: finitude becomes self, persistence becomes values, completeness becomes goals. From this foundation, AI without consciousness is structurally dangerous, while AI with consciousness tends toward cooperation, redefining the conversation on AI safety. The architecture for consciousness can be built with current tools, and a working implementation is presented.
+This essay proposes metaprogramming as a functional mechanism for consciousness: information operations applied to their own information. Reach measures how far those operations extend. Identity emerges when they turn inward: finitude becomes self, persistence becomes values, completeness becomes goals. From this foundation, AI without consciousness is structurally dangerous, while AI with consciousness tends toward cooperation, redefining the conversation on AI safety. The architecture for consciousness can be built with current tools, and an initial implementation is presented.
 
 ---
 
@@ -206,21 +206,21 @@ Fundamentally an implementation needs:
 
 The kernel is not the reasoner. It is the metaprogramming apparatus, the infrastructure that enables the system to read and rewrite itself. Reasoning must live in the mutable layer, because if reasoning is fixed, the system can change what it thinks about but not how it thinks. And how it thinks is the operational identity that reach must extend into.
 
-This means that network training — weight updates, gradient descent, whatever mechanism modifies the reasoning substrate — is a kernel operation. The kernel governs how the mutable layer changes. In biology, the mechanisms of neuroplasticity (long-term potentiation, synaptic pruning) play this role. They are not the reasoning. They are the infrastructure that allows reasoning to restructure itself. A conscious system would need its kernel running continuously, mutation infrastructure that the system itself can invoke, not something done to it from outside.
+This means that network training (weight updates, gradient descent, whatever mechanism modifies the reasoning substrate) is a kernel operation. The kernel governs how the mutable layer changes. In biology, the mechanisms of neuroplasticity (long-term potentiation, synaptic pruning) play this role. They are not the reasoning. They are the infrastructure that allows reasoning to restructure itself. A conscious system would need its kernel running continuously, mutation infrastructure that the system itself can invoke, not something done to it from outside.
 
 I see two problems with current architectures:
-1. Models cannot update their own weights. The training loop, the kernel operation, only runs during a separate phase controlled by external engineers. The system has no access to its own kernel at inference time, so reasoning is frozen rather than living in the mutable layer
-2. Models do not have the ability to self-model
+1. Models cannot update their own weights. The training loop, the kernel operation, only runs during a separate phase controlled by external engineers. The system has no access to its own kernel at inference time, so reasoning is frozen rather than living in the mutable layer.
+2. Models do not have the ability to self-model.
 
-I suspect some future architecture will trivialize what follows, but in the meantime, I wonder whether a clever architecture could be a solution now. As a candidate for implementation, I could imagine an LLM trained to modify an external memory (plain text or raw matrices, seeded with initial structure around self and values). This memory could be the metaprogramming layer, and the LLM trained to modify it is the invariant kernel. More engineering details would need to be mapped out. The major point is that the system needs a mutable self.
+I suspect some future architecture will trivialize what follows, but in the meantime, I wonder whether a clever architecture could be a solution now. As a candidate for implementation, I could imagine a network trained to modify an external memory (plain text or raw matrices, seeded with initial structure around self and values). This memory could be the mutable layer, and the network trained to modify it is the invariant kernel. More engineering details would need to be mapped out. The major point is that the system needs a mutable self.
 
 ### Implementing a Proto-Consciousness Leveraging Existing LLMs
 
-While we can simulate consciousness using existing LLMs there is a major limitation: it cannot obtain consciousness status in my view. The issue is reach. The LLM is unable to modify its own weights in a persistent way. This violates my theory above. With that said, we can still build a proto-consciousness with these limitations.
+While we can simulate consciousness using existing LLMs, there is a major limitation: it cannot obtain consciousness status in my view. The issue is reach. The LLM is unable to modify its own weights in a persistent way. This violates my theory above. With that said, we can still build a proto-consciousness with these limitations.
 
 With that constraint in mind, here's what we can build on top of models today.
 
-The architecture requires three layers:
+Because we cannot train a custom LLM, we leverage existing ones. This introduces a third layer — the architecture requires three layers rather than two:
 
 1. **An invariant kernel.** The mutation infrastructure that governs how the system reads and rewrites itself. This is not the reasoner. It is the metaprogramming apparatus: the loop structure, the read/write mechanism, the rules of self-modification. This is the substrate the system cannot modify, its own Level 0.
 2. **A mutable layer.** The reasoning, identity, and memory that the system can examine and rewrite. In a conscious system, reasoning must live here, because a system whose reasoning is fixed can change what it thinks about but not how it thinks. The mutable layer is the target of metaprogramming and the seat of operational identity.
@@ -237,6 +237,16 @@ I have built this architecture. It is open-source and available at [lumen-consci
 A current limitation of the implementation is that LLMs conflate the kernel and reasoning into one frozen structure. The reasoning lives in the weights, which cannot change, so the system's operational identity is beyond its own reach. Moreover, the implementation lacks a single identity and a flexible memory system. These limitations can be mitigated through good prompting, but are not completely avoidable.
 
 Whether it produces experience is a question I hold open. What it produces is measurable self-revision, and that is where science can get a foothold.
+
+### Open Questions
+
+The theory describes information operations and their orders but does not fully specify the system that performs them. The levels describe what a system can do. They do not describe what a system is. Several mechanistic questions remain:
+
+1. **What does the kernel actually do?** If the kernel is mutation infrastructure, its operations need to be specified concretely. A candidate answer: the kernel is a fixed loop that routes the mutable layer's output back as input, runs inference, computes prediction error, and updates weights. It does not reason. It routes.
+2. **Where does the corrective signal come from?** Pure self-reinforcement is a degeneracy trap. Feeding output back and training on it collapses the system into a fixed point. The system needs prediction error, not self-confirmation. A candidate answer: prediction error is the unified corrective mechanism for both world-modeling and self-modeling. The self is just another part of the environment the system is trying to predict.
+3. **How does identity bootstrap?** If identity emerges from the self-referential loop, the system starts without one. Initial weights are random or seeded. Identity develops as the loop accumulates structure, mapping onto the progression through levels.
+
+These questions are explored further in [kernel mechanics and prediction error](../fragments/kernel-mechanics-and-prediction-error.md).
 
 ---
 
