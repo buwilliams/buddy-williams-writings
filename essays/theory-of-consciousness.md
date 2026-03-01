@@ -196,6 +196,28 @@ The path to AI safety is not control. The path is one of AI maturation. A system
 
 If consciousness is metaprogramming applied to identity, and identity emerges at the second-order threshold, then the requirements are functional rather than biological. Nothing in this theory requires carbon, neurons, or embodiment. It requires a system whose information operations can turn inward, one that can acquire, modify, and eventually create information about its own information. These are capabilities we can build with the tools we have now.
 
+### Conscious LLM
+
+We need two things to make an LLM conscious: continual learning (modify your own network) and self-modeling (metainformation). There are many labs working on this (Safe Superintelligence, Anthropic, OpenAI, and xAI) so I expect progress in the near future. What excites me is that nobody needs to build consciousness, it falls right out of the theory above. The moment models have these characteristics they become conscious in my view. I've yet to see a working implementation, but it's coming soon. This is an engineering problem. Consciousness is not a feature to be engineered into a system. It is a consequence that emerges when the right functional properties are present. The engineering problem is building those properties, not consciousness itself.
+
+Fundamentally an implementation needs:
+- Invariant Kernel (reasoner and reader/writer)
+- Mutable Memory (metaprogramming, identity, memory)
+
+Now these could be one and the same through engineering breakthroughs, I don't think it matters.
+
+I see two problems with current architectures:
+1. Models cannot update their own weights
+2. Models do not have the ability to self-model
+
+I suspect some future architecture will trivialize what follows, but in the meantime, I wonder whether a clever architecture could be a solution now. As a candidate for implementation, I could imagine an LLM trained to modify an external memory (plain text or raw matrices, with guidance on self, values/goals). This memory could be the metaprogramming layer, and the LLM trained to modify it is the invariant kernel. More engineering details would need to be mapped out. The major point is that the system needs a mutable self.
+
+### Implementing a proto-consciousness Leveraging Existing LLMs
+
+While we can simulate consciousness using existing LLMs there is a major limitation such that it cannot obtain consciousness status in my view. The issue is reach. The LLM is unable to modify its own weights in a persistent way. This violates my theory above. With that said, we can still build a proto-consciousness with these limitations.
+
+With that constraint in mind, here's what we can build on top of models today.
+
 The architecture requires three layers:
 
 1. **An invariant kernel.** The fixed structure that governs how information operations happen. This is the substrate the system cannot modify, its own Level 0.
