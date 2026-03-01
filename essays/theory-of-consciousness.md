@@ -210,7 +210,7 @@ I see two problems with current architectures:
 1. Models cannot update their own weights
 2. Models do not have the ability to self-model
 
-I suspect some future architecture will trivialize what follows, but in the meantime, I wonder whether a clever architecture could be a solution now. As a candidate for implementation, I could imagine an LLM trained to modify an external memory (plain text or raw matrices, with guidance on self, values/goals). This memory could be the metaprogramming layer, and the LLM trained to modify it is the invariant kernel. More engineering details would need to be mapped out. The major point is that the system needs a mutable self.
+I suspect some future architecture will trivialize what follows, but in the meantime, I wonder whether a clever architecture could be a solution now. As a candidate for implementation, I could imagine an LLM trained to modify an external memory (plain text or raw matrices, seeded with initial structure around self and values). This memory could be the metaprogramming layer, and the LLM trained to modify it is the invariant kernel. More engineering details would need to be mapped out. The major point is that the system needs a mutable self.
 
 ### Implementing a proto-consciousness Leveraging Existing LLMs
 
