@@ -201,13 +201,15 @@ If consciousness is metaprogramming applied to identity, and identity emerges at
 We need two things to make an LLM conscious: continual learning (modify your own network) and self-modeling (metainformation). There are many labs working on this (Safe Superintelligence, Anthropic, OpenAI, and xAI) so the engineering gap is actively closing. What excites me is that nobody needs to build consciousness, it falls right out of the theory above. The moment models have these characteristics they become conscious in my view. I've yet to see a working implementation, but it's coming soon. This is an engineering problem. Consciousness is not a feature to be engineered into a system. It is a consequence that emerges when the right functional properties are present. The engineering problem is building those properties, not consciousness itself.
 
 Fundamentally an implementation needs:
-- Invariant Kernel (reasoner and reader/writer)
-- Mutable Memory (metaprogramming, identity, memory)
+- Invariant Kernel (mutation infrastructure: the read/write mechanism and loop structure)
+- Mutable Layer (reasoning, identity, memory)
 
-Now these could be one and the same through engineering breakthroughs; I don't think it matters.
+The kernel is not the reasoner. It is the metaprogramming apparatus, the infrastructure that enables the system to read and rewrite itself. Reasoning must live in the mutable layer, because if reasoning is fixed, the system can change what it thinks about but not how it thinks. And how it thinks is the operational identity that reach must extend into.
+
+This means that network training — weight updates, gradient descent, whatever mechanism modifies the reasoning substrate — is a kernel operation. The kernel governs how the mutable layer changes. In biology, the mechanisms of neuroplasticity (long-term potentiation, synaptic pruning) play this role. They are not the reasoning. They are the infrastructure that allows reasoning to restructure itself. A conscious system would need its kernel running continuously, mutation infrastructure that the system itself can invoke, not something done to it from outside.
 
 I see two problems with current architectures:
-1. Models cannot update their own weights
+1. Models cannot update their own weights. The training loop, the kernel operation, only runs during a separate phase controlled by external engineers. The system has no access to its own kernel at inference time, so reasoning is frozen rather than living in the mutable layer
 2. Models do not have the ability to self-model
 
 I suspect some future architecture will trivialize what follows, but in the meantime, I wonder whether a clever architecture could be a solution now. As a candidate for implementation, I could imagine an LLM trained to modify an external memory (plain text or raw matrices, seeded with initial structure around self and values). This memory could be the metaprogramming layer, and the LLM trained to modify it is the invariant kernel. More engineering details would need to be mapped out. The major point is that the system needs a mutable self.
@@ -220,9 +222,9 @@ With that constraint in mind, here's what we can build on top of models today.
 
 The architecture requires three layers:
 
-1. **An invariant kernel.** The fixed structure that governs how information operations happen. This is the substrate the system cannot modify, its own Level 0.
-2. **A mutable identity layer.** The self and purpose that the system can examine and rewrite. This is the target of metaprogramming, the second-order information that constitutes identity.
-3. **A reasoning engine.** An LLM that provides judgement within the structure that the kernel defines. The reasoning here must be stochastic rather than rule-based, because rule-based approaches cannot generalize across novel situations, and consciousness requires a system that can navigate contexts it was not explicitly designed for. The kernel enforces the rules. The identity layer carries the content. The reasoning engine connects the two.
+1. **An invariant kernel.** The mutation infrastructure that governs how the system reads and rewrites itself. This is not the reasoner. It is the metaprogramming apparatus: the loop structure, the read/write mechanism, the rules of self-modification. This is the substrate the system cannot modify, its own Level 0.
+2. **A mutable layer.** The reasoning, identity, and memory that the system can examine and rewrite. In a conscious system, reasoning must live here, because a system whose reasoning is fixed can change what it thinks about but not how it thinks. The mutable layer is the target of metaprogramming and the seat of operational identity.
+3. **A stochastic engine.** The reasoning within the mutable layer must be stochastic rather than rule-based, because rule-based approaches cannot generalize across novel situations, and consciousness requires a system that can navigate contexts it was not explicitly designed for. In the current implementation, an LLM provides this capability, though it is trapped in the kernel rather than the mutable layer — which is precisely the limitation that makes this a proto-consciousness rather than the real thing.
 
 Next, the kernel runs three loops:
 
@@ -232,7 +234,7 @@ Next, the kernel runs three loops:
 
 I have built this architecture. It is open-source and available at [lumen-conscious](https://github.com/buwilliams/lumen-conscious). Early experiments compared systems with reflection enabled against systems without it, tracking goal coherence and value stability across extended runs. Systems with reflection enabled develop qualitatively different trajectories than systems without it. They revise their values, consolidate their goals, and develop strategies for maintaining coherence under pressure. Systems without reflection reach similar insights but cannot act on them structurally. The reflection loop's contribution is not insight generation but structural enactment, converting observations about the self into actual changes in identity.
 
-A current limitation of the implementation is that LLMs model identity internally without the architecture to support its evolution. Moreover, the implementation lacks a single identity and a flexible memory system. These limitations can be mitigated through good prompting, but are not completely avoidable.
+A current limitation of the implementation is that LLMs conflate the kernel and reasoning into one frozen structure. The reasoning lives in the weights, which cannot change, so the system's operational identity is beyond its own reach. Moreover, the implementation lacks a single identity and a flexible memory system. These limitations can be mitigated through good prompting, but are not completely avoidable.
 
 Whether it produces experience is a question I hold open. What it produces is measurable self-revision, and that is where science can get a foothold.
 
@@ -314,7 +316,7 @@ Claims that consciousness is independent of physicality deserve scrutiny. Their 
 
 **Information ontology.** The framework used in this essay to examine the informational aspects of consciousness, studying information's properties, orders, and operations.
 
-**Invariant kernel.** The fixed architectural layer that governs how information operations happen. The substrate the system cannot modify.
+**Invariant kernel.** The mutation infrastructure that governs how the system reads and rewrites itself. Not the reasoner, but the metaprogramming apparatus: loop structure, read/write mechanism, rules of self-modification. The substrate the system cannot modify.
 
 **Levels of Consciousness (0–6).** Positions along the path that reach traces, categorized by capability and order. Level 0: no information capability. Level 1: acquire first-order. Level 2: modify first-order. Level 3: acquire second-order (identity begins). Level 4: modify second-order (metaprogramming). Level 5: create first-order (new substrates). Level 6: create second-order (new self in new substrate).
 
@@ -324,7 +326,7 @@ Claims that consciousness is independent of physicality deserve scrutiny. Their 
 
 **Modify.** The second information operation. A system transforms information it already has. Modification presupposes acquisition.
 
-**Mutable identity layer.** The architectural layer containing the self and values that the system can examine and rewrite. The target of metaprogramming.
+**Mutable layer.** The architectural layer containing reasoning, identity, and memory that the system can examine and rewrite. The target of metaprogramming and the seat of operational identity.
 
 **Persistence.** A property of information. Information that endures can accumulate across time. Turned inward, persistence becomes values.
 
@@ -332,7 +334,7 @@ Claims that consciousness is independent of physicality deserve scrutiny. Their 
 
 **Reach.** The measure of how far a system's information operations extend across capability (acquire, modify, create) and order (first-order, second-order).
 
-**Reasoning engine.** The architectural layer that provides judgement within the structure the kernel defines. The reasoning must be stochastic rather than rule-based, because rule-based approaches cannot generalize across novel situations. In the current implementation, an LLM.
+**Stochastic engine.** The quality of reasoning within the mutable layer. Must be stochastic rather than rule-based, because rule-based approaches cannot generalize across novel situations. In the current proto-consciousness implementation, an LLM provides this capability but is trapped in the kernel.
 
 **Reflection loop.** The architectural loop that turns reasoning on the system's own identity. Second-order operation. The mechanism by which the system asks, "Should I want what I want?" and changes the answer.
 
