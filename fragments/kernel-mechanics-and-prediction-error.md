@@ -1,10 +1,10 @@
 # Kernel Mechanics and Prediction Error
 
-*Working notes on the mechanistic gap in MTC's Buildable Now section.*
+*Working notes on the mechanistic gap in MFC's Buildable Now section.*
 
 ## The Problem
 
-MTC describes information operations (acquire, modify, create) and says they "turn inward," but the theory doesn't specify the mechanism by which they turn inward. Saying "the kernel runs a reflection loop" pushes the question back: what is the reflection loop doing, mechanistically? If it requires a prompt like "what do I believe about myself?" then reasoning has been smuggled into the kernel, contradicting the reframing of the kernel as mutation infrastructure rather than reasoner.
+MFC describes information operations (acquire, modify, create) and says they "turn inward," but the theory doesn't specify the mechanism by which they turn inward. Saying "the kernel runs a reflection loop" pushes the question back: what is the reflection loop doing, mechanistically? If it requires a prompt like "what do I believe about myself?" then reasoning has been smuggled into the kernel, contradicting the reframing of the kernel as mutation infrastructure rather than reasoner.
 
 ## The Flow of Information
 

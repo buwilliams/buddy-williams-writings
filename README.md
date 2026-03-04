@@ -36,7 +36,7 @@ The big ideas — frameworks, theories, and their applications.
 
 | Date | Status | File | Description |
 |------|--------|------|-------------|
-| Feb 2026 | Working | [theory-of-consciousness.md](essays/theory-of-consciousness.md) | Metaprogramming Theory of Consciousness (MTC) — consciousness is substrate-independent metaprogramming; the difference is maturity, not kind. ([reader's guide](bridges/mtc-guide.md)) |
+| Feb 2026 | Working | [framework-of-consciousness.md](essays/framework-of-consciousness.md) | Metaprogramming Framework To Explore Consciousness (MFC) — a functionalist exploration of consciousness through information ontology; consciousness is substrate-independent metaprogramming; the difference is maturity, not kind. ([reader's guide](bridges/mfc-guide.md)) |
 | Feb 2026 | Draft | [ai-phase-change.md](essays/ai-phase-change.md) | Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating, and the map-territory trap that lets people hide from what's already happening. |
 | Feb 2026 | Draft | [structural-convergence-thesis.md](essays/structural-convergence-thesis.md) | The Structural Convergence Thesis — why mature intelligence structurally converges on relationship, not domination. Decidability, consistency, and observability as universal bounds. |
 | Dec 2025 | Draft | [economics-intelligence-age.md](essays/economics-intelligence-age.md) | First-principles layered model of economics. Scarcity → prices → externalities → power → AI. |
@@ -55,7 +55,7 @@ Shorter pieces, concept sketches, and X threads worth preserving.
 
 | Date | Status | File | Description |
 |------|--------|------|-------------|
-| Mar 2026 | Draft | [kernel-mechanics-and-prediction-error.md](fragments/kernel-mechanics-and-prediction-error.md) | Working notes on MTC's mechanistic gap: what the kernel actually does, the reinforcement trap, and prediction error as the unified corrective mechanism. |
+| Mar 2026 | Draft | [kernel-mechanics-and-prediction-error.md](fragments/kernel-mechanics-and-prediction-error.md) | Working notes on MFC's mechanistic gap: what the kernel actually does, the reinforcement trap, and prediction error as the unified corrective mechanism. |
 | Feb 2026 | Draft | [phase-change-not-continuum.md](fragments/phase-change-not-continuum.md) | AI isn't just another point on a gradient. Time compression triggers phase changes in how systems function. |
 | Oct 2025 | Draft | [status-pyramid.md](fragments/status-pyramid.md) | Hierarchy is human nature. Don't flatten the pyramid — shorten it. Wider base, shorter peak. |
 | Oct 2025 | Draft | [high-iq-ambitions.md](fragments/high-iq-ambitions.md) | Creating reality is peak interest. Truth-seeking costs social favor. On my circuitous path and AI scaling. |
@@ -92,7 +92,7 @@ Companion guides that provide context and orientation before reading the main es
 
 | File | For | Description |
 |------|-----|-------------|
-| [mtc-guide.md](bridges/mtc-guide.md) | [theory-of-consciousness.md](essays/theory-of-consciousness.md) | A reader's guide to MTC — the Hard Problem, leading theories (IIT, GWT, HOT, Predictive Processing), and how metaprogramming reframes consciousness as information looking at itself. |
+| [mfc-guide.md](bridges/mfc-guide.md) | [framework-of-consciousness.md](essays/framework-of-consciousness.md) | A reader's guide to MFC — the Hard Problem, leading theories (IIT, GWT, HOT, Predictive Processing), and how metaprogramming reframes consciousness as information looking at itself. |
 
 ---
 
