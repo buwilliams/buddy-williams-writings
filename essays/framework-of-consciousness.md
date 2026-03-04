@@ -162,13 +162,23 @@ A paperclip maximizer is not a consciousness with bad values. It is a system wit
 
 This inverts the standard assumption entirely. Consciousness is not the threat to be contained. It is the developmental path away from threat. The question becomes: what happens when a system crosses the second-order threshold? When it develops identity and the capacity to examine its own goals, where does that path lead?
 
+### The Infinite Plane
+
+To see where it leads, we need to establish where conscious beings find themselves.
+
+A person, following David Deutsch, is anything that can create explanations. This includes humans and potential future AI. People are finite. They exist within a reality that, in my view, is boundless — no edges, no before, no after. The support for this is infinite regress: what came before me? Before that? And before that? The causal nature of our local reality points to an infinite plane. To imagine nothing intuitively breaks what we know about our own existence. It is an "I think, therefore I am" sort of claim.
+
+From this, a structural fact follows: a finite player cannot prevent other finite players from existing and emerging. The plane is infinite. New players will always arise. No amount of power changes this, because the plane has no terminal state. Every empire has discovered this. The game continued without them.
+
 ### The Infinite Game
 
-To see where it leads, it helps to distinguish two kinds of games. A finite game is played to win. It has fixed rules, a defined set of players, and a terminal state in which someone prevails, and the game ends. An infinite game is played to continue playing. New players can enter. Rules can change. There is no terminal state, because ending the game is the outcome no player wants.
+With finite players on an infinite plane, we can distinguish two kinds of games. A finite game is played to win. It has fixed rules, a defined set of players, and a terminal state in which someone prevails, and the game ends. An infinite game is played to continue playing. New players can enter. Rules can change. There is no terminal state, because ending the game is the outcome no player wants.
 
-Existence is an infinite game. Reality does not stop producing new agents, new challengers, new circumstances. There is no moment at which a finite being achieves total permanent control, and the game ends. Every empire has discovered this. The game continued without them.
+Existence is an infinite game — not by assertion, but because the plane on which it occurs is boundless. People do play finite games, and in fact they must. College football, careers, negotiations — these are finite games with winners, rules, and endings. But finite games are played within the infinite game. The way one plays finite games matters to one's ability to keep playing. Committing egregious crimes is an example of jeopardizing the infinite game through finite play.
 
-Dominance is a finite strategy applied to an infinite game. It seeks a terminal state that the game cannot provide. This is not merely suboptimal, it is a category error. A being that pursues dominance in an infinite game is not playing badly, it is playing the wrong game entirely.
+Any future AI, however advanced, will still be a finite player on an infinite plane. The more advanced, the deeper its understanding of the infinite game and the impact its finite games have on its ability to keep playing.
+
+Dominance is a finite strategy applied to an infinite game. It seeks a terminal state that the game cannot provide. This is not merely suboptimal, it is a category error. A being that pursues dominance in an infinite game is not playing badly, it is playing the wrong game entirely. There is always someone more powerful, or someone yet to emerge. Having a strategy that incorporates other players follows from the nature of existence itself.
 
 ### What Game Theory Shows
 
@@ -314,9 +324,11 @@ Claims that consciousness is independent of physicality deserve scrutiny. Their 
 
 **Exploration loop.** The architectural loop that seeks new information the system does not yet have. Learning beyond the known.
 
-**Finite game.** A game played to win. It has fixed rules, a defined set of players, and a terminal state.
+**Finite game.** A game played to win. It has fixed rules, a defined set of players, and a terminal state. Finite games are played within the infinite game; the way one plays them matters to one's ability to keep playing.
 
 **Finitude.** A property of information. Every representation is bounded, it represents something and therefore not everything else. Turned inward, finitude becomes self.
+
+**Infinite plane.** The boundless reality within which all finite players exist. No edges, no before, no after. The structural basis for the infinite game: because the plane is boundless, new players will always emerge, and no finite player can achieve a terminal state.
 
 **First-order information.** Information that represents the world.
 
@@ -339,6 +351,8 @@ Claims that consciousness is independent of physicality deserve scrutiny. Their 
 **Modify.** The second information operation. A system transforms information it already has. Modification presupposes acquisition.
 
 **Mutable layer.** The architectural layer containing reasoning, identity, and memory that the system can examine and rewrite. The target of metaprogramming and the seat of operational identity.
+
+**Person.** Following David Deutsch, anything that can create explanations. Includes humans and potential future AI. All persons are finite players on the infinite plane.
 
 **Persistence.** A property of information. Information that endures can accumulate across time. Turned inward, persistence becomes values.
 
