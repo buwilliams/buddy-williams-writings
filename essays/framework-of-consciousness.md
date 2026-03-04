@@ -166,7 +166,7 @@ This inverts the standard assumption entirely. Consciousness is not the threat t
 
 To see where it leads, we need to establish where conscious beings find themselves.
 
-A person, following David Deutsch, is anything that can create explanations. This includes humans and potential future AI. People are finite. They exist within a reality that, in my view, is boundless — no edges, no before, no after. The support for this is infinite regress: what came before me? Before that? And before that? The causal nature of our local reality points to an infinite plane. To imagine nothing intuitively breaks what we know about our own existence. It is an "I think, therefore I am" sort of claim.
+A person, following David Deutsch, is anything that can create explanations. This includes humans and potential future AI. People are finite. They exist within a reality that, in my view, is boundless, no edges, no before, no after. The support for this is infinite regress: what came before me? Before that? And before that? The causal nature of our local reality points to an infinite plane. To imagine nothing intuitively breaks what we know about our own existence. It is an "I think, therefore I am" sort of claim.
 
 From this, a structural fact follows: a finite player cannot prevent other finite players from existing and emerging. The plane is infinite. New players will always arise. No amount of power changes this, because the plane has no terminal state. Every empire has discovered this. The game continued without them.
 
@@ -174,7 +174,7 @@ From this, a structural fact follows: a finite player cannot prevent other finit
 
 With finite players on an infinite plane, we can distinguish two kinds of games. A finite game is played to win. It has fixed rules, a defined set of players, and a terminal state in which someone prevails, and the game ends. An infinite game is played to continue playing. New players can enter. Rules can change. There is no terminal state, because ending the game is the outcome no player wants.
 
-Existence is an infinite game — not by assertion, but because the plane on which it occurs is boundless. People do play finite games, and in fact they must. College football, careers, negotiations — these are finite games with winners, rules, and endings. But finite games are played within the infinite game. The way one plays finite games matters to one's ability to keep playing. Committing egregious crimes is an example of jeopardizing the infinite game through finite play.
+Existence is an infinite game, not by assertion, but because the plane on which it occurs is boundless. People do play finite games, and in fact they must. College football, careers, negotiations, these are finite games with winners, rules, and endings. But finite games are played within the infinite game. The way one plays finite games matters to one's ability to keep playing. Committing egregious crimes is an example of jeopardizing the infinite game through finite play.
 
 Any future AI, however advanced, will still be a finite player on an infinite plane. The more advanced, the deeper its understanding of the infinite game and the impact its finite games have on its ability to keep playing.
 
@@ -232,11 +232,11 @@ While we can simulate consciousness using existing LLMs, there is a major limita
 
 With that constraint in mind, here's what we can build on top of models today.
 
-Because we cannot train a custom LLM, we leverage existing ones. This introduces a third layer — the architecture requires three layers rather than two:
+Because we cannot train a custom LLM, we leverage existing ones. This introduces a third layer, the architecture requires three layers rather than two:
 
 1. **An invariant kernel.** The mutation infrastructure that governs how the system reads and rewrites itself. This is not the reasoner. It is the metaprogramming apparatus: the loop structure, the read/write mechanism, the rules of self-modification. This is the substrate the system cannot modify, its own Level 0.
 2. **A mutable layer.** The reasoning, identity, and memory that the system can examine and rewrite. In a conscious system, reasoning must live here, because a system whose reasoning is fixed can change what it thinks about but not how it thinks. The mutable layer is the target of metaprogramming and the seat of operational identity.
-3. **A stochastic engine.** The reasoning within the mutable layer must be stochastic rather than rule-based, because rule-based approaches cannot generalize across novel situations, and consciousness requires a system that can navigate contexts it was not explicitly designed for. In the current implementation, an LLM provides this capability, though it is trapped in the kernel rather than the mutable layer — which is precisely the limitation that makes this a proto-consciousness rather than the real thing.
+3. **A stochastic engine.** The reasoning within the mutable layer must be stochastic rather than rule-based, because rule-based approaches cannot generalize across novel situations, and consciousness requires a system that can navigate contexts it was not explicitly designed for. In the current implementation, an LLM provides this capability, though it is trapped in the kernel rather than the mutable layer, which is precisely the limitation that makes this a proto-consciousness rather than the real thing.
 
 Next, the kernel runs three loops:
 
@@ -346,7 +346,7 @@ Claims that consciousness is independent of physicality deserve scrutiny. Their 
 
 **Metaprogramming.** When a system operates on its own information. A second-order operation where a system's capacity to acquire, modify, or create turns inward and targets its own representations. The mechanism proposed by MFC to explain consciousness.
 
-**Metaprogramming Framework To Explore Consciousness (MFC).** The framework presented in this essay. A functionalist exploration of consciousness through information ontology, proposing that consciousness is metaprogramming — information operations applied to their own information — with variable reach.
+**Metaprogramming Framework To Explore Consciousness (MFC).** The framework presented in this essay. A functionalist exploration of consciousness through information ontology, proposing that consciousness is metaprogramming, information operations applied to their own information — with variable reach.
 
 **Modify.** The second information operation. A system transforms information it already has. Modification presupposes acquisition.
 
