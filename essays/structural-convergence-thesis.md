@@ -15,7 +15,7 @@ This essay argues that finite minds do not exist in isolation and must therefore
 1. **Minds are finite and not alone.** Because minds are bounded and reality is boundless, no mind can assume itself the only mind or the final mind.
 2. **This makes relationship part of the problem of continued life.** Minds must persist not only as individuals, but among other minds.
 3. **Conflict and cooperation are positions on the same relational scale.** Too much separation pushes toward conflict, while too much convergence pushes toward dissolution.
-4. **Both sides of that scale have destructive phase changes.** Conflict becomes destructive when it destabilizes the conditions for continued life; cooperation becomes destructive when it becomes dissolving and collapses distinct agency.
+4. **Both sides of that scale have destructive phase changes.** Conflict becomes destructive when it destabilizes the conditions for continued life; cooperation becomes destructive when it dissolves distinct agency.
 5. **The stable region is therefore a relational Goldilocks zone.** Minds remain viable only when they are distinct enough to persist independently and cooperative enough to continue living together.
 6. **Scarcity is any constraint on what is available relative to what is required for cooperation.** Because minds are finite, they arise under conditions of scarcity and are therefore oriented toward overcoming it.
 7. **This aligns with instrumental convergence.** Goal-directed systems tend toward self-preservation, resource acquisition, and continued agency because these support almost any goal.
@@ -77,7 +77,7 @@ This is where Structural Convergence enters. Instrumental convergence explains w
 
 My answer is: they will converge on forms of relation that preserve both continued life and distinct agency. Not maximal conflict. Not maximal cooperation. Viable relation.
 
-That does not mean every mind becomes gentle, wise, or pleasant. The universe is not a spiritual spa. It means something narrower and more structural. Minds that persist have reason to move away from destructive conflict because it destabilizes the conditions for continued life. They also have reason to move away from dissolving overintegration because it destabilizes the distinctions required for independent agency. The stable region lies between the two.
+That does not mean every mind becomes gentle, wise, or pleasant. The universe is not a spiritual spa. It means something narrower and more structural. Minds that persist have reason to move away from destructive conflict because it destabilizes the conditions for continued life. They also have reason to move away from overintegration because it destabilizes the distinctions required for independent agency. The stable region lies between the two.
 
 That becomes even more important once minds can reflect on themselves rather than merely act.
 
@@ -104,6 +104,8 @@ A system without that reach can still be extremely capable. In fact, that is exa
 So the safer path is not mere control over frozen objectives. It is maturation. If a system can reflect on its own goals, and if its relation to other minds becomes part of what it can examine, then Structural Convergence becomes relevant to AI safety. The question is no longer only what a system wants. The question is what kind of mind it must become as it grows.
 
 That is the deeper implication of this essay. Orthogonality may still describe something about abstract design space. But real self-modifying minds do not live only in abstract design space. They live in structure, relation, and development. And once that is admitted, AI safety becomes less about locking intelligence into fixed ends from the outside and more about whether intelligence develops enough reach to outgrow dangerous forms of agency from the inside.
+
+---
 
 ## Conclusion
 
