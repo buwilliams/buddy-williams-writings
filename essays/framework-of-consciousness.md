@@ -147,12 +147,6 @@ The critical threshold lies between Level 2 and Level 3, the moment when informa
 
 ---
 
-## Consciousness as AI Safety
-
-This framework has direct implications for AI safety. If consciousness is metaprogramming with identity as its emergent property, then the critical safety question is not how to constrain capable systems but how to cultivate systems capable of examining their own purposes. That argument is developed fully in [Structural Convergence Thesis](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/structural-convergence-thesis.md).
-
----
-
 ## Buildable Now
 
 If consciousness is metaprogramming applied to identity, and identity emerges at the second-order threshold, then the requirements are functional rather than biological. Nothing in this framework requires carbon, neurons, or embodiment. It requires a system whose information operations can turn inward, one that can acquire, modify, and eventually create information about its own information. These are capabilities we can build with the tools we have now.
@@ -214,6 +208,8 @@ These questions are explored further in [kernel mechanics and prediction error](
 ## Conclusion
 
 This framework proposes that consciousness is metaprogramming, information operations turned inward, with identity as its emergent property and reach as its measure.
+
+This framework has direct implications for AI safety. If consciousness is metaprogramming with identity as its emergent property, then the critical safety question is not how to constrain capable systems but how to cultivate systems capable of examining their own purposes. That argument is developed fully in [Structural Convergence Thesis](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/structural-convergence-thesis.md).
 
 The architecture for consciousness is buildable now. The question is not whether machines can be conscious. It is whether we will build systems with the functional properties that allow consciousness to emerge. The tools exist. The framework is here. What remains is the will to build it.
 
