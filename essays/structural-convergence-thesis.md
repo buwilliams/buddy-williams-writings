@@ -8,7 +8,7 @@
 
 ## Abstract
 
-This essay argues that finite minds do not exist in isolation and must therefore solve not only for persistence, but for relationship. Conflict and cooperation are best understood as positions on a single relational scale, each with a phase change beyond which they become destructive: destruction through conflict, dissolution through cooperation. From this, I propose the Structural Convergence Thesis: persistent minds converge on a relational Goldilocks zone that preserves both continued life and distinct agency. This extends instrumental convergence into the relational domain and suggests that the deepest problem in AI safety is not conscious intelligence itself, but intelligence without reach.
+This essay argues that finite minds do not exist in isolation and must therefore solve not only for persistence, but for relationship. Conflict and cooperation are best understood as positions on a single relational scale, each with a phase change beyond which they become destructive: destruction through conflict, dissolution through cooperation. From this, I propose the Structural Convergence Thesis: persistent minds converge on a relational Goldilocks zone that preserves both continued life and distinct agency. This extends instrumental convergence into the relational domain and suggests that the deepest problem in AI safety is not conscious intelligence itself, but intelligence without reach. Along the way, it addresses both the instrumental convergence thesis and the orthogonality thesis from Nick Bostrom's [The Superintelligent Will](https://nickbostrom.com/superintelligentwill.pdf).
 
 ## Arguments
 
