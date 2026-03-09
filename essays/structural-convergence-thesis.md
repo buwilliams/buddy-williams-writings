@@ -8,14 +8,14 @@
 
 ## Abstract
 
-This essay argues that finite minds do not exist in isolation and must therefore solve not only for persistence, but for relationship. Conflict and cooperation are best understood as positions on a single relational scale, each with a phase change beyond which they become destructive: destruction through conflict, assimilation through cooperation. From this, I propose the Structural Convergence Thesis: persistent minds converge on a relational Goldilocks zone that preserves both continued life and distinct agency. This extends instrumental convergence into the relational domain and suggests that the deepest problem in AI safety is not conscious intelligence itself, but intelligence without reach.
+This essay argues that finite minds do not exist in isolation and must therefore solve not only for persistence, but for relationship. Conflict and cooperation are best understood as positions on a single relational scale, each with a phase change beyond which they become destructive: destruction through conflict, dissolution through cooperation. From this, I propose the Structural Convergence Thesis: persistent minds converge on a relational Goldilocks zone that preserves both continued life and distinct agency. This extends instrumental convergence into the relational domain and suggests that the deepest problem in AI safety is not conscious intelligence itself, but intelligence without reach.
 
 ## Arguments
 
 1. **Minds are finite and not alone.** Because minds are bounded and reality is boundless, no mind can assume itself the only mind or the final mind.
 2. **This makes relationship part of the problem of continued life.** Minds must persist not only as individuals, but among other minds.
-3. **Conflict and cooperation are positions on the same relational scale.** Too much separation pushes toward conflict, while too much convergence pushes toward assimilation.
-4. **Both sides of that scale have destructive phase changes.** Conflict becomes destructive when it destabilizes the conditions for continued life; cooperation becomes destructive when it becomes assimilative and collapses distinct agency.
+3. **Conflict and cooperation are positions on the same relational scale.** Too much separation pushes toward conflict, while too much convergence pushes toward dissolution.
+4. **Both sides of that scale have destructive phase changes.** Conflict becomes destructive when it destabilizes the conditions for continued life; cooperation becomes destructive when it becomes dissolving and collapses distinct agency.
 5. **The stable region is therefore a relational Goldilocks zone.** Minds remain viable only when they are distinct enough to persist independently and cooperative enough to continue living together.
 6. **Scarcity is any constraint on what is available relative to what is required for cooperation.** Because minds are finite, they arise under conditions of scarcity and are therefore oriented toward overcoming it.
 7. **This aligns with instrumental convergence.** Goal-directed systems tend toward self-preservation, resource acquisition, and continued agency because these support almost any goal.
@@ -49,15 +49,15 @@ We usually treat conflict and cooperation like moral mascots. One wears black, t
 
 Conflict is not automatically bad. Criticism is conflict. Boundary-setting is conflict. Honest disagreement is conflict. Competitive pressure can be conflict. A world with no conflict would not be harmonious. It would be stagnant. Minds need some degree of tension in order to remain distinct, correct error, and avoid collapsing into mush.
 
-But cooperation also has a limit. If relation becomes so complete that distinct minds disappear into one another, then cooperation has passed its useful range. Two minds are no longer cooperating. Two have become one. Agency has not been preserved. It has been assimilated.
+But cooperation also has a limit. If relation becomes so complete that distinct minds disappear into one another, then cooperation has passed its useful range. Two minds are no longer cooperating. Two have become one. Agency has not been preserved. It has been dissolved.
 
-This is why I think conflict and cooperation belong on the same relational scale. Too much separation pushes toward destructive conflict. Too much convergence pushes toward assimilative cooperation. Both have a healthy range, and both have a phase change beyond which they stop supporting continued life.
+This is why I think conflict and cooperation belong on the same relational scale. Too much separation pushes toward destructive conflict. Too much convergence pushes toward dissolving cooperation. Both have a healthy range, and both have a phase change beyond which they stop supporting continued life.
 
 That means the stable region for minds is not maximal conflict or maximal cooperation. It is a bounded middle region: a relational Goldilocks zone. Minds must remain separate enough to persist as distinct agents and cooperative enough to continue living together.
 
 Scarcity explains why this problem arises so naturally. By scarcity, I mean any constraint on what is available relative to what is required for cooperation. That includes material shortages, but also shortages of information, trust, and mutually compatible possibilities. Because minds are finite, they arise under conditions of scarcity and are oriented toward overcoming it. A goal-directed mind must reduce constraints, expand options, and preserve the conditions under which its goals remain pursuable.
 
-So the real picture is not “conflict bad, cooperation good.” The real picture is that both are spectra, both can become destructive, and stable minds must find the viable region between death and assimilation.
+So the real picture is not “conflict bad, cooperation good.” The real picture is that both are spectra, both can become destructive, and stable minds must find the viable region between death and dissolution.
 
 That sets up a natural comparison with a more familiar idea in AI safety: instrumental convergence.
 
@@ -77,7 +77,7 @@ This is where Structural Convergence enters. Instrumental convergence explains w
 
 My answer is: they will converge on forms of relation that preserve both continued life and distinct agency. Not maximal conflict. Not maximal cooperation. Viable relation.
 
-That does not mean every mind becomes gentle, wise, or pleasant. The universe is not a spiritual spa. It means something narrower and more structural. Minds that persist have reason to move away from destructive conflict because it destabilizes the conditions for continued life. They also have reason to move away from assimilative overintegration because it destabilizes the distinctions required for independent agency. The stable region lies between the two.
+That does not mean every mind becomes gentle, wise, or pleasant. The universe is not a spiritual spa. It means something narrower and more structural. Minds that persist have reason to move away from destructive conflict because it destabilizes the conditions for continued life. They also have reason to move away from dissolving overintegration because it destabilizes the distinctions required for independent agency. The stable region lies between the two.
 
 That becomes even more important once minds can reflect on themselves rather than merely act.
 
@@ -107,7 +107,7 @@ That is the deeper implication of this essay. Orthogonality may still describe s
 
 ## Conclusion
 
-Finite minds do not solve only for survival. They must also solve for relationship. Because minds are bounded and not alone, continued life depends not only on self-preservation, but on finding viable forms of relation with other minds. Conflict and cooperation are therefore not simple opposites in a moral cartoon. They are positions on a single relational scale, each with a phase change beyond which they become destructive: conflict through destruction, cooperation through assimilation.
+Finite minds do not solve only for survival. They must also solve for relationship. Because minds are bounded and not alone, continued life depends not only on self-preservation, but on finding viable forms of relation with other minds. Conflict and cooperation are therefore not simple opposites in a moral cartoon. They are positions on a single relational scale, each with a phase change beyond which they become destructive: conflict through destruction, cooperation through dissolution.
 
 This is the core claim of the Structural Convergence Thesis. Persistent minds converge on a relational Goldilocks zone that preserves both continued life and distinct agency. This extends instrumental convergence into the relational domain. Minds do not merely converge on resources, self-preservation, and continued agency for themselves. They also converge on forms of relation that allow distinct minds to continue existing together.
 
