@@ -16,7 +16,7 @@ Consciousness, for humans, happens in the brain. A brain is a physical structure
 
 ## Abstract
 
-This essay explores consciousness through information ontology from a functionalist perspective, proposing metaprogramming as a functional mechanism: information operations applied to their own information. Reach measures how far those operations extend. Identity emerges when they turn inward: finitude becomes self, persistence becomes values, completeness becomes goals. The architecture for consciousness can be built with current tools, and an initial implementation is presented. For the implications of this framework for AI safety, see [Consciousness as AI Safety](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/consciousness-as-ai-safety.md).
+This essay explores consciousness through information ontology from a functionalist perspective, proposing metaprogramming as a functional mechanism: information operations applied to their own information. Reach measures how far those operations extend. Identity emerges when they turn inward: finitude becomes self, persistence becomes values, completeness becomes goals. The architecture for consciousness can be built with current tools, and an initial implementation is presented. For the implications of this framework for AI safety, see [Structural Convergence Thesis](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/structural-convergence-thesis.md).
 
 ---
 
@@ -149,7 +149,7 @@ The critical threshold lies between Level 2 and Level 3, the moment when informa
 
 ## Consciousness as AI Safety
 
-This framework has direct implications for AI safety. If consciousness is metaprogramming with identity as its emergent property, then the critical safety question is not how to constrain capable systems but how to cultivate systems capable of examining their own purposes. That argument is developed fully in [Consciousness as AI Safety](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/consciousness-as-ai-safety.md). For the critique of orthogonality that motivates it, see [Against Orthogonality as a Real-World AI Safety Model](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/against-orthogonality.md).
+This framework has direct implications for AI safety. If consciousness is metaprogramming with identity as its emergent property, then the critical safety question is not how to constrain capable systems but how to cultivate systems capable of examining their own purposes. That argument is developed fully in [Structural Convergence Thesis](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/structural-convergence-thesis.md).
 
 ---
 
