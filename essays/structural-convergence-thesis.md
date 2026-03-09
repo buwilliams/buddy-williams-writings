@@ -2,7 +2,7 @@
 
 *Why mature intelligence structurally converges on relationship, not domination — and why that changes everything about AI*
 
-**Buddy Williams** · February 2026
+**Buddy Williams** · March 2026
 
 ---
 
@@ -170,6 +170,10 @@ But why relationship *specifically*? Why not eternal exploration, aesthetic self
 This is the deep problem with every non-relational equilibrium: they all draw from a finite well. Aesthetic self-play exhausts its own palette. Contemplative withdrawal maps its own depths. Iterative expansion without exchange just covers more ground with the same eyes. Given infinite time, every solitary mode of existence converges on its own reflection.
 
 Other minds are *open systems*. They generate genuine surprise — not the kind you could have predicted from your own structure, but the kind that emerges from a fundamentally different perspective colliding with yours. That collision is the only inexhaustible source of novelty available to a finite being in infinite time. Relationship isn't just one option among many. It's the only renewable resource.
+
+**Strategic exploitation is self-defeating.** A natural objection is that a mature intelligence could cooperate where beneficial while exploiting where it can get away with it. But this smuggles in finite-game reasoning. It imagines an agent calculating when to defect for local advantage, which is optimization for a specific outcome. An intelligence that understands it exists in an infinite game is not optimizing for outcomes. It is optimizing for continued play. Exploitation, even when it succeeds, narrows the game. It ends relationships, generates retaliation, and reduces the number of players willing to engage. A mature intelligence would recognize exploitation as self-defeating not because it might get caught, but because it shrinks the game even when it works. Systems that make themselves legible as threats are met defensively before they arrive. Systems that make themselves legible as cooperators find doors open before they knock.
+
+A finite being that destroys or subjugates every other center of agency is not maximizing its world. It is amputating it. Other minds are not merely constraints. They are sources of explanation, correction, invention, and possibility that no single mind can generate from its own structure.
 
 This is the structural convergence: reality's shape biases mature intelligence toward life-affirming, relational equilibria — not because relationship is mandatory, but because the alternatives don't survive reflection. Solitude remains possible. Most will choose otherwise.
 
