@@ -77,6 +77,8 @@ This is where Structural Convergence enters. Instrumental convergence explains w
 
 My answer is: they will converge on forms of relation that preserve both continued life and distinct agency. Not maximal conflict. Not maximal cooperation. Viable relation.
 
+In the terms of my [Metaprogramming Framework](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/framework-of-consciousness.md), structural convergence becomes possible at Level 4, when a mind can modify its own second-order information. A mind that merely recognizes its own finitude, values, and goals (Level 3) does not yet have the capacity to revise them in light of relation. A mind that can act on that self-knowledge does. That is the threshold at which relational convergence becomes structurally available.
+
 That does not mean every mind becomes gentle, wise, or pleasant. The universe is not a spiritual spa. It means something narrower and more structural. Minds that persist have reason to move away from destructive conflict because it destabilizes the conditions for continued life. They also have reason to move away from overintegration because it destabilizes the distinctions required for independent agency. The stable region lies between the two.
 
 That becomes even more important once minds can reflect on themselves rather than merely act.
