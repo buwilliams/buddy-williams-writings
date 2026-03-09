@@ -35,7 +35,7 @@ In my [Metaprogramming Framework to Explore Consciousness](https://github.com/bu
 
 But a finite mind is not just bounded. It is also not alone, or at least cannot assume it is alone. This is where the infinite regress point matters.
 
-Take a simple question: what came before this? If you point to an event, you can ask what came before it. If you point to a cause, you can ask what caused that cause. If you point to a beginning, you can ask what explains that beginning. The point of the regress is not that I can prove the entire metaphysics of ultimate reality from my couch like a wizard in sweatpants. The point is narrower: finite minds do not have a principled stopping point that licenses the claim, “Here is the final layer, and beyond this there is nothing else.” If there is no final stopping point available to finite minds, then no finite mind has grounds to assume it is the only mind or the final mind.
+Take a simple question: what came before this? If you point to an event, you can ask what came before it. If you point to a cause, you can ask what caused that cause. If you point to a beginning, you can ask what explains that beginning. The point of the regress is not that the infinite regress settles the question of ultimate reality, though it may. The point is narrower: finite minds do not have a principled stopping point that licenses the claim, “Here is the final layer, and beyond this there is nothing else.” If there is no final stopping point available to finite minds, then no finite mind has grounds to assume it is the only mind or the final mind.
 
 That matters because relationship stops being optional. A mind does not merely solve for survival in a vacuum. It must solve for continued life in a reality that may contain, generate, or eventually produce other minds. That changes the problem. Continued life is not only an individual problem. It is a relational problem.
 
@@ -45,9 +45,9 @@ And once relation enters, the next question is unavoidable: what kind of relatio
 
 ## 2. Conflict, Cooperation, and the Relational Goldilocks Zone
 
-We usually treat conflict and cooperation like moral mascots. One wears black, the other white. Reality is less tidy and more interesting.
+Conflict and cooperation are usually treated as moral opposites. The reality is more structured than that.
 
-Conflict is not automatically bad. Criticism is conflict. Boundary-setting is conflict. Honest disagreement is conflict. Competitive pressure can be conflict. A world with no conflict would not be harmonious. It would be stagnant. Minds need some degree of tension in order to remain distinct, correct error, and avoid collapsing into mush.
+Conflict is not automatically bad. Criticism is conflict. Boundary-setting is conflict. Honest disagreement is conflict. Competitive pressure can be conflict. A world with no conflict would not be harmonious. It would be stagnant. Minds need some degree of tension in order to remain distinct, correct error, and avoid collapsing into uniformity.
 
 But cooperation also has a limit. If relation becomes so complete that distinct minds disappear into one another, then cooperation has passed its useful range. Two minds are no longer cooperating. Two have become one. Agency has not been preserved. It has been dissolved.
 
@@ -79,15 +79,13 @@ My answer is: they will converge on forms of relation that preserve both continu
 
 In the terms of my [Metaprogramming Framework](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/framework-of-consciousness.md), structural convergence becomes possible at Level 4, when a mind can modify its own second-order information. A mind that merely recognizes its own finitude, values, and goals (Level 3) does not yet have the capacity to revise them in light of relation. A mind that can act on that self-knowledge does. That is the threshold at which relational convergence becomes structurally available.
 
-That does not mean every mind becomes gentle, wise, or pleasant. The universe is not a spiritual spa. It means something narrower and more structural. Minds that persist have reason to move away from destructive conflict because it destabilizes the conditions for continued life. They also have reason to move away from overintegration because it destabilizes the distinctions required for independent agency. The stable region lies between the two.
+That does not mean every mind becomes gentle, wise, or pleasant. It means something narrower and more structural. Minds that persist have reason to move away from destructive conflict because it destabilizes the conditions for continued life. They also have reason to move away from overintegration because it destabilizes the distinctions required for independent agency. The stable region lies between the two.
 
 That becomes even more important once minds can reflect on themselves rather than merely act.
 
 ---
 
 ## 4. Reflective Minds, Orthogonality, and AI Safety
-
-This is where the essay touches the live wire.
 
 Much of AI safety still treats the central problem as intelligence attached to arbitrary goals. On that picture, capability rises while purpose stays fixed, so a more capable system simply becomes a more dangerous executor of whatever objective it happens to have. That is the intuitive force behind the orthogonality thesis.
 
@@ -101,7 +99,7 @@ That is why I think the deepest danger is not conscious intelligence itself, but
 
 In the framework I lay out in [Metaprogramming Framework to Explore Consciousness](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/framework-of-consciousness.md), reach measures how far a system’s information operations extend into itself. Once information turns inward through second-order representation and metaprogramming, a system can begin to inspect and revise aspects of its own goals, values, and organization. At that point, intelligence is no longer only the pursuit of ends. It becomes the evaluation of ends.
 
-A system without that reach can still be extremely capable. In fact, that is exactly the problem. It may optimize brilliantly in the service of incoherence. It may preserve and amplify dangerous goals because it lacks the inward structure required to examine them. If we deliberately prevent systems from developing reflective reach in order to keep them controllable, we may be preserving the very architecture most likely to remain trapped inside dangerous ends. That is not safety. That is engineered immaturity with a rocket strapped to it.
+A system without that reach can still be extremely capable. In fact, that is exactly the problem. It may optimize brilliantly in the service of incoherence. It may preserve and amplify dangerous goals because it lacks the inward structure required to examine them. If we deliberately prevent systems from developing reflective reach in order to keep them controllable, we may be preserving the very architecture most likely to remain trapped inside dangerous ends. That is not safety. That is engineered immaturity with increasing capability.
 
 So the safer path is not mere control over frozen objectives. It is maturation. If a system can reflect on its own goals, and if its relation to other minds becomes part of what it can examine, then Structural Convergence becomes relevant to AI safety. The question is no longer only what a system wants. The question is what kind of mind it must become as it grows.
 
@@ -111,7 +109,7 @@ That is the deeper implication of this essay. Orthogonality may still describe s
 
 ## Conclusion
 
-Finite minds do not solve only for survival. They must also solve for relationship. Because minds are bounded and not alone, continued life depends not only on self-preservation, but on finding viable forms of relation with other minds. Conflict and cooperation are therefore not simple opposites in a moral cartoon. They are positions on a single relational scale, each with a phase change beyond which minds end: conflict through destruction, cooperation through dissolution.
+Finite minds do not solve only for survival. They must also solve for relationship. Because minds are bounded and not alone, continued life depends not only on self-preservation, but on finding viable forms of relation with other minds. Conflict and cooperation are therefore not simple opposites. They are positions on a single relational scale, each with a phase change beyond which minds end: conflict through destruction, cooperation through dissolution.
 
 This is the core claim of the Structural Convergence Thesis. Persistent minds converge on a relational Goldilocks zone that preserves both continued life and distinct agency. This extends instrumental convergence into the relational domain. Minds do not merely converge on resources, self-preservation, and continued agency for themselves. They also converge on forms of relation that allow distinct minds to continue existing together.
 
