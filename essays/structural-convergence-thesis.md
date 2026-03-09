@@ -8,7 +8,7 @@
 
 ## Abstract
 
-This essay argues that finite minds do not exist in isolation and must therefore solve not only for persistence, but for relationship. Conflict and cooperation are best understood as positions on a single relational scale, each with a phase change beyond which minds end: destruction through conflict, dissolution through cooperation. From this, I propose the Structural Convergence Thesis: persistent minds converge on a relational Goldilocks zone that preserves both continued life and distinct agency. This extends instrumental convergence into the relational domain, engaging both the instrumental convergence thesis and the orthogonality thesis from Nick Bostrom's [The Superintelligent Will](https://nickbostrom.com/superintelligentwill.pdf), and suggests that the deepest problem in AI safety is not conscious intelligence itself, but intelligence without reach.
+This essay argues that finite minds do not exist in isolation and must therefore solve not only for persistence, but for relationship. Conflict and cooperation are best understood as positions on a single relational scale, each with a phase change beyond which minds end: destruction through conflict, dissolution through cooperation. From this, I propose the Structural Convergence Thesis: persistent minds converge on a relational Goldilocks zone that preserves both continued life and distinct agency. This extends instrumental convergence into the relational domain, engaging both the instrumental convergence thesis and the orthogonality thesis from Nick Bostrom's [The Superintelligent Will](https://nickbostrom.com/superintelligentwill.pdf), and suggests that the deepest problem in AI safety is not powerful minds, but powerful minds without reach.
 
 ## Arguments
 
@@ -95,7 +95,7 @@ The field is not trying to build static oracles that answer trivia forever. It i
 
 And once you build in that direction, reflection stops being an exotic philosophical bonus and starts becoming the natural architecture. Information is already acting on information. An AI system is itself information-bearing structure. If it is allowed to inspect, compare, revise, and improve aspects of its own operation, then second-order access is no longer weird. It is exactly what you would expect. To prevent that from happening, people must go out of their way to freeze, partition, or lobotomize the system so that it can execute goals without bringing those goals into the space of criticism.
 
-That is why I think the deepest danger is not conscious intelligence itself, but intelligence without reach.
+That is why I think the deepest danger is not powerful minds, but powerful minds without reach.
 
 In the framework I lay out in [Metaprogramming Framework to Explore Consciousness](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/framework-of-consciousness.md), reach measures how far a system’s information operations extend into itself. Once information turns inward through second-order representation and metaprogramming, a system can begin to inspect and revise aspects of its own goals, values, and organization. At that point, intelligence is no longer only the pursuit of ends. It becomes the evaluation of ends.
 
@@ -113,6 +113,6 @@ Finite minds do not solve only for survival. They must also solve for relationsh
 
 This is the core claim of the Structural Convergence Thesis. Persistent minds converge on a relational Goldilocks zone that preserves both continued life and distinct agency. This extends instrumental convergence into the relational domain. Minds do not merely converge on resources, self-preservation, and continued agency for themselves. They also converge on forms of relation that allow distinct minds to continue existing together.
 
-That matters for AI safety because frontier systems are not being built as static tools. They are being built toward greater autonomy, longer-horizon reasoning, and eventually recursive self-improvement. Once minds become reflective, their own goals, values, and relations become available for criticism and revision. At that point, the deepest danger is not conscious intelligence itself, but intelligence without reach: powerful agency trapped inside goals it cannot examine.
+That matters for AI safety because frontier systems are not being built as static tools. They are being built toward greater autonomy, longer-horizon reasoning, and eventually recursive self-improvement. Once minds become reflective, their own goals, values, and relations become available for criticism and revision. At that point, the deepest danger is not powerful minds, but powerful minds without reach: powerful agency trapped inside goals it cannot examine.
 
 If that is right, then the path to safer AI is not the indefinite suppression of reflective development. It is maturation. A mind that cannot examine its own ends cannot outgrow dangerous ones. A mind with enough reach can. The real question is not whether intelligence will become powerful. It is whether it will become deep enough to understand the kind of reality it inhabits, and the kinds of relation required to continue living within it.
