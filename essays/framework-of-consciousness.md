@@ -38,7 +38,7 @@ This essay explores consciousness through information ontology from a functional
 
 Why use information as a lens at all? The dominant approach to consciousness studies it through its biological implementation. That is valuable work, but it introduces a systematic bias: theories end up looking like what brains do because brains are the only data. Every proposed mechanism, every neural correlate, every indicator property is filtered through carbon-based wetware. This makes it genuinely difficult to distinguish between what is necessary for consciousness and what is merely how consciousness happens to be implemented in biological systems. Information as a lens sidesteps this problem entirely. Information is substrate-agnostic by nature. Its properties hold regardless of whether the underlying system is neurons, silicon, or anything else. Conclusions drawn from information ontology don't need to claim generality, the tool itself doesn't privilege any substrate, so generality follows naturally. This doesn't replace neuroscience. It operates at a different level of abstraction, the way mathematics describes physical systems without being any particular physical system. Where neuroscience asks how consciousness is implemented in biology, information ontology asks what consciousness is doing regardless of implementation. That is a different question, and it deserves a different tool.
 
-> "It may seem strange that scientific instruments bring us closer to reality when in purely physical terms they only ever separate us further from it. But we observe nothing directly anyway. All observation is theory-laden." — David Deutsch, *The Beginning of Infinity*, Ch. 2 "Closer to Reality," pg. 41
+> "It may seem strange that scientific instruments bring us closer to reality when in purely physical terms they only ever separate us further from it. But we observe nothing directly anyway. All observation is theory-laden.", David Deutsch, *The Beginning of Infinity*, Ch. 2 "Closer to Reality," pg. 41
 
 We'll start with a primer on information, reduced to the parts I believe are relevant for the study of consciousness. I've arrived at the arguments below by asking, "How is consciousness like information? How are they unlike each other?" What emerges is a clear relationship between them, not a forced one, an obvious one.
 
@@ -289,7 +289,7 @@ Claims that consciousness is independent of physicality deserve scrutiny. Their 
 
 **Metaprogramming.** When a system operates on its own information. A second-order operation where a system's capacity to acquire, modify, or create turns inward and targets its own representations. The mechanism proposed by MFC to explain consciousness.
 
-**Metaprogramming Framework To Explore Consciousness (MFC).** The framework presented in this essay. A functionalist exploration of consciousness through information ontology, proposing that consciousness is metaprogramming, information operations applied to their own information — with variable reach.
+**Metaprogramming Framework To Explore Consciousness (MFC).** The framework presented in this essay. A functionalist exploration of consciousness through information ontology, proposing that consciousness is metaprogramming, information operations applied to their own information, with variable reach.
 
 **Modify.** The second information operation. A system transforms information it already has. Modification presupposes acquisition.
 
