@@ -31,15 +31,11 @@ This matters in philosophy because it bears on the conditions under which minds 
 
 The argument of this essay is that relationship is not a moral add-on to intelligence. It is part of the structure of continued life. Because minds are finite and not alone, they cannot solve only for persistence. They must also solve for viable relation. From that starting point, I argue that conflict and cooperation belong on a single relational scale, that both have destructive limits, and that persistent minds face structural pressure toward a middle region that preserves both life and agency. That is what I call the **Structural Convergence Thesis**.
 
-Before making that case, some terms need to be made plain.
-
-A **mind** here means a bounded information-processing system capable of representing the world, pursuing goals, and maintaining enough continuity to count as an agent over time. A **finite mind** is a mind with limited knowledge, limited control, and limited reach. **Agency** means the ability to act as a distinct center of purpose. **Conflict** means relational tension that pushes minds apart or sets their goals against one another. **Cooperation** means relational alignment that allows minds to act together or in mutually supportive ways. **Reach**, a concept developed in my [*Metaprogramming Framework to Explore Consciousness*](framework-of-consciousness.md), refers to how far a system’s information operations extend into itself, including its ability to inspect and modify its own goals, values, and organization.
-
-With those definitions in view, the first step is to understand why finitude makes relationship unavoidable.
+The first step is to understand why finitude makes relationship unavoidable.
 
 ## 1. Finite Minds in a Shared Reality
 
-Nobody lives as though they are infinite. You forget things. You get tired. You miss obvious facts. You cannot read every book, inspect every atom, or run every possible plan. A mind is bounded in knowledge, energy, attention, and control. That boundedness is not some temporary defect waiting to be engineered away. It is part of what it means to be a mind at all.
+Nobody lives as though they are infinite. You forget things. You get tired. You miss obvious facts. You cannot read every book, inspect every atom, or run every possible plan. By **mind** I mean a bounded information-processing system capable of representing the world, pursuing goals, and maintaining enough continuity to count as an agent over time. A mind is bounded in knowledge, energy, attention, and control. That boundedness is not some temporary defect waiting to be engineered away. It is part of what it means to be a mind at all. A mind with these limits is what I call a **finite mind**: one with limited knowledge, limited control, and limited reach.
 
 In my [*Metaprogramming Framework to Explore Consciousness*](framework-of-consciousness.md), I argue that this follows from the nature of information itself. Information is always selective. To represent one thing is not to represent everything else. When information turns inward through second-order representation and metaprogramming, that boundedness becomes part of what we call self. A mind is not infinite awareness. It is structured limitation with enough continuity to model, act, and revise.
 
@@ -61,7 +57,7 @@ Conflict and cooperation are often treated as opposites in a moral cartoon. Conf
 
 Conflict is not automatically destructive. Criticism is a form of conflict. Boundary-setting is a form of conflict. Honest disagreement is a form of conflict. Scientific progress depends on conflict in this sense, because ideas must collide in order for error to be exposed. A world with no conflict at all would not be harmonious. It would be inert, padded, and probably dumb as a bag of hammers.
 
-But cooperation also has a limit. If relation becomes so complete that distinct minds disappear into one another, then cooperation has crossed its useful range. Two minds are no longer cooperating if there are no longer two minds. Agency has not been preserved. It has been dissolved.
+But cooperation also has a limit. If relation becomes so complete that distinct minds disappear into one another, then cooperation has crossed its useful range. Two minds are no longer cooperating if there are no longer two minds. **Agency**, the ability to act as a distinct center of purpose, has not been preserved. It has been dissolved.
 
 This is why I think conflict and cooperation belong on the same relational scale. The scale here is not moral worth. It is degree and form of relation: how far minds are separated, opposed, aligned, entangled, or integrated in ways that affect continued life and distinct agency. Too much separation pushes toward destructive conflict. Too much convergence pushes toward dissolving cooperation. In both directions there is a threshold beyond which minds no longer continue as distinct agents.
 

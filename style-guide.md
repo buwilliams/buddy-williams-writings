@@ -18,7 +18,7 @@ In practice, this means my essays should remain open to revision, criticism, and
 
 I strive to write with the clarity of Thomas Sowell.
 
-This means the writing should define important terms before relying on them, connect sections with transition sentences that show why the next idea follows from the last, explain why each idea matters, and connect abstract ideas to concrete examples, analogies, or thought experiments when useful.
+This means the writing should define important terms as they are introduced, not in a block of definitions up front. A term should appear for the first time at the moment the reader needs it, with enough connective writing to make the definition feel natural rather than imposed. Front-loading definitions forces the reader to memorize terms without context; introducing them inline sets the pace of the argument and ensures the reader understands each concept before the next one arrives. The writing should also connect sections with transition sentences that show why the next idea follows from the last, explain why each idea matters, and connect abstract ideas to concrete examples, analogies, or thought experiments when useful.
 
 The goal is not to sound academic for its own sake. The goal is to be understandable without being simplistic.
 
