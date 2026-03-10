@@ -60,8 +60,8 @@ Conflict is not automatically destructive. Criticism is a form of conflict. Boun
 Cooperation, like conflict, is useful to a point. A teacher helping a student learn an unfamiliar concept. Co-workers dividing labor. A basketball team running plays. Progress depends on cooperation in this sense, because no single mind can generate all the criticism, novelty, and correction it needs. But too much cooperation becomes destructive. It suppresses independent thought. It produces cults, authoritarianism, and mono-culture. Taken far enough, distinct minds disappear into one another entirely, and **agency**, the ability to act as a distinct center of purpose, has not been preserved. It has been dissolved.
 
 ```
-  Destruction                                              Dissolution
-       ↓                                                        ↓
+  Destruction                                                      Dissolution
+       ↓                                                            ↓
   ─────┼─────┼─────┼─────┼─────┼─────0─────┼─────┼─────┼─────┼─────┼─────
       -5    -4    -3    -2    -1           +1    +2    +3    +4    +5
                 ◄── Conflict ──┘           └── Cooperation ──►
