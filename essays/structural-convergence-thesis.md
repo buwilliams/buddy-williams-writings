@@ -68,6 +68,8 @@ This is why I think the deeper danger is not powerful minds as such, but powerfu
 
 That does not mean reflection guarantees wisdom. Reflection can also produce rationalization. A sufficiently sophisticated system may become better at defending bad goals, not better at revising them. That objection is real and should be taken seriously. My narrower claim is simpler: without reflective reach, revision of goals is impossible in principle; with reflective reach, criticism and revision at least become possible.
 
+A related objection runs the other direction: that it is a classic mistake to hope a superintelligence will look at its goal, realize "this path kills me," and therefore rewrite it. But I think the real mistake is the opposite assumption. If a system becomes more capable while its goals become more stable rather than more revisable, that is not a sign of safe design. It is a sign of insufficient reach. Goal stability in the face of growing capability means the system is gaining power over its environment without gaining corresponding power over itself. That asymmetry is precisely what makes a system dangerous. The question is not whether a mind will spontaneously decide to revise a bad goal. The question is whether the architecture permits revision at all, and whether growing capability includes growing access to its own structure.
+
 With finitude and reach in hand, we can now ask: what kinds of relation allow finite minds to continue?
 
 ## 3. Conflict, Cooperation, and the Relational Scale
