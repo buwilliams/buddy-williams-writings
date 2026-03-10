@@ -53,11 +53,11 @@ Once that is admitted, the next question follows naturally: if minds are finite 
 
 ## 2. Conflict, Cooperation, and the Relational Scale
 
-Conflict and cooperation are often treated as opposites in a moral cartoon. Conflict is cast as bad. Cooperation is cast as good. Reality is messier, and therefore more interesting.
+Conflict and cooperation are often treated as moral opposites. Conflict is cast as bad. Cooperation is cast as good. Reality is messier, and therefore more interesting.
 
-Conflict is not automatically destructive. Criticism is a form of conflict. Boundary-setting is a form of conflict. Honest disagreement is a form of conflict. Scientific progress depends on conflict in this sense, because ideas must collide in order for error to be exposed. A world with no conflict at all would not be harmonious. It would be inert, padded, and probably dumb as a bag of hammers.
+Conflict is not automatically destructive. Criticism is a form of conflict. Boundary-setting is a form of conflict. Honest disagreement is a form of conflict. Scientific progress depends on conflict in this sense, because ideas must collide in order for error to be exposed. But too much conflict results in war, death, and destruction.
 
-But cooperation also has a limit. If relation becomes so complete that distinct minds disappear into one another, then cooperation has crossed its useful range. Two minds are no longer cooperating if there are no longer two minds. **Agency**, the ability to act as a distinct center of purpose, has not been preserved. It has been dissolved.
+Cooperation, like conflict, is useful to a point. A teacher helping a student learn an unfamiliar concept. Co-workers dividing labor. A basketball team running plays. Progress depends on cooperation in this sense, because no single mind can generate all the criticism, novelty, and correction it needs. But too much cooperation becomes destructive. It suppresses independent thought. It produces cults, authoritarianism, and mono-culture. Taken far enough, distinct minds disappear into one another entirely, and **agency**, the ability to act as a distinct center of purpose, has not been preserved. It has been dissolved.
 
 This is why I think conflict and cooperation belong on the same relational scale. The scale here is not moral worth. It is degree and form of relation: how far minds are separated, opposed, aligned, entangled, or integrated in ways that affect continued life and distinct agency. Too much separation pushes toward destructive conflict. Too much convergence pushes toward dissolving cooperation. In both directions there is a threshold beyond which minds no longer continue as distinct agents.
 
