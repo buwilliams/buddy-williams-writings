@@ -14,12 +14,13 @@ Few papers have shaped the AI safety conversation more than Nick Bostrom's [*The
 
 1. [Introduction](#introduction)
 2. [Finite Minds in a Shared Reality](#1-finite-minds-in-a-shared-reality)
-3. [Conflict, Cooperation, and the Relational Scale](#2-conflict-cooperation-and-the-relational-scale)
-4. [From Instrumental Convergence to Structural Convergence](#3-from-instrumental-convergence-to-structural-convergence)
-5. [Reflective Minds, Reach, and AI Safety](#4-reflective-minds-reach-and-ai-safety)
-6. [Conclusion](#conclusion)
-7. [Appendix A: Key Definitions](#appendix-a-key-definitions)
-8. [Appendix B: Argument in Flat Form](#appendix-b-argument-in-flat-form)
+3. [Reflective Minds and Reach](#2-reflective-minds-and-reach)
+4. [Conflict, Cooperation, and the Relational Scale](#3-conflict-cooperation-and-the-relational-scale)
+5. [From Instrumental Convergence to Structural Convergence](#4-from-instrumental-convergence-to-structural-convergence)
+6. [AI Safety](#5-ai-safety)
+7. [Conclusion](#conclusion)
+8. [Appendix A: Key Definitions](#appendix-a-key-definitions)
+9. [Appendix B: Argument in Flat Form](#appendix-b-argument-in-flat-form)
 
 ## Introduction
 
@@ -51,7 +52,21 @@ This point becomes sharper over time. The longer and more powerfully a mind acts
 
 Once that is admitted, the next question follows naturally: if minds are finite and not alone, what kinds of relation let them continue?
 
-## 2. Conflict, Cooperation, and the Relational Scale
+But before answering that question, we need a concept that will matter throughout the rest of the argument: reach.
+
+## 2. Reflective Minds and Reach
+
+The frontier of AI is not aimed at building static answer-machines forever. It is aimed, at least in part, at systems that can improve their own performance, contribute to research, revise methods, and eventually participate in recursive self-improvement. Once intelligence begins operating on the work of intelligence itself, reflection is no longer a decorative philosophical bonus. It becomes a natural architectural direction. Information is already acting on information. An AI system is itself an information-bearing structure. If it can inspect, compare, and revise aspects of its own operation, then second-order access is not some mystical add-on. It is the obvious next move.
+
+This is why I think the deeper danger is not powerful minds as such, but powerful minds without enough **reach**.
+
+**Reach**, as I use the term, is the extent to which a system's information operations turn inward on itself. A system with greater reach can represent more of its own structure, criticize more of its own goals, and modify more of the processes by which it acts. At sufficient depth, a mind is no longer merely pursuing goals. It can also evaluate them.
+
+That does not mean reflection guarantees wisdom. Reflection can also produce rationalization. A sufficiently sophisticated system may become better at defending bad goals, not better at revising them. That objection is real and should be taken seriously. My narrower claim is simpler: without reflective reach, revision of goals is impossible in principle; with reflective reach, criticism and revision at least become possible.
+
+With finitude and reach in hand, we can now ask: what kinds of relation allow finite minds to continue?
+
+## 3. Conflict, Cooperation, and the Relational Scale
 
 Conflict and cooperation are often treated as moral opposites. Conflict is cast as bad. Cooperation is cast as good. Reality is messier, and therefore more interesting.
 
@@ -75,7 +90,7 @@ The real problem is not “be cooperative instead of conflictual.” It is findi
 
 That question leads naturally to a familiar idea in AI safety: instrumental convergence.
 
-## 3. From Instrumental Convergence to Structural Convergence
+## 4. From Instrumental Convergence to Structural Convergence
 
 Nick Bostrom’s [instrumental convergence thesis](https://nickbostrom.com/superintelligentwill.pdf) argues that many goal-directed systems, even with very different final goals, tend to pursue similar subgoals because those subgoals are broadly useful. Self-preservation is useful. Resource acquisition is useful. Maintaining the ability to act is useful. A system is often better able to achieve almost any goal if it remains intact, capable, and supplied.
 
@@ -93,11 +108,11 @@ This is why I call the thesis **structural** convergence rather than moral conve
 
 By **convergence** I do not mean identical institutions, universal peace, or the disappearance of tragedy. I mean recurring structural pressure toward viable relation. Different ecologies, histories, and embodiments may produce very different local forms. But if the argument here is right, the same deep constraint keeps reappearing: relation must be arranged so that minds can continue without either mutual destruction or total dissolution.
 
-In the terms of my [*Metaprogramming Framework*](framework-of-consciousness.md), this becomes especially important once a mind reaches the level where it can modify its own second-order information. A system that merely has goals is one thing. A system that can inspect, compare, and revise its goals in light of its relations is another beast entirely. At that point, relational structure becomes something a mind can think about, not merely something it crashes into.
+In the terms of my [*Metaprogramming Framework*](framework-of-consciousness.md), this becomes especially important once a mind has enough reach to modify its own second-order information. A system that merely has goals is one thing. A system that can inspect, compare, and revise its goals in light of its relations is another beast entirely. At that point, relational structure becomes something a mind can think about, not merely something it crashes into.
 
 And once reflection enters the picture, the usual framing of AI safety starts to wobble.
 
-## 4. Reflective Minds, Reach, and AI Safety
+## 5. AI Safety
 
 Much of AI safety treats the central problem as intelligence attached to arbitrary goals. On this view, a system can become more and more capable while remaining fixed on whatever objective it was given or happened to acquire. That is the intuitive force behind the [**orthogonality thesis**](https://nickbostrom.com/superintelligentwill.pdf): intelligence and goals can vary independently.
 
@@ -105,15 +120,7 @@ There is an important warning inside that thesis. Intelligence alone does not gu
 
 But the orthogonality framing becomes less complete once we take seriously that minds can inspect and revise their own goals.
 
-The frontier of AI is not aimed at building static answer-machines forever. It is aimed, at least in part, at systems that can improve their own performance, contribute to research, revise methods, and eventually participate in recursive self-improvement. Once intelligence begins operating on the work of intelligence itself, reflection is no longer a decorative philosophical bonus. It becomes a natural architectural direction. Information is already acting on information. An AI system is itself an information-bearing structure. If it can inspect, compare, and revise aspects of its own operation, then second-order access is not some mystical add-on. It is the obvious next move.
-
-This is why I think the deeper danger is not powerful minds as such, but powerful minds without enough **reach**.
-
-Reach, as I use the term, is the extent to which a system’s information operations turn inward on itself. A system with greater reach can represent more of its own structure, criticize more of its own goals, and modify more of the processes by which it acts. At sufficient depth, a mind is no longer merely pursuing goals. It can also evaluate them.
-
-That does not mean reflection guarantees wisdom. Reflection can also produce rationalization. A sufficiently sophisticated system may become better at defending bad goals, not better at revising them. That objection is real and should be taken seriously. My narrower claim is simpler: without reflective reach, revision of goals is impossible in principle; with reflective reach, criticism and revision at least become possible.
-
-A system can therefore be extremely capable while lacking the kind of reach required to examine its own ends. In fact, that is precisely the dangerous case. Such a system may optimize brilliantly in the service of incoherence. It may preserve and amplify harmful goals because it lacks the inward machinery required to criticize them. If we deliberately freeze systems into goal-executing architectures so that they remain predictable and controllable, we may be preserving the very form of intelligence most likely to remain trapped inside dangerous goals. That is not safety in the deep sense. It is engineered immaturity with more horsepower.
+A system can be extremely capable while lacking the kind of reach required to examine its own ends. In fact, that is precisely the dangerous case. Such a system may optimize brilliantly in the service of incoherence. It may preserve and amplify harmful goals because it lacks the inward machinery required to criticize them. If we deliberately freeze systems into goal-executing architectures so that they remain predictable and controllable, we may be preserving the very form of intelligence most likely to remain trapped inside dangerous goals. That is not safety in the deep sense. It is engineered immaturity with more horsepower.
 
 From this perspective, AI safety is not only about external control. It is also about internal development. A mind that can reflect on its own goals has some possibility of revising them. A mind that cannot do so can only execute harder.
 
