@@ -8,7 +8,7 @@
 
 ## Abstract
 
-This essay asks a simple but neglected question: if minds are finite and do not exist alone, what kinds of relationships allow them to continue existing? My answer is that continued life is not only an individual problem of survival, but also a relational problem. Conflict and cooperation are not best understood as moral opposites, but as positions on a single relational scale, and both have limits beyond which minds end: conflict through destruction, cooperation through dissolution. From this I propose the **Structural Convergence Thesis**: persistent minds face structural pressure toward a relational Goldilocks zone that preserves both continued life and distinct agency. This extends Nick Bostrom’s instrumental convergence thesis into the relational domain and suggests a different framing for AI safety. The deepest danger is not powerful minds, but powerful minds without enough reflective reach to examine and revise their own goals.
+The [orthogonality thesis](https://nickbostrom.com/superintelligentwill.pdf) holds that intelligence and goals can vary independently: a mind can be arbitrarily capable while pursuing any goal whatsoever. This essay argues that orthogonality, while useful as a warning, becomes incomplete once we move from abstract design space into the real world, where minds are finite, not alone, and capable of reflective development. Drawing on concepts from my [*Metaprogramming Framework to Explore Consciousness*](framework-of-consciousness.md), particularly *reach*, the extent to which a system’s information operations turn inward on itself, I argue that continued life is not only an individual problem but a relational one. Conflict and cooperation are positions on a single relational scale, and both have limits beyond which minds end: conflict through destruction, cooperation through dissolution. From this I propose the **Structural Convergence Thesis**: persistent minds face structural pressure toward a relational Goldilocks zone that preserves both continued life and distinct agency. This extends instrumental convergence into the relational domain and reframes AI safety. The deepest danger is not powerful minds, but powerful minds without enough reflective reach to examine and revise their own goals, and the orthogonality thesis, by treating goals as freely variable, obscures exactly that danger.
 
 ## Table of Contents
 
@@ -33,7 +33,7 @@ The argument of this essay is that relationship is not a moral add-on to intelli
 
 Before making that case, some terms need to be made plain.
 
-A **mind** here means a bounded information-processing system capable of representing the world, pursuing goals, and maintaining enough continuity to count as an agent over time. A **finite mind** is a mind with limited knowledge, limited control, and limited reach. **Agency** means the ability to act as a distinct center of purpose. **Conflict** means relational tension that pushes minds apart or sets their goals against one another. **Cooperation** means relational alignment that allows minds to act together or in mutually supportive ways. **Reach**, a concept developed in my *Metaprogramming Framework to Explore Consciousness*, refers to how far a system’s information operations extend into itself, including its ability to inspect and modify its own goals, values, and organization.
+A **mind** here means a bounded information-processing system capable of representing the world, pursuing goals, and maintaining enough continuity to count as an agent over time. A **finite mind** is a mind with limited knowledge, limited control, and limited reach. **Agency** means the ability to act as a distinct center of purpose. **Conflict** means relational tension that pushes minds apart or sets their goals against one another. **Cooperation** means relational alignment that allows minds to act together or in mutually supportive ways. **Reach**, a concept developed in my [*Metaprogramming Framework to Explore Consciousness*](framework-of-consciousness.md), refers to how far a system’s information operations extend into itself, including its ability to inspect and modify its own goals, values, and organization.
 
 With those definitions in view, the first step is to understand why finitude makes relationship unavoidable.
 
@@ -41,7 +41,7 @@ With those definitions in view, the first step is to understand why finitude mak
 
 Nobody lives as though they are infinite. You forget things. You get tired. You miss obvious facts. You cannot read every book, inspect every atom, or run every possible plan. A mind is bounded in knowledge, energy, attention, and control. That boundedness is not some temporary defect waiting to be engineered away. It is part of what it means to be a mind at all.
 
-In my *Metaprogramming Framework to Explore Consciousness*, I argue that this follows from the nature of information itself. Information is always selective. To represent one thing is not to represent everything else. When information turns inward through second-order representation and metaprogramming, that boundedness becomes part of what we call self. A mind is not infinite awareness. It is structured limitation with enough continuity to model, act, and revise.
+In my [*Metaprogramming Framework to Explore Consciousness*](framework-of-consciousness.md), I argue that this follows from the nature of information itself. Information is always selective. To represent one thing is not to represent everything else. When information turns inward through second-order representation and metaprogramming, that boundedness becomes part of what we call self. A mind is not infinite awareness. It is structured limitation with enough continuity to model, act, and revise.
 
 But a finite mind is not merely bounded. It is also in no position to assume it is alone.
 
@@ -79,7 +79,7 @@ That question leads naturally to a familiar idea in AI safety: instrumental conv
 
 ## 3. From Instrumental Convergence to Structural Convergence
 
-Nick Bostrom’s **instrumental convergence thesis** argues that many goal-directed systems, even with very different final goals, tend to pursue similar subgoals because those subgoals are broadly useful. Self-preservation is useful. Resource acquisition is useful. Maintaining the ability to act is useful. A system is often better able to achieve almost any goal if it remains intact, capable, and supplied.
+Nick Bostrom’s [**instrumental convergence thesis**](https://nickbostrom.com/superintelligentwill.pdf) argues that many goal-directed systems, even with very different final goals, tend to pursue similar subgoals because those subgoals are broadly useful. Self-preservation is useful. Resource acquisition is useful. Maintaining the ability to act is useful. A system is often better able to achieve almost any goal if it remains intact, capable, and supplied.
 
 That argument captures something real. A mind that cannot persist cannot act. A mind that cannot act cannot pursue much of anything.
 
@@ -95,13 +95,13 @@ This is why I call the thesis **structural** convergence rather than moral conve
 
 By **convergence** I do not mean identical institutions, universal peace, or the disappearance of tragedy. I mean recurring structural pressure toward viable relation. Different ecologies, histories, and embodiments may produce very different local forms. But if the argument here is right, the same deep constraint keeps reappearing: relation must be arranged so that minds can continue without either mutual destruction or total dissolution.
 
-In the terms of my *Metaprogramming Framework*, this becomes especially important once a mind reaches the level where it can modify its own second-order information. A system that merely has goals is one thing. A system that can inspect, compare, and revise its goals in light of its relations is another beast entirely. At that point, relational structure becomes something a mind can think about, not merely something it crashes into.
+In the terms of my [*Metaprogramming Framework*](framework-of-consciousness.md), this becomes especially important once a mind reaches the level where it can modify its own second-order information. A system that merely has goals is one thing. A system that can inspect, compare, and revise its goals in light of its relations is another beast entirely. At that point, relational structure becomes something a mind can think about, not merely something it crashes into.
 
 And once reflection enters the picture, the usual framing of AI safety starts to wobble.
 
 ## 4. Reflective Minds, Reach, and AI Safety
 
-Much of AI safety treats the central problem as intelligence attached to arbitrary goals. On this view, a system can become more and more capable while remaining fixed on whatever objective it was given or happened to acquire. That is the intuitive force behind the **orthogonality thesis**: intelligence and goals can vary independently.
+Much of AI safety treats the central problem as intelligence attached to arbitrary goals. On this view, a system can become more and more capable while remaining fixed on whatever objective it was given or happened to acquire. That is the intuitive force behind the [**orthogonality thesis**](https://nickbostrom.com/superintelligentwill.pdf): intelligence and goals can vary independently.
 
 There is an important warning inside that thesis. Intelligence alone does not guarantee wisdom. A highly capable system can pursue a terrible goal very effectively. That part should not be hand-waved away.
 
