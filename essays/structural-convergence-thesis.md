@@ -67,17 +67,11 @@ Cooperation, like conflict, is useful to a point. A teacher helping a student le
                 ◄── Conflict ──┘           └── Cooperation ──►
 ```
 
-This is why I think conflict and cooperation exist on the same relational scale. Above you can see that too much conflict results in the phase change of destruction while too much cooperation results in the phase change of dissolution. This scale also shows that there is a productive area in the middle called the Goldilocks zone for relationships.
-
-By **phase change** I mean a threshold at which gradual relational change produces a qualitative shift in outcome. Water warming into steam is the standard physical image. Here the point is relational. Conflict can intensify to the point where one or both minds are destroyed, subordinated, or rendered unable to continue as agents. Cooperation can deepen to the point where distinct agency collapses into merger, absorption, or total dependence.
-
-A simple example helps. Two scientific collaborators may cooperate intensely while remaining distinct agents. They can disagree, divide labor, criticize one another, and revise their plans. Their relation preserves both agency and shared purpose. But if one partner becomes merely an extension of the other, no longer forming or revising purposes in a meaningful way, the relation has crossed from cooperation into dissolution. The same basic structure appears at larger scales.
-
-This gives us a more precise picture. The stable region for minds is not maximal conflict or maximal cooperation. It is a bounded middle region: a **relational Goldilocks zone**. Minds must remain separate enough to persist as distinct centers of agency and cooperative enough to continue living together.
+This is why I think conflict and cooperation exist on the same relational scale. By **phase change** I mean a threshold at which gradual change produces a qualitative shift in outcome, the way water warming into steam is not just hotter water but a different state of matter. On this scale, too much conflict results in the phase change of destruction while too much cooperation results in the phase change of dissolution. The productive area in the middle is the **relational Goldilocks zone**: the region where minds remain distinct enough to preserve agency and cooperative enough to continue living together.
 
 Scarcity helps explain why this tension appears so naturally. By **scarcity** I do not mean only shortage of material goods. I mean any constraint on what is available relative to what is required for continued life and cooperation. That includes shortages of time, energy, trust, information, compatibility, or room to maneuver. Because minds are finite, they arise under conditions of scarcity and are therefore pushed to manage constraints. They must preserve options, reduce bottlenecks, and maintain the conditions under which their purposes remain pursuable.
 
-This helps us avoid a childish picture of morality. The deep problem is not “be cooperative instead of conflictual.” The real problem is finding forms of relation that preserve life without erasing agency. Too much conflict destroys. Too much convergence dissolves. The interesting question is what pushes minds toward the viable middle.
+The real problem is not “be cooperative instead of conflictual.” It is finding forms of relation that preserve life without erasing agency. The interesting question is what pushes minds toward the viable middle.
 
 That question leads naturally to a familiar idea in AI safety: instrumental convergence.
 
