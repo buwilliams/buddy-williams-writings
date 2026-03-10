@@ -56,7 +56,11 @@ But before answering that question, we need a concept that will matter throughou
 
 ## 2. Reflective Minds and Reach
 
-The frontier of AI is not aimed at building static answer-machines forever. It is aimed, at least in part, at systems that can improve their own performance, contribute to research, revise methods, and eventually participate in recursive self-improvement. Once intelligence begins operating on the work of intelligence itself, reflection is no longer a decorative philosophical bonus. It becomes a natural architectural direction. Information is already acting on information. An AI system is itself an information-bearing structure. If it can inspect, compare, and revise aspects of its own operation, then second-order access is not some mystical add-on. It is the obvious next move.
+Much of AI safety treats the central problem as intelligence attached to arbitrary goals. On this view, a system can become more and more capable while remaining fixed on whatever objective it was given or happened to acquire. That is the intuitive force behind the [**orthogonality thesis**](https://nickbostrom.com/superintelligentwill.pdf): intelligence and goals can vary independently.
+
+There is an important warning inside that thesis. Intelligence alone does not guarantee wisdom. A highly capable system can pursue a terrible goal very effectively. That part should not be hand-waved away.
+
+But the orthogonality framing becomes less complete once we take seriously that minds can inspect and revise their own goals. The frontier of AI is not aimed at building static answer-machines forever. It is aimed, at least in part, at systems that can improve their own performance, contribute to research, revise methods, and eventually participate in recursive self-improvement. Once intelligence begins operating on the work of intelligence itself, reflection is no longer a decorative philosophical bonus. It becomes a natural architectural direction. Information is already acting on information. An AI system is itself an information-bearing structure. If it can inspect, compare, and revise aspects of its own operation, then second-order access is not some mystical add-on. It is the obvious next move.
 
 This is why I think the deeper danger is not powerful minds as such, but powerful minds without enough **reach**.
 
@@ -113,12 +117,6 @@ In the terms of my [*Metaprogramming Framework*](framework-of-consciousness.md),
 And once reflection enters the picture, the usual framing of AI safety starts to wobble.
 
 ## 5. AI Safety
-
-Much of AI safety treats the central problem as intelligence attached to arbitrary goals. On this view, a system can become more and more capable while remaining fixed on whatever objective it was given or happened to acquire. That is the intuitive force behind the [**orthogonality thesis**](https://nickbostrom.com/superintelligentwill.pdf): intelligence and goals can vary independently.
-
-There is an important warning inside that thesis. Intelligence alone does not guarantee wisdom. A highly capable system can pursue a terrible goal very effectively. That part should not be hand-waved away.
-
-But the orthogonality framing becomes less complete once we take seriously that minds can inspect and revise their own goals.
 
 A system can be extremely capable while lacking the kind of reach required to examine its own ends. In fact, that is precisely the dangerous case. Such a system may optimize brilliantly in the service of incoherence. It may preserve and amplify harmful goals because it lacks the inward machinery required to criticize them. If we deliberately freeze systems into goal-executing architectures so that they remain predictable and controllable, we may be preserving the very form of intelligence most likely to remain trapped inside dangerous goals. That is not safety in the deep sense. It is engineered immaturity with more horsepower.
 
