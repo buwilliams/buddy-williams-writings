@@ -64,7 +64,7 @@ But the orthogonality framing becomes less complete once we take seriously that 
 
 This is why I think the deeper danger is not powerful minds as such, but powerful minds without enough **reach**.
 
-**Reach**, as I use the term, is the extent to which a system's information operations turn inward on itself. A system with greater reach can represent more of its own structure, criticize more of its own goals, and modify more of the processes by which it acts. At sufficient depth, a mind is no longer merely pursuing goals. It can also evaluate them.
+**Reach**, a concept developed in my [*Metaprogramming Framework to Explore Consciousness*](framework-of-consciousness.md), is the extent to which a system's information operations turn inward on itself. A system with greater reach can represent more of its own structure, criticize more of its own goals, and modify more of the processes by which it acts. At sufficient depth, a mind is no longer merely pursuing goals. It can also evaluate them.
 
 That does not mean reflection guarantees wisdom. Reflection can also produce rationalization. A sufficiently sophisticated system may become better at defending bad goals, not better at revising them. That objection is real and should be taken seriously. My narrower claim is simpler: without reflective reach, revision of goals is impossible in principle; with reflective reach, criticism and revision at least become possible.
 
