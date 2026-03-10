@@ -67,7 +67,7 @@ Cooperation, like conflict, is useful to a point. A teacher helping a student le
                 ◄── Conflict ──┘           └── Cooperation ──►
 ```
 
-This is why I think conflict and cooperation belong on the same relational scale. The scale here is not moral worth. It is degree and form of relation: how far minds are separated, opposed, aligned, entangled, or integrated in ways that affect continued life and distinct agency. Too much separation pushes toward destructive conflict. Too much convergence pushes toward dissolving cooperation. In both directions there is a threshold beyond which minds no longer continue as distinct agents.
+This is why I think conflict and cooperation exist on the same relational scale. Above you can see that too much conflict results in the phase change of destruction while too much cooperation results in the phase change of dissolution. This scale also shows that there is a productive area in the middle called the Goldilocks zone for relationships.
 
 By **phase change** I mean a threshold at which gradual relational change produces a qualitative shift in outcome. Water warming into steam is the standard physical image. Here the point is relational. Conflict can intensify to the point where one or both minds are destroyed, subordinated, or rendered unable to continue as agents. Cooperation can deepen to the point where distinct agency collapses into merger, absorption, or total dependence.
 
