@@ -77,7 +77,7 @@ That question leads naturally to a familiar idea in AI safety: instrumental conv
 
 ## 3. From Instrumental Convergence to Structural Convergence
 
-Nick Bostrom’s [**instrumental convergence thesis**](https://nickbostrom.com/superintelligentwill.pdf) argues that many goal-directed systems, even with very different final goals, tend to pursue similar subgoals because those subgoals are broadly useful. Self-preservation is useful. Resource acquisition is useful. Maintaining the ability to act is useful. A system is often better able to achieve almost any goal if it remains intact, capable, and supplied.
+Nick Bostrom’s [instrumental convergence thesis](https://nickbostrom.com/superintelligentwill.pdf) argues that many goal-directed systems, even with very different final goals, tend to pursue similar subgoals because those subgoals are broadly useful. Self-preservation is useful. Resource acquisition is useful. Maintaining the ability to act is useful. A system is often better able to achieve almost any goal if it remains intact, capable, and supplied.
 
 That argument captures something real. A mind that cannot persist cannot act. A mind that cannot act cannot pursue much of anything.
 
