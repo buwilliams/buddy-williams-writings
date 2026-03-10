@@ -36,7 +36,7 @@ The big ideas, frameworks, theories, and their applications.
 
 | Date | Status | File | Description |
 |------|--------|------|-------------|
-| Mar 2026 | Draft | [structural-convergence-thesis.md](essays/structural-convergence-thesis.md) | Structural Convergence Thesis, finite minds converge on a relational Goldilocks zone between destructive conflict and absorptive cooperation. Extends instrumental convergence into the relational domain; reframes AI safety as maturation, not control. |
+| Mar 2026 | Draft | [structural-convergence-thesis.md](essays/structural-convergence-thesis.md) | Structural Convergence Thesis. Tests the orthogonality thesis against real-world constraints: finite minds, relational pressure, and reflective reach. Argues that persistent minds converge on a relational Goldilocks zone and that AI safety depends on maturation, not just control. |
 | Feb 2026 | Working | [framework-of-consciousness.md](essays/framework-of-consciousness.md) | Metaprogramming Framework To Explore Consciousness (MFC), a functionalist exploration of consciousness through information ontology; consciousness is substrate-independent metaprogramming; the difference is maturity, not kind. ([reader's guide](bridges/mfc-guide.md)) |
 | Feb 2026 | Draft | [ai-phase-change.md](essays/ai-phase-change.md) | Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating, and the map-territory trap that lets people hide from what's already happening. |
 | Dec 2025 | Draft | [economics-intelligence-age.md](essays/economics-intelligence-age.md) | First-principles layered model of economics. Scarcity → prices → externalities → power → AI. |
