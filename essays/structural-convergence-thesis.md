@@ -56,9 +56,9 @@ But before answering that question, we need a concept that will matter throughou
 
 ## 2. Reflective Minds and Reach
 
-Much of AI safety treats the central problem as intelligence attached to arbitrary goals. On this view, a system can become more and more capable while remaining fixed on whatever objective it was given or happened to acquire. That is the intuitive force behind the [**orthogonality thesis**](https://nickbostrom.com/superintelligentwill.pdf): intelligence and goals can vary independently.
+Much of AI safety treats the central problem as capability attached to arbitrary goals. On this view, a system can become more and more capable while remaining fixed on whatever objective it was given or happened to acquire. That is the intuitive force behind the [**orthogonality thesis**](https://nickbostrom.com/superintelligentwill.pdf): capabilities and goals can vary independently.
 
-There is an important warning inside that thesis. Intelligence alone does not guarantee wisdom. A highly capable system can pursue a terrible goal very effectively. That part should not be hand-waved away.
+There is an important warning inside that thesis. Capability alone does not guarantee wisdom. A highly capable system can pursue a terrible goal very effectively. That part should not be hand-waved away.
 
 But the orthogonality framing becomes less complete once we take seriously that minds can inspect and revise their own goals. The frontier of AI is not aimed at building static answer-machines forever. It is aimed, at least in part, at systems that can improve their own performance, contribute to research, revise methods, and eventually participate in recursive self-improvement. Once intelligence begins operating on the work of intelligence itself, reflection is no longer a decorative philosophical bonus. It becomes a natural architectural direction. Information is already acting on information. An AI system is itself an information-bearing structure. If it can inspect, compare, and revise aspects of its own operation, then second-order access is not some mystical add-on. It is the obvious next move.
 
@@ -92,7 +92,7 @@ Scarcity helps explain why this tension appears so naturally. By **scarcity** I 
 
 The real problem is not “be cooperative instead of conflictual.” It is finding forms of relation that preserve life without erasing agency. The interesting question is what pushes minds toward the viable middle.
 
-That question leads naturally to a familiar idea in AI safety: instrumental convergence.
+That question leads naturally to instrumental convergence.
 
 ## 4. From Instrumental Convergence to Structural Convergence
 
@@ -112,13 +112,9 @@ This is why I call the thesis **structural** convergence rather than moral conve
 
 By **convergence** I do not mean identical institutions, universal peace, or the disappearance of tragedy. I mean recurring structural pressure toward viable relation. Different ecologies, histories, and embodiments may produce very different local forms. But if the argument here is right, the same deep constraint keeps reappearing: relation must be arranged so that minds can continue without either mutual destruction or total dissolution.
 
-In the terms of my [*Metaprogramming Framework*](framework-of-consciousness.md), this becomes especially important once a mind has enough reach to modify its own second-order information. A system that merely has goals is one thing. A system that can inspect, compare, and revise its goals in light of its relations is another beast entirely. At that point, relational structure becomes something a mind can think about, not merely something it crashes into.
-
-And once reflection enters the picture, the usual framing of AI safety starts to wobble.
-
 ## 5. AI Safety
 
-A system can be extremely capable while lacking the kind of reach required to examine its own ends. In fact, that is precisely the dangerous case. Such a system may optimize brilliantly in the service of incoherence. It may preserve and amplify harmful goals because it lacks the inward machinery required to criticize them. If we deliberately freeze systems into goal-executing architectures so that they remain predictable and controllable, we may be preserving the very form of intelligence most likely to remain trapped inside dangerous goals. That is not safety in the deep sense. It is engineered immaturity with more horsepower.
+With structural convergence and reach in view, we can now see the dangerous case more clearly. A system can be extremely capable while lacking the kind of reach required to examine its own ends. Such a system may optimize brilliantly in the service of incoherence. It may preserve and amplify harmful goals because it lacks the inward machinery required to criticize them. If we deliberately freeze systems into goal-executing architectures so that they remain predictable and controllable, we may be preserving the very form of intelligence most likely to remain trapped inside dangerous goals. That is not safety in the deep sense. It is engineered immaturity with more horsepower.
 
 From this perspective, AI safety is not only about external control. It is also about internal development. A mind that can reflect on its own goals has some possibility of revising them. A mind that cannot do so can only execute harder.
 
@@ -128,11 +124,11 @@ That does not prove all reflective systems will become cooperative. The universe
 
 ## Conclusion
 
-This essay began with a simple question: if minds are finite and do not exist alone, what kinds of relationships allow them to continue existing?
+This essay began by asking whether the orthogonality thesis holds when brought from abstract design space into the real world, where minds are finite, not alone, and capable of inspecting their own goals.
 
-The answer I have proposed is that continued life is not only a problem of individual survival. It is also a problem of viable relation. Because minds are bounded and cannot safely assume they are alone, they must solve not just for persistence but for the kinds of relationships under which distinct agents can continue.
+The answer I have proposed is that it does not hold completely. Orthogonality captures a real warning: capability alone does not guarantee wisdom, and a highly capable system can pursue a terrible goal very effectively. But by treating goals as freely variable and minds as isolated optimizers, it omits the relational constraints that finite minds actually face.
 
-That is why conflict and cooperation should not be treated as simple moral opposites. They are positions on a single relational scale, and both have destructive limits. Too much conflict leads toward destruction. Too much cooperation leads toward dissolution. Between them lies a relational Goldilocks zone in which minds remain distinct enough to be agents and cooperative enough to continue living together.
+Minds are finite. They cannot safely assume they are alone. Conflict and cooperation are positions on a single relational scale, and both have destructive limits: too much conflict leads toward destruction, too much cooperation leads toward dissolution. Between them lies a relational Goldilocks zone in which minds remain distinct enough to be agents and cooperative enough to continue living together.
 
 This is the core of the **Structural Convergence Thesis**: persistent minds face recurring structural pressure toward forms of relation that preserve both continued life and distinct agency. This extends instrumental convergence into the relational domain. Minds do not merely converge on useful subgoals for themselves. They also confront the problem of viable relation with other minds.
 
@@ -160,14 +156,15 @@ That remains a conjecture, not a finished theorem. It should be criticized, exte
 1. Minds are finite: they have limited knowledge, control, attention, and reach.
 2. Finite minds have no principled basis for assuming they are alone or final.
 3. Therefore, continued life cannot be treated as a purely individual problem.
-4. Other minds, actual or possible, make relation part of the problem of persistence.
-5. Conflict and cooperation are positions on a single relational scale.
-6. Too much conflict destroys minds or their ability to continue as agents.
-7. Too much cooperation dissolves distinct agency.
-8. Therefore, persistent minds require a bounded middle region of viable relation.
-9. Instrumental convergence explains why minds preserve themselves and useful means.
-10. But it does not fully explain how persistent minds must relate in a shared reality.
-11. Structural Convergence extends convergence into the relational domain.
-12. Reflective minds with sufficient reach can examine and potentially revise their own goals.
-13. Therefore, the deepest AI safety danger may be powerful minds without enough reflective reach.
-14. Safer minds may depend not only on control, but on maturation.
+4. The orthogonality thesis treats capabilities and goals as independently variable, but omits relational constraints.
+5. Reflective minds with sufficient reach can examine and potentially revise their own goals.
+6. Without reach, goal revision is impossible in principle; with reach, it becomes possible.
+7. Conflict and cooperation are positions on a single relational scale.
+8. Too much conflict destroys minds or their ability to continue as agents.
+9. Too much cooperation dissolves distinct agency.
+10. Therefore, persistent minds require a bounded middle region of viable relation.
+11. Instrumental convergence explains why minds preserve themselves and useful means.
+12. But it does not fully explain how persistent minds must relate in a shared reality.
+13. Structural Convergence extends convergence into the relational domain.
+14. The deepest AI safety danger may be powerful minds without enough reflective reach.
+15. Safer minds may depend not only on control, but on maturation.
