@@ -59,6 +59,14 @@ Conflict is not automatically destructive. Criticism is a form of conflict. Boun
 
 Cooperation, like conflict, is useful to a point. A teacher helping a student learn an unfamiliar concept. Co-workers dividing labor. A basketball team running plays. Progress depends on cooperation in this sense, because no single mind can generate all the criticism, novelty, and correction it needs. But too much cooperation becomes destructive. It suppresses independent thought. It produces cults, authoritarianism, and mono-culture. Taken far enough, distinct minds disappear into one another entirely, and **agency**, the ability to act as a distinct center of purpose, has not been preserved. It has been dissolved.
 
+```
+  Destruction                                              Dissolution
+       ↓                                                        ↓
+  ─────┼─────┼─────┼─────┼─────┼─────0─────┼─────┼─────┼─────┼─────┼─────
+      -5    -4    -3    -2    -1           +1    +2    +3    +4    +5
+                ◄── Conflict ──┘           └── Cooperation ──►
+```
+
 This is why I think conflict and cooperation belong on the same relational scale. The scale here is not moral worth. It is degree and form of relation: how far minds are separated, opposed, aligned, entangled, or integrated in ways that affect continued life and distinct agency. Too much separation pushes toward destructive conflict. Too much convergence pushes toward dissolving cooperation. In both directions there is a threshold beyond which minds no longer continue as distinct agents.
 
 By **phase change** I mean a threshold at which gradual relational change produces a qualitative shift in outcome. Water warming into steam is the standard physical image. Here the point is relational. Conflict can intensify to the point where one or both minds are destroyed, subordinated, or rendered unable to continue as agents. Cooperation can deepen to the point where distinct agency collapses into merger, absorption, or total dependence.
