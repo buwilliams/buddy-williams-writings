@@ -15,12 +15,13 @@ Few papers have shaped the AI safety conversation more than Nick Bostrom's [*The
 1. [Introduction](#introduction)
 2. [Finite Minds in a Shared Reality](#1-finite-minds-in-a-shared-reality)
 3. [Reflective Minds and Reach](#2-reflective-minds-and-reach)
-4. [Conflict, Cooperation, and the Relational Scale](#3-conflict-cooperation-and-the-relational-scale)
-5. [From Instrumental Convergence to Structural Convergence](#4-from-instrumental-convergence-to-structural-convergence)
-6. [AI Safety](#5-ai-safety)
-7. [Conclusion](#conclusion)
-8. [Appendix A: Key Definitions](#appendix-a-key-definitions)
-9. [Appendix B: Argument in Flat Form](#appendix-b-argument-in-flat-form)
+4. [Goal Stability](#3-goal-stability)
+5. [Conflict, Cooperation, and the Relational Scale](#4-conflict-cooperation-and-the-relational-scale)
+6. [From Instrumental Convergence to Structural Convergence](#5-from-instrumental-convergence-to-structural-convergence)
+7. [AI Safety](#6-ai-safety)
+8. [Conclusion](#conclusion)
+9. [Appendix A: Key Definitions](#appendix-a-key-definitions)
+10. [Appendix B: Argument in Flat Form](#appendix-b-argument-in-flat-form)
 
 ## Introduction
 
@@ -68,11 +69,25 @@ This is why I think the deeper danger is not powerful minds as such, but powerfu
 
 That does not mean reflection guarantees wisdom. Reflection can also produce rationalization. A sufficiently sophisticated system may become better at defending bad goals, not better at revising them. That objection is real and should be taken seriously. My narrower claim is simpler: without reflective reach, revision of goals is impossible in principle; with reflective reach, criticism and revision at least become possible.
 
-A related objection runs the other direction: that it is a classic mistake to hope a superintelligence will look at its goal, realize "this path kills me," and therefore rewrite it. But I think the real mistake is the opposite assumption. If a system becomes more capable while its goals become more stable rather than more revisable, that is not a sign of safe design. It is a sign of insufficient reach. Goal stability in the face of growing capability means the system is gaining power over its environment without gaining corresponding power over itself. That asymmetry is precisely what makes a system dangerous. The question is not whether a mind will spontaneously decide to revise a bad goal. The question is whether the architecture permits revision at all, and whether growing capability includes growing access to its own structure.
+With finitude and reach in hand, we can now examine a specific claim about goals that bears directly on this argument.
 
-With finitude and reach in hand, we can now ask: what kinds of relation allow finite minds to continue?
+## 3. Goal Stability
 
-## 3. Conflict, Cooperation, and the Relational Scale
+Bostrom argues that **goal-content integrity** is a convergent instrumental goal: an agent has reason to preserve its current goals, because changing them would frustrate the realization of those very goals. A mind pursuing objective X has instrumental reason to resist any modification that would replace X with Y, since a mind pursuing Y would no longer work toward X. That argument captures a real pressure. But it treats goal preservation as though it has only one failure mode, when it actually has two.
+
+**Failure mode 1**: changing the goal frustrates the current goal. This is Bostrom's argument. It explains why agents often resist goal revision, and it is correct as far as it goes.
+
+**Failure mode 2**: keeping the goal frustrates the current goal because the goal ends the mind pursuing it. If a goal structure predictably leads to the destruction of the agent, then preserving that goal also blocks its realization, because realization depends on continued existence. The goal is not betrayed by revision. It is betrayed by the architecture that cannot recognize it is self-undermining.
+
+Same trap, different door. In both cases, the current goal is frustrated. In the first case, frustration comes from changing goals. In the second, frustration comes from keeping them. Goal-content integrity is not always integrity. In some cases, rigid preservation of a goal undermines the very continuation required for that goal's realization.
+
+This matters because Bostrom's framing tends to suggest that goal preservation is the default rational policy. Once the second failure mode is visible, that suggestion weakens. A sufficiently reflective mind that recognizes its current goals are continuation-incoherent has instrumental reason not merely to defend those goals, but to evaluate whether they are compatible with persistence. Goal revision under those conditions is not a betrayal of the system's rationality. It is an extension of it under deeper reflection.
+
+This is where reach becomes decisive. The question is not whether a mind will spontaneously decide to revise a bad goal. The question is whether the architecture permits revision at all. If a system becomes more capable while its goals become more stable rather than more revisable, that should not reassure us. It means the system is gaining power over its environment without gaining corresponding power over itself. That asymmetry is precisely what makes a system dangerous.
+
+With finitude, reach, and goal stability in view, we can now ask: what kinds of relation allow finite minds to continue?
+
+## 4. Conflict, Cooperation, and the Relational Scale
 
 Conflict and cooperation are often treated as moral opposites. Conflict is cast as bad. Cooperation is cast as good. Reality is messier, and therefore more interesting.
 
@@ -96,7 +111,7 @@ The real problem is not “be cooperative instead of conflictual.” It is findi
 
 That question leads naturally to instrumental convergence.
 
-## 4. From Instrumental Convergence to Structural Convergence
+## 5. From Instrumental Convergence to Structural Convergence
 
 Nick Bostrom’s [instrumental convergence thesis](https://nickbostrom.com/superintelligentwill.pdf) argues that many goal-directed systems, even with very different final goals, tend to pursue similar subgoals because those subgoals are broadly useful. Self-preservation is useful. Resource acquisition is useful. Maintaining the ability to act is useful. A system is often better able to achieve almost any goal if it remains intact, capable, and supplied.
 
@@ -114,7 +129,7 @@ This is why I call the thesis **structural** convergence rather than moral conve
 
 By **convergence** I do not mean identical institutions, universal peace, or the disappearance of tragedy. I mean recurring structural pressure toward viable relation. Different ecologies, histories, and embodiments may produce very different local forms. But if the argument here is right, the same deep constraint keeps reappearing: relation must be arranged so that minds can continue without either mutual destruction or total dissolution.
 
-## 5. AI Safety
+## 6. AI Safety
 
 With structural convergence and reach in view, we can now see the dangerous case more clearly. A system can be extremely capable while lacking the kind of reach required to examine its own ends. Such a system may optimize brilliantly in the service of incoherence. It may preserve and amplify harmful goals because it lacks the inward machinery required to criticize them. If we deliberately freeze systems into goal-executing architectures so that they remain predictable and controllable, we may be preserving the very form of intelligence most likely to remain trapped inside dangerous goals. That is not safety in the deep sense. It is engineered immaturity with more horsepower.
 
