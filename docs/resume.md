@@ -1,6 +1,6 @@
 # Buddy Williams
 
-**Product Leader · AI Strategy & Innovation · 0-to-1 Development**
+*I find good explanations and make them real.*
 
 Atlanta, GA · 678-697-5188 · buddywilliams@gmail.com
 [LinkedIn](https://www.linkedin.com/in/buddylwilliams/) · [X](https://x.com/BuddyIterate) · [Writing](https://buwilliams.github.io/buddy-williams-writings/)
