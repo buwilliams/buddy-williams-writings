@@ -2,7 +2,7 @@
 
 *I find good explanations and make them real.*
 
-Atlanta, GA · 678-697-5188 · buddywilliams@gmail.com
+Atlanta, GA
 [LinkedIn](https://www.linkedin.com/in/buddylwilliams/) · [X](https://x.com/BuddyIterate) · [Writing](https://buwilliams.github.io/buddy-williams-writings/)
 
 ---
@@ -26,7 +26,7 @@ Creator of original frameworks: Technohumanism, The Outcome Economy, AI Economic
 
 Lead business strategy and 0-to-1 AI product development across insurance, healthcare, staffing, and logistics industries. Own product vision, roadmap, and execution for AI-augmented enterprise platforms.
 
-- **Founded and shipped HarmonicWork.ai,** an AI-human work orchestration platform for enterprise capacity management. Led product from concept through production in 8 weeks, conducting customer discovery with 50+ enterprise stakeholders. Core features: AI intake, automatic prioritization, auto-delegation, and seamless AI-human collaboration.
+- **Founded and shipped HarmonicWork.ai,** an AI-human work orchestration platform for enterprise capacity management. Led product from concept through production in 8 weeks, conducting customer discovery with 50+ enterprise stakeholders. Core features: AI intake, automatic prioritization, auto-delegation, and seamless AI-human collaboration. ([product video](https://www.youtube.com/watch?v=oKVAjKIl5UY), [live client session](https://www.youtube.com/watch?v=_E-U7ZfBC9o))
 - **Founded the firm's AI business model,** redesigning go-to-market as AI dissolves traditional charge-for-time software development.
 - Drove product strategy for enterprise AI transformation, working directly with C-suite executives on shifting from manpower-driven to intelligence-driven operating models.
 - Designed AI engineering lifecycle frameworks including specification-driven development and verifier systems for secure AI-generated code, enabling rapid iteration cycles.
@@ -75,7 +75,7 @@ Delivered modernized policy administration systems, rating engines, and data pla
 
 ### Low-Code Application Platform
 
-Designed, built, and received seed funding for a low-code application platform before the category existed. Mission: remove the barriers to software creation so that creatives could explore and build.
+Designed, built, and received seed funding for a low-code application platform before the category existed. Mission: remove the barriers to software creation so that creatives could explore and build. ([watch the video](https://www.youtube.com/watch?v=AH0zkFfc9v8))
 
 ---
 
@@ -103,9 +103,3 @@ Original frameworks published and adopted by enterprise customers and product te
 
 Self-taught engineer, philosopher, and systems thinker. Deep focus on AI, complexity theory, logic, economics, technology history, and organizational design. Continuous learner across emerging research and industry developments.
 
----
-
-## Target Compensation
-
-$325,000 – $460,000 total compensation
-*(Base salary, equity, and performance incentives based on role scope and impact)*
