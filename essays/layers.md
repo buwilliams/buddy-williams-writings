@@ -4,6 +4,16 @@
 
 Why do explanations come in layers at all? Why do we explain one thing in terms of molecules, another in terms of pressure, another in terms of goals, and still another in terms of institutions, minds, or civilizations? A common answer is that higher-level explanations are merely convenient shortcuts for lower-level ones. This essay argues that this is mistaken. Explanatory layers exist because finite minds cannot reason over uncompressed reality directly, and because following descriptions downward does not lead to simpler, more separable units. It leads toward holism. The lower the level, the more connectedness must be preserved, and the more of reality must be carried along. Taken to its conclusion, reductionism does not deliver the simple foundation it promises. It delivers total interconnection. Higher-level explanations escape this regress through managed disconnection: actively severing relations that are not relevant to the phenomenon and preserving those that are. They are real not because they exist independently of any mind, but because the minds that require them are themselves real features of the world. Higher-level explanations are not merely practical summaries. They are the only forms in which reality becomes intelligible to finite knowers. The regress they escape is not a defect of cognition but a feature of a deeply connected universe.
 
+## A Note on Method
+
+Explanation and causation are not opposites, and this essay does not treat them as such. Tracing causes is frequently how we explain things. The essay does not deny this.
+
+The more precise point is that causation operates at multiple levels. Molecules cause phase transitions. Intentions cause actions. Markets cause prices. All of these are genuine causal claims. The question the essay is asking is not whether causation is real at each level. It is which level of causal description makes a given phenomenon intelligible.
+
+Reductionism assumes the answer is always the substrate level. This essay argues that it is not. The most illuminating causal description is frequently at a higher level, and the hierarchy of explanation exists precisely because finite minds must select the level at which to describe the causes that matter.
+
+One term needs flagging before proceeding. "Level of emergence" is used here in Deutsch's sense: an explanatory domain where phenomena explain one another without requiring reduction to constituent parts. This differs from the standard complexity-theory usage, which refers specifically to bottom-up causal emergence. The two are independent concepts. Conflating them is one of the easier ways to misread what follows.
+
 ## Table of Contents
 
 1. Introduction
@@ -29,7 +39,7 @@ The mistake is not in thinking that lower-level mechanisms are real. Of course t
 
 My conjecture is that explanatory layers exist because finite minds cannot use reality in its fully uncompressed form. Reality, as encountered by a knower, is too informationally dense and too relationally entangled to be directly intelligible. Explanation therefore requires compression. But compression does not merely shorten a description. It selects structure. It throws away vast amounts of information while preserving what matters for understanding. That is what allows higher-level explanatory objects to appear: pots, ants, colonies, goals, markets, reasons, selves.
 
-There is a second conjecture that goes with this one. As we move lower in the explanatory hierarchy, the burden of connectedness increases. Lower-level descriptions are not merely more detailed. They are often more dependent on wider relations, more sensitive to context, and less naturally separable into self-contained units. This means that going lower often demands more of reality, not less. Deeper explanation imposes a tax.
+There is a second conjecture that goes with this one. As we move lower in the explanatory hierarchy, the burden of connectedness does not merely increase. It regresses toward holism. Lower-level descriptions are not merely more detailed. They are more dependent on wider relations, more sensitive to context, and less separable into self-contained units. Going lower demands more of reality, not less, until at the deepest levels the context implicates the whole.
 
 If that is right, then reductionism misses something central. It carries the higher-level practice of dividing phenomena into neat components down into levels where connectedness matters more than separation. In doing so, it can destroy the very relations required to understand the phenomenon at all.
 
@@ -47,7 +57,7 @@ That is the pressure point. Reductionism often mistakes explanatory decompositio
 
 ## Compression and the Problem of Finite Minds
 
-A regularity, in the sense that matters here, is a pattern that lets us say more with less. It is a structure in reality that allows compression. Compression, in turn, is not mere abbreviation. It is the act of representing a phenomenon with less information while preserving what matters for explanation.
+Compression is not mere abbreviation. It is the act of representing a phenomenon with less information while preserving what matters for explanation.
 
 This matters because finite minds cannot reason over reality in fully uncompressed detail.
 
@@ -129,7 +139,7 @@ This is why higher-level explanations are not merely conveniences. They are the 
 
 Reductionism misses this by assuming that breaking things into components is always the path to better understanding. But the deeper we go, the more connectedness must be preserved. Decomposition, carried far enough, erases what matters and arrives at the holism it sought to escape.
 
-If this is right, then the hierarchy of explanation is not an embarrassment to be eliminated. It is a feature of reality as encountered by finite knowers. The world is not given to us as explanation-ready. Explanation requires compression. Compression creates layers. And those layers are not a retreat from truth. They are among the forms in which truth becomes knowable.
+If this is right, then the hierarchy of explanation is not an embarrassment to be eliminated. It is a feature of reality as encountered by finite knowers. The world is not given to us as explanation-ready. Explanation requires compression and managed disconnection. Together they create layers. And those layers are not a retreat from truth. They are among the forms in which truth becomes knowable.
 
 ## Appendix A: Working Definitions
 
