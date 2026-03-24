@@ -36,6 +36,7 @@ The big ideas, frameworks, theories, and their applications.
 
 | Date | Status | File | Description |
 |------|--------|------|-------------|
+| Mar 2026 | Draft | [layers.md](essays/layers.md) | Why explanation comes in layers. Argues against reductionism: higher-level explanations are not mere shortcuts but often the only forms in which reality becomes intelligible to finite minds. Introduces compression and connectedness as the two reasons the explanatory hierarchy exists and cannot be collapsed. |
 | Mar 2026 | Draft | [structural-convergence-thesis.md](essays/structural-convergence-thesis.md) | Structural Convergence Thesis. Tests the orthogonality thesis against real-world constraints: finite minds, relational pressure, and reflective reach. Argues that persistent minds converge on a relational Goldilocks zone and that AI safety depends on maturation, not just control. |
 | Feb 2026 | Working | [framework-of-consciousness.md](essays/framework-of-consciousness.md) | Metaprogramming Framework To Explore Consciousness (MFC), a functionalist exploration of consciousness through information ontology; consciousness is substrate-independent metaprogramming; the difference is maturity, not kind. ([reader's guide](bridges/mfc-guide.md)) |
 | Feb 2026 | Draft | [ai-phase-change.md](essays/ai-phase-change.md) | Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating, and the map-territory trap that lets people hide from what's already happening. |
