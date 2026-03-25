@@ -96,6 +96,16 @@ Companion guides that provide context and orientation before reading the main es
 
 ---
 
+## Conversations
+
+Dialogues and exchanges with other thinkers, preserved with full back-and-forth.
+
+| Date | Participants | Conversation | Description |
+|------|--------------|--------------|-------------|
+| Mar 2026 | Buddy Williams, Brett Hall | [Objective Morality](conversations/brett-objective-morality/README.md) | Can morality be objective in the same sense as science? A six-part exchange rooted in Deutsch's principle of optimism, Popper's epistemology, and Searle's ontological/epistemological distinction. |
+
+---
+
 ## Meta
 
 | File | Description |
