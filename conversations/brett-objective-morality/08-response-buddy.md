@@ -1,4 +1,4 @@
-Brett, thank you for the engagement, and for watching twice. That means something.
+Brett, thank you for the engagement, and for watching twice. I feel respected since I was worried you wouldn't respond at all.
 
 I want to address something briefly before getting to the substance. You note that I'm new to fallibilism, and you're right that I'm new to the tradition and vocabulary. What I'd push back on is the implication that this makes the critique weaker. I didn't encounter Popper and Deutsch and then start thinking this way. I was already here. Years before I had this language, I developed what I called Cyclic Rationality: the disciplined alternation between imaginative expansion and empirical contraction, conjecture and criticism without foundations. Finding Popper and Deutsch felt like discovering someone had already mapped a place I'd been living in. That's not a disadvantage. Arriving independently, without inheriting the framework, means I'm looking with fresh eyes.
 
