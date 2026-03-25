@@ -13,6 +13,7 @@ A dialogue between [Buddy](https://x.com/BuddyIterate) and [Brett Hall](https://
 - [05-response-brett.md](05-response-brett.md) ([source](https://x.com/ToKTeacher/status/2032703986432880653?s=20)) — Brett clarifies that "objective" simply means moral explanations are independent of how we feel about them.
 - [06-response-buddy.md](06-response-buddy.md) — Buddy asks whether "there is something to be wrong about" functions as a protected conjecture, and explores holding the status of moral knowledge itself open to revision. ([speaker notes](06-response-buddy-speaker-notes.md))
 - [07-response-brett.md](07-response-brett.md) — Brett takes Buddy's admission of being new to fallibilism as the central thread and lays out the trilemma: fallibilism, dogmatism, and relativism are the only three options, and relativism strictly contradicts fallibilism — you cannot blend them. Grounds moral objectivity in the multiverse: all physically possible choices exist, some are objectively better, and better moral explanations preserve the means of error correction.
+- [08-response-buddy.md](08-response-buddy.md) — Buddy accepts fallibilism and realism but challenges physicalism as a separate, unsettled metaphysical claim. Argues that Brett is epistemically open but ontologically closed, and that thoroughgoing fallibilism requires holding physicalism as a conjecture rather than settled ground. Uses biological sex and AGI personhood to show that objective facts about the current substrate carry less moral weight than Brett implies.
 
 ## References
 
