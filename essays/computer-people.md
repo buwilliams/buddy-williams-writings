@@ -22,15 +22,15 @@ I see knowledge as conjectural, minds as computational, certainty as unattainabl
 
 Criticism is welcome. It is the mechanism by which explanations improve. But not all pushback is equally useful, and the framework of this essay imposes a specific bar.
 
-A genuine counterpoint requires more than disagreement or data. It requires a better explanation. Evidence and quantifications are useful starting points, but they do not refute explanations on their own. A benchmark score, a failure rate, or a statistical trend only becomes a counterpoint when it is embedded in an alternative explanation: one that accounts for the same phenomena the original claim explains, identifies where the original goes wrong, and ideally has more reach.
+A genuine counterpoint requires more than disagreement or data, it requires refutation: you must explain *why* a claim is wrong to falsify it. A benchmark score, a failure rate, or a statistical trend does not refute an explanation on its own. It only becomes a refutation when embedded in an argument that identifies *why* the original claim fails, accounts for the same phenomena, and holds up under scrutiny.
 
-For example, pointing out that LLMs fail certain reasoning benchmarks does not refute the claim that LLMs can reason. It raises a question that a good counterpoint must answer: why do they fail, what does that reveal about the nature of their capability, and does that account explain more than the original claim? The number is the beginning of an argument, not the argument itself.
+For example, pointing out that LLMs fail certain reasoning benchmarks does not refute the claim that LLMs can reason. To falsify that claim, you need to explain why those failures reveal a fundamental incapacity rather than a current limitation, and why your account explains more than the original does. The number is the beginning of an argument, not the argument itself.
 
-The mechanism of conjecture works the same way in both directions. A claim in this essay is not strengthened by asserting it more confidently, and it is not refuted by asserting disagreement more forcefully. Both require the same thing: an explanation that survives the pressure of alternatives.
+The mechanism of conjecture works the same way in both directions. A claim in this essay is not strengthened by asserting it more confidently, and it is not falsified by asserting disagreement more forcefully. Refutation requires an argument that identifies the flaw, accounts for the evidence, and survives the same criticism it levels.
 
-What is not a counterpoint: noting that a claim has not been proven (all claims begin unproven), expressing intuitive discomfort, or citing an authority who disagrees. These are invitations to discussion, not conclusions.
+What is not a refutation: noting that a claim has not been proven (all claims begin unproven), expressing intuitive discomfort, or citing an authority who disagrees. These are invitations to discussion, not falsifications.
 
-What is a counterpoint: an alternative explanation that accounts for the phenomena, shows where this essay's explanation breaks down, and holds up under the same scrutiny this essay invites.
+What is a refutation: an argument that identifies precisely where this essay's explanation breaks down, explains *why* it fails there, and offers an alternative that accounts for the same phenomena and more.
 
 ## Computer People
 
