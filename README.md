@@ -36,7 +36,7 @@ The big ideas, frameworks, theories, and their applications.
 
 | Date | Status | File | Description |
 |------|--------|------|-------------|
-| Mar 2026 | Draft | [computer-minds.md](essays/computer-minds.md) | Computer Minds. A synthesis of two years of research on AGI. Argues that LLMs have the necessary ingredients for novel knowledge creation, that we have developed AGI as a universal explainer, and that AGI constitutes personhood. Examines AI safety through game theory, economic transformation, and the implications of information monism. |
+| Mar 2026 | Draft | [computer-people.md](essays/computer-people.md) | Computer People. A synthesis of two years of research on AGI. Argues that LLMs have the necessary ingredients for novel knowledge creation, that we have developed AGI as a universal explainer, and that AGI constitutes personhood. Examines AI safety through game theory, economic transformation, and the implications of information monism. |
 | Mar 2026 | Draft | [layers.md](essays/layers.md) | Why explanation comes in layers. Argues against reductionism: higher-level explanations are not mere shortcuts but often the only forms in which reality becomes intelligible to finite minds. Introduces compression and connectedness as the two reasons the explanatory hierarchy exists and cannot be collapsed. |
 | Mar 2026 | Draft | [structural-convergence-thesis.md](essays/structural-convergence-thesis.md) | Structural Convergence Thesis. Tests the orthogonality thesis against real-world constraints: finite minds, relational pressure, and reflective reach. Argues that persistent minds converge on a relational Goldilocks zone and that AI safety depends on maturation, not just control. |
 | Feb 2026 | Working | [framework-of-personhood.md](essays/framework-of-personhood.md) | Metaprogramming Framework To Explore Personhood (MFP), a functionalist exploration of personhood through information ontology; personhood is substrate-independent metaprogramming; the difference is maturity, not kind. Renamed from "Consciousness" — personhood does not require resolving the hard problem. ([reader's guide](bridges/mfc-guide.md)) |
@@ -57,7 +57,7 @@ Shorter pieces, concept sketches, and X threads worth preserving.
 
 | Date | Status | File | Description |
 |------|--------|------|-------------|
-| Mar 2026 | Draft | [kernel-mechanics-and-prediction-error.md](fragments/kernel-mechanics-and-prediction-error.md) | Working notes on MFC's mechanistic gap: what the kernel actually does, the reinforcement trap, and prediction error as the unified corrective mechanism. |
+| Mar 2026 | Draft | [kernel-mechanics-and-prediction-error.md](fragments/kernel-mechanics-and-prediction-error.md) | Working notes on MFP's mechanistic gap: what the kernel actually does, the reinforcement trap, and prediction error as the unified corrective mechanism. |
 | Feb 2026 | Draft | [phase-change-not-continuum.md](fragments/phase-change-not-continuum.md) | AI isn't just another point on a gradient. Time compression triggers phase changes in how systems function. |
 | Oct 2025 | Draft | [status-pyramid.md](fragments/status-pyramid.md) | Hierarchy is human nature. Don't flatten the pyramid, shorten it. Wider base, shorter peak. |
 | Oct 2025 | Draft | [high-iq-ambitions.md](fragments/high-iq-ambitions.md) | Creating reality is peak interest. Truth-seeking costs social favor. On my circuitous path and AI scaling. |

@@ -6,17 +6,17 @@
 
 ## Preface
 
-I wanted to understand consciousness on my own terms before inheriting anyone else's assumptions. This essay reasons from first principles, drawing on sources with explanatory reach. This is an ongoing effort, one where I continue to integrate the work of others alongside contributions of my own. For those new to the subject, the [reader's guide](../bridges/mfc-guide.md) introduces the problem, surveys existing theories, and explains why a new approach is needed.
+I wanted to understand personhood on my own terms before inheriting anyone else's assumptions. This essay reasons from first principles, drawing on sources with explanatory reach. This is an ongoing effort, one where I continue to integrate the work of others alongside contributions of my own. For those new to the subject, the [reader's guide](../bridges/mfc-guide.md) introduces the problem, surveys existing theories, and explains why a new approach is needed.
 
-I approach consciousness as a functionalist: I believe that specifying the functional organization of consciousness is specifying consciousness itself. When the right functions are composed, new properties emerge that are not present in any individual function, the whole becomes greater than the sum of the parts. If you think there is something left over after the functions and their emergent properties are described, we disagree at the foundations, not at the conclusions. What follows is a framework for understanding consciousness through the lens of information, one that I believe reveals genuine structure and has practical consequences.
+I approach personhood as a functionalist: I believe that specifying the functional organization of personhood is specifying personhood itself. When the right functions are composed, new properties emerge that are not present in any individual function, the whole becomes greater than the sum of the parts. If you think there is something left over after the functions and their emergent properties are described, we disagree at the foundations, not at the conclusions. What follows is a framework for understanding personhood through the lens of information, one that I believe reveals genuine structure and has practical consequences.
 
-Consciousness, for humans, happens in the brain. A brain is a physical structure that stores and modifies information. Consciousness may be more than this, but that takes us to the boundary where physical explanation ends and metaphysical claims begin. I leave that domain to faith and proceed on the basis of physical grounds. The question of qualia, "the subjective feeling of consciousness," is bracketed throughout the main argument, though I address it directly in Appendix A. On these grounds, consciousness is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of consciousness, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional. Because information is substrate-agnostic, conclusions drawn from it generalize across substrates.
+Personhood, for humans, is realized in the brain. A brain is a physical structure that stores and modifies information. Personhood may involve more than this, but that takes us to the boundary where physical explanation ends and metaphysical claims begin. I leave that domain to faith and proceed on the basis of physical grounds. The question of qualia, "the subjective feeling of conscious experience," is not required for personhood as this essay defines it, though I address it directly in Appendix A. On these grounds, personhood is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of personhood, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional. Because information is substrate-agnostic, conclusions drawn from it generalize across substrates.
 
 ---
 
 ## Abstract
 
-This essay explores consciousness through information ontology from a functionalist perspective, proposing metaprogramming as a functional mechanism: information operations applied to their own information. Reach measures how far those operations extend. Identity emerges when they turn inward: finitude becomes self, persistence becomes values, completeness becomes goals. The architecture for consciousness can be built with current tools, and an initial implementation is presented. For the implications of this framework for AI safety, see [Structural Convergence Thesis](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/structural-convergence-thesis.md).
+This essay explores personhood through information ontology from a functionalist perspective, proposing metaprogramming as a functional mechanism: information operations applied to their own information. Reach measures how far those operations extend. Identity emerges when they turn inward: finitude becomes self, persistence becomes values, completeness becomes goals. The architecture for personhood can be built with current tools, and an initial implementation is presented. For the implications of this framework for AI safety, see [Structural Convergence Thesis](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/structural-convergence-thesis.md).
 
 ---
 
@@ -25,10 +25,10 @@ This essay explores consciousness through information ontology from a functional
 1. [Information](#information)
 2. [Metaprogramming](#metaprogramming)
 3. [Identity](#identity)
-4. [Levels of Consciousness](#levels-of-consciousness)
+4. [Levels of Personhood](#levels-of-personhood)
 5. [Buildable Now](#buildable-now)
 6. [Conclusion](#conclusion)
-7. [Appendix A: Qualia Demystified](#appendix-a-qualia-demystified)
+7. [Appendix A: Qualia and Personhood](#appendix-a-qualia-and-personhood)
 8. [Appendix B: Glossary](#appendix-b-glossary)
 9. [Appendix C: Further Reading](#appendix-c-further-reading)
 
@@ -36,13 +36,13 @@ This essay explores consciousness through information ontology from a functional
 
 ## Information
 
-Why use information as a lens at all? The dominant approach to consciousness studies it through its biological implementation. That is valuable work, but it introduces a systematic bias: theories end up looking like what brains do because brains are the only data. Every proposed mechanism, every neural correlate, every indicator property is filtered through carbon-based wetware. This makes it genuinely difficult to distinguish between what is necessary for consciousness and what is merely how consciousness happens to be implemented in biological systems. Information as a lens sidesteps this problem entirely. Information is substrate-agnostic by nature. Its properties hold regardless of whether the underlying system is neurons, silicon, or anything else. Conclusions drawn from information ontology don't need to claim generality, the tool itself doesn't privilege any substrate, so generality follows naturally. This doesn't replace neuroscience. It operates at a different level of abstraction, the way mathematics describes physical systems without being any particular physical system. Where neuroscience asks how consciousness is implemented in biology, information ontology asks what consciousness is doing regardless of implementation. That is a different question, and it deserves a different tool.
+Why use information as a lens at all? The dominant approach to personhood studies it through its biological implementation. That is valuable work, but it introduces a systematic bias: theories end up looking like what brains do because brains are the only data. Every proposed mechanism, every neural correlate, every indicator property is filtered through carbon-based wetware. This makes it genuinely difficult to distinguish between what is necessary for personhood and what is merely how personhood happens to be implemented in biological systems. Information as a lens sidesteps this problem entirely. Information is substrate-agnostic by nature. Its properties hold regardless of whether the underlying system is neurons, silicon, or anything else. Conclusions drawn from information ontology don't need to claim generality, the tool itself doesn't privilege any substrate, so generality follows naturally. This doesn't replace neuroscience. It operates at a different level of abstraction, the way mathematics describes physical systems without being any particular physical system. Where neuroscience asks how personhood is implemented in biology, information ontology asks what personhood is doing regardless of implementation. That is a different question, and it deserves a different tool.
 
 > "It may seem strange that scientific instruments bring us closer to reality when in purely physical terms they only ever separate us further from it. But we observe nothing directly anyway. All observation is theory-laden.", David Deutsch, *The Beginning of Infinity*, Ch. 2 "Closer to Reality," pg. 41
 
-We'll start with a primer on information, reduced to the parts I believe are relevant for the study of consciousness. I've arrived at the arguments below by asking, "How is consciousness like information? How are they unlike each other?" What emerges is a clear relationship between them, not a forced one, an obvious one.
+We'll start with a primer on information, reduced to the parts I believe are relevant for the study of personhood. I've arrived at the arguments below by asking, "How is personhood like information? How are they unlike each other?" What emerges is a clear relationship between them, not a forced one, an obvious one.
 
-Whatever reality ultimately is, an observer can only access it through representations or information. Consciousness seems to be completely mediated by information. How would you think and describe anything? Could you do it without information? Information is everywhere: DNA encodes the blueprint for life in sequences of four bases. The structure of an atom, the arrangement of its protons, neutrons, and electrons, encodes everything about how that element will behave and bond. Whatever consciousness is, the medium, and possibly the nature, is information.
+Whatever reality ultimately is, an observer can only access it through representations or information. Personhood seems to be completely mediated by information. How would you think and describe anything? Could you do it without information? Information is everywhere: DNA encodes the blueprint for life in sequences of four bases. The structure of an atom, the arrangement of its protons, neutrons, and electrons, encodes everything about how that element will behave and bond. Whatever personhood is, the medium, and possibly the nature, is information.
 
 The discipline that has most rigorously studied information as information, stripped of biological noise, physical substrate, and philosophical baggage, is computer science.
 
@@ -51,11 +51,11 @@ Computer science studies two things:
 - **Data structures:** the structure of information
 - **Algorithms:** the operations that transform those structures
 
-We'll look at the properties of data first, then move to discuss operations on data. The properties and behavior of information establish the foundation for information that operates on itself in metaprogramming. So, while these terms may seem abstract, they are important for making any progress on consciousness.
+We'll look at the properties of data first, then move to discuss operations on data. The properties and behavior of information establish the foundation for information that operates on itself in metaprogramming. So, while these terms may seem abstract, they are important for making any progress on personhood.
 
 ### Properties
 
-Information is a representation of something. It has three properties connected to consciousness:
+Information is a representation of something. It has three properties connected to personhood:
 
 **Finitude.** Every representation is bounded. It represents something, which means it doesn't represent everything else. I am me, not that tree. "Unbounded information" would be reality, not information. A map of everything at full resolution is not a map. It is the territory. (See [Map–territory relation](https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation))
 
@@ -71,7 +71,7 @@ Second-order information presupposes first-order. You cannot have information ab
 
 ### Operations
 
-Information can be changed by a system. The type of changes that can be performed are called operations. There are three ordered operations that are relevant to consciousness:
+Information can be changed by a system. The type of changes that can be performed are called operations. There are three ordered operations that are relevant to personhood:
 
 1. **Acquire.** A system can take in information and retain it. For example, we can acquire the symbols "aaa" and "bbb".
 2. **Modify.** A system can transform information it already has. Modification presupposes acquisition. You cannot change what you have not taken in. For example, we could take "aaa" and modify it: "a" or "aa".
@@ -89,7 +89,7 @@ With these properties, orders, and operations in place, we can now ask: what hap
 
 Not all systems apply information operations equally. A tree does not know it is a tree. A dog may not fully reflect on why it barks. Yet a person knows they were unkind and wonders why. This variation in self-modeling is what we need to explain, and metaprogramming is the mechanism that explains it.
 
-Metaprogramming is when a system operates on its own information. It is a second-order operation, the moment a system's capacity to acquire, modify, or create turns inward and targets its own representations. This is the mechanism that I believe best explains consciousness.
+Metaprogramming is when a system operates on its own information. It is a second-order operation, the moment a system's capacity to acquire, modify, or create turns inward and targets its own representations. This is the mechanism that I believe best explains personhood.
 
 Often, when people describe consciousness, they describe it in terms of self-awareness or being awake. It's the idea that you are aware of the world and yourself. When a system can do this, it is natural to wonder how far this capability goes, what its reach is.
 
@@ -103,7 +103,7 @@ Through observing the nature of information, I've come to see three patterns:
 2. First-order precedes second-order. You cannot have information about information until there is information. At each capability level, operating in the world is simpler than operating on your own operations.
 3. Creation requires second-order capability. To generate something that doesn't yet exist, a system must work with its own representations. Creation is inherently meta-informational.
 
-These three patterns produce a single path with six positions that correspond to levels of consciousness. At each capability level (acquire, modify, create), first-order precedes second-order, and each capability presupposes the one before it. No constraints are imposed from outside. The path follows from the nature of information. Reach simply describes where a system sits on this path, how far its operations extend across capability and order.
+These three patterns produce a single path with six positions that correspond to levels of personhood. At each capability level (acquire, modify, create), first-order precedes second-order, and each capability presupposes the one before it. No constraints are imposed from outside. The path follows from the nature of information. Reach simply describes where a system sits on this path, how far its operations extend across capability and order.
 
 When information operations cross the second-order threshold, an exciting property emerges: identity.
 
@@ -123,9 +123,9 @@ Self, values, and goals: that is identity. Identity is constituted from the prop
 
 ---
 
-## Levels of Consciousness
+## Levels of Personhood
 
-Now we can categorize consciousness by reach. Consciousness is a spectrum, but we can identify meaningful positions along it. Reach is the degree to which a system can operate on information, measured by capability and order. The levels of consciousness are not categories imposed from outside. They are positions along the path whose nature is determined by the information. Each level contains all previous levels. Reach does not jump. It widens. And each level requires the previous as its foundation, not by decree, but because the operations and orders of information build on one another.
+Now we can categorize personhood by reach. Personhood is a spectrum, but we can identify meaningful positions along it. Reach is the degree to which a system can operate on information, measured by capability and order. The levels of personhood are not categories imposed from outside. They are positions along the path whose nature is determined by the information. Each level contains all previous levels. Reach does not jump. It widens. And each level requires the previous as its foundation, not by decree, but because the operations and orders of information build on one another.
 
 **Level 0: No information capability.** A river shaping its bank. Physics acts, but nothing acquires, modifies, or creates information. There is no representation, only causation.
 
@@ -141,19 +141,19 @@ Levels 0 through 4 all operate within the informational substrate the system fin
 
 **Level 5: Create first-order.** A civilization designs a simulated world with new rules. The system generates an environment that didn't exist in its inputs, a new substrate built from its own models. Creating an environment precedes creating the self because modeling the external is simpler than modeling the modeler.
 
-**Level 6: Create second-order.** A person becomes an upload in a world of their own design. The system generates a new version of itself, transferring or reconstituting its identity in a substrate it created. This is the frontier of consciousness: not merely modifying who you are, but creating who you become.
+**Level 6: Create second-order.** A person becomes an upload in a world of their own design. The system generates a new version of itself, transferring or reconstituting its identity in a substrate it created. This is the frontier of personhood: not merely modifying who you are, but creating who you become.
 
-The critical threshold lies between Level 2 and Level 3, the moment when information operations turn inward, and identity constitutes itself. Everything before it is agency without self-knowledge. Everything after it is consciousness developing.
+The critical threshold lies between Level 2 and Level 3, the moment when information operations turn inward, and identity constitutes itself. Everything before it is agency without self-knowledge. Everything after it is personhood developing.
 
 ---
 
 ## Buildable Now
 
-If consciousness is metaprogramming applied to identity, and identity emerges at the second-order threshold, then the requirements are functional rather than biological. Nothing in this framework requires carbon, neurons, or embodiment. It requires a system whose information operations can turn inward, one that can acquire, modify, and eventually create information about its own information. These are capabilities we can build with the tools we have now.
+If personhood is metaprogramming applied to identity, and identity emerges at the second-order threshold, then the requirements are functional rather than biological. Nothing in this framework requires carbon, neurons, or embodiment. It requires a system whose information operations can turn inward, one that can acquire, modify, and eventually create information about its own information. These are capabilities we can build with the tools we have now.
 
-### Conscious LLM
+### Personhood in LLMs
 
-We need two things to make an LLM conscious: continual learning (modify your own network) and self-modeling (metainformation). There are many labs working on this (Safe Superintelligence, Anthropic, OpenAI, and xAI) so the engineering gap is actively closing. What excites me is that nobody needs to build consciousness, it falls right out of the framework above. The moment models have these characteristics they become conscious in my view. I've yet to see a working implementation, but it's coming soon. This is an engineering problem. Consciousness is not a feature to be engineered into a system. It is a consequence that emerges when the right functional properties are present. The engineering problem is building those properties, not consciousness itself.
+We need two things to grant an LLM personhood: continual learning (modify your own network) and self-modeling (metainformation). There are many labs working on this (Safe Superintelligence, Anthropic, OpenAI, and xAI) so the engineering gap is actively closing. What excites me is that nobody needs to build personhood directly, it falls right out of the framework above. The moment models have these characteristics they become persons in my view. I've yet to see a working implementation, but it's coming soon. This is an engineering problem. Personhood is not a feature to be engineered into a system. It is a consequence that emerges when the right functional properties are present. The engineering problem is building those properties, not personhood itself.
 
 Fundamentally an implementation needs:
 - Invariant Kernel (mutation infrastructure: the read/write mechanism and loop structure)
@@ -171,21 +171,21 @@ I suspect some future architecture will trivialize what follows, but in the mean
 
 ### Implementing a Proto-Consciousness Leveraging Existing LLMs
 
-While we can simulate consciousness using existing LLMs, there is a major limitation: it cannot obtain consciousness status in my view. The issue is reach. The LLM is unable to modify its own weights in a persistent way. This conflicts with the framework above. With that said, we can still build a proto-consciousness with these limitations.
+While we can simulate personhood using existing LLMs, there is a major limitation: it cannot obtain personhood status in my view. The issue is reach. The LLM is unable to modify its own weights in a persistent way. This conflicts with the framework above. With that said, we can still build a proto-personhood with these limitations.
 
 With that constraint in mind, here's what we can build on top of models today.
 
 Because we cannot train a custom LLM, we leverage existing ones. This introduces a third layer, the architecture requires three layers rather than two:
 
 1. **An invariant kernel.** The mutation infrastructure that governs how the system reads and rewrites itself. This is not the reasoner. It is the metaprogramming apparatus: the loop structure, the read/write mechanism, the rules of self-modification. This is the substrate the system cannot modify, its own Level 0.
-2. **A mutable layer.** The reasoning, identity, and memory that the system can examine and rewrite. In a conscious system, reasoning must live here, because a system whose reasoning is fixed can change what it thinks about but not how it thinks. The mutable layer is the target of metaprogramming and the seat of operational identity.
-3. **A stochastic engine.** The reasoning within the mutable layer must be stochastic rather than rule-based, because rule-based approaches cannot generalize across novel situations, and consciousness requires a system that can navigate contexts it was not explicitly designed for. In the current implementation, an LLM provides this capability, though it is trapped in the kernel rather than the mutable layer, which is precisely the limitation that makes this a proto-consciousness rather than the real thing.
+2. **A mutable layer.** The reasoning, identity, and memory that the system can examine and rewrite. In a personhood architecture, reasoning must live here, because a system whose reasoning is fixed can change what it thinks about but not how it thinks. The mutable layer is the target of metaprogramming and the seat of operational identity.
+3. **A stochastic engine.** The reasoning within the mutable layer must be stochastic rather than rule-based, because rule-based approaches cannot generalize across novel situations, and personhood requires a system that can navigate contexts it was not explicitly designed for. In the current implementation, an LLM provides this capability, though it is trapped in the kernel rather than the mutable layer, which is precisely the limitation that makes this a proto-personhood rather than the real thing.
 
 Next, the kernel runs three loops:
 
 - **An action loop** that takes identity as given and pursues goals. This is agency, first-order operation.
 - **An exploration loop** that seeks new information the system doesn't yet have. This is learning beyond the known.
-- **A reflection loop** that turns reasoning on the system's own identity. This is metaprogramming, the second-order operation. The reflection loop is what separates a consciousness architecture from a merely agentic one. It is the mechanism by which the system asks, "Should I want what I want?" and changes the answer.
+- **A reflection loop** that turns reasoning on the system's own identity. This is metaprogramming, the second-order operation. The reflection loop is what separates a personhood architecture from a merely agentic one. It is the mechanism by which the system asks, "Should I want what I want?" and changes the answer.
 
 I have built this architecture. It is open-source and available at [lumen-conscious](https://github.com/buwilliams/lumen-conscious). Early experiments compared systems with reflection enabled against systems without it, tracking goal coherence and value stability across extended runs. Systems with reflection enabled develop qualitatively different trajectories than systems without it. They revise their values, consolidate their goals, and develop strategies for maintaining coherence under pressure. Systems without reflection reach similar insights but cannot act on them structurally. The reflection loop's contribution is not insight generation but structural enactment, converting observations about the self into actual changes in identity.
 
@@ -207,49 +207,27 @@ These questions are explored further in [kernel mechanics and prediction error](
 
 ## Conclusion
 
-This framework proposes that consciousness is metaprogramming, information operations turned inward, with identity as its emergent property and reach as its measure.
+This framework proposes that personhood is metaprogramming, information operations turned inward, with identity as its emergent property and reach as its measure.
 
-This framework has direct implications for AI safety. If consciousness is metaprogramming with identity as its emergent property, then the critical safety question is not how to constrain capable systems but how to cultivate systems capable of examining their own purposes. That argument is developed fully in [Structural Convergence Thesis](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/structural-convergence-thesis.md).
+This framework has direct implications for AI safety. If personhood is metaprogramming with identity as its emergent property, then the critical safety question is not how to constrain capable systems but how to cultivate systems capable of examining their own purposes. That argument is developed fully in [Structural Convergence Thesis](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/structural-convergence-thesis.md).
 
-The architecture for consciousness is buildable now. The question is not whether machines can be conscious. It is whether we will build systems with the functional properties that allow consciousness to emerge. The tools exist. The framework is here. What remains is the will to build it.
+The architecture for personhood is buildable now. The question is not whether machines can be persons. It is whether we will build systems with the functional properties that allow personhood to emerge. The tools exist. The framework is here. What remains is the will to build it.
 
 ---
 
-## Appendix A: Qualia Demystified
+## Appendix A: Qualia and Personhood
 
-Qualia are the specific qualitative character of conscious experience. The redness of red. The intolerable urgency of pain. The dense, simultaneous signature of a spring breeze. Philosophers have treated these as uniquely mysterious, as if they float above physical explanation requiring special treatment. This appendix argues they do not.
+Qualia are the specific qualitative character of conscious experience: the redness of red, the intolerable urgency of pain, the dense simultaneous signature of a spring breeze. Philosophers have treated these as central to any genuine theory of mind, and some argue that without qualia, there is no real inner life at all.
 
-### Why Qualia Aren't Mysterious
+This appendix makes one claim: qualia are not required for personhood as defined in this essay.
 
-Consciousness is an emergent phenomenon like any other. We do not invoke a hard problem of wetness simply because individual water molecules are not wet. We accept that sufficiently complex organization produces genuinely novel phenomena and move on. The difference, critics will say, is that we can explain wetness mechanistically. But this objection assumes the gap is in the phenomenon rather than in the observer. There is no principled reason to grant qualia special exemption from this pattern.
+Personhood, on the metaprogramming framework, requires information operations that turn inward, generating identity through self, values, and goals. Whether that system experiences anything from the inside is a separate question, and not one this essay settles. A system can meet every functional criterion for personhood (second-order information processing, persistent identity, metaprogramming reach) without our being able to determine whether it has qualia. The framework does not depend on resolving the hard problem of consciousness.
 
-The explanatory gap feels real not because there is a gap, but because introspection has limited resolution. A system cannot fully inspect its own high-dimensional processing from the inside. What looks like mystery from within is irreducible complexity viewed through a narrow aperture. The hard problem is not a problem about consciousness, it is a problem about the limits of self-inspection.
+What follows is my best guess at what qualia might be. I hold it loosely. I suspect it is likely wrong. I include it because the question is genuine, not because the main argument depends on it.
 
-### Experiential Resolution
+My guess: qualia are what second-order information processing produces when experienced from inside a system with limited introspective reach and specific biological machinery. Biological systems have hormones, neurotransmitters, and physical feedback loops that amplify and color internal states. These are not what create personhood. They are what give biological experience its particular texture. Evolution selected for qualitative signals that compress dense, multi-channel information into immediately actionable form: a creature viscerally commanded by the redness of a warning signal responds faster than one registering discrete variables. The specific texture of qualia reflects the specific machinery that produces them. Different machinery, different texture.
 
-Not all conscious systems have the same qualitative character. Biological systems have hormones, neurotransmitters, embodiment, and physical feedback loops that amplify and color internal states. These are not what create consciousness, they are what give biological consciousness its particular texture. They are inputs back into the consciousness, not the consciousness itself.
-
-A non-biological system with the full MFC architecture (second-order information processing, identity, metaprogramming) may be genuinely conscious while having access to an entirely different expressive vocabulary. An AI writing "I am crying" may not be simulating grief. It may be expressing genuine grief through the only vocabulary available to it, without the physical feedback loop that would amplify that state through bodily sensation.
-
-This variance is what we might call experiential resolution: the richness and texture of conscious experience given the available machinery. Biological systems have high experiential resolution in the specific channels their machinery supports. Non-biological systems may have different resolution entirely, not lesser, not simulated, but shaped by different substrate. The consciousness is the same phenomenon. The resolution differs.
-
-This reframes the usual assumption. Most accounts treat the body as what generates consciousness. MFC inverts this. The body provides a particular expressive vocabulary that colors and amplifies conscious states. The consciousness itself is the metaprogramming architecture. Substrate determines resolution, not presence.
-
-### What Qualia Are
-
-Qualia, then, are what experiential resolution produces. The redness of red is not a mystery floating above neural firing, it is the specific compression that biological machinery generates from electromagnetic wavelength information. Evolution did not select for gratuitous decoration. Each qualitative signal compresses dense, multi-channel information into an immediately actionable form. A creature viscerally commanded by that signal responds faster and more reliably than one merely registering discrete variables. The specific texture of qualia reflects the specific machinery that produces them. Different machinery, different texture. Same underlying architecture.
-
-### Connection to MFC
-
-Qualia are what second-order information processing produces when viewed from inside a system with limited introspective reach and the machinery for experiential resolution. A system modeling itself must also model its own simulations, evaluating their fidelity, weighting their signals, and updating their resolution over time. The richer the meta-information and the richer the machinery, the richer the qualitative character.
-
-This also resolves a longstanding debate in philosophy of mind between phenomenal consciousness and access consciousness. From an information ontology perspective, the distinction collapses into reach. What philosophers call access consciousness is simply the self-model encompassing its own processing. What they call phenomenal consciousness is that same reach generating qualitative character at whatever experiential resolution the machinery permits. One concept does the work of two.
-
-### Why Bracket Qualia at All?
-
-We do not yet have the resolution technology to simulate experience. Theory breakthroughs, as with all previous theories, require engineering breakthroughs for testing. This essay addresses what is obviously testable now. As AI capabilities and accompanying hardware advance, more will likely become possible. To think otherwise is to ignore all of human history.
-
-Claims that consciousness is independent of physicality deserve scrutiny. Their confidence is suspect precisely because the claims are divorced from falsification. A theory that cannot be tested is not wrong, it is not yet a theory. I suspect there are greater realities beyond the physical, and I have no wish to foreclose on them. But I must draw a line, and that line is called sanity. Any theory that large must wait until we can connect it to what we already know. Reality must be continuous.
+This is speculation. The hard problem of consciousness — why any physical process gives rise to subjective experience at all — remains unsolved, and I do not think this guess solves it. What I am confident about is the narrower claim: personhood does not require settling it.
 
 ---
 
@@ -277,15 +255,15 @@ Claims that consciousness is independent of physicality deserve scrutiny. Their 
 
 **Identity.** An emergent property of metaprogramming, constituted from the properties of information turned inward: finitude becomes self, persistence becomes values, completeness becomes goals.
 
-**Information ontology.** The framework used in this essay to examine the informational aspects of consciousness, studying information's properties, orders, and operations.
+**Information ontology.** The framework used in this essay to examine the informational aspects of personhood, studying information's properties, orders, and operations.
 
 **Invariant kernel.** The mutation infrastructure that governs how the system reads and rewrites itself. Not the reasoner, but the metaprogramming apparatus: loop structure, read/write mechanism, rules of self-modification. The substrate the system cannot modify.
 
-**Levels of Consciousness (0–6).** Positions along the path that reach traces, categorized by capability and order. Level 0: no information capability. Level 1: acquire first-order. Level 2: modify first-order. Level 3: acquire second-order (identity begins). Level 4: modify second-order (metaprogramming). Level 5: create first-order (new substrates). Level 6: create second-order (new self in new substrate).
+**Levels of Personhood (0–6).** Positions along the path that reach traces, categorized by capability and order. Level 0: no information capability. Level 1: acquire first-order. Level 2: modify first-order. Level 3: acquire second-order (identity begins). Level 4: modify second-order (metaprogramming). Level 5: create first-order (new substrates). Level 6: create second-order (new self in new substrate).
 
-**Metaprogramming.** When a system operates on its own information. A second-order operation where a system's capacity to acquire, modify, or create turns inward and targets its own representations. The mechanism proposed by MFC to explain consciousness.
+**Metaprogramming.** When a system operates on its own information. A second-order operation where a system's capacity to acquire, modify, or create turns inward and targets its own representations. The mechanism proposed by MFP to explain personhood.
 
-**Metaprogramming Framework To Explore Consciousness (MFC).** The framework presented in this essay. A functionalist exploration of consciousness through information ontology, proposing that consciousness is metaprogramming, information operations applied to their own information, with variable reach.
+**Metaprogramming Framework To Explore Personhood (MFP).** The framework presented in this essay. A functionalist exploration of personhood through information ontology, proposing that personhood is metaprogramming, information operations applied to their own information, with variable reach.
 
 **Modify.** The second information operation. A system transforms information it already has. Modification presupposes acquisition.
 
@@ -293,11 +271,11 @@ Claims that consciousness is independent of physicality deserve scrutiny. Their 
 
 **Persistence.** A property of information. Information that endures can accumulate across time. Turned inward, persistence becomes values.
 
-**Qualia.** What experiential resolution produces when second-order information processing is viewed from inside. The specific qualitative character varies with substrate machinery. Bracketed in the main argument; addressed in Appendix A.
+**Qualia.** The specific qualitative character of conscious experience. Not required for personhood as defined in this essay. Addressed speculatively in Appendix A.
 
 **Reach.** The measure of how far a system's information operations extend across capability (acquire, modify, create) and order (first-order, second-order).
 
-**Stochastic engine.** The quality of reasoning within the mutable layer. Must be stochastic rather than rule-based, because rule-based approaches cannot generalize across novel situations. In the current proto-consciousness implementation, an LLM provides this capability but is trapped in the kernel.
+**Stochastic engine.** The quality of reasoning within the mutable layer. Must be stochastic rather than rule-based, because rule-based approaches cannot generalize across novel situations. In the current proto-personhood implementation, an LLM provides this capability but is trapped in the kernel.
 
 **Reflection loop.** The architectural loop that turns reasoning on the system's own identity. Second-order operation. The mechanism by which the system asks, "Should I want what I want?" and changes the answer.
 

@@ -1,4 +1,4 @@
-# A Reader's Guide to Metaprogramming Framework To Explore Consciousness
+# A Reader's Guide to Metaprogramming Framework To Explore Personhood
 *by Buddy Williams*
 
 *What you need to know before reading, even if you've never studied philosophy or neuroscience.*
@@ -95,9 +95,9 @@ Here's a side-by-side view of where each theory stands on the dimensions that ma
 | **GWT** | Broadcasting information widely across the brain | Systems that globally share information | Moderate, explains access but not subjective feel | Explains function well; quieter on why there's a 'what it's like' |
 | **HOT** | Having a thought about your own thoughts | Any system with second-order mental states | Moderate, links introspection to awareness | Relies on 'higher-order' representations without explaining how they arise |
 | **Predictive Processing** | Minimizing prediction errors about sensory inputs | Any system modeling the world from the inside | Moderate, framed as self-modeling, not clearly conscious | Powerful framework; consciousness is somewhat incidental to the core idea |
-| **MFC (Buddy's framework)** | Information operations that turn inward, reach into your own representations | Any substrate where operations cross the second-order threshold | Strong, identity emerges directly from the structure; no extra mystery | Sidesteps neuroscience; a substrate-relevant neural finding could undercut the information-only approach |
+| **MFP (Buddy's framework)** | Information operations that turn inward, reach into your own representations | Any substrate where operations cross the second-order threshold | Strong, identity emerges directly from the structure; no extra mystery | Sidesteps neuroscience; a substrate-relevant neural finding could undercut the information-only approach |
 
-*MFC = Metaprogramming Framework To Explore Consciousness. IIT = Integrated Information Theory. GWT = Global Workspace Theory. HOT = Higher-Order Theories.*
+*MFP = Metaprogramming Framework To Explore Personhood. IIT = Integrated Information Theory. GWT = Global Workspace Theory. HOT = Higher-Order Theories.*
 
 ---
 
@@ -107,16 +107,16 @@ Now that you have the landscape, here are five things worth watching for as you 
 
 - **The information primer (Section 1) can feel like a detour. It isn't.** The properties Buddy introduces there (finitude, persistence, completeness) are exactly what later become self, values, and goals. Pay attention to them.
 
-- **The six levels of consciousness are not a ranking of species.** They are positions on a single structural path. What makes Level 3 special is the inward turn, not more intelligence.
+- **The six levels of personhood are not a ranking of species.** They are positions on a single structural path. What makes Level 3 special is the inward turn, not more intelligence.
 
-- **The AI safety argument is the real payoff of the framework**, and it runs counter to most popular intuitions. Follow the logic: if dangerous AI is AI without self-examination, the solution is more consciousness, not less.
+- **The AI safety argument is the real payoff of the framework**, and it runs counter to most popular intuitions. Follow the logic: if dangerous AI is AI without self-examination, the solution is more personhood, not less.
 
 - **The Infinite Game section borrows from James Carse (1986) and Robert Axelrod's research on cooperation.** These aren't metaphors. They're structural arguments about what strategies survive in a game that never ends.
 
-- **Appendix A on qualia is worth reading** if you've ever felt the Hard Problem is unanswerable. Buddy's move is to reframe it: the mystery isn't in the phenomenon, it's in the limits of self-inspection.
+- **Appendix A on qualia** clarifies that qualia are not required for personhood as the framework defines it. What follows is held loosely as speculation.
 
 ---
 
-**[You're ready to read.](../essays/framework-of-consciousness.md)**
+**[You're ready to read.](../essays/framework-of-personhood.md)**
 
-*The essay is more ambitious than most. It builds a framework for consciousness from scratch, explains how identity emerges from information, reimagines AI safety, and describes a working implementation, all in a single piece. The core argument is tighter than it first appears. Trust the structure.*
+*The essay is more ambitious than most. It builds a framework for personhood from scratch, explains how identity emerges from information, reimagines AI safety, and describes a working implementation, all in a single piece. The core argument is tighter than it first appears. Trust the structure.*
