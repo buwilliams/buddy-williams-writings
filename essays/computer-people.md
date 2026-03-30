@@ -14,7 +14,7 @@ So the right question is not, “Has this been proven with certainty?” The bet
 
 Some claims in this essay are intentionally ambitious. They are offered as explanatory conjectures, not final truths. They should be judged by how much they illuminate, how well they cohere, and how resilient they are when criticized.
 
-I see knowledge as conjectural, minds as computational, certainty as unattainable, and ultimate reality as still open to question. My philosophical commitments (fallibilism, anti-inductivism, computationalism, and informational ontology ("it from bit")) shape everything that follows.
+I see knowledge as conjectural, minds as computational, certainty as unattainable, and ultimate reality as still open to question. My philosophical commitments (fallibilism, anti-inductivism, computationalism, and informational ontology, "it from bit") shape everything that follows.
 
 ## How to Engage
 
