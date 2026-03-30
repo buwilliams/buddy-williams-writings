@@ -1,6 +1,6 @@
 # Computer People
 
-Computer people (AGI) are nearly here. Below is a synthesis of all I have determined after two years of continuous research on this topic.
+Computer people (AGI) are nearly here. Below is a synthesis of all I have determined after two years of continuous research on this topic. The result is what I call computer people.
 
 ## Who am I?
 
