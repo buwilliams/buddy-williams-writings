@@ -22,7 +22,7 @@ I see knowledge as conjectural, minds as computational, certainty as unattainabl
 
 Criticism is welcome. It is the mechanism by which explanations improve. But not all pushback is equally useful, and the framework of this essay imposes a specific bar.
 
-A genuine counterpoint requires more than disagreement or data, it requires refutation: you must explain *why* a claim is wrong to falsify it. A benchmark score, a failure rate, or a statistical trend does not refute an explanation on its own. It only becomes a refutation when embedded in an argument that identifies *why* the original claim fails, accounts for the same phenomena, and holds up under scrutiny.
+A genuine counterpoint requires more than disagreement or data, it requires refutation: you must explain *why* a claim is wrong to falsify it. A benchmark score, a failure rate, or a statistical trend does not refute an explanation on its own. It only becomes a refutation when embedded in an argument that identifies *why* the original claim fails.
 
 For example, pointing out that LLMs fail certain reasoning benchmarks does not refute the claim that LLMs can reason. To falsify that claim, you need to explain why those failures reveal a fundamental incapacity rather than a current limitation, and why your account explains more than the original does. The number is the beginning of an argument, not the argument itself.
 
@@ -30,7 +30,7 @@ The mechanism of conjecture works the same way in both directions. A claim in th
 
 What is not a refutation: noting that a claim has not been proven (all claims begin unproven), expressing intuitive discomfort, or citing an authority who disagrees. These are invitations to discussion, not falsifications.
 
-What is a refutation: an argument that identifies precisely where this essay's explanation breaks down, explains *why* it fails there, and offers an alternative that accounts for the same phenomena and more.
+What is a refutation: an argument that identifies precisely where this essay's explanation breaks down and explains *why* it fails there.
 
 ## Computer People
 
