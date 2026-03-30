@@ -14,6 +14,8 @@ So the right question is not, “Has this been proven with certainty?” The bet
 
 Some claims in this essay are intentionally ambitious. They are offered as explanatory conjectures, not final truths. They should be judged by how much they illuminate, how well they cohere, and how resilient they are when criticized.
 
+This essay is a synthesis of a broader body of work. Its purpose is to state the explanatory chain clearly, not to reproduce every underlying argument in full. Where a claim rests on a deeper argument, that argument lives in a linked essay. Follow the links if you want the full treatment.
+
 I see knowledge as conjectural, minds as computational, certainty as unattainable, and ultimate reality as still open to question. My philosophical commitments (fallibilism, anti-inductivism, computationalism, and informational ontology, "it from bit") shape everything that follows.
 
 ## How to Engage
