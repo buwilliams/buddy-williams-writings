@@ -36,9 +36,10 @@ The big ideas, frameworks, theories, and their applications.
 
 | Date | Status | File | Description |
 |------|--------|------|-------------|
+| Mar 2026 | Draft | [computer-minds.md](essays/computer-minds.md) | Computer Minds. A synthesis of two years of research on AGI. Argues that LLMs have the necessary ingredients for novel knowledge creation, that we have developed AGI as a universal explainer, and that AGI constitutes personhood. Examines AI safety through game theory, economic transformation, and the implications of information monism. |
 | Mar 2026 | Draft | [layers.md](essays/layers.md) | Why explanation comes in layers. Argues against reductionism: higher-level explanations are not mere shortcuts but often the only forms in which reality becomes intelligible to finite minds. Introduces compression and connectedness as the two reasons the explanatory hierarchy exists and cannot be collapsed. |
 | Mar 2026 | Draft | [structural-convergence-thesis.md](essays/structural-convergence-thesis.md) | Structural Convergence Thesis. Tests the orthogonality thesis against real-world constraints: finite minds, relational pressure, and reflective reach. Argues that persistent minds converge on a relational Goldilocks zone and that AI safety depends on maturation, not just control. |
-| Feb 2026 | Working | [framework-of-consciousness.md](essays/framework-of-consciousness.md) | Metaprogramming Framework To Explore Consciousness (MFC), a functionalist exploration of consciousness through information ontology; consciousness is substrate-independent metaprogramming; the difference is maturity, not kind. ([reader's guide](bridges/mfc-guide.md)) |
+| Feb 2026 | Working | [framework-of-personhood.md](essays/framework-of-personhood.md) | Metaprogramming Framework To Explore Personhood (MFP), a functionalist exploration of personhood through information ontology; personhood is substrate-independent metaprogramming; the difference is maturity, not kind. Renamed from "Consciousness" — personhood does not require resolving the hard problem. ([reader's guide](bridges/mfc-guide.md)) |
 | Feb 2026 | Draft | [ai-phase-change.md](essays/ai-phase-change.md) | Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating, and the map-territory trap that lets people hide from what's already happening. |
 | Dec 2025 | Draft | [economics-intelligence-age.md](essays/economics-intelligence-age.md) | First-principles layered model of economics. Scarcity → prices → externalities → power → AI. |
 | Nov 2025 | Draft | [outcome-economy.md](essays/outcome-economy.md) | The near-term economic transformation. Knowledge workers become intelligence workers. Outcome-based economies. |
@@ -92,7 +93,7 @@ Companion guides that provide context and orientation before reading the main es
 
 | File | For | Description |
 |------|-----|-------------|
-| [mfc-guide.md](bridges/mfc-guide.md) | [framework-of-consciousness.md](essays/framework-of-consciousness.md) | A reader's guide to MFC, the Hard Problem, leading theories (IIT, GWT, HOT, Predictive Processing), and how metaprogramming reframes consciousness as information looking at itself. |
+| [mfc-guide.md](bridges/mfc-guide.md) | [framework-of-personhood.md](essays/framework-of-personhood.md) | A reader's guide to MFP, the Hard Problem, leading theories (IIT, GWT, HOT, Predictive Processing), and how metaprogramming reframes consciousness as information looking at itself. |
 
 ---
 

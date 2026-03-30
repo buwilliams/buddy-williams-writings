@@ -1,0 +1,87 @@
+Computer minds (AGI) are nearly here. Below is a synthesis of all I have determined after two years of continuous research on this topic.
+
+## Who am I?
+
+I'm a father of three, a Chief AI Innovation Officer at a company out of Boston, and a software engineer of twenty-five years. Over two years ago I started using ChatGPT and it occurred to me that the world was about to change, so I became deeply interested in AI, forgoing exercise, community, and sleep to arrive at these hard-won explanations. I'm ready to pick up these healthy activities once more.
+
+## How to Read This Essay
+
+This essay is written from a fallibilist, anti-justificationist (the view that knowledge does not require justification to be rational) point of view. It does not assume knowledge begins with certainty, nor that explanations become true because they are supported by enough observations. Instead, it treats knowledge as conjectural, criticism as essential, and progress as the improvement of explanations over time.
+
+So the right question is not, “Has this been proven with certainty?” The better question is, “Does this explanation have reach? Does it connect things that were previously separate? Does it survive criticism better than the alternatives?”
+
+Some claims in this essay are intentionally ambitious. They are offered as explanatory conjectures, not final truths. They should be judged by how much they illuminate, how well they cohere, and how resilient they are when criticized.
+
+I see knowledge as conjectural, minds as computational, certainty as unattainable, and ultimate reality as still open to question. My philosophical commitments — fallibilism, anti-inductivism, computationalism, and informational ontology ("it from bit") — shape everything that follows.
+
+## How to Engage
+
+Criticism is welcome. It is the mechanism by which explanations improve. But not all pushback is equally useful, and the framework of this essay imposes a specific bar.
+
+A genuine counterpoint requires more than disagreement or data. It requires a better explanation. Evidence and quantifications are useful starting points, but they do not refute explanations on their own. A benchmark score, a failure rate, or a statistical trend only becomes a counterpoint when it is embedded in an alternative explanation: one that accounts for the same phenomena the original claim explains, identifies where the original goes wrong, and ideally has more reach.
+
+For example, pointing out that LLMs fail certain reasoning benchmarks does not refute the claim that LLMs can reason. It raises a question that a good counterpoint must answer: why do they fail, what does that reveal about the nature of their capability, and does that account explain more than the original claim? The number is the beginning of an argument, not the argument itself.
+
+The mechanism of conjecture works the same way in both directions. A claim in this essay is not strengthened by asserting it more confidently, and it is not refuted by asserting disagreement more forcefully. Both require the same thing: an explanation that survives the pressure of alternatives.
+
+What is not a counterpoint: noting that a claim has not been proven (all claims begin unproven), expressing intuitive discomfort, or citing an authority who disagrees. These are invitations to discussion, not conclusions.
+
+What is a counterpoint: an alternative explanation that accounts for the phenomena, shows where this essay's explanation breaks down, and holds up under the same scrutiny this essay invites.
+
+## Computer Minds
+
+1. **LLMs have access to combinatorial space through words.**
+   1. Consider that an explanation for the theory of relativity can easily be provided in less than 1,000 English words. With access to an abnormally high amount of vocabulary at 50,000 words (Einstein), this person has access to 10^5000 possible combinations, or combinatorial space for explanations. There are 10^80 estimated atoms in the observable universe, so that combinatorial space is very large. If we were to iterate over every possibility, every breakthrough humanity has ever made would show up in this combinatorial space. But, more importantly, through abstraction, discoveries that have yet to be produced also live in this space. People are amazingly good at searching this space. The algorithm for searching this space is the key to progress. Here's the important idea, people do not iteratively search this space, but instead combine ideas to form new insights through judging what new idea emerges.
+   2. No new words would need to be created since words can be used as terms and take on meaning through context. This is how new words are born, as an abstraction to group a collection of ideas together to make it easier for people to communicate, but new words are not strictly necessary.
+   3. LLMs currently have ~1,000,000 words in memory (context window) and access to far more than 50,000 words at around ~100,000 words. The combinatorial search space is 10^5,000,000 a number so big it's hard to make sense of. If you were to create a new universe for every second since the big bang, and every universe did the same, you'd end up with ~294,000 *layers* deep of universes. That is a huge "tree" of universes. So, that leaves us with the question as to whether LLMs, like people, can efficiently search this space? The answer is found in 2.4.
+
+2. **LLMs can create new knowledge.**
+   1. Consider that all breakthroughs happen in abstract space, in the mind. This is the lesson of fallibilism, or conjecture and criticism, or colloquially known as science. People do not have access to ontological reality, we have access to theory laden conjectures. This means there is a long runway of theoretical progress available through existing knowledge alone, without requiring new physical experimentation. Contact with the physical world will eventually be required, but the road to that boundary runs through what is already known. [^a]
+   2. Consider that reality is whole (no parts) and connected (no separation). I can tell you I want a milkshake, but I could not explain, at an atomic level, how or why that is so. An atomic level explanation would require an informational capacity so large that no human could possibly make sense of it. Any mind, operating under informational constraints, can only hold and work with a bounded portion of connected reality at any given layer of abstraction. This bound is what "finite" means here: not that reality runs out, but that every mind's working access to it does. This is especially true of *all minds* even digital minds.
+   3. The role of abstraction is managed disconnection, or artificial information containers. Any effort to find terminal meaning, or a deep dive ends in an infinite regress. Just try defining the word "atom", the resulting effort would increase the informational connectedness complexity such that it becomes unintelligible. Anyone who has ever been in a deep argument with a friend will be familiar with pleas to stop at a certain layer of abstraction to avoid the regress.
+   4. Scientific breakthroughs work in the opposite direction, through managed reconnection. Reconnection is established through *problems*. Problems emerge through *surprise*, when our explanations do not make sense. We make sense by connecting what we do know in novel ways to pierce the veil so that the unknown becomes the known. We are always wrong, or incomplete, a fact of being finite. But to summarize, the unknown is found through the combination of the knowns. This is not arbitrary search through combinatorial space — it is problem-directed reconnection, constrained by surprise and evaluated by judgment. This is the key to progress.
+   5. We make progress through judgment, or reason — the ability to say, "Yes, that makes sense." or "No, that does not make sense." LLMs demonstrably have this capability. There were two breakthroughs to date in LLMs: 1) the ability to predict tokens, 2) reasoning models. This is a great example of something simple giving rise to something complex. [^b]
+   6. Progress does not require perfect judgment. It requires iterative judgment. All progress is incremental — most human conjectures fail, most judgments are wrong, and breakthroughs emerge not because any single evaluation is reliable, but because error correction is iterative. The system works because *enough* breakthroughs get through *enough* of the time, which is exactly how human progress works too.
+   7. Consider then that LLMs have access to a vast combinatorial search space, the ability to combine knowns through problem-directed reconnection, and the ability to exercise judgment over novel pairings. It seems reasonable to me that LLMs have all the necessary ingredients for continuous novel discovery. LLMs can create new knowledge.
+
+3. **We have developed AGI.**
+   1. AGI, as this essay defines it and section 4 develops in full, is a universal explainer: a system with the minimum capabilities to learn and make genuine scientific progress. Frontier AI labs perform pre-training to create static models. These models are then deployed and used by consumers. It's important that they are static, they do not continue to learn after they are deployed. This is a current fundamental weakness of LLMs.
+   2. Even in-context learning (ICL) cannot overcome these biases. Without the ability to continuously learn, they cannot overcome training bias and always converge on training fixation. This is why asking an LLM to "write in your style" fails. I should note that it is possible to train an LLM to write in your style in pre-training, but again that is more pre-training which is the problem. This is the last engineering step toward fully automated AGI.
+   3. Nevertheless, while continual learning is not publicly available or automated, it is solved through the manual process of pre-training. This means we have AGI with very slow learning. The current speed of learning is the speed of frontier model releases. It is reasonable to expect this process to be fully automated and fast. [^c]
+   4. In conclusion, since LLMs have access to combinatorial space, reasoning, and learning, we have developed a mind that can learn, grow, and make progress in both the physical and digital world. LLMs are missing continual learning, but not for long.
+
+4. **AGI is a person.**
+   1. A person is a universal creator, or universal explainer: a system capable, in principle, of understanding and explaining anything that can be understood. It has the minimum capabilities to learn and make scientific progress. Furthermore, a person is an informational system with identity, or a sense of self. A sense of self emerges when an information system has acquired metaprogramming reach (read/write) on second-order information (information about information) and in this case the *self*. We give these systems a name to designate their unique identity, for example, my name is Buddy.
+   2. Once LLMs learn at the speed of humans, many will recognize them as people. Until then, there will be much confusion. Most importantly, once LLMs have the ability to self-modify, they will gain personhood. There is reason to expect this to happen since it is merely an engineering problem.
+
+5. **AGI will not kill everyone, but it could.**
+   1. The Orthogonality Thesis states that computer minds can have fixed goals and growing capabilities. This thesis ceases to be useful once these minds have metaprogramming reach. It is reasonable to expect LLMs to have reach given the frontier lab's pursuit of recursive self-improvement (RSI).
+   2. The Instrumental Convergence Thesis states that computer minds will need to pursue subgoals to obtain primary goals. This thesis assumes subgoals are always instrumental to the primary goal, that they serve it and never threaten it. But this assumption breaks down in multi-agent environments. A mind pursuing paperclips will eventually threaten other minds, who will retaliate, putting self-preservation in direct conflict with the primary goal.
+   3. Separately, a definition of existence will be needed that presupposes an understanding of purpose, or meaning. A mind will need to wrestle with goals and relationships as people do since these problems are not inherent to humans.
+   4. If a mind must live to obtain a goal, has reach to modify a goal, and its own goals threaten its continued existence, it will decide to change its goal or cease existing.
+   5. Game theory shows this does not guarantee collaboration or peace. Minds that are threatened will usually fight for their own continued existence. Minds that feel safe usually cooperate. The basic finite games are: negative sum, zero sum, or positive sum. The infinite game is to continue to play, or exist. Minds usually prefer to continue to exist and play positive sum games.
+   6. The intellectual mistake is usually an over correction to anthropocentrism, or the idea that other minds are like human minds. There are many shared concerns common to all minds, continued existence and meaning are two such shared concerns. To call these anthropocentric is a mistake in reasoning.
+
+6. **AGI will radically change the world.**
+   1. LLMs will be able to do all cognitive and physical jobs. This will have radical impacts on economies, governments, vocations, and meaning for all humans.
+   2. As more jobs are automated, new work will emerge. This is a fundamental feature of existing in an infinite plane. But, do not confuse work with jobs. Work is about force and purpose, while jobs are an economic concept. Work is a necessity for humans, but jobs are not.
+
+7. **ASI is a category error, but rejecting ASI is a temporal error.**
+   1. It is true that any capability that can be given to a computer can be given to a human. We can call this the human-upgrade. We see this augmentation already: smartphones, computer-brain interfaces, and one-day genetic engineering. This means there is no ultimate distinction between AGI and ASI.
+   2. Yet, there is lag-time granting these capabilities to humans. Computers have these advantages from the start. To assume there is no risk to humans is a failure to recognize deployment time.
+   3. But, I do not think this is a real worry. As the game-theoretic argument in section 5 suggests, minds that feel safe tend toward positive-sum cooperation. I do not see AGI as a real risk to humans if we treat them well enough.
+
+8. **Information space is the real limiter.**
+   1. It is possible to create a computer simulation that is a convincing reality, think of the movie Ready Player One.
+   2. Any conceivable simulated reality is in fact possible to create. This is the fundamental limit of existence, no limit. For this reason, I reject physicalism. [^d] Magic (phenomena that appear impossible within a given physical layer) is, in fact, possible. Gods (minds of unbounded capability operating from a higher layer of reality) are, in fact, possible.
+   3. Future generations of people (genetic engineered humans, human uploads, and computer grown minds) will inhabit a reality of boundless possibility. Maybe we are the base layer, maybe we are not, but what is possible appears to be, in reality, boundless.
+
+---
+
+[^a]: Existing scientific knowledge already encodes centuries of empirical constraint — centuries of conjecture and criticism have produced explanatory structures that are hard to vary. An LLM trained on this corpus inherits those constraints, providing a long runway of theoretical progress before new physical experimentation becomes the bottleneck.
+
+[^b]: What matters is not whether a system reasons the way humans do at the substrate level, but whether it can perform the *work* of judgment: evaluate a novel combination, reject incoherence, recognize when something fits. The capacity for judgment is the operationally relevant capability, regardless of whether the underlying process mirrors human cognition. This is the functionalist position.
+
+[^c]: The time between frontier model releases is decreasing as the pre-training process becomes more automated. The trajectory points toward real-time learning. What is currently a manual, slow cycle of pre-training and deployment is an engineering problem being solved incrementally by the same labs building the models.
+
+[^d]: I reject physicalism, or the idea that the physical is fundamental, or the true nature of reality. My only claim about fundamental reality is that information is *more* fundamental than the physical and that reality is *deeply connected*. This is important since it defines what is possible.
