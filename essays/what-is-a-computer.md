@@ -57,7 +57,7 @@ From NAND gates, we build adders. Here is 3 + 5 in binary:
 
   3:  0011
   5:  0101
-      ────
+      ----
   8:  1000
 
 Each column is one adder with two rules:
