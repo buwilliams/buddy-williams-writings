@@ -43,7 +43,7 @@ A computer, at its most fundamental, is any system that can implement universal 
 
 That definition needs unpacking. Logic, in this context, means operations on information that follow determinate rules. The simplest of these are logic gates: devices that take one or two inputs and produce an output according to a fixed rule. An AND gate outputs true only if both inputs are true. An OR gate outputs true if either input is true. A NOT gate inverts its input.
 
-What makes computation powerful is a remarkable fact about logic gates: not all of them are needed. A single gate type, the NAND gate (which outputs false only when both inputs are true), is functionally universal. Any logical operation, no matter how complex, can be built from NAND gates alone. This means that any physical system capable of implementing NAND gates can, in principle, perform any computation whatsoever. The entire edifice of computing, from spreadsheets to simulated worlds, rests on this foundation.
+What makes computation powerful is a remarkable fact about logic gates: not all of them are needed. A single gate type, the NAND gate (which outputs false only when both inputs are true), is functionally universal. Any logical operation, no matter how complex, can be built from NAND gates alone. This means that any system capable of implementing NAND gates can, in principle, perform any computation whatsoever. The entire edifice of computing, from spreadsheets to simulated worlds, rests on this foundation.
 
 ```
 Aside: From a gate to a sum
@@ -80,7 +80,7 @@ onto logic, not the logic itself.
 
 The NAND gate at the bottom knows only its rule. Everything above it
 is interpretation we layered on. What is interesting is that logic
-is not in the substrate — the substrate is conscripted to represent
+is not in the substrate. The substrate is conscripted to represent
 logic by convention. The transistor does not know about TRUE. The
 pixel does not know about red. Physical states carry meaning only
 in relation to a system that interprets them.
@@ -156,7 +156,7 @@ The argument has a specific form. If an epistemic framework cannot account for s
 
 This argument has a companion in the structure of explanation itself, which I develop in a separate essay, [Why Explanation Comes in Layers](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/layers.md).
 
-The central claim of that essay is that explanatory layers exist because finite minds cannot reason over uncompressed reality directly, and because following descriptions downward does not lead to simpler, more separable units. It leads toward holism. The lower the level, the more connectedness must be preserved, the more of reality must be carried along. Reductionism promises a simple foundation and delivers total interconnection. Higher-level explanations escape this regress through managed disconnection: actively severing relations that are not relevant to the phenomenon while preserving those that are.
+The central claim of that essay is that explanatory layers exist because finite minds cannot reason over uncompressed reality directly, and because following descriptions downward does not lead to simpler, more separable units. It leads toward holism. The lower the level, the more connectedness must be preserved, the more of reality must be carried along. Reductionism promises a simple foundation and delivers total interconnection. A weather forecast does not become more accurate by tracking every air molecule. A psychological explanation of grief does not improve by listing every neuron that fires. Going lower does not reveal a simpler foundation. It reveals more interconnection that then has to be screened off to make explanation tractable. Higher-level explanations escape this regress through managed disconnection: actively severing relations that are not relevant to the phenomenon while preserving those that are.
 
 That argument reinforces the one made here. Physicalism is not only local in the sense that it describes the rules of a particular substrate. It is local in a deeper sense: it operates at a particular explanatory layer. The physicist's description of molecular interactions is a managed disconnection from the wider informational structure. It works precisely because it has screened off most of the connectedness. But that screening is itself an explanatory act performed by a mind, not a discovery of a foundation-free bottom layer.
 
@@ -214,7 +214,7 @@ None of these parallels settles whether religious claims are true. But the struc
 
 ## Conclusion
 
-A computer is not a machine made of silicon. It is any physical system that can implement universal logic. This can be done with transistors, gears, water, dominoes, redstone, or neurons. What makes something a computer is not what it is made of but what it can do.
+A computer is not a machine made of silicon. It is any system that can implement universal logic. This can be done with transistors, gears, water, dominoes, redstone, or neurons. What makes something a computer is not what it is made of but what it can do.
 
 That fact, properly understood, has consequences that reach well beyond engineering. If computation is substrate-independent, then the logical structure of information and its operations is not a feature of any particular physics. It is the invariant that persists across substrates when everything else changes. Any universal computer can host nested worlds, each with their own rules, their own causal closure, and their own observers who experience their world as fundamental.
 
