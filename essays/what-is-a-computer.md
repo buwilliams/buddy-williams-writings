@@ -28,7 +28,7 @@ Most people think of a computer as a machine made of silicon. This essay argues 
 
 ## Introduction
 
-When I think about what a computer is, my first instinct is to picture a machine: a box with a processor, a screen, a keyboard. Something made of silicon and metal. Something you buy from a store.
+When I think about what a computer is, my first instinct is to picture a machine: a box with a processor, a screen, a keyboard. Something made of silicon and metal.
 
 That picture is not wrong, but it captures one implementation rather than the thing itself. The question "what is a computer?" turns out to be deeper than it looks, and its answer has consequences that reach far beyond engineering. It touches the foundations of what we can know about reality, about whether our physics is fundamental or merely local, and about why information and matter seem to need each other.
 
