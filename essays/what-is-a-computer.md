@@ -52,9 +52,24 @@ onto 1 and 0. That mapping is a convention, not something the
 transistor knows about. Bits are not logic. They are a mapping onto
 logic.
 
-From NAND gates, we build adders: circuits that take two bits in and
-produce a sum and a carry. Chain enough adders together and you can
-add any two numbers. When Excel evaluates =A1+B1, this is what runs.
+From NAND gates, we build adders. Here is 3 + 5 in binary:
+
+  3:  0011
+  5:  0101
+      ────
+  8:  1000
+
+Each column is one adder with two rules:
+  sum   = 1 when the inputs differ  (XOR)
+  carry = 1 when both inputs are 1  (AND)
+
+Both rules reduce to NAND:
+  AND(A,B) = NAND( NAND(A,B), NAND(A,B) )
+  XOR(A,B) = NAND( NAND(A, NAND(A,B)), NAND(B, NAND(A,B)) )
+
+Chain four of these adders and you handle 4-bit numbers. Chain
+eight and you handle 8-bit numbers. When Excel evaluates =A1+B1,
+this is what runs.
 
 The result travels back the same way: a number becomes a value in
 memory, that value maps to pixel colors at positions on a screen. We
