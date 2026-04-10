@@ -20,9 +20,10 @@ Most people think of a computer as a machine made of silicon. This essay argues 
 6. [Explanation and Locality](#explanation-and-locality)
 7. [Substrate and Program](#substrate-and-program)
 8. [The Deepest Anthropocentrism](#the-deepest-anthropocentrism)
-9. [Conclusion](#conclusion)
-10. [Appendix A: Related Thinkers](#appendix-a-related-thinkers)
-11. [Appendix B: Glossary](#appendix-b-glossary)
+9. [Religious Resonances](#religious-resonances)
+10. [Conclusion](#conclusion)
+11. [Appendix A: Related Thinkers](#appendix-a-related-thinkers)
+12. [Appendix B: Glossary](#appendix-b-glossary)
 
 ---
 
@@ -188,6 +189,24 @@ Spinoza, working without any concept of computation, looked at the one example a
 An observer in a different substrate, with different architecture, might introspect and find something quite different. They might report a structure that corresponds to neither physicalism nor idealism nor dual-aspect monism, because their substrate implements the relationship between information and its carrier differently than ours does. If that is possible, then our philosophy of mind is not a discovery about the nature of reality. It is a discovery about the nature of our local reality, generalized without justification.
 
 This is not a reason to abandon philosophy of mind. It is a reason to hold its conclusions more loosely, and to notice when an argument's persuasive force comes from the structure of the observer rather than the structure of what is observed.
+
+---
+
+## Religious Resonances
+
+The ideas in this essay have structural parallels with religious intuitions. This is worth noting, not to validate or refute religious claims, but because the convergence is itself interesting.
+
+A nested world with its own rules, its own causal closure, and observers who experience it as fundamental maps onto the religious notion of separate realms: heaven as a world where the constraints of this substrate do not apply. Miracles fit here too. An event that breaks local physics is exactly what information leaking from a containing world would look like from inside. Angels are agents from a containing layer.
+
+Prayer may be understood as an attempt to communicate with that containing layer. If information can in principle pass between nested worlds, the instinct to reach beyond the local causal order is not obviously confused. Whether such communication is possible is a separate question.
+
+The first cause problem is the same problem physicalism faces. Every explanatory chain either regresses infinitely, terminates at a brute fact, or loops. Theism terminates the regress at God. Physicalism terminates it at brute physical law. The computational framing regresses: containing worlds can themselves be contained. None of these is more satisfying as an ultimate foundation. They locate the mystery differently.
+
+The notion of progress toward bliss, that technological flourishing points toward a world of abundance and freedom from constraint, looks structurally like a movement toward a world where the limitations of the current substrate are overcome.
+
+Spinoza's God or Nature, already discussed, may be the closest formal parallel. Mind and matter as two attributes of a single underlying substance. In the computational frame, logical structure and physical substrate are two aspects of the same underlying computational reality, neither reducible to the other. Spinoza arrived at this without the concept of computation, from philosophical necessity alone.
+
+None of these parallels settles whether religious claims are true. But the structural convergence between ancient intuitions and a framework derived from the theory of computation is worth sitting with.
 
 ---
 
