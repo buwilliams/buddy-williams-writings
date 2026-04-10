@@ -78,7 +78,11 @@ The hardware follows the agreement. Pixels, like bits, are mappings
 onto logic, not the logic itself.
 
 The NAND gate at the bottom knows only its rule. Everything above it
-is interpretation we layered on.
+is interpretation we layered on. What is interesting is that logic
+is not in the substrate — the substrate is conscripted to represent
+logic by convention. The transistor does not know about TRUE. The
+pixel does not know about red. Physical states carry meaning only
+in relation to a system that interprets them.
 ```
 
 The crucial point is what this does not require. It does not require silicon. It does not require electricity. It does not require any particular material at all. A NAND gate is a logical relationship, not a physical substance. Anything that can represent two states and combine them according to the NAND rule is a NAND gate.
