@@ -38,7 +38,7 @@ This essay begins with a careful look at what computation actually is, stripped 
 
 ## What Is a Computer?
 
-A computer, at its most fundamental, is any physical system that can implement universal logic.
+A computer, at its most fundamental, is any system that can implement universal logic.
 
 That definition needs unpacking. Logic, in this context, means operations on information that follow determinate rules. The simplest of these are logic gates: devices that take one or two inputs and produce an output according to a fixed rule. An AND gate outputs true only if both inputs are true. An OR gate outputs true if either input is true. A NOT gate inverts its input.
 
