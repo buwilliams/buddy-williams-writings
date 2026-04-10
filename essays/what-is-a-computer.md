@@ -44,6 +44,28 @@ That definition needs unpacking. Logic, in this context, means operations on inf
 
 What makes computation powerful is a remarkable fact about logic gates: not all of them are needed. A single gate type, the NAND gate (which outputs false only when both inputs are true), is functionally universal. Any logical operation, no matter how complex, can be built from NAND gates alone. This means that any physical system capable of implementing NAND gates can, in principle, perform any computation whatsoever. The entire edifice of computing, from spreadsheets to simulated worlds, rests on this foundation.
 
+```
+Aside: From a gate to a sum
+
+A transistor either conducts or it doesn't. We map those two states
+onto 1 and 0. That mapping is a convention, not something the
+transistor knows about. Bits are not logic. They are a mapping onto
+logic.
+
+From NAND gates, we build adders: circuits that take two bits in and
+produce a sum and a carry. Chain enough adders together and you can
+add any two numbers. When Excel evaluates =A1+B1, this is what runs.
+
+The result travels back the same way: a number becomes a value in
+memory, that value maps to pixel colors at positions on a screen. We
+agree that a certain value at a certain address means "red pixel here."
+The hardware follows the agreement. Pixels, like bits, are mappings
+onto logic, not the logic itself.
+
+The NAND gate at the bottom knows only its rule. Everything above it
+is interpretation we layered on.
+```
+
 The crucial point is what this does not require. It does not require silicon. It does not require electricity. It does not require any particular material at all. A NAND gate is a logical relationship, not a physical substance. Anything that can represent two states and combine them according to the NAND rule is a NAND gate.
 
 This is not merely theoretical. Computers have been built from a startling variety of substrates. Charles Babbage designed a mechanical computer from brass gears and rods in the nineteenth century. Computers have been constructed from water flowing through pipes, where the presence or absence of water represents binary states and pipe junctions implement logic gates. Domino computers use the chain reaction of falling dominoes to propagate signals and implement logical operations. Within the video game Minecraft, players have built functioning computers from redstone circuits, a game mechanic with no physical counterpart outside the simulation. Biological neurons implement logic through patterns of firing and inhibition.
