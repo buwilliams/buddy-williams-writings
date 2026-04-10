@@ -14,16 +14,15 @@ Most people think of a computer as a machine made of silicon. This essay argues 
 
 1. [Introduction](#introduction)
 2. [What Is a Computer?](#what-is-a-computer-1)
-3. [What Is Information?](#what-is-information)
-4. [Nested Worlds](#nested-worlds)
-5. [Computation as the Invariant](#computation-as-the-invariant)
-6. [Local Physicalism](#local-physicalism)
-7. [Explanation and Locality](#explanation-and-locality)
-8. [Substrate and Program](#substrate-and-program)
-9. [The Deepest Anthropocentrism](#the-deepest-anthropocentrism)
-10. [Conclusion](#conclusion)
-11. [Appendix A: Related Thinkers](#appendix-a-related-thinkers)
-12. [Appendix B: Glossary](#appendix-b-glossary)
+3. [Nested Worlds](#nested-worlds)
+4. [Computation as the Invariant](#computation-as-the-invariant)
+5. [Local Physicalism](#local-physicalism)
+6. [Explanation and Locality](#explanation-and-locality)
+7. [Substrate and Program](#substrate-and-program)
+8. [The Deepest Anthropocentrism](#the-deepest-anthropocentrism)
+9. [Conclusion](#conclusion)
+10. [Appendix A: Related Thinkers](#appendix-a-related-thinkers)
+11. [Appendix B: Glossary](#appendix-b-glossary)
 
 ---
 
@@ -52,30 +51,6 @@ This is not merely theoretical. Computers have been built from a startling varie
 In every case, the material is different. The physics is different. The engineering is different. But the computation is the same. The same logical operations, the same capacity for universal computation, appear across all of them. This is the first and most important observation: computation does not belong to any substrate. It is a property that substrates can support, but it is not made of whatever they are made of.
 
 Alan Turing formalized this insight in 1936. His proof that a Universal Turing Machine can simulate any other Turing machine established that computation is substrate-independent as a matter of mathematical necessity, not just engineering convenience. If a system can perform universal computation, it can simulate any other system that can perform universal computation. The Church-Turing thesis extends this further: anything that can be computed at all can be computed by any universal computer, regardless of what it is built from.
-
----
-
-## What Is Information?
-
-If computation is what a computer does, information is what it operates on. And just as computation turns out to be substrate-independent, so does information.
-
-Information is a representation of something. The letter "A," the number 7, a strand of DNA, the arrangement of redstone in Minecraft, the positions of gears in Babbage's engine — all are information carried in different substrates. The representation is not the substrate. It is a structure within the substrate, a pattern that can be read, copied, transformed, and transmitted.
-
-Information has three properties that matter for this essay.
-
-First, finitude. Every representation is bounded. It represents something, which means it does not represent everything else. A map of everything at full resolution is not a map. It is the territory. Information is always selective, always partial.
-
-Second, persistence. Information that endures can accumulate across time. A signal that vanishes the instant it arrives cannot build on itself. Persistence is what allows information to compound, to become knowledge, memory, and identity.
-
-Third, completeness. Information represents with varying resolution. The same thing can be captured at different levels of fidelity. "That color is red" and "that color is #c90707" are both correct, but they carry different scope of detail. Completeness is the degree of resolution a representation achieves.
-
-These properties hold regardless of the substrate. A sequence stored in DNA, a pattern of electrical charges in silicon, and a configuration of water valves in a hydraulic computer all share these informational properties. What changes across substrates is the material. What remains constant is the structure.
-
-But information, for all its substrate-independence, has a limitation that must be stated clearly: I have not seen a coherent account of how information could process itself. Information without a substrate is an abstraction. It describes nothing, computes nothing, produces nothing. A program that sits on no computer does not run. Whatever information is, it appears to require a substrate to become operational.
-
-This creates a relationship of mutual dependency. Substrate without information is raw causation — a river shaping its bank, physics without representation. Information without substrate is a description with no describer. Neither is sufficient alone. Both are required for anything we would recognize as computation, as a world, or as an observer.
-
-Whether this co-dependence is the final word, or whether some future insight will show how information self-processes, is a question I hold open. What I am confident about is that neither reduces to the other. Physicalism tries to reduce information to patterns in matter. Idealism tries to reduce matter to structures in mind. Both fail because the two are co-dependent.
 
 ---
 
@@ -151,7 +126,7 @@ If physicalism is local rather than fundamental, what is the right relationship 
 
 One tempting answer is that information is more fundamental than matter. If information and its operations are what persist across substrates while physics changes, then perhaps matter is merely one implementation of something informational. This is the direction taken by John Wheeler's "it from bit" and by digital physics more broadly.
 
-But the limitation noted earlier stands. I have not seen a coherent account of how information could process itself without a substrate. A program that sits on no computer does not run. Whatever information is, it appears to require something to instantiate its operations. The relationship between substrate and program is not hierarchy. It is mutual dependency. You cannot get from matter alone to the informational structure of a program. You cannot get from information alone to the operational substrate that runs it.
+But I have not seen a coherent account of how information could process itself without a substrate. A program that sits on no computer does not run. Whatever information is, it appears to require something to instantiate its operations. The relationship between substrate and program is not hierarchy. It is mutual dependency. You cannot get from matter alone to the informational structure of a program. You cannot get from information alone to the operational substrate that runs it.
 
 Whether this co-dependence is the final word, or whether some future insight will show how information self-processes without a substrate, is a question I hold open. Perhaps information is more fundamental and we simply have not yet understood the mechanism. Perhaps substrate is irreducibly necessary. I do not know. What I am confident about is the narrower claim: physicalism's reduction of information to matter is incomplete, because it cannot explain why computation, an informational property, transcends any particular material substrate.
 
