@@ -10,7 +10,10 @@ What makes it possible create a computer within a computer also makes it possibl
 
 Minecraft is a program that runs on a computer. This is important because it means that we have two ideas that we'll use throughout this essay: computer and program. Notice that in Minecraft after Redstone (logic gates) was added, it allowed for the creation of a computer within the game. This means a program can itself be a computer within a computer. In fact, computers do not need to be made of silico at all. They can be made of any substrates that supports processing logic gates such as water/pipes, dominatos, and mechanical devices.
 
-Just as Alan Turing argued, there exists a UTM (Universal Turing Machine).
+I agree with Alan Turing, there exists a UTM (Universal Turing Machine).
 
-> Claim #1 - Computers support arbitrarily nested computers. Computers are logic processing programs.
+> Claim #1 - Computers support nested computers. Computers are logic processing programs.
 
+## People
+
+AI is all anyone is talking about these days since the explosion of ChatGPT. Questions around consciousness, personhood, ethics, and the future of humanity are top of mind for many.
