@@ -2,11 +2,15 @@
 
 This conjecture, or bold guess, is based on a simple idea: to make progress on fundamental ontology, or exploring the true nature of existence, we can use lessons found in computers. That's the idea. I'm claiming computers hold insights that can illuminate the cosmos. There are many beliefs about the fundamental nature of the universe, for some matter is all there is, for others mind is fundamental, and still for others God answers the final question. I seek to harmonize these positions. We'll start by exploring the universal properties of computation, how they can interact with physics, argue why physicalism is false, show a harmony between mind and matter, and give explanations about the nature of reality.
 
+----
+
 ## Layers
 
 Like layers in a croissant, good thinking often involves seperating ideas to form layers. There are explanatory, perspective, and substrate layers. Learning to think in layers, how layers interact, and providing meaning to layers is a thinking tool that lasts a lifetime. In order to create layers, one subtracts details that are not relevent and adds details that are. This all happens in our heads, in imagination land. It is an ability that makes humans capable of solving problems.
 
 So before we continue, I want you to learn the concept of substrate. It's not a difficult word, but it's not used in everyday language, it just means an underlying substance or layer. For example, humans require energy to live, so energy is a substrate for humans, the electrical grid is a substrate for our homes. You can use the substrate concept at different explanatory layers too: humans exist atop matter, so matter is a substrate for humans. In the first case we used it to talk about caloric energy and in the second we used a deeper substrate, or layer, that of matter. What I want you to keep in mind is that whatever exists atop of a substrate is dependent on it. There is a dependency to notice.
+
+----
 
 ## Computers
 
@@ -22,11 +26,21 @@ Another property of nested computers, they can pass programs between themselves.
 
 Lastly, yet most profound, computers are substrate independent, what makes a mechanical computer and electrical computer both a computer? Logical information processing, which from now on I'll refer to as Computation. Information may be represented in various substrates, but it is the information that is being shared across these implementations. This means the deeper substrate of computation is information.
 
-> Claim #1 - Logic processing programs are called computers. Computers are universal because information is universal. Computers support infinitely nested computers. Host computers and nested computers can have two-way program exchange at any depth.
+Summary
+1. Logic processing programs are called computers.
+2. Computers are universal because information is universal.
+3. Computers support infinitely nested computers.
+4. Host computers and nested computers can have two-way program exchange at any depth.
+
+----
 
 ## Simulation
 
-Einstein made a breakthrough in physics when he explored observer perspective. In that exploration he found the Theory of Relativity. "What would it be like to ride on a light beam?" We can use the same thought experiment to ask, "What would it be like to be a Minecraft character?"
+Einstein asked, "What would it be like to ride on a beam of light?" From this perspective he made a groundbreaking breakthrough in physics that we all know of as the Theory of Relativity. What Einstein did, using perspective, is something that all people can do. In technical domains this is often referred to as an observer. An observer is a special thinking tool that can give you insights where other methods fail. We're going to use the Observer and computers to shed light on the world in which we live. As Ms. Frizzle from The Magic School Bus says, "Seatbelts, everyone!"
+
+In 1972 Atari released Pong, a 2D table tennis arcade game designed by Allan Alcorn. Video games of come a long way since then. For example, the makers of Pong would have been shocked by the game Cyberpunk 2077. The graphics have improved. The complexity has improved. Games have some so far that they are almost lifelike in apperence. I want to call this technical progres: resolution. As technology improves, the resolution becomes convincing. At a certain resolution, the game world may seem just as real. Everyone knows the 1999 hit movie, The Matrix. Neo discovers that the world he is living in is not the real world. That's the concept we are thinking through, a world within a world from the perspective of an observer. Computers make this possible.
+
+What does this tell us about the nature of existence?
 
 Frame Rate
 
