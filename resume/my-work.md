@@ -103,9 +103,9 @@ Ordered most recent first. Not every repository is listed. I have selected ones 
 
 ### 2026
 
-- **Lumen Mind** (Feb 2026). A mind architecture for AI agents aligned with the Metaprogramming Framework to Explore Personhood (MFP). Models an agent with values, goals, and identity that evolve through experience. Runs three loops (Action, Explore, Reflection) with prediction-informed scoring and signed prediction error as the trigger for reflection. Originally named "Lumen Conscious" and refactored away from consciousness framing, since personhood does not require resolving the hard problem. Python. [Repo](https://github.com/buwilliams/lumen-mind)
 - **Thought Experiment Generator** (Mar 2026). Rust. Research tool asking whether LLMs can create new knowledge by narrowing search space through generated and tested thought experiments. [Repo](https://github.com/buwilliams/thought-experiment-generator)
 - **CIMC Challenge** (Mar 2026). Python. Evidence collection for creative problem solving by language models. [Repo](https://github.com/buwilliams/cimc-challenge)
+- **Lumen Mind** (Feb 2026). A mind architecture for AI agents aligned with the Metaprogramming Framework to Explore Personhood (MFP). Models an agent with values, goals, and identity that evolve through experience. Runs three loops (Action, Explore, Reflection) with prediction-informed scoring and signed prediction error as the trigger for reflection. Originally named "Lumen Conscious" and refactored away from consciousness framing, since personhood does not require resolving the hard problem. Python. [Repo](https://github.com/buwilliams/lumen-mind)
 - **SynapseAgent** (Jan 2026). TypeScript. Early exploration of agent-driven workflows. [Repo](https://github.com/buwilliams/SynapseAgent)
 - **Snake Evolutionary Algo** (Jan 2026). Rust. Classic evolutionary algorithm experiment. [Repo](https://github.com/buwilliams/snake-evolutionary-algo)
 
@@ -131,16 +131,16 @@ Ordered most recent first. Not every repository is listed. I have selected ones 
 
 ### 2021
 
-- **buddywilliams.dev** (Jun 2021). SCSS. Personal portfolio and blog.
 - **future-money** (Jul 2021). TypeScript. Open-source budget web app designed for "future money."
+- **buddywilliams.dev** (Jun 2021). SCSS. Personal portfolio and blog.
 - **learn-posthog** (Apr 2021). Python. Onboarding guide for PostHog's tech stack. 7 GitHub stars. [Repo](https://github.com/buwilliams/learn-posthog)
 - **Recifree** (Apr 2021). Python. Fast, ad-free, open-source recipes for saving and sharing.
 
 ### 2018 to 2020
 
+- **futuremoney** (Aug 2018). HTML. A simple plan to always have money. Personal finance essay as executable web page.
 - **javascript-tree** (Jul 2018). JavaScript. A unique approach to JSON tree data structures. 3 GitHub stars.
 - **thundercat** (Jun 2018). HTML. Lightweight web server with simple authentication.
-- **futuremoney** (Aug 2018). HTML. A simple plan to always have money. Personal finance essay as executable web page.
 - **strikebot** (Nov 2016). Go. Grab, transform, and deliver data. Early ETL experiment.
 
 ### Earlier Notable
