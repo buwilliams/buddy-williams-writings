@@ -53,3 +53,11 @@ AI is all anyone is talking about these days since the explosion of ChatGPT. Que
 ## Go Down to Go Up
 
 ## Information Is More Fundamental Than Physicalism
+
+## Brain dump
+
+I think its reasonable to believe in simulation theory. While we don't have access to container worlds, we can know about them by being a container world. We host simulations and can host simulations infinity. We look at the properties of information flow between these worlds to understand that they map to our own world. This is not a direct casual link, so it is speculative. But, the fact that information and computation flow between 
+
+
+Closed Casual System (Physics) <=> Game Rules
+Universal Computation          <=> NAND Gate Processing
