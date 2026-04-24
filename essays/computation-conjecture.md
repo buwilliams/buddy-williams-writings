@@ -1,6 +1,6 @@
 # Computation Conjecture
 
-This conjecture, or bold guess, is based on a simple idea: to make progress on fundamental ontology, or exploring the true nature of existence, we can use lessons found in computers. That's the idea. I'm claiming computers hold insights that can illuminate the cosmos. There are many beliefs about the fundamental nature of the universe, for some matter is all there is, for others mind is fundamental, and still for others God answers the final question. I seek to harmonize these positions. We'll start by exploring the universal properties of computation, how they can interact with physics, argue why physicalism is false, show a harmony between mind and matter, and give explanations about the nature of reality.
+This conjecture, or bold guess, is based on a simple idea: to make progress on fundamental ontology, or exploring the true nature of existence, we can use lessons found in computers. That's the idea. I'm claiming computers hold insights that can illuminate the cosmos. There are many beliefs about the fundamental nature of the universe, for some matter is all there is, for others mind is fundamental, and still for others God answers the final question. I seek to harmonize these positions. We'll start by exploring the universal properties of computation, how they can interact with physics, argue why physicalism isn't fundamental, show a harmony between mind and matter, and give explanations about the nature of reality.
 
 ----
 
@@ -44,6 +44,8 @@ So before we continue, I want you to learn the concept of substrate. It's not a 
 
 ## Computers
 
+I want to say where this argument starts. Not from myth, not from revelation, not from the supernatural, not from metaphysics. It starts from the computer on your desk and the games your children play. Every claim I am about to make rests on something we have built, can inspect, and already understand. That is the ground. We walk from there.
+
 Beacuse we've had computers for a while, it's easy to take the study of them for granted and ignore their lessons. Many, including me, wait for the next technological breakthrough: AGI, quantum computing, new materials, robots, or fission energy. Yet, have we understood the meaning of what we already have? It's worth reviewing.
 
 My children have loved to play Minecraft. In September 2010, user "theinternetftw" built a 16-bit ALU (Arithmetic Logic Unit) inside of Minecraft. That was the first partial computer built within Minecraft. In 2021, Sammyuri developed "CHUNGUS 2", an 8-bit computer that can play games like Snake, and later in 2022 the same group built a 2D Minecraft within Minecraft. Here's what I notice: these are computers within computers. For students of computer history, this is known as the Universal Turing Machine proposed by Alan Turing in his 1936 paper, "On Computable Numbers, with an Application to the Entscheidungsproblem."
@@ -55,6 +57,8 @@ Minecraft is a program that runs on a computer. Notice that in Minecraft after R
 Another property of nested computers, they can pass programs between themselves. This is because a host computer may read the program of a nested computer and make changes to programs that host it. A nested computer may monitor its own programs for changes and thus two-way communication is possible. Only the possibility of communicate is universal, not the guarentee of communication, this will show up again later.
 
 Lastly, yet most profound, computers are substrate independent, what makes a mechanical computer and electrical computer both a computer? Logical information processing, which from now on I'll refer to as Computation. Information may be represented in various substrates, but it is the information that is being shared across these implementations. This means the deeper substrate of computation is information.
+
+A note to the physicalist before we move on. Nothing in this section is a thought experiment. Computers containing computers is not a hypothetical dreamed up to support a conclusion. It is a phenomenon we have built and can inspect. The game your children play contains a working processor. That processor is physical. If you take the physical seriously, you already take nested computation seriously, because nested computation is part of the physical world. The rest of this essay asks what follows from that fact.
 
 Summary
 1. Logic processing programs are called computers.
@@ -111,7 +115,7 @@ Now here's the move. The hosting layer is the programmer, the operating system, 
 
 I want you to sit with this. The same ruleset wears two faces depending on where you're standing. The observer inside sees necessity. The ball must bounce this way, the spell must cost this much mana, the character must die when health reaches zero. The observer outside sees a choice. It could have been otherwise, the programmer could have written it differently. Both are correct. Necessity and contingency are perspective-dependent, not fundamental.
 
-Apply this to our own physics. Our universe is a closed causal system. Every effect we observe has a cause inside the system. The laws of physics are consistent, they support observers, they don't appear to leak. When a physicist runs an experiment, the result is determined by the ruleset. This is what it feels like to be inside a closed causal system. It is what it is supposed to feel like. The fact that our physics feels necessary is not evidence that it is fundamental. It's evidence that we are inside.
+Apply this to our own physics. Our universe is a closed causal system. Every effect we observe has a cause inside the system. The laws of physics are consistent, they support observers, they don't appear to leak. In fact, our universe shares the four properties that define every nested world we have built: closed causality, logic, information, and computation. Effects follow from causes. Rules compose the way logic gates compose. States can be read, copied, and transformed. The behavior is describable as a ruleset that could in principle be run. Every property that defines a nested world we host, our own universe also has. When a physicist runs an experiment, the result is determined by the ruleset. This is what it feels like to be inside a closed causal system. It is what it is supposed to feel like. The fact that our physics feels necessary is not evidence that it is fundamental. It's evidence that we are inside.
 
 I'll take this one step further, gently, because I don't want to overreach. If our universe is a closed causal system, and closed causal systems can be programs, then our physics is describable as a ruleset. I'm not claiming we are in a simulation. I'm claiming that the category "closed causal system with consistent rules supporting observers" includes both programs and our universe, and that the shared structure is not a coincidence. It's the thing that makes observer-bearing worlds possible at all.
 
