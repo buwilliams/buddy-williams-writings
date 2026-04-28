@@ -1,36 +1,41 @@
 # Computation Conjecture
 
-This conjecture, or bold guess, is based on a simple idea: to make progress on fundamental ontology, or exploring the true nature of existence, we can use lessons found in computers. That's the idea. I'm claiming computers hold insights that can illuminate the cosmos. There are many beliefs about the fundamental nature of the universe, for some matter is all there is, for others mind is fundamental, and still for others God answers the final question. I seek to harmonize these positions. We'll start by exploring the universal properties of computation, how they can interact with physics, argue why physicalism isn't fundamental, show a harmony between mind and matter, and give explanations about the nature of reality.
+This conjecture, or bold guess, is based on a simple idea: to make progress on fundamental ontology, or exploring the true nature of existence, we can use lessons found in computers. I'm claiming computers hold insights that can illuminate the cosmos. There are many beliefs about the fundamental nature of the universe, for some matter is all there is, for others mind is fundamental, and still for others God answers the final question. I seek to harmonize these positions.
+
+The chief argument is this: we can go from physics to metaphysics, and in fact must do so. Physical reality already contains nested computation as an observed phenomenon. The structural properties of that phenomenon (observer locality, closed causality, substrate independence) apply by symmetry to our own layer. The honest physicalist who accepts these observations has no consistent place to stop. The Computation Conjecture explains why physicalism cannot be fundamental: it has more explanatory reach, accounting for how closed causal systems with observers can exist, nest, and host one another. Physicalism describes our local rules. Computation describes the structure that makes rulesets-with-observers possible at all.
+
+We'll start by exploring the universal properties of computation, how they interact with physics, argue why physicalism isn't fundamental, show a harmony between mind and matter, and give explanations about the nature of reality.
 
 ----
 
 ## Argument
 
 Grounded:
-- The Computation Conjecture starts from our physical reality, not from myth, revelation, the supernatural, or metaphysics.
-- Physical reality already contains computers, programs, simulations, observer locality, and nested computation. Therefore, the conjecture is grounded in physical, computational, and logical possibility.
-- Physicalist should care because nested computation is not a thought experiment but an observed phenomenon: simulations contain simulations, programs spawn programs with their own closed rulesets, and observers exist inside computational environments we've built.
+1. The Computation Conjecture starts from our physical reality, not from myth, revelation, the supernatural, or metaphysics.
+2. Physical reality already contains computers, programs, simulations, observer locality, and nested computation. Therefore, the conjecture is grounded in physical, computational, and logical possibility.
+3. Physicalist should care because nested computation is not a thought experiment but an observed phenomenon: simulations contain simulations, programs spawn programs with their own closed rulesets, and observers exist inside computational environments we've built.
 
 Properties of Computation:
-- Starting from a human perspective in our universe (local observer)
-- Computers are made on physical substrates
-- Programs can be computers (Universal Turing Machine, substrate independence)
-- Programs can be closed causal systems (loop, rules, error catching)
-- People can be programs. (Deutsch, AGI)
-- Programs can be simulations.
-- People can live within a computer simulation.
-- People in a computer simulation have observer locality.
-- Programs can be nested unbounded graph simulations as long as logic is preserved. (NAND gates)
-- Hosting programs can pass information throughout nested simulations.
+1. Starting from a human perspective in our universe (local observer)
+2. Computers are made on physical substrates
+3. Programs can be computers (Universal Turing Machine, substrate independence)
+4. Programs can be closed causal systems (loop, rules, error catching)
+5. People can be programs. (Deutsch, AGI)
+6. Programs can be simulations.
+7. People can live within a computer simulation.
+8. People in a computer simulation have observer locality.
+9. Programs can be nested unbounded graph simulations as long as logic is preserved. (NAND gates)
+10. Hosting programs can pass information throughout nested simulations.
 
 Implications:
-- Information, Computers, Programs, and Logic all possess universality throughout simulations.
-- From the perspective of the hosting simulator, programs can have rules which break the laws of physics such as magic, time travel, law of conservation. From the local observer in a simulation rules are normal, causality closed, and logical.
-- If a simulation slows at each nesting due to base layer computational processing speed, then to the local observer in that simulation, time is normal while to the hosting local observer it is slower.
-- Our physical universe shares the same properties of simulated computational worlds: closed causal system, logic (NAND), information, and computation.
-- If we can look down into nested simulations, there is no logical reason we cannot look up from our local reality. A closed causal system can contain observers who believe their local rules are fundamental. Therefore, our local physical reality has no special privilege as the stopping point.
-- All fundamental explanations result in regress: God, physicalism, and computation. God explains god. Physicalism explains physicalism. Computation embraces the regress as a structural feature, the unbounded nested graph.
-- Physicalism explains the local rules of our closed causal system. Computation explains how closed causal systems with local rules can exist, nest, and contain observers. Therefore, computation has more explanatory reach than physicalism. If we are in a simulation, physicalism is simply the rule-set of our program.
+1. Information, Computers, Programs, and Logic all possess universality throughout simulations.
+2. From the perspective of the hosting simulator, programs can have rules which break the laws of physics such as magic, time travel, law of conservation. From the local observer in a simulation rules are normal, causality closed, and logical.
+3. If a simulation slows at each nesting due to base layer computational processing speed, then to the local observer in that simulation, time is normal while to the hosting local observer it is slower.
+4. Our physical universe shares the same properties of simulated computational worlds: closed causal system, logic (NAND), information, and computation.
+5. If we can look down into nested simulations, there is no logical reason we cannot look up from our local reality. A closed causal system can contain observers who believe their local rules are fundamental. Therefore, our local physical reality has no special privilege as the stopping point.
+6. All fundamental explanations result in regress: God, physicalism, and computation. God explains god. Physicalism explains physicalism. Computation embraces the regress as a structural feature, the unbounded nested graph.
+7. Physicalism explains the local rules of our closed causal system. Computation explains how closed causal systems with local rules can exist, nest, and contain observers. Therefore, computation has more explanatory reach than physicalism. If we are in a simulation, physicalism is simply the rule-set of our program.
+8. We can go from physics to metaphysics, and in fact must do so. The physicalist who accepts nested computation as an observed phenomenon, and observer locality as a structural property of every closed causal system, must accept that our experience of physicalism as fundamental is precisely what an observer inside any closed causal system would experience. Stopping at physics requires a special-status argument no one has given. Physicalism does not refute itself; it locates itself. The Computation Conjecture is what physicalism, honestly applied, leads us to.
 
 ----
 
@@ -187,7 +192,7 @@ Summary
 
 I think it's reasonable to believe in simulation theory. Not as certainty, but as the better base assumption. While we don't have access to container worlds, we can know about them by being a container world. We host simulations and can host simulations infinitely. We look at the properties of information flow between these worlds. Observers, rules, closed causality, substrate independence, nesting. They map to our own world. This is not a direct causal link. It is speculative. But the fact that information and computation flow between nested worlds, and that our world shares every structural property of those nested worlds, is not nothing. It is the kind of evidence a fallibilist takes seriously: not proof, but reason.
 
-What I've tried to do in this essay is modest. I've tried to show that computation has more explanatory reach than physicalism, and that the regress we hit when we ask "what's underneath?" is not a defect of the framework but a feature of reality. The graph has no root. That's the shape of the thing. Anyone who wants to stop the graph at our layer owes the rest of us an argument, and no one has given one.
+What I've tried to do in this essay is modest. The chief move is to show that we can go from physics to metaphysics, and in fact must do so. The Computation Conjecture explains why. Physicalism describes our local rules well. It cannot describe why there are local rules at all, why they support observers, or why our experience of necessity is exactly what an observer inside any closed causal system would experience. The honest physicalist who accepts nested computation as observable, and observer locality as structural, has no consistent place to stop. The move from physics to metaphysics is not a leap of faith; it is forced by the same evidence physicalism takes seriously. Computation does not refute physicalism. It locates physicalism as the ruleset of our layer in a graph that has no root. The graph has no root because it isn't supposed to have one. That's the shape of the thing. Anyone who wants to stop the graph at our layer owes the rest of us an argument, and no one has given one.
 
 I'll close where I started. I said at the beginning that computers hold insights that can illuminate the cosmos. I meant it then as a claim to defend. I mean it now as a claim I've defended, at least well enough to put in front of you. Computers are not just tools. They are the clearest view we have of what reality might actually be, nested, rule-bound, observer-bearing, unbounded. The lessons are already in our hands. We just have to look.
 
