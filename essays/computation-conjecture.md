@@ -28,14 +28,14 @@ Properties of Computation:
 10. Hosting programs can pass information throughout nested simulations.
 
 Implications:
-1. Information, Computers, Programs, and Logic all possess universality throughout simulations.
+1. The properties of information, computers, programs, and logic flow throughout all simulations, holding at every nesting depth.
 2. From the perspective of the hosting simulator, programs can have rules which break the laws of physics such as magic, time travel, law of conservation. From the local observer in a simulation rules are normal, causality closed, and logical.
 3. If a simulation slows at each nesting due to base layer computational processing speed, then to the local observer in that simulation, time is normal while to the hosting local observer it is slower.
 4. Our physical universe shares the structural properties of simulated computational worlds: it processes information (computation), and it runs by rules that compose (programs).
 5. If we can look down into nested simulations, there is no logical reason we cannot look up from our local reality. A closed causal system can contain observers who believe their local rules are fundamental. Therefore, our local physical reality has no special privilege as the stopping point.
 6. All fundamental explanations result in regress: God, physicalism, and computation. God explains god. Physicalism explains physicalism. Computation embraces the regress as a structural feature, the unbounded nested graph.
 7. Physicalism explains the local rules of our closed causal system. Computation explains how closed causal systems with local rules can exist, nest, and contain observers. Therefore, computation has more explanatory reach than physicalism. If we are in a simulation, physicalism is simply the rule-set of our program.
-8. The Computation Conjecture is offered as a reasonable metaphysical position. It is grounded in observation, treats regress as structure rather than scandal, and includes physicalism as a correct description of our local layer. It is not claimed as final. Like all conjectures, it is offered for criticism.
+8. In summary, the Computation Conjecture is offered as a reasonable metaphysical position. It is grounded in observation, treats regress as structure rather than scandal, and includes physicalism as a correct description of our local layer. It is not claimed as final. Like all conjectures, it is offered for criticism.
 
 ----
 
@@ -70,8 +70,6 @@ Summary
 2. Computers are universal because information is universal.
 3. Computers support infinitely nested computers.
 4. Host computers and nested computers can have two-way program exchange at any depth.
-
-----
 
 ## Simulation
 
@@ -115,7 +113,7 @@ Summary
 
 ## Closed Causality
 
-We need a name for what a simulation is from the inside. I'm going to call it a closed causal system. The phrase sounds technical but the idea is ordinary. A closed causal system is a set of rules where every effect has a cause inside the system, and the causes don't leak in from outside. Pong is a closed causal system. The ball bounces off the paddle because the program says it does. Nothing outside the program reaches in to move the ball. The player presses a button, yes, but that input is consumed by the program and processed according to the program's rules. From inside Pong, there is no outside.
+We need a name for what a simulation is from the inside. I'm going to call it a closed causal system. The phrase sounds technical but the idea is ordinary. A closed causal system is a ruleset that runs by its own rules without inputs leaking in from outside. Causal explanation closes within the system. Pong is a closed causal system. The ball bounces off the paddle because the program says it does. Nothing outside the program reaches in to move the ball. The player presses a button, yes, but that input is consumed by the program and processed according to the program's rules. From inside Pong, there is no outside.
 
 This is what a program is, mechanically. A loop that reads state, applies rules, updates state, catches errors, and runs again. The rules are the physics of that program. The loop is its time. The state is its matter. Everything that happens inside the program happens because the rules say it happens. There is no appeal beyond the ruleset.
 
@@ -130,8 +128,7 @@ I'll take this one step further, gently, because I don't want to overreach. If o
 One more piece before we move on. There's a subtle point about time that matters. If a hosting computer runs slowly, the simulation running on it also runs slowly, from the host's perspective. But from inside the simulation, time feels normal. The observer inside has no reference frame for the host's clock. A Minecraft computer running at one-thousandth the speed of the host still experiences its own tick as its fundamental time unit. This tells us something important: the experience of time inside a closed causal system is always relative to that system's own processing, never to the host's. Observer locality applies to time the same way it applies to rules. You cannot feel the host's clock from inside.
 
 Summary
-
-1. A closed causal system is a ruleset where every effect has a cause inside the system.
+1. A closed causal system is a ruleset that runs without inputs leaking in from outside.
 2. Programs are closed causal systems. Our universe behaves like one.
 3. The same ruleset appears as necessity from inside and contingency from outside.
 4. Observer locality applies to time: inside-time is always relative to the system's own processing.
@@ -182,7 +179,7 @@ So here is what I am proposing. Replace physicalism as the base assumption with 
 
 What follows is a reality that is stranger than physicalism admits but less strange than mysticism requires. It is a graph. It contains observers all the way through. Some observers are us. Some are programs we've made. Some, perhaps, host us. The graph keeps going in both directions, and the only reason to stop it is preference.
 
-I said at the beginning I wanted to harmonize matter, mind, and the divine. Here is the harmony. Matter is the substrate of our layer, real and binding for us. Mind is the second-order pattern that turns information inward and becomes a person, able to observe and reason and create. The divine, in this picture, is not a being above the graph but a question the graph keeps posing: what's one more layer up? The question has no final answer. It has only more layers. That's not a failure of the framework. It's what the framework predicts.
+I said at the beginning I wanted to harmonize these positions. The conjecture harmonizes matter and mind: matter is the substrate of our layer, real and binding for us, while mind is the second-order pattern that turns information inward and becomes a person, able to observe and reason and create. The divine is not fully addressed by the conjecture; it is located within the regress. Every fundamental account, including computation itself, faces the question of what explains it. What the Computation Conjecture offers is a way of treating that regress as structure rather than scandal. Whether something more lies beyond the graph is a question the framework leaves open.
 
 The Computation Conjecture is a starting point, not an ending. I offer it as a better base assumption than physicalism, one that fits what we already know about computers and observers and nesting, one that treats regress as structure rather than scandal. Take it as a conjecture. Criticize it. Replace it with something better if you can. That's the only way knowledge moves.
 
