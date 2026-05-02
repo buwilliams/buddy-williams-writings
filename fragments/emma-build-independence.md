@@ -1,5 +1,7 @@
 # Emma: Build Independence
 
+The implementation of this model is being built in [pathwise](https://github.com/buwilliams/pathwise). This document defines the model. It does not draw a conclusion about what Emma should do.
+
 ## 1. Problem Domain: Considerations and Symbol Definitions
 
 Emma is graduating high school, turning 18, and beginning the transition into adult life. She wants more independence and is considering major life decisions such as buying a car, working more, moving out, and choosing a path toward higher income.
@@ -560,88 +562,21 @@ Where:
 | $i_3$ | Residential independence | Living outside a parent’s home |
 | $i_4$ | Decision independence | Control over life choices and direction |
 
-A strong conjecture:
+The ladder is a structural claim about the model: independence is multi-dimensional, and gains in one dimension can come at the cost of another. The model does not prescribe an ordering. Different paths may climb the ladder in different orders, and the momentum, viability, and recoverability filters are what distinguish good orderings from bad ones in any given case.
 
-> The best path may be to build mobility and financial independence before residential independence.
+### Model-Level Falsifiability
 
-In plain English:
-
-> Become independent in the order that compounds.
-
-### First Working Conjecture
-
-The first path to test:
-
-$$
-P_1 = \text{low housing cost} + \text{modest reliable car} + \text{income growth path} + \text{delayed move-out}
-$$
-
-Expected effects:
-
-$$
-i_1 \uparrow, \quad i_2 \uparrow, \quad g \uparrow, \quad r \uparrow, \quad i_3 \text{ delayed}
-$$
-
-Plain English:
-
-> She may gain more real independence by delaying apartment independence while building mobility, savings, income, and future options.
-
-This is not anti-independence. It is pro-compounding-independence.
-
-### Criticism of Moving Out Too Early
-
-If housing costs are too high relative to income, then moving out may produce apparent independence but reduce real freedom.
-
-For example:
-
-$$
-i_3 \uparrow
-$$
-
-but:
-
-$$
-c \downarrow, \quad r \downarrow, \quad p \downarrow, \quad g \downarrow, \quad s \downarrow
-$$
-
-Plain English:
-
-> Moving out may increase residential independence while reducing cash flow, risk buffer, productive time, goal progress, and stability.
-
-This gives us the central criticism:
-
-> A move is not good merely because it increases one form of independence. A move is good when it increases total life momentum.
-
-### Falsifiability of the Working Conjecture
-
-The first working conjecture says: build mobility and financial independence before residential independence. This is a default, not a verdict. To prevent it from hardening into a foregone conclusion, the model should state what evidence would overturn it.
-
-What would make moving out sooner the right plan:
-
-- Rent is low enough that $c \geq 0$ at the stated work hours.
-- Risk buffer remains above $r_{min}$ after deposit and move-in costs.
-- $H(\text{stay home})$ is high enough that staying degrades $e$, $s$, or $g$.
-- The roommate or housing arrangement is stable.
-- The lease is short or otherwise recoverable, so $R(\text{move-out}) \geq R_{min}$.
-- Income is stable enough to sustain rent without work hours that collapse productive time.
-
-What would make delaying move-out the right call:
-
-- $H(\text{stay home})$ is tolerable, and $H(\text{move out})$ would not be lower by much.
-- Savings would grow meaningfully in the delay window.
-- A car or credential path during the delay would unlock higher income.
-- Available rent options would force $c < 0$ or $r < r_{min}$.
-- Current income is unstable.
-
-What would change my mind about the model itself:
+The model itself is a conjecture and should be revisable. Conditions that should trigger revision:
 
 - A scenario produces high momentum but feels emotionally wrong to Emma. (A value is missing or mis-weighted.)
 - A scenario looks viable on paper but fails repeatedly in practice. (A constraint is uncosted.)
 - Emma's stated values shift in a stable, considered way. ($V$ needs updating.)
+- A variable in $L$ turns out to be redundant, or a needed variable is missing.
+- The weights in $Momentum(s)$ produce rankings that contradict considered judgment across many scenarios.
 
 Plain English:
 
-> The working conjecture should hold only as long as the conditions above hold. When they stop holding, the conjecture should be replaced.
+> The model is a tool for thinking, not a verdict. When it stops fitting reality, change the model.
 
 ---
 
@@ -755,10 +690,9 @@ This section is for discovering values, desires, constraints, and hidden tradeof
 6. Which scenario feels good emotionally but fails structurally?
 7. Which scenario is financially safe but emotionally unacceptable?
 8. Which path gives her the most real independence over 12–24 months?
-9. What would change my mind about the first working conjecture?
-10. What would make moving out sooner a good plan?
-11. What would make buying a car now a good plan?
-12. What would make delaying both the car and apartment a good plan?
+9. What would make moving out sooner a good plan?
+10. What would make buying a car now a good plan?
+11. What would make delaying both the car and apartment a good plan?
 
 ### Questions for Myself: Communication
 
@@ -770,18 +704,4 @@ This section is for discovering values, desires, constraints, and hidden tradeof
 6. How can I show respect for the fact that she saved $10,000?
 7. How can I help her feel proud before discussing tradeoffs?
 8. How can I present criticism of bad plans without making her feel criticized?
-
-### Core Conversation Frame
-
-A possible way to frame the whole process to Emma:
-
-> “I know you want more independence, and I am proud of that. I do not want to take over your choices. I want to help you sort through the tradeoffs so your choices actually create more freedom, not more pressure. You bring the desires. I’ll help with the math, the options, and the plan.”
-
-Another possible frame:
-
-> “You do not have to become independent all at once. We can figure out the order that gives you the most real freedom with the least unnecessary stress.”
-
-And the simplest guiding sentence:
-
-> “Become independent in the order that compounds.”
 
