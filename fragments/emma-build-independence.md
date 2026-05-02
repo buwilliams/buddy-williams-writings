@@ -269,7 +269,7 @@ $$
 Momentum(L) = f(V, T, A, Y, K, H)
 $$
 
-A plan has positive momentum when her values, time, assets, income, and skill path reinforce one another.
+A plan has positive momentum when her values, time, assets, income, and skill path reinforce one another while emotional cost stays low.
 
 A good plan should tend toward:
 
@@ -606,7 +606,7 @@ $$
 
 Plain English:
 
-> Moving out may increase residential independence while reducing cash flow, savings, productive time, goal progress, and stability.
+> Moving out may increase residential independence while reducing cash flow, risk buffer, productive time, goal progress, and stability.
 
 This gives us the central criticism:
 
