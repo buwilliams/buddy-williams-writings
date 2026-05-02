@@ -16,20 +16,20 @@ The guiding idea is:
 
 Let:
 
-\[
+$$
 L = \{V, T, M, Y, K\}
-\]
+$$
 
 Where:
 
 | Symbol | Meaning |
 |---|---|
-| \(L\) | Life-state |
-| \(V\) | Values |
-| \(T\) | Time |
-| \(M\) | Money |
-| \(Y\) | Income |
-| \(K\) | Skills / credentials |
+| $L$ | Life-state |
+| $V$ | Values |
+| $T$ | Time |
+| $M$ | Money |
+| $Y$ | Income |
+| $K$ | Skills / credentials |
 
 A life-state is not just whether Emma can afford something today. A life-state describes whether her overall situation is becoming stronger, weaker, freer, or more fragile.
 
@@ -37,36 +37,36 @@ A life-state is not just whether Emma can afford something today. A life-state d
 
 Let:
 
-\[
+$$
 V = \{i, n, e, g, s\}
-\]
+$$
 
 Where:
 
 | Symbol | Meaning |
 |---|---|
-| \(i\) | Independence |
-| \(n\) | Positive net worth |
-| \(e\) | Enjoyable life experience |
-| \(g\) | Goal progress |
-| \(s\) | Stability / emotional safety |
+| $i$ | Independence |
+| $n$ | Positive net worth |
+| $e$ | Enjoyable life experience |
+| $g$ | Goal progress |
+| $s$ | Stability / emotional safety |
 
 Independence should not be treated as one simple thing. Emma may want independence, but different forms of independence can conflict with one another.
 
 Let:
 
-\[
+$$
 I = \{i_1, i_2, i_3, i_4\}
-\]
+$$
 
 Where:
 
 | Symbol | Type of Independence | Meaning |
 |---|---|---|
-| \(i_1\) | Mobility independence | Reliable transportation; ability to get to work, school, friends, appointments, and opportunities |
-| \(i_2\) | Financial independence | Positive cash flow, preserved savings, and reduced dependence on others for money |
-| \(i_3\) | Residential independence | Living outside a parent’s home |
-| \(i_4\) | Decision independence | More control over schedule, choices, goals, and personal life |
+| $i_1$ | Mobility independence | Reliable transportation; ability to get to work, school, friends, appointments, and opportunities |
+| $i_2$ | Financial independence | Positive cash flow, preserved savings, and reduced dependence on others for money |
+| $i_3$ | Residential independence | Living outside a parent’s home |
+| $i_4$ | Decision independence | More control over schedule, choices, goals, and personal life |
 
 A key conjecture:
 
@@ -74,9 +74,9 @@ A key conjecture:
 
 In notation:
 
-\[
+$$
 i_3 \uparrow \Rightarrow i_2 \downarrow
-\]
+$$
 
 This means moving out may feel like independence while reducing total practical freedom.
 
@@ -84,25 +84,25 @@ This means moving out may feel like independence while reducing total practical 
 
 Let:
 
-\[
+$$
 T = \{p, b, q\}
-\]
+$$
 
 Where:
 
 | Symbol | Meaning |
 |---|---|
-| \(p\) | Productive hours available per week |
-| \(b\) | Buffer hours for unexpected events, rest, family, errands, and chaos |
-| \(q\) | Quality of time / energy level |
+| $p$ | Productive hours available per week |
+| $b$ | Buffer hours for unexpected events, rest, family, errands, and chaos |
+| $q$ | Quality of time / energy level |
 
 Time is not only the number of hours available. Two plans may leave the same number of free hours, but one may leave Emma exhausted while the other leaves her with enough energy to build her future.
 
 A useful distinction:
 
-\[
+$$
 p_{theoretical} \neq p_{actual}
-\]
+$$
 
 A plan can work on paper but fail if the remaining hours are low-quality, tired, scattered, or emotionally overloaded.
 
@@ -110,32 +110,32 @@ A plan can work on paper but fail if the remaining hours are low-quality, tired,
 
 Let:
 
-\[
+$$
 M = \{c, a, d, r\}
-\]
+$$
 
 Where:
 
 | Symbol | Meaning |
 |---|---|
-| \(c\) | Monthly cash flow |
-| \(a\) | Assets / savings |
-| \(d\) | Debt / liabilities |
-| \(r\) | Risk buffer / emergency fund |
+| $c$ | Monthly cash flow |
+| $a$ | Assets / savings |
+| $d$ | Debt / liabilities |
+| $r$ | Risk buffer / emergency fund |
 
 Emma currently has meaningful savings. That gives her options. The goal is not merely to spend savings on adult things, but to preserve enough savings that she remains resilient.
 
 A plan becomes fragile when:
 
-\[
+$$
 c < 0
-\]
+$$
 
 or:
 
-\[
+$$
 r < r_{min}
-\]
+$$
 
 A plan may be technically possible but still undesirable if it destroys cash flow or risk buffer.
 
@@ -143,17 +143,17 @@ A plan may be technically possible but still undesirable if it destroys cash flo
 
 Let:
 
-\[
+$$
 Y = \{y, y_{min}, y_{growth}\}
-\]
+$$
 
 Where:
 
 | Symbol | Meaning |
 |---|---|
-| \(y\) | Current income |
-| \(y_{min}\) | Minimum income threshold for desirable independence |
-| \(y_{growth}\) | Likely income growth over time |
+| $y$ | Current income |
+| $y_{min}$ | Minimum income threshold for desirable independence |
+| $y_{growth}$ | Likely income growth over time |
 
 The income question is not only:
 
@@ -171,30 +171,30 @@ A useful conjecture:
 
 Let:
 
-\[
+$$
 K = \{k, \tau, \mu, \rho\}
-\]
+$$
 
 Where:
 
 | Symbol | Meaning |
 |---|---|
-| \(k\) | A specific skill or credential path |
-| \(\tau\) | Time required to acquire it |
-| \(\mu\) | Money required to acquire it |
-| \(\rho\) | Risk / uncertainty of completion or payoff |
+| $k$ | A specific skill or credential path |
+| $\tau$ | Time required to acquire it |
+| $\mu$ | Money required to acquire it |
+| $\rho$ | Risk / uncertainty of completion or payoff |
 
 Skills and credentials matter because they can transform the income variable.
 
-\[
+$$
 K \rightarrow Y
-\]
+$$
 
 Or more fully:
 
-\[
+$$
 K \rightarrow Y \rightarrow M \rightarrow T \rightarrow V
-\]
+$$
 
 This means skill-building is not merely another goal. It is a lever that changes what life-states are possible.
 
@@ -202,9 +202,9 @@ This means skill-building is not merely another goal. It is a lever that changes
 
 Define:
 
-\[
+$$
 L_{desirable} = \{L_s : V_s \geq V_{min} \land T_s \geq T_{min} \land M_s \geq M_{min} \land Y_s \geq Y_{min}\}
-\]
+$$
 
 Plain English:
 
@@ -212,9 +212,9 @@ Plain English:
 
 A key distinction:
 
-\[
+$$
 L_{possible} \neq L_{desirable}
-\]
+$$
 
 A life-state can be possible without being desirable.
 
@@ -228,23 +228,23 @@ The target is not merely independence today. The target is positive momentum.
 
 Let:
 
-\[
+$$
 Momentum(L) = f(V, T, M, Y, K)
-\]
+$$
 
 A plan has positive momentum when her values, time, money, income, and skill path reinforce one another.
 
 A good plan should tend toward:
 
-\[
+$$
 i \uparrow, \quad n \uparrow, \quad e \uparrow, \quad g \uparrow, \quad s \uparrow
-\]
+$$
 
 while preserving:
 
-\[
+$$
 c \geq 0, \quad r \geq r_{min}, \quad p \geq p_{min}
-\]
+$$
 
 Plain English:
 
@@ -254,17 +254,17 @@ Plain English:
 
 Let:
 
-\[
+$$
 F = \text{fragility}
-\]
+$$
 
 Fragility increases when she has too little money, too little time, too much debt, too much pressure, or too little room for mistakes.
 
 A plan should satisfy:
 
-\[
+$$
 F(L_j) \leq F_{max}
-\]
+$$
 
 for each stage of the plan.
 
@@ -286,35 +286,35 @@ This section treats life choices as candidate scenarios and sequences of scenari
 
 Let:
 
-\[
+$$
 S = \{s_1, s_2, s_3, \dots, s_k\}
-\]
+$$
 
-Where each \(s\) is a possible scenario or life strategy.
+Where each $s$ is a possible scenario or life strategy.
 
 Examples:
 
 | Scenario | Description |
 |---|---|
-| \(s_1\) | Stay with mom, buy no car, save aggressively |
-| \(s_2\) | Stay with mom, buy modest car, preserve savings buffer |
-| \(s_3\) | Move out, buy car |
-| \(s_4\) | Move out, no car |
-| \(s_5\) | Stay low-rent, buy reliable modest car, pursue income/credential path, move out later |
-| \(s_6\) | Work more hours immediately, save more money, delay car purchase |
-| \(s_7\) | Keep current work, add training or school, delay apartment independence |
+| $s_1$ | Stay with mom, buy no car, save aggressively |
+| $s_2$ | Stay with mom, buy modest car, preserve savings buffer |
+| $s_3$ | Move out, buy car |
+| $s_4$ | Move out, no car |
+| $s_5$ | Stay low-rent, buy reliable modest car, pursue income/credential path, move out later |
+| $s_6$ | Work more hours immediately, save more money, delay car purchase |
+| $s_7$ | Keep current work, add training or school, delay apartment independence |
 
 Each scenario produces an outcome:
 
-\[
+$$
 O(s) = L_s
-\]
+$$
 
 Where:
 
-\[
+$$
 L_s = \{V_s, T_s, M_s, Y_s, K_s\}
-\]
+$$
 
 Plain English:
 
@@ -326,29 +326,29 @@ Before ranking scenarios by preference, first remove scenarios that are too frag
 
 Define:
 
-\[
+$$
 S_{viable} = \{s \in S : c_s \geq 0 \land r_s \geq r_{min} \land p_s \geq p_{min}\}
-\]
+$$
 
 Plain English:
 
-> The viable scenarios are all scenarios in \(S\) where cash flow is nonnegative, risk buffer is high enough, and productive time is high enough.
+> The viable scenarios are all scenarios in $S$ where cash flow is nonnegative, risk buffer is high enough, and productive time is high enough.
 
 This prevents us from being fooled by a plan that feels exciting but creates a brittle life.
 
 A scenario is not viable if any of these fail:
 
-\[
+$$
 c_s < 0
-\]
+$$
 
-\[
+$$
 r_s < r_{min}
-\]
+$$
 
-\[
+$$
 p_s < p_{min}
-\]
+$$
 
 ### Desirability Filter
 
@@ -356,9 +356,9 @@ A viable scenario is not automatically desirable. It may be survivable but not g
 
 Define:
 
-\[
+$$
 S_{desirable} = \{s \in S_{viable} : L_s \in L_{desirable}\}
-\]
+$$
 
 Plain English:
 
@@ -366,9 +366,9 @@ Plain English:
 
 This distinction matters:
 
-\[
+$$
 S_{desirable} \subseteq S_{viable} \subseteq S
-\]
+$$
 
 Meaning:
 
@@ -380,33 +380,33 @@ Once nonviable plans are removed, we can compare the remaining plans by momentum
 
 Let:
 
-\[
+$$
 Momentum(s) = w_i i_s + w_n n_s + w_e e_s + w_g g_s + w_s s_s + w_p p_s + w_c c_s + w_r r_s + w_y y_s
-\]
+$$
 
-Where the \(w\)'s are weights representing importance.
+Where the $w$'s are weights representing importance.
 
 Possible initial weights:
 
 | Variable | Meaning | Suggested Weight |
 |---|---|---:|
-| \(i\) | Independence | 2 |
-| \(n\) | Positive net worth | 3 |
-| \(e\) | Enjoyable life | 2 |
-| \(g\) | Goal progress | 3 |
-| \(s\) | Stability / emotional safety | 4 |
-| \(p\) | Productive time | 2 |
-| \(c\) | Cash flow | 4 |
-| \(r\) | Risk buffer | 4 |
-| \(y\) | Income | 3 |
+| $i$ | Independence | 2 |
+| $n$ | Positive net worth | 3 |
+| $e$ | Enjoyable life | 2 |
+| $g$ | Goal progress | 3 |
+| $s$ | Stability / emotional safety | 4 |
+| $p$ | Productive time | 2 |
+| $c$ | Cash flow | 4 |
+| $r$ | Risk buffer | 4 |
+| $y$ | Income | 3 |
 
 Cash flow, risk buffer, and emotional stability should likely receive high weights because when they collapse, the whole life-state becomes fragile.
 
 The best scenario is:
 
-\[
+$$
 s^* = \operatorname*{argmax}_{s \in S_{viable}} Momentum(s)
-\]
+$$
 
 Plain English:
 
@@ -418,29 +418,29 @@ Emma’s life should not be modeled as one giant decision. It should be modeled 
 
 Let:
 
-\[
+$$
 P = (s_0, s_1, s_2, \dots, s_n)
-\]
+$$
 
-Where \(P\) is a sequence of scenarios or stages.
+Where $P$ is a sequence of scenarios or stages.
 
 Example path:
 
-\[
+$$
 P_1 = \text{stay low-rent} \rightarrow \text{buy modest car} \rightarrow \text{increase income} \rightarrow \text{move out later}
-\]
+$$
 
 The goal is:
 
-\[
+$$
 L_0 \rightarrow L_1 \rightarrow L_2 \rightarrow \dots \rightarrow L^*
-\]
+$$
 
 Where:
 
-\[
+$$
 L^* \in L_{desirable}
-\]
+$$
 
 Plain English:
 
@@ -450,29 +450,29 @@ Plain English:
 
 Let:
 
-\[
+$$
 \mathcal{P} = \{P_1, P_2, P_3, \dots, P_m\}
-\]
+$$
 
-Where \(\mathcal{P}\) is the set of possible paths.
+Where $\mathcal{P}$ is the set of possible paths.
 
 Then:
 
-\[
+$$
 P^* = \operatorname*{argmax}_{P \in \mathcal{P}} Momentum(P)
-\]
+$$
 
 Subject to:
 
-\[
+$$
 L_n \in L_{desirable}
-\]
+$$
 
 and:
 
-\[
+$$
 F(L_j) \leq F_{max} \quad \text{for each step } j
-\]
+$$
 
 Plain English:
 
@@ -482,18 +482,18 @@ Plain English:
 
 Instead of treating independence as binary, model it as a ladder.
 
-\[
+$$
 i_1 \rightarrow i_2 \rightarrow i_3 \rightarrow i_4
-\]
+$$
 
 Where:
 
 | Stage | Independence Type | Practical Meaning |
 |---|---|---|
-| \(i_1\) | Mobility independence | Reliable transportation |
-| \(i_2\) | Financial independence | Positive cash flow and savings |
-| \(i_3\) | Residential independence | Living outside a parent’s home |
-| \(i_4\) | Decision independence | Control over life choices and direction |
+| $i_1$ | Mobility independence | Reliable transportation |
+| $i_2$ | Financial independence | Positive cash flow and savings |
+| $i_3$ | Residential independence | Living outside a parent’s home |
+| $i_4$ | Decision independence | Control over life choices and direction |
 
 A strong conjecture:
 
@@ -507,15 +507,15 @@ In plain English:
 
 The first path to test:
 
-\[
+$$
 P_1 = \text{low housing cost} + \text{modest reliable car} + \text{income growth path} + \text{delayed move-out}
-\]
+$$
 
 Expected effects:
 
-\[
+$$
 i_1 \uparrow, \quad i_2 \uparrow, \quad g \uparrow, \quad r \uparrow, \quad i_3 \text{ delayed}
-\]
+$$
 
 Plain English:
 
@@ -529,15 +529,15 @@ If housing costs are too high relative to income, then moving out may produce ap
 
 For example:
 
-\[
+$$
 i_3 \uparrow
-\]
+$$
 
 but:
 
-\[
+$$
 c \downarrow, \quad r \downarrow, \quad p \downarrow, \quad g \downarrow, \quad s \downarrow
-\]
+$$
 
 Plain English:
 
