@@ -276,10 +276,6 @@ Plain English:
 
 ## 2. Scenario Modeling and Path Evaluation
 
-A better name than “full mathematical scenario” might be:
-
-> **Scenario Modeling and Path Evaluation**
-
 This section treats life choices as candidate scenarios and sequences of scenarios. The goal is to compare paths, not merely isolated decisions.
 
 ### Candidate Scenarios
