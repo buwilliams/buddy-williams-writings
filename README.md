@@ -59,7 +59,7 @@ Shorter pieces, concept sketches, and X threads worth preserving.
 
 | Date | Status | File | Description |
 |------|--------|------|-------------|
-| May 2026 | Draft | [emma_life_strategy_model.md](fragments/emma_life_strategy_model.md) | A formal life-state model for an 18-year-old's path to adult independence. Distinguishes mobility, financial, residential, and decision independence; filters viable from desirable scenarios; argues for becoming independent in the order that compounds. |
+| May 2026 | Draft | [emma-life-strategy-model.md](fragments/emma-life-strategy-model.md) | A formal life-state model for an 18-year-old's path to adult independence. Distinguishes mobility, financial, residential, and decision independence; filters viable from desirable scenarios; argues for becoming independent in the order that compounds. |
 | Mar 2026 | Draft | [kernel-mechanics-and-prediction-error.md](fragments/kernel-mechanics-and-prediction-error.md) | Working notes on MFP's mechanistic gap: what the kernel actually does, the reinforcement trap, and prediction error as the unified corrective mechanism. |
 | Feb 2026 | Draft | [phase-change-not-continuum.md](fragments/phase-change-not-continuum.md) | AI isn't just another point on a gradient. Time compression triggers phase changes in how systems function. |
 | Oct 2025 | Draft | [status-pyramid.md](fragments/status-pyramid.md) | Hierarchy is human nature. Don't flatten the pyramid, shorten it. Wider base, shorter peak. |
