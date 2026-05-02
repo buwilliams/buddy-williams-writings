@@ -17,7 +17,7 @@ The guiding idea is:
 Let:
 
 $$
-L = \{V, T, M, Y, K\}
+L = \{V, T, M, Y, K, H\}
 $$
 
 Where:
@@ -30,8 +30,11 @@ Where:
 | $M$ | Money |
 | $Y$ | Income |
 | $K$ | Skills / credentials |
+| $H$ | Home emotional cost |
 
 A life-state is not just whether Emma can afford something today. A life-state describes whether her overall situation is becoming stronger, weaker, freer, or more fragile.
+
+Two further symbols, fragility ($F$) and recoverability ($R$), are introduced later but sit outside $L$ on purpose. $F$ is a derived measure of how exposed a life-state is to shocks. $R$ is a property of a particular decision, not of the state itself.
 
 ### Values
 
