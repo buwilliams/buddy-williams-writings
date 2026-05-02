@@ -148,7 +148,7 @@ A plan can work on paper but fail if the remaining hours are low-quality, tired,
 Let:
 
 $$
-A = \{c, w, d, r\}
+A = \{c, \sigma, d, r\}
 $$
 
 Where:
@@ -156,7 +156,7 @@ Where:
 | Symbol | Meaning |
 |---|---|
 | $c$ | Monthly cash flow |
-| $w$ | Savings |
+| $\sigma$ | Savings |
 | $d$ | Debt / liabilities |
 | $r$ | Risk buffer / emergency fund |
 
@@ -230,7 +230,7 @@ $$
 Or more fully:
 
 $$
-K \rightarrow Y \rightarrow M \rightarrow T \rightarrow V
+K \rightarrow Y \rightarrow A \rightarrow T \rightarrow V
 $$
 
 This means skill-building is not merely another goal. It is a lever that changes what life-states are possible.
@@ -266,7 +266,7 @@ The target is not merely independence today. The target is positive momentum.
 Let:
 
 $$
-Momentum(L) = f(V, T, M, Y, K)
+Momentum(L) = f(V, T, A, Y, K, H)
 $$
 
 A plan has positive momentum when her values, time, assets, income, and skill path reinforce one another.
@@ -370,7 +370,7 @@ $$
 Where:
 
 $$
-L_s = \{V_s, T_s, A_s, Y_s, K_s\}
+L_s = \{V_s, T_s, A_s, Y_s, K_s, H_s\}
 $$
 
 Plain English:
@@ -458,6 +458,8 @@ Possible initial weights:
 | $y$ | Income | 3 |
 
 Cash flow, risk buffer, and emotional stability should likely receive high weights because when they collapse, the whole life-state becomes fragile.
+
+Emotional cost $H$ does not appear directly in the score. Its effect flows through $e_s$, $s_s$, and $g_s$, which it depresses when high. The weights on those three carry the emotional load.
 
 The best scenario is:
 
