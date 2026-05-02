@@ -405,7 +405,7 @@ Cash flow, risk buffer, and emotional stability should likely receive high weigh
 The best scenario is:
 
 $$
-s^* = \operatorname*{argmax}_{s \in S_{viable}} Momentum(s)
+s^* = \arg\max_{s \in S_{viable}} Momentum(s)
 $$
 
 Plain English:
@@ -459,7 +459,7 @@ Where $\mathcal{P}$ is the set of possible paths.
 Then:
 
 $$
-P^* = \operatorname*{argmax}_{P \in \mathcal{P}} Momentum(P)
+P^* = \arg\max_{P \in \mathcal{P}} Momentum(P)
 $$
 
 Subject to:
