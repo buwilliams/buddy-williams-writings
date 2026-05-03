@@ -196,13 +196,19 @@ $$
 
 ## 3. Explanation
 
-This section walks through Section 2 in order, expanding each piece into prose with examples and motivation.
+This section walks through Section 2 in order. Each subsection explains the reasoning behind a piece of the formalization: why it exists, why the choices in it were made, and what it captures from the conjecture.
 
 ### 3.1 State
+
+Why model life as a state? Because the decisions Emma faces are not isolated. Buying a car changes mobility, money, schedule, stress, savings, and friendships all at once. A choice that improves one thing can quietly damage another. To compare candidate decisions honestly, the model needs a snapshot wide enough to catch everything a decision touches.
+
+Why these five dimensions and not four or seven? Each can move without dragging the others with it. Emma can be financially comfortable but exhausted, or healthy but broke, or skilled but lonely. Collapsing two dimensions into one would hide a tradeoff she actually faces. Adding a sixth would mostly duplicate what is already covered.
 
 A life-state $L$ has five top-level dimensions: values ($V$), time ($T$), assets ($A$), education ($K$), and health ($W$). Reasoning about life decisions requires reasoning about all of them.
 
 #### Values ($V$)
+
+Why values as a separate dimension? Because what Emma has is not the same as what she wants. Two paths can leave her in identical financial and physical states with very different feelings about whether she is living the life she wants. Values are the dimension that captures whether her situation matches what she actually cares about.
 
 Seven sub-components: four independence types plus enjoyable life experience ($e$), goal progress ($g$), and emotional safety ($\beta$).
 
@@ -211,6 +217,8 @@ Independence is decomposed into four because the sub-types can conflict. The can
 Net worth is not in $V$. It is captured by $\sigma$ and $d$ in $A$, with the desirable filter requiring $\sigma_s \geq d_s$.
 
 #### Time ($T$)
+
+Why split time into three? Because counting available hours is not enough. Hours that are exhausted, scattered, or all spoken for in advance behave very differently from rested hours that can actually build a life. A plan with sixty grinding hours is not the same as a plan with sixty energetic hours.
 
 Three sub-components: count ($p$), buffer ($b$), and quality ($q$).
 
@@ -222,15 +230,19 @@ Time is the most valuable resource in the model. It enters in three places: as t
 
 #### Assets ($A$)
 
+Why bundle income and assets together? Because they cannot be reasoned about separately. A high income with high spending leaves Emma fragile. A low income with low overhead leaves her resilient. Cash flow is the difference between income and outflow. Savings is what cash flow accumulates. Splitting these across separate top-level dimensions would force the model to constantly re-couple them.
+
 Six sub-components: monthly cash flow ($c$), savings ($\sigma$), debt ($d$), risk buffer ($r$), income ($y$), and growth rate ($\gamma$).
 
-Assets are everything financial: what comes in, what is held, what is owed, what is set aside, what flows month to month, and what is projected to change. Income lives here rather than as a separate top-level variable because cash flow, savings, debt, and income are deeply coupled. A plan cannot reason about cash flow without reasoning about income.
+Assets are everything financial: what comes in, what is held, what is owed, what is set aside, what flows month to month, and what is projected to change.
 
 A plan becomes financially fragile when $c < 0$ or $r < r_{min}$. A plan that meets those floors but produces $y < y_{min}$ is viable without being desirable: it can survive without yet supporting the life Emma wants. $y_{min}$ is a desirable-state threshold, not a survival threshold.
 
 A useful conjecture: residential independence becomes desirable only when income is high enough that housing, transportation, savings, and enjoyable life can all coexist without excessive pressure.
 
 #### Education ($K$)
+
+Why education as its own dimension? Because it is the main lever Emma has on income, and through income on the rest of the asset base. Health, time, and values are things Emma already has and modifies. Education is the thing she invests in now to change what is possible later.
 
 Five sub-components: a path ($k$), training time ($\tau$), training money ($\mu$), completion risk ($\rho$), and technology trajectory ($\delta$).
 
@@ -245,6 +257,8 @@ $\delta$ cannot be measured with confidence. The point is not to forecast precis
 $\delta$ and $\gamma$ are independent. A field can decline while a particular practitioner sees positive $\gamma$ from accumulated experience, geographic advantage, or moving up the value chain. Conversely, $\gamma$ can be negative for personal reasons (a career change, a location move, a step back into training) while $\delta$ stays neutral.
 
 #### Health ($W$)
+
+Why model health holistically? Because the dimensions of well-being are not interchangeable. A plan can succeed financially while the body decays. Another can sustain physical health while loneliness grows. Treating health as a single number would let one of these masquerade as the other. The five sub-components let the model see each dimension on its own.
 
 Five sub-components: physical ($\phi$), mental ($\psi$), fitness ($\zeta$), emotional impact ($\eta$), and relational quality ($\nu$).
 
@@ -272,6 +286,8 @@ $\phi$, $\psi$, and $\nu$ are floors in the viable filter. $\zeta$ and $\eta$ co
 
 ### 3.2 Cross-Variable Relationships
 
+Why model relationships between dimensions at all? Because the dimensions are not actually independent. Education does cost time and money. Field-level technology shifts do affect income. Without these connections, the model is a list of categories rather than a working system that can simulate what a candidate decision will produce.
+
 Education's sub-components connect to time, assets, and projected income through four formal relationships:
 
 - $\tau$ (training time) reduces $p$ during the training period. While training is in progress, $p_{actual} = p_{baseline} - \tau_{weekly}$. After training ends, $p$ returns to baseline.
@@ -282,6 +298,8 @@ Education's sub-components connect to time, assets, and projected income through
 Emotional comparison between alternatives uses the difference of net emotional impacts: a choice becomes more attractive as $\eta(\text{this}) - \eta(\text{alternative})$ rises. Because $\eta$ is signed, this works in both directions: a less-bad alternative is more attractive than a worse one, and a more-good option is more attractive than a less-good one.
 
 ### 3.3 Viable and Desirable
+
+Why two filters and not one? Because survival is not the same as flourishing. A plan can be technically possible but actually awful to live. Without the distinction, the model could rank a barely-surviving plan above a comfortable one because the surviving plan looked busy. The viable filter rules out plans that break Emma. The desirable filter rules in plans that support a life worth wanting.
 
 Two filters separate plans by quality.
 
@@ -295,7 +313,9 @@ Scenario filters $S_{viable}$ and $S_{desirable}$ apply these same predicates to
 
 ### 3.4 Adjustable
 
-The path is not chosen once. Emma applies the model at each stage, using current information to choose the next step, observes the result, and applies the model again from her new life-state. The model is a policy, not a fixed plan.
+Why a policy rather than a fixed plan? Because the future cannot be predicted in detail. New information will arrive (a job offer, an injury, a relationship, a market shift) and a plan committed years in advance will be out of date by the time it gets executed. Treating the model as a policy means Emma uses it again at each stage, with whatever she has actually learned.
+
+The path is not chosen once. Emma applies the model at each stage, using current information to choose the next step, observes the result, and applies the model again from her new life-state.
 
 For the path to remain adjustable, individual decisions must stay reversible enough that future redirection is possible. State-level resilience is handled by the viable-state floors (a state above its floors can absorb shocks; a state at its floors cannot). How recoverable each decision is determines whether the path stays adjustable.
 
@@ -320,6 +340,8 @@ Being adjustable and being falsifiable are different responses to new informatio
 > Prefer decisions Emma can step back from. Irreversible decisions need more evidence than reversible ones.
 
 ### 3.5 Momentum and Path Objective
+
+Why reduce everything to a single number? Because Emma needs to compare options, and comparison requires reduction. Many things matter, and they matter differently. Momentum is the weighted sum that lets the model say one path scores higher than another without dropping any of the components that built the score.
 
 Momentum scores a life-state. Path momentum scores a path. The path objective combines the scoring with the constraints from previous sections.
 
@@ -391,14 +413,16 @@ This is the formalization of the conjecture's "time is finite and spent whether 
 
 #### Constraints
 
-The path objective is to maximize path momentum subject to four constraints:
+The path objective is to maximize path momentum subject to four constraints. Each constraint corresponds to a piece of the conjecture:
 
-- The terminal life-state is desirable: $L_n \in L_{desirable}$.
-- Every intermediate life-state is viable: $L_j \in L_{viable}$ for each step $j$.
-- Every large decision is recoverable enough: $R(s_j) \geq R_{min}$.
-- The total stage durations fit the horizon: $\sum_j d_j \leq H$.
+- The terminal life-state is desirable ($L_n \in L_{desirable}$): momentum points toward something more desirable, not merely something survivable.
+- Every intermediate life-state is viable ($L_j \in L_{viable}$): the journey is what Emma lives, and a journey through nonviable states is not actually lived through.
+- Every large decision is recoverable enough ($R(s_j) \geq R_{min}$): an adjustable path requires reversible decisions.
+- The total stage durations fit the horizon ($\sum_j d_j \leq H$): time is finite.
 
 ### 3.6 Falsifiability
+
+Why include this section at all? Because the model could be wrong. The five dimensions might miss something important. The weights might be miscalibrated. The horizon projection might fit reality poorly. A model used as if it were truth would lock Emma into bad decisions when reality drifts from the model. A model treated as a conjecture stays useful by getting revised.
 
 The model is itself a conjecture and should be revisable. Conditions that should trigger revision:
 
