@@ -200,9 +200,9 @@ This section walks through Section 2 in order. Each subsection explains the reas
 
 ### 3.1 State
 
-Why model life as a state? Because the decisions Emma faces are not isolated. Buying a car changes mobility, money, schedule, stress, savings, and friendships all at once. A choice that improves one thing can quietly damage another. To compare candidate decisions honestly, the model needs a snapshot wide enough to catch everything a decision touches.
+Why model life as a state? Because the decisions Emma faces are not isolated. Buying a car changes mobility, money, schedule, stress, savings, and friendships all at once. A choice that improves one thing can quietly damage another. To compare candidate decisions honestly, the model needs a snapshot wide enough to be useful. No model captures everything. The goal is enough scope to surface the load-bearing tradeoffs without becoming unwieldy.
 
-Why these five dimensions and not four or seven? Each can move without dragging the others with it. Emma can be financially comfortable but exhausted, or healthy but broke, or skilled but lonely. Collapsing two dimensions into one would hide a tradeoff she actually faces. Adding a sixth would mostly duplicate what is already covered.
+Why these five dimensions and not four or seven? Each can move without dragging the others with it. Emma can be financially comfortable but exhausted, or healthy but broke, or skilled but lonely. Collapsing two dimensions into one would hide a tradeoff she actually faces. The five chosen here are a working compromise between coverage and simplicity. If a needed dimension turns out to be missing, §3.6 lists that as a falsifiability trigger.
 
 A life-state $L$ has five top-level dimensions: values ($V$), time ($T$), assets ($A$), education ($K$), and health ($W$). Reasoning about life decisions requires reasoning about all of them.
 
@@ -286,7 +286,7 @@ $\phi$, $\psi$, and $\nu$ are floors in the viable filter. $\zeta$ and $\eta$ co
 
 ### 3.2 Cross-Variable Relationships
 
-Why model relationships between dimensions at all? Because the dimensions are not actually independent. Education does cost time and money. Field-level technology shifts do affect income. Without these connections, the model is a list of categories rather than a working system that can simulate what a candidate decision will produce.
+Why model relationships between dimensions at all? Because the dimensions are not actually independent. Education does cost time and money. Field-level technology shifts do affect income. Without these connections, the model is a list of categories rather than a working system that can estimate what a candidate decision will produce. The estimates are approximations, not predictions; they exist to support comparison, not to forecast.
 
 Education's sub-components connect to time, assets, and projected income through four formal relationships:
 
@@ -341,7 +341,7 @@ Being adjustable and being falsifiable are different responses to new informatio
 
 ### 3.5 Momentum and Path Objective
 
-Why reduce everything to a single number? Because Emma needs to compare options, and comparison requires reduction. Many things matter, and they matter differently. Momentum is the weighted sum that lets the model say one path scores higher than another without dropping any of the components that built the score.
+Why reduce the life-state to a single number? Because Emma needs to compare options, and comparison requires reduction. Many things matter, and they matter differently. Momentum is the weighted sum that lets the model say one path scores higher than another without dropping any of the components that built the score. The score is a comparison aid, not a verdict.
 
 Momentum scores a life-state. Path momentum scores a path. The path objective combines the scoring with the constraints from previous sections.
 
