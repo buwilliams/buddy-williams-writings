@@ -18,13 +18,13 @@ Enjoyment is not the absence of difficulty. Hardship pursued toward an outcome s
 
 The lived experience along the way is most of life. A path that ends well but spends years in misery is not the same as a path that ends equally well and is good to live through. The journey is what Emma lives. Destinations are milestones along the journey.
 
-The best path for Emma is therefore one that creates momentum toward a life she wants, where the momentum is recoverable, adjustable, and enjoyable to live through.
+The conjecture is that the best path for Emma is one that creates **momentum**: each step moves her life-state toward something more desirable, not merely something survivable.
 
-- **Momentum**: each step moves her life-state toward something more desirable, not merely something survivable.
-- **Recoverability**: any step can be reversed, repaired, or stepped back from if it turns out badly. Mistakes should not end the game.
-- **Adjustability**: the path is not chosen once. It is revised at each stage as new information arrives.
-- **Journey**: the path is judged by the lived experience across stages, not only by where it ends.
-- **Digestible**: The helper's role is to wrap the complexity of scarcity tradeoffs and path dependency in a presentation digestible for a teenager. The formalization below is the mental work of a mature adult doing the heavy lifting.
+That momentum must be adjustable, enjoyable to live through, and digestible.
+
+- **Adjustable**: the path is not chosen once. It is revised at each stage as new information arrives. An adjustable path requires that each step remain reversible enough to actually redirect. An irreversible decision shrinks future options regardless of whether it was good at the time.
+- **Enjoyable**: the path is judged by the lived experience across stages, not only by where it ends.
+- **Digestible**: the helper's role is to wrap the complexity of scarcity tradeoffs and path dependency in a presentation digestible for a teenager. The formalization below is the mental work of a mature adult doing the heavy lifting.
 
 ---
 
@@ -116,7 +116,7 @@ $$
 \text{a choice becomes more attractive as } \eta(\text{this}) - \eta(\text{alternative}) \text{ rises}
 $$
 
-### 2.3 Viability and Desirability
+### 2.3 Viable and Desirable
 
 $$
 L_{viable} = \{L : c \geq 0 \land r \geq r_{min} \land p \geq p_{min} \land b \geq b_{min} \land q \geq q_{min} \land \phi \geq \phi_{min} \land \psi \geq \psi_{min} \land \nu \geq \nu_{min}\}
@@ -137,13 +137,23 @@ $$
 S_{desirable} \subseteq S_{viable} \subseteq S
 $$
 
-### 2.4 Recoverability
+### 2.4 Adjustable
+
+The path objective is applied iteratively. At each stage $j$, re-optimize over the paths still reachable from $L_j$:
+
+$$
+P^*_j = \arg\max_{P \in \mathcal{P}_j} Momentum(P)
+$$
+
+subject to the constraints in §2.5. Take $s_{j+1}$ as the first step of $P^*_j$. Observe $L_{j+1}$. Re-optimize. The model is a policy, not a fixed plan.
+
+For the path to remain adjustable, individual decisions must stay reversible enough that future redirection is possible. Define how recoverable a decision is:
 
 $$
 R(s_j) = 1 - \frac{w_\lambda \lambda_j + w_\xi \xi_j + w_\Delta \Delta_j}{w_\lambda + w_\xi + w_\Delta}
 $$
 
-Where $\lambda_j, \xi_j, \Delta_j \in [0, 1]$ measure lock-in duration (as a fraction of $H$), exit cost (as a fraction of $\sigma$), and state disruption (fraction of $L$ materially altered). $w_\lambda, w_\xi, w_\Delta$ are Emma-specific weights. $R(s_j) \in [0, 1]$.
+Where $\lambda_j, \xi_j, \Delta_j \in [0, 1]$ measure lock-in duration (as a fraction of $H$), exit cost (as a fraction of $\sigma$), and state disruption (fraction of $L$ materially altered). $w_\lambda, w_\xi, w_\Delta$ are Emma-specific weights. $R(s_j) \in [0, 1]$. The path objective requires $R(s_j) \geq R_{min}$ for each large decision.
 
 ### 2.5 Momentum and Path Objective
 
@@ -177,18 +187,6 @@ $$
 L_n \in L_{desirable}, \quad L_j \in L_{viable} \;\forall j, \quad R(s_j) \geq R_{min} \;\forall \text{ large decisions } j
 $$
 
-### 2.6 Adjustability
-
-The path objective is applied iteratively. At each stage $j$, re-optimize over the paths still reachable from $L_j$:
-
-$$
-P^*_j = \arg\max_{P \in \mathcal{P}_j} Momentum(P)
-$$
-
-subject to the same constraints. Take $s_{j+1}$ as the first step of $P^*_j$. Observe $L_{j+1}$. Re-optimize.
-
-The model is a policy, not a fixed plan.
-
 ---
 
 ## 3. Explanation
@@ -197,13 +195,13 @@ The model is a policy, not a fixed plan.
 
 $V$ has seven sub-components: four independence types plus enjoyable life experience ($e$), goal progress ($g$), and emotional safety ($\beta$).
 
-Independence is decomposed into four because the sub-types can conflict. The canonical example is moving out: it raises $i_3$ (residential independence) while often reducing $i_2$ (financial independence). Mobility ($i_1$) is reliable transportation. Decision independence ($i_4$) is control over schedule, choices, and direction. The model does not prescribe an ordering for climbing them; different paths build different orders, and the momentum, viability, and recoverability filters distinguish good orderings from bad ones in any given case.
+Independence is decomposed into four because the sub-types can conflict. The canonical example is moving out: it raises $i_3$ (residential independence) while often reducing $i_2$ (financial independence). Mobility ($i_1$) is reliable transportation. Decision independence ($i_4$) is control over schedule, choices, and direction. The model does not prescribe an ordering for climbing them; different paths build different orders, and the momentum, viable, and recoverable filters distinguish good orderings from bad ones in any given case.
 
-Net worth is not in $V$. It is captured by $\sigma$ and $d$ in $A$, with the desirability filter requiring $\sigma_s \geq d_s$.
+Net worth is not in $V$. It is captured by $\sigma$ and $d$ in $A$, with the desirable filter requiring $\sigma_s \geq d_s$.
 
 ### 3.2 Time
 
-Time is more than the count of available hours. Two plans may leave the same number of free hours but one leaves Emma exhausted while the other leaves her with energy to build a life. Each of $p$, $b$, and $q$ is a viability floor. A plan that wins on $p$ but collapses $q$ is not viable.
+Time is more than the count of available hours. Two plans may leave the same number of free hours but one leaves Emma exhausted while the other leaves her with energy to build a life. Each of $p$, $b$, and $q$ is a viable-state floor. A plan that wins on $p$ but collapses $q$ is not viable.
 
 A useful distinction: $p_{theoretical} \neq p_{actual}$. A plan can work on paper but fail if the remaining hours are tired, scattered, or emotionally overloaded.
 
@@ -211,7 +209,7 @@ A useful distinction: $p_{theoretical} \neq p_{actual}$. A plan can work on pape
 
 $A$ contains everything financial: what comes in ($y$), what is held ($\sigma$), what is owed ($d$), what is set aside ($r$), what flows month to month ($c$), and what is projected to change ($\gamma$). Income lives here rather than as a separate top-level variable because cash flow, savings, debt, and income are deeply coupled. A plan cannot reason about cash flow without reasoning about income.
 
-A plan becomes financially fragile when $c < 0$ or $r < r_{min}$. A plan that meets those floors but produces $y < y_{min}$ is viable without being desirable: it can survive without yet supporting the life Emma wants. $y_{min}$ is a desirability threshold, not a survival threshold.
+A plan becomes financially fragile when $c < 0$ or $r < r_{min}$. A plan that meets those floors but produces $y < y_{min}$ is viable without being desirable: it can survive without yet supporting the life Emma wants. $y_{min}$ is a desirable-state threshold, not a survival threshold.
 
 A useful conjecture: residential independence becomes desirable only when income is high enough that housing, transportation, savings, and enjoyable life can all coexist without excessive pressure.
 
@@ -229,7 +227,7 @@ $\delta$ cannot be measured with confidence. The point is not to forecast precis
 
 $\delta$ and $\gamma$ are independent. A field can decline while a particular practitioner sees positive $\gamma$ from accumulated experience, geographic advantage, or moving up the value chain. Conversely, $\gamma$ can be negative for personal reasons (a career change, a location move, a step back into training) while $\delta$ stays neutral. The model tracks them separately and combines them only in $\hat{y}$.
 
-The horizon-projected income condition $\hat{y}(L_s, H) \geq y_{min}$ is what makes a stagnant $K$ in a declining field actually fail desirability. Even if $y_s \geq y_{min}$ today, projected $\hat{y}$ falls below the threshold within $H$ years if $\delta$ is sufficiently negative.
+The horizon-projected income condition $\hat{y}(L_s, H) \geq y_{min}$ is what makes a stagnant $K$ in a declining field fail to be desirable. Even if $y_s \geq y_{min}$ today, projected $\hat{y}$ falls below the threshold within $H$ years if $\delta$ is sufficiently negative.
 
 ### 3.5 Health
 
@@ -237,7 +235,7 @@ Health is treated holistically: the full state of body, mind, behavior, emotion,
 
 $W$ has five sub-components. Each affects the others, but they are tracked separately because a plan can be strong in one and quietly destroying another. Long hours can sustain mental focus while degrading physical health and fitness. A meaningful job can lift emotional impact while crowding out relational quality.
 
-$\phi$, $\psi$, and $\nu$ are floors in the viability filter. $\zeta$ and $\eta$ contribute to momentum but are not hard floors: a plan can briefly skip exercise or feel hard without becoming nonviable. They become floors implicitly when sustained low values destroy $\phi$ or $\psi$.
+$\phi$, $\psi$, and $\nu$ are floors in the viable filter. $\zeta$ and $\eta$ contribute to momentum but are not hard floors: a plan can briefly skip exercise or feel hard without becoming nonviable. They become floors implicitly when sustained low values destroy $\phi$ or $\psi$.
 
 #### Physical and mental health
 
@@ -271,7 +269,7 @@ Many plans look efficient on paper but quietly damage $\nu$. Long hours leave no
 
 > No plan is a good plan if it ruins her body, her mind, or her closeness to the people who matter. Feeling bad for a stretch is survivable. Staying broken is not.
 
-### 3.6 Viability and Desirability
+### 3.6 Viable and Desirable
 
 Two filters separate plans by quality.
 
@@ -314,11 +312,13 @@ Possible initial weights:
 
 The best single scenario is the desirable scenario with the highest momentum. Selecting from $S_{desirable}$ rather than $S_{viable}$ aligns the single-scenario optimum with the path-level objective: both demand a life-state worth wanting, not merely one that survives.
 
-### 3.8 Recoverability
+### 3.8 Adjustable
 
-Recoverability measures how easily Emma can reverse, repair, or step back from a decision if it turns out badly. State-level resilience is handled by the viability floors (a state above its floors can absorb shocks; a state at its floors cannot). Recoverability applies to decisions, not states.
+The path is not chosen once. Emma applies the model at each stage, using current information to choose the next step, observes the result, and applies the model again from her new life-state. The model is a policy, not a fixed plan.
 
-$R(s_j) \in [0, 1]$ is the recoverability of decision $s_j$, computed from three dimensions. $\lambda_j$ is lock-in duration as a fraction of the planning horizon (a 12-month lease over a 5-year horizon has $\lambda \approx 0.2$). $\xi_j$ is exit cost as a fraction of savings (breaking a lease for two months' rent on $10,000 in savings has $\xi \approx 0.1$). $\Delta_j$ is state disruption: roughly the fraction of $L$'s sub-components materially changed by the decision.
+For the path to remain adjustable, individual decisions must stay reversible enough that future redirection is possible. State-level resilience is handled by the viable-state floors (a state above its floors can absorb shocks; a state at its floors cannot). How recoverable each decision is determines whether the path stays adjustable.
+
+$R(s_j) \in [0, 1]$ measures how recoverable decision $s_j$ is, computed from three dimensions. $\lambda_j$ is lock-in duration as a fraction of the planning horizon (a 12-month lease over a 5-year horizon has $\lambda \approx 0.2$). $\xi_j$ is exit cost as a fraction of savings (breaking a lease for two months' rent on $10,000 in savings has $\xi \approx 0.1$). $\Delta_j$ is state disruption: roughly the fraction of $L$'s sub-components materially changed by the decision.
 
 Examples:
 
@@ -330,7 +330,9 @@ Examples:
 | Take on high-interest debt | 0.50 | 0.30 | 0.50 | 0.57 |
 | Buy a car that drains $r$ | 0.30 | 0.50 | 0.40 | 0.60 |
 
-A plan should satisfy $R(s_j) \geq R_{min}$ for each step $j$ where the decision is large enough that an error would meaningfully change the path.
+A plan should satisfy $R(s_j) \geq R_{min}$ for each step $j$ where the decision is large enough that an error would meaningfully change the path. A decision with low $R$ removes future options regardless of how good it looks in the moment.
+
+Being adjustable and being falsifiable are different responses to new information. An adjustable path adjusts within the existing model. A falsifiable model adjusts itself when reality stops fitting it. A path that needs frequent adjustment is not necessarily a sign that the model is wrong. A model that produces consistently poor adjustments is.
 
 > Prefer decisions Emma can step back from. Irreversible decisions need more evidence than reversible ones.
 
@@ -354,17 +356,7 @@ A path's quality is judged by the lived experience across its stages, weighted b
 
 Scoring across stages rather than only at the endpoint reflects that the journey is what Emma lives. A path that reaches the same destination through better intermediate states is a better path. Stage durations $d_j$ weight the sum so that long stretches of a given life-state count more than brief ones; a year of stress is worse than a month of stress at the same intensity.
 
-### 3.10 Adjustability
-
-The path is not chosen once. Emma applies the model at each stage, using current information to choose the next step, observes the result, and applies the model again from her new life-state. The model is a policy, not a fixed plan.
-
-Two implications follow.
-
-First, the recoverability constraint is what makes adjustability possible at all. A decision with low $R(s_j)$ removes future flexibility, regardless of whether the decision looked right at the time. Adjustability is the practical reason recoverability matters: it preserves the ability to redirect when new evidence arrives.
-
-Second, adjustability and falsifiability are different responses to new information. Adjustability adjusts the path within the existing model. Falsifiability adjusts the model itself when reality stops fitting it. A path that needs frequent adjustment is not necessarily a sign that the model is wrong. A model that produces consistently poor adjustments is.
-
-### 3.11 Falsifiability
+### 3.10 Falsifiable
 
 The model is itself a conjecture and should be revisable. Conditions that should trigger revision:
 
