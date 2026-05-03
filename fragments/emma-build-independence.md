@@ -19,7 +19,7 @@ The guiding idea is:
 Let:
 
 $$
-L = \{V, T, A, Y, K, H\}
+L = \{V, T, A, Y, K, H, W, N\}
 $$
 
 Where:
@@ -31,8 +31,10 @@ Where:
 | $T$ | Time |
 | $A$ | Assets |
 | $Y$ | Income |
-| $K$ | Skills / credentials |
-| $H$ | Emotional cost |
+| $K$ | Education |
+| $H$ | Emotions |
+| $W$ | Health |
+| $N$ | Relationships |
 
 A life-state is not just whether Emma can afford something today. A life-state describes whether her overall situation is becoming stronger, weaker, freer, or more fragile.
 
@@ -85,34 +87,36 @@ $$
 
 This means moving out may feel like independence while reducing total practical freedom.
 
-### Emotional Cost
+### Emotions
 
 Let:
 
 $$
-H = \text{emotional cost}
+H = \text{net emotional impact}
 $$
 
-Many decisions carry an emotional cost beyond their financial one. Staying with a parent saves money but can pay in privacy, autonomy, conflict, infantilization, or feeling stuck. A draining job or long commute pays in chronic stress and lost time. An intensive training path pays in discipline cost, delayed gratification, and self-doubt. The wrong roommate pays in friction. Even a car can pay in maintenance anxiety, traffic fatigue, or the pressure of an insurance bill. These costs are real even when they do not appear on a balance sheet.
+Many decisions carry an emotional weight beyond their financial one. Staying with a parent saves money but can pay in privacy, autonomy, conflict, infantilization, or feeling stuck. A draining job or long commute pays in chronic stress and lost time. An intensive training path pays in discipline cost, delayed gratification, and self-doubt. The wrong roommate pays in friction. Even a car can pay in maintenance anxiety, traffic fatigue, or the pressure of an insurance bill.
 
-The model should not treat any choice as emotionally free by default. $H$ varies by scenario. $H(s)$ is paid in reductions to $e$ (enjoyable life) and $s$ (stability / emotional safety), and sometimes in $g$ (goal progress) when emotional pressure blocks momentum.
+Emotions also run the other way. Meaningful work can produce pride. Autonomy can produce relief. Good company can produce energy. A car bought without strain can produce ease. These effects are real even when they do not appear on a balance sheet.
+
+The model should not treat any choice as emotionally neutral by default. $H(s)$ can be positive or negative, and it flows into $e$ (enjoyable life), $s$ (stability / emotional safety), and sometimes $g$ (goal progress), lifting them when positive and depressing them when negative.
 
 Examples:
 
-| Choice | Possible emotional cost |
+| Choice | Possible emotional impact |
 |---|---|
-| Stay at home | Privacy, autonomy, conflict, family stress |
-| Move out | Financial pressure, isolation, household labor, instability of a new arrangement |
-| Long-hour job | Chronic stress, fatigue, lost social and rest time |
-| Intensive training | Discipline cost, delayed gratification, self-doubt |
-| Car ownership | Maintenance anxiety, commute fatigue, repair stress |
+| Stay at home | Ease and savings, against privacy loss, conflict, and feeling stuck |
+| Move out | Sense of freedom and ownership, against financial pressure, isolation, and household labor |
+| Long-hour job | Pride in earning and progress, against chronic stress, fatigue, and lost rest |
+| Intensive training | Sense of growth and identity, against discipline cost, delayed gratification, and self-doubt |
+| Car ownership | Mobility, freedom, pride of ownership, against maintenance anxiety and commute fatigue |
 
-This matters because comparing two choices requires comparing their full costs, not just their financial ones. A choice that looks cheaper financially can be more expensive emotionally, and a choice that looks expensive financially can pay for itself in restored peace, energy, or pride.
+This matters because comparing two choices requires comparing their full effects, not just their financial ones. A choice that looks cheaper financially can be more expensive emotionally, and a choice that looks expensive financially can pay for itself in restored peace, energy, or pride.
 
 In notation:
 
 $$
-\text{a choice becomes more attractive as } H(\text{alternative}) - H(\text{this choice}) \text{ rises}
+\text{a choice becomes more attractive as } H(\text{this choice}) - H(\text{alternative}) \text{ rises}
 $$
 
 Plain English:
@@ -206,24 +210,27 @@ A useful conjecture:
 
 > Residential independence becomes desirable only when income is high enough that housing, transportation, savings, and enjoyable life can all coexist without excessive pressure.
 
-### Skills and Credentialing
+### Education
+
+Education here covers any path that builds skill or credential, formal or informal: school, certificate, apprenticeship, on-the-job learning, self-study, mentorship. The model treats them as a single category because what matters is the resulting capability, not the venue.
 
 Let:
 
 $$
-K = \{k, \tau, \mu, \rho\}
+K = \{k, \tau, \mu, \rho, \delta\}
 $$
 
 Where:
 
 | Symbol | Meaning |
 |---|---|
-| $k$ | A specific skill or credential path |
+| $k$ | A specific education path (formal or informal) |
 | $\tau$ | Time required to acquire it |
 | $\mu$ | Money required to acquire it |
 | $\rho$ | Risk / uncertainty of completion or payoff |
+| $\delta$ | Technology trajectory: expected change in the skill's market value as technology progresses |
 
-Skills and credentials matter because they can transform the income variable.
+Education matters because it can transform the income variable.
 
 $$
 K \rightarrow Y
@@ -235,19 +242,83 @@ $$
 K \rightarrow Y \rightarrow A \rightarrow T \rightarrow V
 $$
 
-This means skill-building is not merely another goal. It is a lever that changes what life-states are possible.
+This means education is not merely another goal. It is a lever that changes what life-states are possible.
+
+The $K \rightarrow Y$ relationship is not stable across time. People create new knowledge, knowledge produces new technology, and technology reshapes which skills the market actually pays for. A credential that pays well today may pay more, less, or nothing over the years it takes to build a life around it. $\delta$ captures that exposure.
+
+$\delta$ has a sign:
+
+- $\delta < 0$ if the skill is exposed to displacement by emerging technology
+- $\delta \approx 0$ if the skill is roughly tech-neutral over the relevant horizon
+- $\delta > 0$ if the skill is amplified by emerging technology
+
+$\delta$ cannot be measured with confidence. Knowledge growth is not predictable in detail, so any estimate is a conjecture open to criticism. The point is not to forecast precisely. The point is to refuse the default assumption that today's job market describes tomorrow's.
+
+A useful question for any candidate path:
+
+> If the most plausible technology trajectory in this field plays out over $\tau$, does this skill still produce the income it does today?
+
+When the answer is no, $\rho$ should rise and the path should favor skills or transitions that remain valuable as the field changes.
+
+### Health
+
+Let:
+
+$$
+W = \text{health}
+$$
+
+Health here means the slow underlying state of body and mind: physical condition, mental condition, sleep, and the capacity to handle stress. It is not the same as $H$ (emotions). Emotions move quickly with daily events. Health is the slower substrate that makes most of life either easier or harder, and that compounds over years.
+
+Many decisions affect $W$ indirectly. A long commute eats sleep. A high-pressure job raises baseline anxiety. Skipped exercise and poor diet compound silently. A path that produces strong income but ruins $W$ is a path that pays interest forever, often at the worst time.
+
+Like emotions, $W$ flows into $e$ (enjoyable life), $s$ (stability), $g$ (goal progress), and $q$ (quality of productive time). It is also a floor in its own right. A plan should satisfy:
+
+$$
+W(L_j) \geq W_{min}
+$$
+
+for each stage of the plan.
+
+Plain English:
+
+> No plan is a good plan if it ruins her body or her mind. A win on every other axis cannot pay back the loss.
+
+### Relationships
+
+Let:
+
+$$
+N = \text{relationships}
+$$
+
+Relationships mean the network of people Emma depends on, contributes to, and grows with: family, close friends, romantic partners, mentors, and community. People are not interchangeable, and a thin network is a real fragility. The same shock that someone with strong relationships can absorb can flatten someone who is alone.
+
+Many plans look efficient on paper but quietly damage relationships. Long hours leave no time for friends. A move can sever a community before a new one forms. A high-pressure path can crowd out the patience and presence that close relationships require. Some damage is reversible. Some is not.
+
+Like health, $N$ flows into $e$ (enjoyable life) and $s$ (stability). It is also a floor in its own right. A plan should satisfy:
+
+$$
+N(L_j) \geq N_{min}
+$$
+
+for each stage of the plan.
+
+Plain English:
+
+> No plan is a good plan if it leaves her isolated, distant from the people who matter, or unable to build the relationships an adult life needs.
 
 ### Desirable Life-State
 
 Define:
 
 $$
-L_{desirable} = \{L_s : V_s \geq V_{min} \land T_s \geq T_{min} \land A_s \geq A_{min} \land Y_s \geq Y_{min}\}
+L_{desirable} = \{L_s : V_s \geq V_{min} \land T_s \geq T_{min} \land A_s \geq A_{min} \land Y_s \geq Y_{min} \land W_s \geq W_{min} \land N_s \geq N_{min}\}
 $$
 
 Plain English:
 
-> A desirable life-state is one where values, time, assets, and income all meet minimum acceptable thresholds.
+> A desirable life-state is one where values, time, assets, income, health, and relationships all meet minimum acceptable thresholds.
 
 A key distinction:
 
@@ -268,10 +339,10 @@ The target is not merely independence today. The target is positive momentum.
 Let:
 
 $$
-Momentum(L) = f(V, T, A, Y, K, H)
+Momentum(L) = f(V, T, A, Y, K, H, W, N)
 $$
 
-A plan has positive momentum when her values, time, assets, income, and skill path reinforce one another while emotional cost stays low.
+A plan has positive momentum when her values, time, assets, income, education, health, and relationships reinforce one another while emotional impact stays net positive.
 
 A good plan should tend toward:
 
@@ -282,12 +353,12 @@ $$
 while preserving:
 
 $$
-c \geq 0, \quad r \geq r_{min}, \quad p \geq p_{min}
+c \geq 0, \quad r \geq r_{min}, \quad p \geq p_{min}, \quad W \geq W_{min}, \quad N \geq N_{min}
 $$
 
 Plain English:
 
-> A good plan should increase independence, net worth, enjoyment, goal progress, and stability while maintaining positive cash flow, enough emergency buffer, and enough productive time.
+> A good plan should increase independence, net worth, enjoyment, goal progress, and stability while maintaining positive cash flow, enough emergency buffer, enough productive time, intact health, and intact relationships.
 
 ### Fragility
 
@@ -297,7 +368,7 @@ $$
 F = \text{fragility}
 $$
 
-Fragility increases when she has too little money, too little time, too much debt, too much pressure, or too little room for mistakes.
+Fragility increases when she has too little money, too little time, too much debt, too much pressure, too little room for mistakes, declining health, or weakening relationships.
 
 A plan should satisfy:
 
@@ -372,7 +443,7 @@ $$
 Where:
 
 $$
-L_s = \{V_s, T_s, A_s, Y_s, K_s, H_s\}
+L_s = \{V_s, T_s, A_s, Y_s, K_s, H_s, W_s, N_s\}
 $$
 
 Plain English:
@@ -386,14 +457,14 @@ Before ranking scenarios by preference, first remove scenarios that are too frag
 Define:
 
 $$
-S_{viable} = \{s \in S : c_s \geq 0 \land r_s \geq r_{min} \land p_s \geq p_{min}\}
+S_{viable} = \{s \in S : c_s \geq 0 \land r_s \geq r_{min} \land p_s \geq p_{min} \land W_s \geq W_{min} \land N_s \geq N_{min}\}
 $$
 
 Plain English:
 
-> The viable scenarios are all scenarios in $S$ where cash flow is nonnegative, risk buffer is high enough, and productive time is high enough.
+> The viable scenarios are all scenarios in $S$ where cash flow is nonnegative, risk buffer is high enough, productive time is high enough, health is at least minimally preserved, and relationships are at least minimally preserved.
 
-This prevents us from being fooled by a plan that feels exciting but creates a brittle life.
+This prevents us from being fooled by a plan that feels exciting but creates a brittle life. A plan that wins on money and time while quietly destroying health or relationships is not viable, no matter how good its momentum score would otherwise look.
 
 A scenario is not viable if any of these fail:
 
@@ -407,6 +478,14 @@ $$
 
 $$
 p_s < p_{min}
+$$
+
+$$
+W_s < W_{min}
+$$
+
+$$
+N_s < N_{min}
 $$
 
 ### Desirability Filter
@@ -461,7 +540,7 @@ Possible initial weights:
 
 Cash flow, risk buffer, and emotional stability should likely receive high weights because when they collapse, the whole life-state becomes fragile.
 
-Emotional cost $H$ does not appear directly in the score. Its effect flows through $e_s$, $s_s$, and $g_s$, which it depresses when high. The weights on those three carry the emotional load.
+$H$ does not appear directly in the score. Its effect flows through $e_s$, $s_s$, and $g_s$, lifting them when positive and depressing them when negative. The weights on those three carry the emotional load.
 
 The best scenario is:
 
@@ -627,16 +706,17 @@ This section is for discovering values, desires, constraints, and hidden tradeof
 7. What kind of work do you not want to be doing two years from now?
 8. What kind of work could you imagine feeling proud of?
 
-### Questions for Emma: Skills and Credentials
+### Questions for Emma: Education
 
 1. Are there any jobs, careers, or lifestyles that seem interesting to you?
 2. Would you rather learn through school, hands-on work, online training, apprenticeship, or a short certificate?
 3. How long are you willing to train for a better income path?
-4. What subjects or activities come naturally to you?
-5. What do people often tell you you are good at?
-6. What kind of work environment would you hate?
-7. What kind of work environment would fit your personality?
-8. Would you rather optimize for money, flexibility, meaningful work, stability, or low stress?
+4. Which of these paths still feels valuable if the work itself changes a lot in the next ten years?
+5. What subjects or activities come naturally to you?
+6. What do people often tell you you are good at?
+7. What kind of work environment would you hate?
+8. What kind of work environment would fit your personality?
+9. Would you rather optimize for money, flexibility, meaningful work, stability, or low stress?
 
 ### Questions for Emma: Moving Out
 
@@ -658,6 +738,28 @@ This section is for discovering values, desires, constraints, and hidden tradeof
 5. What would make adult life feel exciting rather than heavy?
 6. What are you afraid of losing as you take on more responsibility?
 7. What do you want to protect in your life even while growing up?
+
+### Questions for Emma: Health
+
+1. How do you feel in your body most days?
+2. How well do you usually sleep, and what tends to mess it up?
+3. What physical activities make you feel good, and which ones do you avoid?
+4. How do you usually handle stress? What works and what does not?
+5. What habits would you want to keep no matter what job or living situation you end up in?
+6. What would be a warning sign that a job, schedule, or living situation was wearing on you?
+7. Is there anything about your mental health you want to be deliberate about as life changes?
+8. When you imagine yourself at 25, what do you hope your health looks like?
+
+### Questions for Emma: Relationships
+
+1. Who are the people you most want to stay close to over the next few years?
+2. Which relationships refill you, and which ones drain you?
+3. What kind of friendships do you want to build now that high school is ending?
+4. What role do you want family to play in your adult life?
+5. Are there relationships you want to grow into (mentors, romantic, community) that you do not yet have?
+6. How much time per week do you want to protect for the people who matter to you?
+7. What would be a warning sign that a path was starting to isolate you?
+8. If a job or move offered more money but cost you closeness with people you love, what would feel like a fair trade?
 
 ### Questions for Emma: Future Self
 
