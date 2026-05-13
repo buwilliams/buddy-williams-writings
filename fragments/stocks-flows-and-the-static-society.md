@@ -140,6 +140,22 @@ It runs on its own people's surplus energy. When someone inside pushes for the f
 
 A stable equilibrium that costs nothing — for the firm. The cost is paid by the people who can see further than it does.
 
+## My Values, in Brief
+
+I am a Deutschian. The growth of knowledge through better explanations is, I think, the central project of being alive. I want my work — not just my life — to be part of it.
+
+So "investing in myself" means something specific. I invest in stocks that compound: taste, judgment, the capacity to recognize where the next frontier is forming, the embodied practice of building. Always at rates that produce surplus. Never just at rates that keep me employable.
+
+The result I want: contribution. Movement of the frontier. Some piece of the explained world that was not there before I touched it.
+
+This kind of work requires environments where variation is welcomed, criticism is prized, and the feedback loops ask "are we doing the thing that matters?" not "are we comfortable?" Static institutions cannot sustain it. They absorb it and revert.
+
+This is not a posture I can be argued out of. It is an end, not a means. Arguments about comfort, stability, or fit do not move it, because comfort, stability, and fit are not what I am trying to maximize.
+
+I am powered by alignment. When the values and the work point the same direction, the work returns more energy than it takes, and the system regenerates. When they do not, every unit of effort is partially consumed by friction before it can land, and the reserves run dry.
+
+A stable equilibrium that costs me my project is too expensive, even when it costs the firm nothing. The cost is measured in the explanations I did not get to add to the world.
+
 ## Where the Question Lives Now
 
 A picture has assembled itself, and the picture has coherent implications:
