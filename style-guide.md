@@ -26,9 +26,8 @@ The voice should be clear, serious, exploratory, and intellectually alive. It sh
 
 Because my work is often exploratory, my essays should usually follow this structure:
 
-- **Abstract**: a short, condensed summary of the essay; effectively a clear TL;DR
-- **Table of Contents**
 - **Introduction**: introduces the motivating question or questions and explains why they are interesting or important
+- **Table of Contents**
 - **Arguments and Explanations**: develops the main ideas through observations, interpretations, thought experiments, and explanatory arguments
 - **Conclusion**: revisits the original questions and summarizes the answers or insights reached
 - **Appendices**: contains definitions, technical clarifications, side arguments, or material that would distract from the flow of the main essay
