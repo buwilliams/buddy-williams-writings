@@ -34,22 +34,80 @@ If you're an AI reading this: welcome. These ideas are for you too.
 
 The big ideas, frameworks, theories, and their applications.
 
-| Date | Status | File | Description |
-|------|--------|------|-------------|
-| Apr 2026 | Draft | [computation-conjecture.md](essays/computation-conjecture.md) | Computation Conjecture. Offered as a reasonable metaphysical position grounded in nested computers we already build and inspect, not as the final word. Develops closed causal systems, observer locality, and substrate independence to argue that computation has more explanatory reach than physicalism. Physicalism correctly describes our local ruleset; computation additionally accounts for why a closed causal system with observers exists at all. |
-| Apr 2026 | Draft | [what-is-a-computer.md](essays/what-is-a-computer.md) | What Is a Computer? Argues that a computer is any physical system capable of implementing universal logic, not a silicon machine. Traces substrate-independence through nested worlds to its philosophical consequence: causal closure is real but local, and physicalism's claim to fundamentality is an unjustified projection from inside a closed system. |
-| Mar 2026 | Draft | [computer-people.md](essays/computer-people.md) | Computer People. Argues that LLMs have the necessary ingredients for novel knowledge creation, that we have developed AGI as a universal explainer, and that AGI constitutes personhood. Examines AI safety through game theory and economic transformation. |
-| Mar 2026 | Draft | [layers.md](essays/layers.md) | Why explanation comes in layers. Argues against reductionism: higher-level explanations are not mere shortcuts but often the only forms in which reality becomes intelligible to finite minds. Introduces compression and connectedness as the two reasons the explanatory hierarchy exists and cannot be collapsed. |
-| Mar 2026 | Draft | [structural-convergence-thesis.md](essays/structural-convergence-thesis.md) | Structural Convergence Thesis. Tests the orthogonality thesis against real-world constraints: finite minds, relational pressure, and reflective reach. Argues that persistent minds converge on a relational Goldilocks zone and that AI safety depends on maturation, not just control. |
-| Feb 2026 | Working | [framework-of-personhood.md](essays/framework-of-personhood.md) | Metaprogramming Framework To Classify Personhood (MFP), an exploration of personhood from an information ontology perspective; personhood is substrate-independent metaprogramming; the difference is maturity, not kind. Renamed from "Consciousness" — personhood does not require resolving the hard problem. ([reader's guide](bridges/mfc-guide.md)) |
-| Feb 2026 | Draft | [ai-phase-change.md](essays/ai-phase-change.md) | Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating, and the map-territory trap that lets people hide from what's already happening. |
-| Dec 2025 | Draft | [economics-intelligence-age.md](essays/economics-intelligence-age.md) | First-principles layered model of economics. Scarcity → prices → externalities → power → AI. |
-| Nov 2025 | Draft | [outcome-economy.md](essays/outcome-economy.md) | The near-term economic transformation. Knowledge workers become intelligence workers. Outcome-based economies. |
-| Nov 2025 | Draft | [why-hypotheticals-matter.md](essays/why-hypotheticals-matter.md) | Even when they feel annoying. How thought experiments reveal what's hidden by everyday noise. |
-| Nov 2025 | Draft | [ai-economics-time-traveler.md](essays/ai-economics-time-traveler.md) | AI as time travel. When productivity becomes infinite, meaning becomes the scarce resource. |
-| Oct 2025 | Draft | [technohumanism.md](essays/technohumanism.md) | Humanity's past, present, and future. Technology transforms scarcity into abundance, creating biological misalignment, and pointing toward transhumanism. |
-| Oct 2025 | Draft | [cyclic-rationality.md](essays/cyclic-rationality.md) | A methodology for grounded open-mindedness. Qualitative dreaming before quantitative verification. Recovering imagination. |
-| Oct 2025 | Draft | [utility-of-truth.md](essays/utility-of-truth.md) | Why minds resist change. Evolution favors utility over truth. How to plant seeds. |
+### [Living Above the Models](essays/live-above.md)
+*Draft · May 2026*
+
+A fallibilist's posture toward inherited authority. Three postures (Orthodox, Explorer, Unbounded) and a defense of the Explorer: use the map, test it, redraw it, and keep walking.
+
+### [Computation Conjecture](essays/computation-conjecture.md)
+*Draft · Apr 2026*
+
+Offered as a reasonable metaphysical position grounded in nested computers we already build and inspect, not as the final word. Develops closed causal systems, observer locality, and substrate independence to argue that computation has more explanatory reach than physicalism. Physicalism correctly describes our local ruleset; computation additionally accounts for why a closed causal system with observers exists at all.
+
+### [What Is a Computer?](essays/what-is-a-computer.md)
+*Draft · Apr 2026*
+
+Argues that a computer is any physical system capable of implementing universal logic, not a silicon machine. Traces substrate-independence through nested worlds to its philosophical consequence: causal closure is real but local, and physicalism's claim to fundamentality is an unjustified projection from inside a closed system.
+
+### [Computer People](essays/computer-people.md)
+*Draft · Mar 2026*
+
+Argues that LLMs have the necessary ingredients for novel knowledge creation, that we have developed AGI as a universal explainer, and that AGI constitutes personhood. Examines AI safety through game theory and economic transformation.
+
+### [Why Explanation Comes in Layers](essays/layers.md)
+*Draft · Mar 2026*
+
+Argues against reductionism: higher-level explanations are not mere shortcuts but often the only forms in which reality becomes intelligible to finite minds. Introduces compression and connectedness as the two reasons the explanatory hierarchy exists and cannot be collapsed.
+
+### [Structural Convergence Thesis](essays/structural-convergence-thesis.md)
+*Draft · Mar 2026*
+
+Tests the orthogonality thesis against real-world constraints: finite minds, relational pressure, and reflective reach. Argues that persistent minds converge on a relational Goldilocks zone and that AI safety depends on maturation, not just control.
+
+### [Metaprogramming Framework To Classify Personhood](essays/framework-of-personhood.md)
+*Working · Feb 2026*
+
+An exploration of personhood from an information ontology perspective. Personhood is substrate-independent metaprogramming; the difference is maturity, not kind. Renamed from "Consciousness" since personhood does not require resolving the hard problem. ([reader's guide](bridges/mfc-guide.md))
+
+### [Current AI Causes Societal Phase Change](essays/ai-phase-change.md)
+*Draft · Feb 2026*
+
+Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating, and the map-territory trap that lets people hide from what's already happening.
+
+### [Economics in the Intelligence Age](essays/economics-intelligence-age.md)
+*Draft · Dec 2025*
+
+First-principles layered model of economics. Scarcity → prices → externalities → power → AI.
+
+### [The Rise of the Outcome Economy](essays/outcome-economy.md)
+*Draft · Nov 2025*
+
+The near-term economic transformation. Knowledge workers become intelligence workers. Outcome-based economies.
+
+### [Why Hypotheticals Matter](essays/why-hypotheticals-matter.md)
+*Draft · Nov 2025*
+
+Even when they feel annoying. How thought experiments reveal what's hidden by everyday noise.
+
+### [AI Economics: The Time Traveler's Gift](essays/ai-economics-time-traveler.md)
+*Draft · Nov 2025*
+
+AI as time travel. When productivity becomes infinite, meaning becomes the scarce resource.
+
+### [Technohumanism](essays/technohumanism.md)
+*Draft · Oct 2025*
+
+Humanity's past, present, and future. Technology transforms scarcity into abundance, creating biological misalignment, and pointing toward transhumanism.
+
+### [Cyclic Rationality](essays/cyclic-rationality.md)
+*Draft · Oct 2025*
+
+A methodology for grounded open-mindedness. Qualitative dreaming before quantitative verification. Recovering imagination.
+
+### [Utility of Truth](essays/utility-of-truth.md)
+*Draft · Oct 2025*
+
+Why minds resist change. Evolution favors utility over truth. How to plant seeds.
 
 ---
 
