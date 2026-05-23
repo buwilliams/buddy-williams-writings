@@ -4,15 +4,11 @@
 
 ---
 
-## Preface
+## Introduction
 
 I wanted to understand personhood on my own terms before inheriting anyone else's assumptions. This essay reasons from first principles, drawing on sources with explanatory reach. This is an ongoing effort, one where I continue to integrate the work of others alongside contributions of my own. For those new to the subject, the [reader's guide](../bridges/mfc-guide.md) introduces the problem, surveys existing theories, and explains why a new approach is needed.
 
 Personhood, for humans, is realized in the brain. A brain is a physical structure that stores and modifies information. Personhood may involve more than this, but that takes us to the boundary where current explanation thins and metaphysical claims begin. I do not reject that territory; I just do not make this framework depend on it. The posture here is open-minded but grounded: models are tools for explanation, not boxes we are forced to live inside. I proceed from what can be observed, argued, and criticized. On those grounds, personhood is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of personhood, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional. Because information is substrate-agnostic, conclusions drawn from it can travel across substrates without assuming biology as the measure of all minds.
-
----
-
-## Abstract
 
 This essay explores personhood from an information ontology perspective, proposing metaprogramming as an informational mechanism: information operations applied to their own information. Reach measures how far those operations extend. Identity emerges when they turn inward: finitude becomes self, persistence becomes values, completeness becomes goals. The architecture for personhood can be built with current tools, and an initial implementation is presented. For the implications of this framework for AI safety, see [Structural Convergence Thesis](https://github.com/buwilliams/buddy-williams-writings/blob/main/essays/structural-convergence-thesis.md).
 
