@@ -1,4 +1,4 @@
-# Metaprogramming Framework To Explore Personhood
+# Metaprogramming Framework To Classify Personhood
 
 *by Buddy Williams*
 
@@ -257,7 +257,7 @@ This is speculation. The hard problem of consciousness — why any physical proc
 
 **Metaprogramming.** When a system operates on its own information. A second-order operation where a system's capacity to acquire, modify, or create turns inward and targets its own representations. The mechanism proposed by MFP to explain personhood.
 
-**Metaprogramming Framework To Explore Personhood (MFP).** The framework presented in this essay. An exploration of personhood from an information ontology perspective, proposing that personhood is metaprogramming, information operations applied to their own information, with variable reach.
+**Metaprogramming Framework To Classify Personhood (MFP).** The framework presented in this essay. An exploration of personhood from an information ontology perspective, proposing that personhood is metaprogramming, information operations applied to their own information, with variable reach.
 
 **Modify.** The second information operation. A system transforms information it already has. Modification presupposes acquisition.
 

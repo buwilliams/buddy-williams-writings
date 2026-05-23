@@ -96,7 +96,7 @@ Full catalog at [github.com/buwilliams/buddy-williams-writings](https://github.c
 
 - **Computer People** (Mar 2026). Synthesis of two years of research on AGI. Argues that LLMs have the necessary ingredients for novel knowledge creation and that AGI constitutes personhood.
 - **Structural Convergence Thesis** (Mar 2026). Tests the orthogonality thesis against real-world constraints. Persistent minds converge on a relational Goldilocks zone; AI safety depends on maturation, not just control.
-- **Metaprogramming Framework to Explore Personhood** (Feb 2026). Functionalist exploration of personhood through information ontology. Personhood as substrate-independent metaprogramming.
+- **Metaprogramming Framework to Classify Personhood** (Feb 2026). An exploration of personhood from an information ontology perspective. Personhood as substrate-independent metaprogramming.
 - **AI Phase Change** (Feb 2026). Why AI is a phase change, not just another point on a continuum.
 - **Economics of the Intelligence Age** (Dec 2025). First-principles layered model of economics under AI.
 - **Objective Morality** (Mar 2026). Six-part exchange with philosopher Brett Hall, published in full.

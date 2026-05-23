@@ -1,4 +1,4 @@
-# A Reader's Guide to Metaprogramming Framework To Explore Personhood
+# A Reader's Guide to Metaprogramming Framework To Classify Personhood
 *by Buddy Williams*
 
 *What you need to know before reading, even if you've never studied philosophy or neuroscience.*
@@ -97,7 +97,7 @@ Here's a side-by-side view of where each theory stands on the dimensions that ma
 | **Predictive Processing** | Minimizing prediction errors about sensory inputs | Any system modeling the world from the inside | Moderate, framed as self-modeling, not clearly conscious | Powerful framework; consciousness is somewhat incidental to the core idea |
 | **MFP (Buddy's framework)** | Information operations that turn inward, reach into your own representations | Any substrate where operations cross the second-order threshold | Strong, identity emerges directly from the structure; no extra mystery | Sidesteps neuroscience; a substrate-relevant neural finding could undercut the information-only approach |
 
-*MFP = Metaprogramming Framework To Explore Personhood. IIT = Integrated Information Theory. GWT = Global Workspace Theory. HOT = Higher-Order Theories.*
+*MFP = Metaprogramming Framework To Classify Personhood. IIT = Integrated Information Theory. GWT = Global Workspace Theory. HOT = Higher-Order Theories.*
 
 ---
 
