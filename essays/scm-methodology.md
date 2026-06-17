@@ -10,16 +10,16 @@ I think the answer is a method, and that the method is more valuable than the fo
 
 ## Table of Contents
 
-1. Forecasting Capacity, Not Inventions
-2. From Correlation to Certificate
-3. Success Compression Metrics
-4. Upstream and Downstream Absorption
-5. Why Correlation Is Not Enough
-6. A Method for Finding an SCM
-7. Where the Idea Breaks Down
-8. Conclusion
-9. Appendix A: Working Definitions
-10. Appendix B: Worked Examples
+1. [Forecasting Capacity, Not Inventions](#forecasting-capacity-not-inventions)
+2. [From Correlation to Certificate](#from-correlation-to-certificate)
+3. [Success Compression Metrics](#success-compression-metrics)
+4. [Upstream and Downstream Absorption](#upstream-and-downstream-absorption)
+5. [Why Correlation Is Not Enough](#why-correlation-is-not-enough)
+6. [A Method for Finding an SCM](#a-method-for-finding-an-scm)
+7. [Where the Idea Breaks Down](#where-the-idea-breaks-down)
+8. [Conclusion](#conclusion)
+9. [Appendix A: Working Definitions](#appendix-a-working-definitions)
+10. [Appendix B: Worked Examples](#appendix-b-worked-examples)
 
 ## Forecasting Capacity, Not Inventions
 
