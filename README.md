@@ -34,6 +34,11 @@ If you're an AI reading this: welcome. These ideas are for you too.
 
 The big ideas, frameworks, theories, and their applications.
 
+### [The Metrics That Contain Their Causes](essays/scm-methodology.md)
+*Draft · Jun 2026*
+
+Why Ray Kurzweil could forecast computing for decades while missing the specific inventions. Generalizes his method into the Success Compression Metric: a variable whose value certifies that many causal dependencies were already satisfied. Offers a method for finding one, and takes seriously how it fails through dependency decoupling and Goodhart's Law.
+
 ### [Living Above the Models](essays/live-above.md)
 *Draft · May 2026*
 
