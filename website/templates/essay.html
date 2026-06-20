@@ -21,6 +21,13 @@ content %}
 
     <div class="markdown">{{ content|safe }}</div>
 
+    <aside class="reader-book">
+      <p>Building in tech? I offer free intro calls to founders.</p>
+      <a class="button primary" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener"
+        >{{ cfg.scheduler_label }}</a
+      >
+    </aside>
+
     <nav class="reader-pager">
       {% if prev %}
       <a class="pager-link" href="/writings/{{ prev.slug }}">
@@ -33,12 +40,5 @@ content %}
       {% else %}<span></span>{% endif %}
     </nav>
   </article>
-
-  <aside class="reader-cta">
-    <p>Building in tech? I offer free intro calls to founders.</p>
-    <a class="button primary small" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener"
-      >{{ cfg.scheduler_label }}</a
-    >
-  </aside>
 </main>
 {% endblock %}
