@@ -111,6 +111,20 @@ pub fn load_writings(root: &Path) -> Result<Vec<WritingMeta>, BoxErr> {
     Ok(list)
 }
 
+/// A short hash of the CSS + JS contents, appended to asset URLs as `?v=...`.
+/// Each deploy with changed assets gets a new value, so Cloudflare's edge cache
+/// (which caches static files) serves the new file instead of a stale one.
+pub fn asset_version(root: &Path) -> String {
+    use std::hash::{Hash, Hasher};
+    let mut hasher = std::collections::hash_map::DefaultHasher::new();
+    for rel in ["static/css/site.css", "static/js/site.js"] {
+        if let Ok(bytes) = std::fs::read(root.join(rel)) {
+            bytes.hash(&mut hasher);
+        }
+    }
+    format!("{:x}", hasher.finish())
+}
+
 /// Build the minijinja environment by loading every `*.html` in `templates/`.
 /// Templates are added as owned strings, keeping the environment `'static`.
 pub fn build_env(root: &Path) -> Result<minijinja::Environment<'static>, BoxErr> {

@@ -21,7 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/static/css/site.css" />
+    <link rel="stylesheet" href="/static/css/site.css?v={{ asset_version }}" />
   </head>
   <body class="{% block body_class %}{% endblock %}">
     <header class="site-header">
@@ -61,6 +61,6 @@
       </div>
       <p class="footer-fine">© {{ cfg.name }}. Ideas meant to spread.</p>
     </footer>
-    <script src="/static/js/site.js" defer></script>
+    <script src="/static/js/site.js?v={{ asset_version }}" defer></script>
   </body>
 </html>

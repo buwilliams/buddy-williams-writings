@@ -20,7 +20,8 @@ async fn main() {
 
     let cfg = content::load_site(&root).expect("failed to load content/site.toml");
     let writings = content::load_writings(&root).expect("failed to load content/writings.toml");
-    let env = content::build_env(&root).expect("failed to load templates/");
+    let mut env = content::build_env(&root).expect("failed to load templates/");
+    env.add_global("asset_version", content::asset_version(&root));
 
     let state = routes::AppState {
         cfg: Arc::new(cfg),
