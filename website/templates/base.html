@@ -30,7 +30,7 @@
       Cal("ui", { hideEventTypeDetails: false, layout: "month_view" });
     </script>
   </head>
-  <body class="{% block body_class %}{% endblock %}" data-cal-link="{{ cfg.cal_link | safe }}">
+  <body class="{% block body_class %}{% endblock %}" data-cal-slug="{{ cfg.cal_link | safe }}">
     <header class="site-header">
       <a class="brand" href="/">
         <span class="brand-mark" aria-hidden="true"></span>

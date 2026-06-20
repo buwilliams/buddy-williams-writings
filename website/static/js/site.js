@@ -55,14 +55,26 @@
 
 // Cal.com integration: popups on every booking link + inline embed on /consulting.
 (function () {
-  var calLink = document.body && document.body.getAttribute("data-cal-link");
+  var calLink = document.body && document.body.getAttribute("data-cal-slug");
   if (!calLink || !window.Cal) return; // no Cal -> href fallback (opens cal.com)
+
+  // Warm the embed so the overlay opens instantly (and is ready on first click).
+  window.Cal("preload", { calLink: calLink });
 
   // Turn every link to cal.com into a popup overlay instead of a new tab.
   document.querySelectorAll('a[href*="cal.com/"]').forEach(function (a) {
     a.setAttribute("data-cal-link", calLink);
     a.setAttribute("data-cal-config", '{"layout":"month_view"}');
     a.removeAttribute("target");
+    // Stop the href from ever navigating — Cal's handler opens the popup.
+    // Capture phase guarantees this runs before the default navigation.
+    a.addEventListener(
+      "click",
+      function (e) {
+        e.preventDefault();
+      },
+      true
+    );
   });
 
   // Inline calendar where a #cal-inline container exists.
