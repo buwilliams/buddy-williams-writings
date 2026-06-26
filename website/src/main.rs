@@ -38,6 +38,7 @@ async fn main() {
         .route("/resume", get(routes::resume))
         .route("/healthz", get(|| async { "ok" }))
         .nest_service("/static", ServeDir::new(root.join("static")))
+        .nest_service("/assets", ServeDir::new(root.join("assets")))
         .layer(CompressionLayer::new())
         .layer(TraceLayer::new_for_http())
         .with_state(state);

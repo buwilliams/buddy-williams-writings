@@ -23,6 +23,7 @@ COPY --from=builder /build/target/release/site /usr/local/bin/site
 COPY templates ./templates
 COPY content ./content
 COPY static ./static
+COPY assets ./assets
 COPY Buddy_Williams_Resume.pdf ./
 
 EXPOSE 8080

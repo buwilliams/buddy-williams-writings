@@ -3,6 +3,28 @@
 
 use pulldown_cmark::{html, Event, HeadingLevel, Options, Parser, Tag, TagEnd};
 use serde::Serialize;
+use std::collections::HashSet;
+
+/// Context for rewriting relative Markdown links and images so a single source
+/// of truth (GitHub-native relative paths) renders correctly on the site.
+///
+/// The essays are authored with relative links — `[x](other-essay.md)`,
+/// `[y](../fragments/z.md)`, `![img](../assets/a/b.png)` — which resolve on
+/// GitHub. On the site those same paths would 404, so we rewrite them:
+///
+/// - a link to a *published* essay  → `/writings/<slug>`
+/// - a link to anything else (`.md`) → its canonical GitHub blob URL
+/// - a relative image                → root-absolute `/assets/...` (served)
+///
+/// Absolute URLs, `mailto:`, in-page `#anchors`, and already-root-absolute
+/// paths are left untouched.
+pub struct RewriteCtx {
+    /// Slugs that have a `/writings/<slug>` route (from the writings manifest).
+    pub published: HashSet<String>,
+    /// GitHub blob base for unpublished targets, e.g.
+    /// `https://github.com/<owner>/<repo>/blob/main`.
+    pub repo_base: String,
+}
 
 #[derive(Debug, Serialize)]
 pub struct TocItem {
@@ -86,7 +108,71 @@ fn is_heading(line: &str) -> bool {
     (1..=6).contains(&hashes) && t[hashes..].starts_with(' ')
 }
 
-pub fn render(md: &str) -> Rendered {
+/// Resolve a relative path against a base directory, collapsing `.` and `..`,
+/// and return a repo-root-relative path. Essays live in `essays/`, so a bare
+/// `layers.md` resolves to `essays/layers.md` and `../fragments/z.md` to
+/// `fragments/z.md`.
+fn resolve_repo_path(path: &str, base_dir: &str) -> String {
+    let mut parts: Vec<&str> = base_dir.split('/').filter(|s| !s.is_empty()).collect();
+    for seg in path.split('/') {
+        match seg {
+            "" | "." => {}
+            ".." => {
+                parts.pop();
+            }
+            other => parts.push(other),
+        }
+    }
+    parts.join("/")
+}
+
+/// Rewrite a relative link URL for on-site rendering. Returns `None` when the
+/// URL should be left untouched (absolute, anchor, mailto, root-absolute, or a
+/// non-`.md` relative link, which images handle separately).
+fn rewrite_link(url: &str, ctx: &RewriteCtx) -> Option<String> {
+    if url.is_empty()
+        || url.starts_with('#')
+        || url.starts_with('/')
+        || url.starts_with("mailto:")
+        || url.contains("://")
+    {
+        return None;
+    }
+    let (path, frag) = match url.split_once('#') {
+        Some((p, f)) => (p, Some(f)),
+        None => (url, None),
+    };
+    if !path.ends_with(".md") {
+        return None;
+    }
+    let repo_path = resolve_repo_path(path, "essays");
+    let target = match repo_path.strip_prefix("essays/") {
+        Some(file) if ctx.published.contains(file.trim_end_matches(".md")) => {
+            format!("/writings/{}", file.trim_end_matches(".md"))
+        }
+        _ => format!("{}/{}", ctx.repo_base, repo_path),
+    };
+    Some(match frag {
+        Some(f) => format!("{target}#{f}"),
+        None => target,
+    })
+}
+
+/// Rewrite a relative image URL to a root-absolute path served from `/assets`
+/// (or wherever it lives in the repo). Absolute and root-absolute URLs are
+/// left untouched.
+fn rewrite_image(url: &str) -> Option<String> {
+    if url.is_empty()
+        || url.starts_with('/')
+        || url.starts_with("data:")
+        || url.contains("://")
+    {
+        return None;
+    }
+    Some(format!("/{}", resolve_repo_path(url, "essays")))
+}
+
+pub fn render(md: &str, ctx: &RewriteCtx) -> Rendered {
     let mut opts = Options::empty();
     opts.insert(Options::ENABLE_TABLES);
     opts.insert(Options::ENABLE_STRIKETHROUGH);
@@ -95,6 +181,24 @@ pub fn render(md: &str) -> Rendered {
 
     let mut events: Vec<Event> = Parser::new_ext(md, opts).collect();
     let mut toc = Vec::new();
+
+    // Rewrite relative links and images so the GitHub-native source resolves
+    // correctly on the site. See `RewriteCtx`.
+    for ev in events.iter_mut() {
+        match ev {
+            Event::Start(Tag::Link { dest_url, .. }) => {
+                if let Some(new) = rewrite_link(dest_url, ctx) {
+                    *dest_url = new.into();
+                }
+            }
+            Event::Start(Tag::Image { dest_url, .. }) => {
+                if let Some(new) = rewrite_image(dest_url) {
+                    *dest_url = new.into();
+                }
+            }
+            _ => {}
+        }
+    }
 
     let mut i = 0;
     while i < events.len() {
@@ -139,6 +243,64 @@ fn heading_num(level: HeadingLevel) -> u8 {
         HeadingLevel::H4 => 4,
         HeadingLevel::H5 => 5,
         HeadingLevel::H6 => 6,
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn ctx() -> RewriteCtx {
+        RewriteCtx {
+            published: ["computer-people", "layers", "framework-of-personhood"]
+                .into_iter()
+                .map(String::from)
+                .collect(),
+            repo_base: "https://github.com/owner/repo/blob/main".into(),
+        }
+    }
+
+    #[test]
+    fn published_essay_links_go_to_writings() {
+        assert_eq!(rewrite_link("layers.md", &ctx()).unwrap(), "/writings/layers");
+        // anchors are preserved
+        assert_eq!(
+            rewrite_link("computer-people.md#glossary", &ctx()).unwrap(),
+            "/writings/computer-people#glossary"
+        );
+    }
+
+    #[test]
+    fn unpublished_targets_go_to_github_blob() {
+        assert_eq!(
+            rewrite_link("../bridges/mfc-guide.md", &ctx()).unwrap(),
+            "https://github.com/owner/repo/blob/main/bridges/mfc-guide.md"
+        );
+        // an essay not in the manifest still goes to GitHub, not a dead /writings route
+        assert_eq!(
+            rewrite_link("cyclic-rationality.md", &ctx()).unwrap(),
+            "https://github.com/owner/repo/blob/main/essays/cyclic-rationality.md"
+        );
+    }
+
+    #[test]
+    fn absolute_anchor_and_mailto_links_untouched() {
+        assert!(rewrite_link("https://example.com", &ctx()).is_none());
+        assert!(rewrite_link("#section", &ctx()).is_none());
+        assert!(rewrite_link("mailto:hi@x.com", &ctx()).is_none());
+        assert!(rewrite_link("/writings/layers", &ctx()).is_none());
+        // non-markdown relative links are left for image handling / pass-through
+        assert!(rewrite_link("notes.txt", &ctx()).is_none());
+    }
+
+    #[test]
+    fn relative_images_become_root_absolute() {
+        assert_eq!(
+            rewrite_image("../assets/state-of-ai/x.png").unwrap(),
+            "/assets/state-of-ai/x.png"
+        );
+        assert!(rewrite_image("https://cdn.example.com/x.png").is_none());
+        assert!(rewrite_image("/assets/x.png").is_none());
     }
 }
 

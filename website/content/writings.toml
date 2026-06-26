@@ -3,6 +3,14 @@
 # Lower `order` sorts first (newest first). Set featured = true to surface on home.
 
 [[writing]]
+slug = "state-of-ai-june-2026"
+title = "State of AI (June 26th, 2026)"
+status = "Draft"
+date = "Jun 2026"
+order = 0
+blurb = "A snapshot written for friends after a state-of-AI conversation. The contradictory public forecasts are really disagreements about which lens to use, not about the data. Three lenses — empirical, neuroscience, information ontology — a defense of the information lens, and what it predicts: recursive self-improvement around 2027, continual learning, machine creativity, and work migrating from Hands to Heads to Hearts."
+
+[[writing]]
 slug = "scm-methodology"
 title = "The Metrics That Contain Their Causes"
 status = "Draft"

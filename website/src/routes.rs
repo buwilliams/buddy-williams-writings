@@ -75,8 +75,12 @@ pub async fn essay(State(state): State<AppState>, Path(slug): Path<String>) -> R
         Err(_) => return not_found(&state),
     };
 
+    let rewrite = markdown::RewriteCtx {
+        published: state.writings.iter().map(|w| w.slug.clone()).collect(),
+        repo_base: format!("{}/blob/main", state.cfg.repo_url),
+    };
     let body = markdown::strip_toc(&markdown::strip_first_h1(&md));
-    let rendered = markdown::render(&body);
+    let rendered = markdown::render(&body, &rewrite);
     let prev = idx.checked_sub(1).map(|i| &state.writings[i]);
     let next = state.writings.get(idx + 1);
 
