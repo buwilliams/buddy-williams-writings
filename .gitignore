@@ -1,2 +1,3 @@
 *.swp
 conversations/**/*.mp4
+.claude/
