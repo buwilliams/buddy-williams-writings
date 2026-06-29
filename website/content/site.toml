@@ -2,13 +2,13 @@
 
 name = "Buddy Williams"
 role_title = "Chief AI Innovation Officer · Founder · Builder"
-tagline = "I search for good explanations. I build inspiring things."
-positioning = "I help founders build what matters before it's obvious."
+tagline = "Build a future worth exploring."
+positioning = "I help you explore what's possible."
 hero_sub = """
 Four-time founder and end-to-end operator. I've closed $2.3M+ in software \
-engagements, shipped Refine to production, and spent 25 years arriving at the \
-edge of what's new and building the first version. Right now I'm offering that \
-to founders — free."""
+engagements, shipped Refine to production, and spent 25 years building first \
+versions before the category had a name. Right now I'm offering that to you — \
+free."""
 bio = """
 By title I'm Chief AI Innovation Officer at a software consulting firm. By nature \
 I'm a builder who designs futures. I own the full arc — first customer \
@@ -78,15 +78,15 @@ caption = "Turn feedback into Gaps and move them through review"
 
 # Consulting offer (free now; paid tiers later, à la handsonangel.com)
 [consulting]
-headline = "Free consulting for technology founders"
+headline = "Free consulting for builders"
 intro = """
-I'm offering free intro calls to founders building in the technology space. No \
+I'm offering free intro calls to builders working in the technology space. No \
 pitch, no catch — I've been on every side of the table (sales, architecture, \
 implementation, production) and I'd rather help you avoid the expensive mistakes \
 than watch you make them. Book a call and bring your hardest problem."""
 note = """
 This is free while I build out the practice. Paid ongoing advisement — a booked \
-strategy session plus monthly 1:1 support — is coming for founders who want to go \
+strategy session plus monthly 1:1 support — is coming for builders who want to go \
 deeper."""
 cta = "Book a free intro call"
 
